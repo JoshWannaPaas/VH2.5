@@ -1,0 +1,1 @@
+tellraw @a {"text": "Welcome to Vault Hunters 2.5", "color": "#0099CC"}
