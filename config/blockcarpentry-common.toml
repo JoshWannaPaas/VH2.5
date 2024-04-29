@@ -42,8 +42,8 @@
 
 #Client settings
 [client]
-	#Whether the discord server invitation should be displayed when entering a world.
-	show_discord_invitation = false
 	#Set to true, if the discord server invitation message should only be shown once. If set to false, you can manually disable the message via the "show_discord_message" config entry.
 	only_show_invitation_once = false
+	#Whether the discord server invitation should be displayed when entering a world.
+	show_discord_invitation = false
 
