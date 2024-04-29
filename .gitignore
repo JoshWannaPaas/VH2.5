@@ -15,3 +15,5 @@ vaulthunters-2.5.code-workspace
 openloader/.cache
 config/environmental
 config/valkyrielib
+config/jei/bookmarks.ini
+crash-reports
