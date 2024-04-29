@@ -1,9 +1,7 @@
-coremods
-logs
 mods
+logs
 playerSnapshots
-shaderpacks
-texturepacks
+resourcepacks
 server-resource-packs
 data
 options.txt 
@@ -12,8 +10,8 @@ patchouli_data.json
 usercache.json
 usernamecache.json
 saves
-resourcepacks
-schematics
-screenshots
 Xaero*
+vaulthunters-2.5.code-workspace
 openloader/.cache
+config/environmental
+config/valkyrielib
