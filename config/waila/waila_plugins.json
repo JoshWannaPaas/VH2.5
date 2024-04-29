@@ -10,11 +10,19 @@
     "redstone": true,
     "repeater": true
   },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
   "waila": {
     "show_registry": false,
     "show_entity_hp": true,
     "show_states": false,
     "show_entities": true
+  },
+  "platforms": {
+    "hud": true
   },
   "storagedrawers": {
     "display.stacklimit": true,
