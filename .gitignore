@@ -1,4 +1,3 @@
-mods
 logs
 playerSnapshots
 resourcepacks
@@ -17,3 +16,4 @@ config/environmental
 config/valkyrielib
 config/jei/bookmarks.ini
 crash-reports
+mods/.index
