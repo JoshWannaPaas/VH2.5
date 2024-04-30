@@ -109,6 +109,7 @@ onEvent('recipes', event => {
     event.remove({output: 'refinedstorageaddons:wireless_crafting_grid'})
 
     event.remove({output: 'appliedenergistics2:controller'})
+    event.remove({output: 'appliedenergistics2:drive'})
     event.remove({output: 'appliedenergistics2:vibration_chamber'})
     event.remove({output: 'appliedenergistics2:energy_acceptor'})
     event.remove({output: 'appliedenergistics2:molecular_assembler'})
