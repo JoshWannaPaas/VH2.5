@@ -12,7 +12,8 @@ onEvent('recipes', event => {
         N: 'minecraft:netherite_ingot',
         V: 'the_vault:vault_nugget',
         U: 'mininggadgets:upgrade_empty',
-        O: 'the_vault:gem_black_opal'
+        O: 'the_vault:gem_black_opal',
+        I: 'minecraft:iron_ingot'
     })
 
     event.shaped('1x mininggadgets:mininggadget_simple', [
@@ -23,7 +24,8 @@ onEvent('recipes', event => {
         N: 'minecraft:netherite_ingot',
         V: 'the_vault:vault_nugget',
         U: 'mininggadgets:upgrade_empty',
-        O: 'the_vault:gem_black_opal'
+        O: 'the_vault:gem_black_opal',
+        I: 'minecraft:iron_ingot'
     })
 
     event.shaped('1x mininggadgets:mininggadget_fancy', [
@@ -34,7 +36,8 @@ onEvent('recipes', event => {
         N: 'minecraft:netherite_ingot',
         V: 'the_vault:vault_nugget',
         U: 'mininggadgets:upgrade_empty',
-        O: 'the_vault:gem_black_opal'
+        O: 'the_vault:gem_black_opal',
+        I: 'minecraft:iron_ingot'
     })
 
     event.shaped('1x mininggadgets:upgrade_empty', [
