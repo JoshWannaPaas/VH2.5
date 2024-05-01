@@ -1,5 +1,6 @@
-/* scripts made by a1qs
-for Vault Hunters 2.5 */
+/* scripts made by Douwsky
+for Iskall85's Vaulthunters 
+ported by a1qs to KubeJS */
 
 let woodTypes = ["oak","birch","spruce","dark_oak","jungle","acacia"]
 let netherWoodTypes = ["warped", "crimson"]

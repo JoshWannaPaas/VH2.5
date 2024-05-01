@@ -1,3 +1,7 @@
+/* scripts made by Douwsky
+for Iskall85's Vaulthunters 
+ported by a1qs to KubeJS */
+
 onEvent('recipes', event => {
     
     event.shaped('1x simplybackpacks:commonbackpack', [
