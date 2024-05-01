@@ -44,7 +44,7 @@
       "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
       "CRYSTAL_TYPE": [
         {
-          "value": "CLASSIC",
+          "value": "COOP",
           "weight": 1
         }
       ]
@@ -92,10 +92,6 @@
       "ARTIFACT_CHANCE": 0.03,
       "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
       "CRYSTAL_TYPE": [
-        {
-          "value": "CLASSIC",
-          "weight": 4
-        },
         {
           "value": "COOP",
           "weight": 1
@@ -146,10 +142,6 @@
       "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
       "CRYSTAL_TYPE": [
         {
-          "value": "CLASSIC",
-          "weight": 4
-        },
-        {
           "value": "COOP",
           "weight": 1
         }
@@ -198,10 +190,6 @@
       "ARTIFACT_CHANCE": 0.06,
       "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
       "CRYSTAL_TYPE": [
-        {
-          "value": "CLASSIC",
-          "weight": 4
-        },
         {
           "value": "COOP",
           "weight": 1
@@ -252,10 +240,6 @@
       "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
       "CRYSTAL_TYPE": [
         {
-          "value": "CLASSIC",
-          "weight": 4
-        },
-        {
           "value": "COOP",
           "weight": 1
         }
@@ -304,10 +288,6 @@
       "ARTIFACT_CHANCE": 0.07,
       "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
       "CRYSTAL_TYPE": [
-        {
-          "value": "CLASSIC",
-          "weight": 4
-        },
         {
           "value": "COOP",
           "weight": 1
@@ -358,10 +338,6 @@
       "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
       "CRYSTAL_TYPE": [
         {
-          "value": "CLASSIC",
-          "weight": 4
-        },
-        {
           "value": "COOP",
           "weight": 1
         }
@@ -410,10 +386,6 @@
       "ARTIFACT_CHANCE": 0.07,
       "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
       "CRYSTAL_TYPE": [
-        {
-          "value": "CLASSIC",
-          "weight": 4
-        },
         {
           "value": "COOP",
           "weight": 1
