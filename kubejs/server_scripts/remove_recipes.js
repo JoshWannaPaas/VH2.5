@@ -3,11 +3,11 @@
 for Iskall85's Vaulthunters 
 ported by a1qs to KubeJS */
 
-const armorPieces = ["helmet", "chestplate", "leggings", "boots"]
-const tools = ["pick", "shovel", "hoe", "axe", "sword"]
-const powahTiers = ["starter", "basic", "hardened", "blazing", "niotic", "spirited", "nitro"]
-const storageComponents = ["1k", "4k", "16k", "64k"]
-const woodTypes = ["oak","birch","spruce","dark_oak","jungle","acacia","warped","crimson"]
+let armorPieces = ["helmet", "chestplate", "leggings", "boots"]
+let tools = ["pick", "shovel", "hoe", "axe", "sword"]
+let powahTiers = ["starter", "basic", "hardened", "blazing", "niotic", "spirited", "nitro"]
+let storageComponents = ["1k", "4k", "16k", "64k"]
+let woodTypes = ["oak","birch","spruce","dark_oak","jungle","acacia","warped","crimson"]
 
 console.info('Removing Recipes!')
 
