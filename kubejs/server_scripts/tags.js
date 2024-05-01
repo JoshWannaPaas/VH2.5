@@ -5,7 +5,7 @@ ported by a1qs to KubeJS */
 
 console.info('Adding Tags!')
 
-const colors = ["white","orange","magenta","light_blue","yellow","lime","pink","gray","cyan","purple","blue","brown","green","black","light_gray"]
+let colors = ["white","orange","magenta","light_blue","yellow","lime","pink","gray","cyan","purple","blue","brown","green","black","light_gray"]
 
 onEvent('item.tags', event => {
 
