@@ -2,6 +2,8 @@
 for Iskall85's Vaulthunters 
 ported by a1qs to KubeJS */
 
+//todo: cleanup for this file
+
 let woodTypes = ["oak","birch","spruce","dark_oak","jungle","acacia"]
 let netherWoodTypes = ["warped", "crimson"]
 
