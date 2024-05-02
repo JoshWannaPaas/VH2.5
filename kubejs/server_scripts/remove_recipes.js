@@ -475,7 +475,7 @@ onEvent('recipes', event => {
     event.remove({output: 'dummmmmmy:target_dummy_placer'})
     event.remove({output: 'iskallutilities:concrete_metal_plate'})
     event.remove({output: 'buildinggadgets:gadget_copy_paste'})
-    event.remove({output: 'compressium:snow_1'})
+    event.remove({id: 'compressium:snow_1'})
 
     event.remove({output: 'engineersdecor:small_solar_panel'})
     event.remove({output: 'engineersdecor:factory_hopper'})
