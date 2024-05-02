@@ -121,6 +121,119 @@ onEvent('recipes', event => {
         C: 'the_vault:magnet_core_strong'
     })
 
+    event.shaped('1x the_vault:boots', [
+        'VRV',
+        'V V'
+    ], {
+        V: 'the_vault:vaulterite_ingot',
+        R: 'the_vault:red_vault_essence'
+    })
+
+    event.shaped('1x the_vault:boots', [
+        'VIV',
+        'V V'
+    ], {
+        V: 'the_vault:vault_ingot',
+        I: 'minecraft:netherite_ingot'
+    })
+
+    event.shaped('1x the_vault:leggings', [
+        'VVV',
+        'VIV',
+        'V V'
+    ], {
+        V: 'the_vault:vault_ingot',
+        I: 'minecraft:netherite_ingot'
+    })
+
+    event.shaped('1x the_vault:leggings', [
+        'VVV',
+        'VRV',
+        'V V'
+    ], {
+        V: 'the_vault:vaulterite_ingot',
+        R: 'the_vault:red_vault_essence'
+    })
+
+    event.shaped('1x the_vault:chestplate', [
+        'VIV',
+        'VVV',
+        'VVV'
+    ], {
+        V: 'the_vault:vault_ingot',
+        I: 'minecraft:netherite_ingot'
+    })
+
+    event.shaped('1x the_vault:chestplate', [
+        'VRV',
+        'VVV',
+        'VVV'
+    ], {
+        V: 'the_vault:vaulterite_ingot',
+        R: 'the_vault:red_vault_essence'
+    })
+
+    event.shaped('1x the_vault:helmet', [
+        'VVV',
+        'VIV'
+    ], {
+        V: 'the_vault:vault_ingot',
+        I: 'minecraft:netherite_ingot'
+    })
+
+    event.shaped('1x the_vault:helmet', [
+        'VVV',
+        'VRV'
+    ], {
+        V: 'the_vault:vaulterite_ingot',
+        R: 'the_vault:red_vault_essence'
+    })
+
+    event.shaped('1x the_vault:sword', [
+        ' V ',
+        ' V ',
+        ' I '
+    ], {
+        V: 'the_vault:vaulterite_ingot',
+        I: 'the_vault:red_vault_essence'
+    })
+
+    event.shaped('1x the_vault:sword', [
+        ' V ',
+        ' V ',
+        ' R '
+    ], {
+        V: 'the_vault:vaulterite_ingot',
+        R: 'the_vault:red_vault_essence'
+    })
+
+    event.shaped('1x the_vault:axe', [
+        'VV ',
+        'VI '
+
+    ], {
+        V: 'the_vault:vaulterite_ingot',
+        I: 'the_vault:red_vault_essence'
+    })
+
+    event.shaped('1x the_vault:axe', [
+        'VV ',
+        'VN '
+
+    ], {
+        V: 'the_vault:vault_ingot',
+        N: 'minecraft:netherite_ingot'
+    })
+
+    event.shaped('1x the_vault:vault_ingot', [
+        'NNN',
+        'NNN',
+        'NNN'
+
+    ], {
+        N: 'the_vault:vault_nugget'
+    })
+
     event.shaped('1x the_vault:armor_crate_botania', [
         'MEM',
         'MPM',
