@@ -18,6 +18,9 @@ onEvent('recipes', event => {
         V: 'the_vault:vault_diamond_block'
     })
 
+   
+
     // temp
+    // event.shaped(Item.of('the_vault:reset_flask', '{Skillable:"Artisan"}'), ['the_vault:vault_diamond'])
     event.shaped(chalCrys0_COOP, [chalCrys0])
 })
