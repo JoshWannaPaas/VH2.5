@@ -1,4 +1,4 @@
-console.info('Adding custom items')
+console.info('Adding custom items!')
 
 onEvent('item.registry', event => {
 
