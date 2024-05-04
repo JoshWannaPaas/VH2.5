@@ -195,7 +195,7 @@ onEvent('recipes', event => {
     event.shaped('1x botania:speed_up_belt', [
         ' C ',
         'MTS',
-        ' A'
+        ' A '
     ], {
         C: 'minecraft:cartography_table',
         M: 'botania:mutated_seeds',
