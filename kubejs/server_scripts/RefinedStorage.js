@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-    
+
     event.shaped('refinedstorage:machine_casing', [
         'QQQ',
         'QAQ',
@@ -61,7 +61,7 @@ onEvent('recipes', event => {
         P: 'the_vault:gem_pog',
         I: 'the_vault:vault_ingot',
         K: 'refinedstorage:16k_storage_part',
-        K: 'the_vault:perfect_echo_gem'
+        E: 'the_vault:perfect_echo_gem'
     })
 
     event.shaped('refinedstorage:wireless_grid', [
@@ -70,8 +70,8 @@ onEvent('recipes', event => {
         'QAQ'
     ], {
         Q: 'refinedstorage:quartz_enriched_iron',
-        A: 'the_vault:gem_alexandrite',
-        
+        A: 'the_vault:perfect_alexandrite',
+
         G: 'refinedstorage:grid'
     })
     event.shaped('refinedstorage:wireless_fluid_grid', [
@@ -80,7 +80,7 @@ onEvent('recipes', event => {
         'QAQ'
     ], {
         Q: 'refinedstorage:quartz_enriched_iron',
-        A: 'the_vault:gem_alexandrite',
+        A: 'the_vault:perfect_alexandrite',
         F: 'refinedstorage:fluid_grid'
     })
 
@@ -90,8 +90,8 @@ onEvent('recipes', event => {
         'QAQ'
     ], {
         Q: 'refinedstorage:quartz_enriched_iron',
-        A: 'the_vault:gem_alexandrite',
-        G: 'refinedstorage:crafting_grid'
+        A: 'the_vault:perfect_alexandrite',
+        C: 'refinedstorage:crafting_grid'
     })
 
     event.shaped('refinedstorage:wireless_crafting_monitor', [
@@ -100,7 +100,7 @@ onEvent('recipes', event => {
         'QAQ'
     ], {
         Q: 'refinedstorage:quartz_enriched_iron',
-        A: 'the_vault:gem_alexandrite',
+        A: 'the_vault:perfect_alexandrite',
         C: 'refinedstorage:crafting_monitor'
     })
 
@@ -119,6 +119,16 @@ onEvent('recipes', event => {
 
     event.shapeless('refinedstorage:crafting_grid', [
         'refinedstorage:grid',
+        'refinedstorage:advanced_processor',
+        'the_vault:perfect_larimar',
+        'minecraft:crafting_table',
+        'the_vault:perfect_larimar',
+        'the_vault:perfect_larimar',
+        'the_vault:echo_pog'
+    ])
+
+    event.shapeless('refinedstorageaddons:wireless_crafting_grid', [
+        'refinedstorage:wireless_grid',
         'refinedstorage:advanced_processor',
         'the_vault:perfect_larimar',
         'minecraft:crafting_table',
@@ -167,7 +177,7 @@ onEvent('recipes', event => {
         C: '#forge:chests',
         Q: 'refinedstorage:quartz_enriched_iron',
         M: 'refinedstorage:machine_casing',
-        p: 'the_vault:gem_pog'
+        P: 'the_vault:gem_pog'
     })
 
     event.shaped('refinedstorage:disk_manipulator', [
@@ -177,7 +187,8 @@ onEvent('recipes', event => {
     ], {
         Q: 'refinedstorage:quartz_enriched_iron',
         S: 'refinedstorage:storage_housing',
-        L: 'refinedstorage:machine_casing',
+        L: 'the_vault:gem_larimar',
+        M: 'refinedstorage:machine_casing',
         P: 'the_vault:gem_pog'
     })
 
