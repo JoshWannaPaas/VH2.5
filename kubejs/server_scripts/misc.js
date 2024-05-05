@@ -301,6 +301,15 @@ onEvent('recipes', event => {
         S: 'minecraft:snow_block'
     })
 
+    event.shaped('1x ispawner:cage_dust', [
+        ' L ',
+        'LBL',
+        ' L '
+    ], {
+        B: 'the_vault:perfect_benitoite',
+        L: 'the_vault:gem_larimar'
+    })
+
     event.shapeless('9x minecraft:snow_block', ['compressium:snow_1'])
     event.shapeless('4x minecraft:snowball', ['minecraft:snow_block'])
     event.shapeless('9x minecraft:bamboo', ['quark:bamboo_block'])
