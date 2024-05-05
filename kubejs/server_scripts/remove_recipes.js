@@ -8,6 +8,7 @@ let tools = ["pick", "shovel", "hoe", "axe", "sword"]
 let powahTiers = ["starter", "basic", "hardened", "blazing", "niotic", "spirited", "nitro"]
 let storageComponents = ["1k", "4k", "16k", "64k"]
 let woodTypes = ["oak","birch","spruce","dark_oak","jungle","acacia","warped","crimson"]
+let colors = ["white","orange","magenta","light_blue","yellow","lime","pink","gray","cyan","purple","blue","brown","green","black","light_gray"]
 
 console.info('Removing Recipes!')
 
@@ -17,6 +18,7 @@ onEvent('recipes', event => {
     event.remove({output: 'minecraft:shield'})
     event.remove({output: 'minecraft:bamboo'})
     event.remove({id: 'minecraft:suspicious_stew'})
+    
     
     event.remove({output: 'rftoolsbase:machine_frame'})
     event.remove({output: 'rftoolsbuilder:builder'})
@@ -498,8 +500,6 @@ onEvent('recipes', event => {
     event.remove({output: 'the_vault:vault_magnet_weak'})
     event.remove({id: 'the_vault:reset_flask_ninja'})
     event.remove({id: 'the_vault:reset_flask_carapace'})
-
-
 
     event.remove({mod: 'byg', type: 'minecraft:smithing'})
     event.remove({mod: 'dankstorage'})
