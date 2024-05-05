@@ -1,6 +1,6 @@
 /* scripts made by Douwsky
 for Iskall85's Vaulthunters
-/ported by monkyman640 to KubeJS */
+ported by monkyman640 to KubeJS */
 
 onEvent('recipes', event => {
 
