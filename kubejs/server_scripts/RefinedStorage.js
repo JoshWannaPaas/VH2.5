@@ -1,4 +1,5 @@
 onEvent('recipes', event => {
+    
     event.shaped('refinedstorage:machine_casing', [
         'QQQ',
         'QAQ',
@@ -7,6 +8,7 @@ onEvent('recipes', event => {
         Q: 'refinedstorage:quartz_enriched_iron',
         A: 'the_vault:perfect_alexandrite'
     })
+
     event.shaped('refinedstorage:crafter', [
         'QPQ',
         'AMA',
@@ -17,6 +19,7 @@ onEvent('recipes', event => {
         A: 'refinedstorage:advanced_processor',
         M: 'refinedstorage:machine_casing'
     })
+
     event.shaped('refinedstorage:1k_storage_part', [
         'SQS',
         'LAL',
@@ -27,6 +30,7 @@ onEvent('recipes', event => {
         L: 'the_vault:perfect_larimar',
         A: 'the_vault:gem_alexandrite'
     })
+
     event.shaped('refinedstorage:4k_storage_part', [
         'WNW',
         'KAK',
@@ -37,6 +41,7 @@ onEvent('recipes', event => {
         K: 'refinedstorage:1k_storage_part',
         A: 'the_vault:gem_alexandrite'
     })
+
     event.shaped('refinedstorage:16k_storage_part', [
         'BIB',
         'KWK',
@@ -47,6 +52,7 @@ onEvent('recipes', event => {
         K: 'refinedstorage:4k_storage_part',
         W: 'the_vault:perfect_wutodie'
     })
+
     event.shaped('refinedstorage:64k_storage_part', [
         'PIP',
         'KEK',
@@ -57,6 +63,7 @@ onEvent('recipes', event => {
         K: 'refinedstorage:16k_storage_part',
         K: 'the_vault:perfect_echo_gem'
     })
+
     event.shaped('refinedstorage:wireless_grid', [
         'QAQ',
         'QGQ',
@@ -64,6 +71,7 @@ onEvent('recipes', event => {
     ], {
         Q: 'refinedstorage:quartz_enriched_iron',
         A: 'the_vault:gem_alexandrite',
+        
         G: 'refinedstorage:grid'
     })
     event.shaped('refinedstorage:wireless_fluid_grid', [
@@ -75,6 +83,7 @@ onEvent('recipes', event => {
         A: 'the_vault:gem_alexandrite',
         F: 'refinedstorage:fluid_grid'
     })
+
     event.shaped('refinedstorageaddons:wireless_crafting_grid', [
         'QAQ',
         'QCQ',
@@ -84,6 +93,7 @@ onEvent('recipes', event => {
         A: 'the_vault:gem_alexandrite',
         G: 'refinedstorage:crafting_grid'
     })
+
     event.shaped('refinedstorage:wireless_crafting_monitor', [
         'QAQ',
         'QCQ',
@@ -93,6 +103,7 @@ onEvent('recipes', event => {
         A: 'the_vault:gem_alexandrite',
         C: 'refinedstorage:crafting_monitor'
     })
+
     event.shaped('refinedstorage:grid', [
         'IDB',
         'QMB',
@@ -105,15 +116,17 @@ onEvent('recipes', event => {
         M: 'refinedstorage:machine_casing',
         C: 'refinedstorage:construction_core',
     })
+
     event.shapeless('refinedstorage:crafting_grid', [
         'refinedstorage:grid',
         'refinedstorage:advanced_processor',
         'the_vault:perfect_larimar',
         'minecraft:crafting_table',
-        'perfect_larimar',
-        'perfect_larimar',
+        'the_vault:perfect_larimar',
+        'the_vault:perfect_larimar',
         'the_vault:echo_pog'
     ])
+
     event.shapeless('refinedstorage:pattern_grid', [
         'refinedstorage:grid',
         'refinedstorage:advanced_processor',
@@ -122,6 +135,7 @@ onEvent('recipes', event => {
         'the_vault:perfect_larimar',
         'the_vault:perfect_larimar'
     ])
+
     event.shapeless('refinedstorage:fluid_grid', [
         'refinedstorage:grid',
         'refinedstorage:advanced_processor',
@@ -130,19 +144,21 @@ onEvent('recipes', event => {
         'the_vault:perfect_larimar',
         'the_vault:perfect_larimar'
     ])
+
     event.shaped('refinedstorage:controller', [
         'BAB',
         'SMS',
         'LEL'
     ], {
-        S: 'forge:silicon',
+        S: '#forge:silicon',
         B: 'the_vault:perfect_black_opal',
         L: 'the_vault:perfect_larimar',
         A: 'refinedstorage:advanced_processor',
         M: 'refinedstorage:machine_casing',
         E: 'the_vault:echo_pog'
     })
-    event.shaped('refinedstorage:disk_drive' [
+
+    event.shaped('refinedstorage:disk_drive', [
         'GCG',
         'QMQ',
         'GPG'
@@ -153,6 +169,7 @@ onEvent('recipes', event => {
         M: 'refinedstorage:machine_casing',
         p: 'the_vault:gem_pog'
     })
+
     event.shaped('refinedstorage:disk_manipulator', [
         'QSQ',
         'LML',
@@ -163,6 +180,7 @@ onEvent('recipes', event => {
         L: 'refinedstorage:machine_casing',
         P: 'the_vault:gem_pog'
     })
+
     event.shaped('refinedstorage:detector', [
         'LRL',
         'CMC',
@@ -174,6 +192,7 @@ onEvent('recipes', event => {
         M: 'refinedstorage:machine_casing',
         I: 'refinedstorage:improved_processor'
     })
+
     event.shaped('refinedstorage:external_storage', [
         'OQD',
         'CAC',
@@ -187,6 +206,7 @@ onEvent('recipes', event => {
         L: 'the_vault:perfect_larimar',
         I: 'refinedstorage:improved_processor'
     })
+
     event.shapeless('refinedstorage:importer', [
         'refinedstorage:cable',
         'refinedstorage:improved_processor',
@@ -195,6 +215,7 @@ onEvent('recipes', event => {
         'the_vault:gem_larimar',
         'the_vault:gem_larimar'
     ])
+
     event.shapeless('refinedstorage:exporter', [
         'refinedstorage:cable',
         'refinedstorage:improved_processor',
@@ -203,6 +224,7 @@ onEvent('recipes', event => {
         'the_vault:gem_larimar',
         'the_vault:gem_larimar'
     ])
+
     event.shaped('refinedstorage:constructor', [
         'LCL',
         'RAR',
@@ -214,6 +236,7 @@ onEvent('recipes', event => {
         A: 'refinedstorage:cable',
         I: 'refinedstorage:improved_processor'
     })
+
     event.shaped('refinedstorage:destructor', [
         'LDL',
         'RAR',
@@ -225,6 +248,7 @@ onEvent('recipes', event => {
         A: 'refinedstorage:cable',
         I: 'refinedstorage:improved_processor'
     })
+
     event.shaped('refinedstorage:wireless_transmitter', [
         'BEW',
         'AMA',
@@ -237,6 +261,7 @@ onEvent('recipes', event => {
         W: 'the_vault:perfect_wutodie',
         I: 'refinedstorage:improved_processor'
     })
+
     event.shaped('refinedstorage:network_receiver', [
         'ANA',
         'CMD',
@@ -250,6 +275,7 @@ onEvent('recipes', event => {
         E: 'quark:ender_watcher',
         P: '#the_vault:playergems'
     })
+
     event.shaped('refinedstorage:network_transmitter', [
         'EPE',
         'CMD',
@@ -263,6 +289,7 @@ onEvent('recipes', event => {
         E: 'quark:ender_watcher',
         P: '#the_vault:playergems'
     })
+
     event.shaped('refinedstorage:speed_upgrade', [
         'QAQ',
         'AUA',
@@ -272,6 +299,7 @@ onEvent('recipes', event => {
         A: 'the_vault:gem_alexandrite',
         U: 'refinedstorage:upgrade',
     })
+
     event.shaped('refinedstorage:stack_upgrade', [
         'QSQ',
         'SES',
@@ -281,7 +309,8 @@ onEvent('recipes', event => {
         S: 'refinedstorage:speed_upgrade',
         E: 'the_vault:gem_echo'
     })
-    event.shapeless('4x refinedstorage:cable' [
+
+    event.shapeless('4x refinedstorage:cable', [
         'refinedstorage:quartz_enriched_iron',
         'the_vault:gem_larimar',
         'refinedstorage:quartz_enriched_iron',

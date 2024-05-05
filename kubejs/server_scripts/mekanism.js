@@ -226,7 +226,7 @@ onEvent('recipes', event => {
 
     event.shaped('1x mekanism:qio_redstone_adapter', [
         'PTP',
-        ' R',
+        ' R ',
         'PCP'
     ], {
         P: 'mekanism:pellet_polonium',
