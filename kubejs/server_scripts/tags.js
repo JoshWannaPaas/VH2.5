@@ -21,6 +21,11 @@ onEvent('item.tags', event => {
         'botania:auto_crafting_halo',
         'mekanism:formulaic_assemblicator'
     ])
+
+    event.add('the_vault:commongems',[
+        'the_vault:gem_larimar',
+        'the_vault:gem_benitoite'
+    ])
     
     colors.forEach(colors =>{
         event.add('ag:concrete',
