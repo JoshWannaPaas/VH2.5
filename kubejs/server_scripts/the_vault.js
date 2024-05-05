@@ -104,6 +104,16 @@ onEvent('recipes', event => {
         C: 'the_vault:magnet_core_weak'
     })
 
+    event.shaped('1x the_vault:vault_altar', [
+        'SOS',
+        'ODO',
+        'SOS'
+    ], {
+        S: 'minecraft:stone_bricks',
+        O: 'minecraft:obsidian',
+        D: 'minecraft:diamond_block'
+    })
+
     event.shaped('1x the_vault:magnet_core_strong', [
         'CWC'
     ], {
