@@ -240,13 +240,6 @@ onEvent('recipes', event => {
     event.remove({output: 'mekanism:ultimate_tier_installer'})
     event.remove({output: 'mekanism:block_steel'})
     event.remove({output: 'mekanism:block_charcoal'})
-/*
-    event.remove({output: 'mekanism:nugget_steel'})
-    event.remove({output: 'mekanism:nugget_uranium'})
-    event.remove({output: 'mekanism:nugget_copper'})
-    event.remove({output: 'mekanism:nugget_bronze'})
-    event.remove({output: 'mekanism:nugget_tin'})
-    */
     event.remove({output: 'mekanism:module_base'})
     event.remove({input: 'mekanism:module_base'})
     event.remove({output: 'mekanismgenerators:solar_panel'})
