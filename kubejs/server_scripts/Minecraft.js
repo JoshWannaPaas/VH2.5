@@ -138,6 +138,18 @@ onEvent('recipes', event => {
 		H: 'minecraft:honey_block'
 	})
 
+	event.shaped('minecraft:elytra', [
+        'PLP',
+        'WAW',
+        'M M'
+    ], {
+        P: '#the_vault:perfectcommongems',
+		L: 'minecraft:leather',
+        W: '#minecraft:wool',
+        A: 'the_vault:perfect_alexandrite',
+		M: 'minecraft:phantom_membrane'
+    })
+	
 	event.shapeless(Item.of('suspicious_stew', '{Effects:[{EffectId:10b,EffectDuration:160}]}'), ['the_vault:vault_essence', 'red_mushroom', 'brown_mushroom', 'bowl'])
 	event.shapeless(Item.of('suspicious_stew', '{Effects:[{EffectId:18b,EffectDuration:180}]}'), ['red_tulip', 'red_mushroom', 'brown_mushroom', 'bowl'])
 	event.shapeless(Item.of('suspicious_stew', '{Effects:[{EffectId:18b,EffectDuration:180}]}'), ['orange_tulip', 'red_mushroom', 'brown_mushroom', 'bowl'])
