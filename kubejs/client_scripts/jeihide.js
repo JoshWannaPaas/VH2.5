@@ -81,11 +81,4 @@ onEvent('jei.hide.items', event => {
 	event.hide('quark:matrix_enchanter')
 	event.hide('enchantinginfuser:advanced_enchanting_infuser')
 
-
-
-
-
-
-	
-	
 })
