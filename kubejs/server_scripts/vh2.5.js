@@ -36,5 +36,13 @@ onEvent('recipes', event => {
         E: 'the_vault:extraordinary_echo_gem',
         F: 'the_vault:reset_flask'
     })
+
+    event.shaped('the_vault:charm_upgrade_tier_4', [
+        ' U ',
+        'UOU'
+    ], {
+        U: 'the_vault:charm_upgrade_tier_3',
+        O: 'the_vault:omega_pog'
+    })
     
 })
