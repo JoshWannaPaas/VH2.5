@@ -50,8 +50,6 @@ onEvent('recipes', event => {
     	B: 'modularrouters:blank_upgrade'
 	})
 
-    
-
 	event.shaped('4x modularrouters:item_router', [
 		'LIL',
 		'IDI',
