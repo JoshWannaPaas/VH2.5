@@ -176,6 +176,7 @@ onEvent('recipes', event => {
         P: 'mekanism:pellet_polonium',
         G: 'the_vault:gem_pog',
         U: 'mekanism:ultimate_control_circuit',
+        C: 'mekanism:personal_chest',
         L: '#the_vault:playergems',
         T: 'mekanism:teleportation_core'
     })
