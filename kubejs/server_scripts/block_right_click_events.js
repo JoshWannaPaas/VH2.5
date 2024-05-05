@@ -1,8 +1,9 @@
 /* scripts made by a1qs
 for Vault Hunters 2.5 */
 
+/*
 onEvent('block.right_click', event =>{
-    if( event.block.id == 'minecraft:stone' && event.hand == MAIN_HAND && event.item.id == 'the_vault:hunter_eye')
+    if( event.block.id == 'minecraft:stone' && event.hand == MAIN_HAND && event.item.id == 'the_vault:hunter_eye'){
         var bx = event.block.getX()
         var by = event.block.getY()
         var bz = event.block.getZ()
@@ -16,4 +17,6 @@ onEvent('block.right_click', event =>{
             itemEntity.spawn()
             event.server.runCommandSilent(`playsound minecraft:block.beacon.power_select master @a ${bx} ${by} ${bz}`)
             event.server.runCommandSilent(`particle ${particleEffect} ${bx} ${by+1} ${bz} 0.2 0.2 0.2 0.2 5 normal`)
-})      
+    }
+})   
+*/   
