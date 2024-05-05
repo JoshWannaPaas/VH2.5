@@ -1,13 +1,10 @@
 /* scripts made by Douwsky
 for Iskall85's Vaulthunters */
 
-import crafttweaker.api.SmithingManager;
-import crafttweaker.api.Brewing;
-import crafttweaker.api.registries.IRecipeManager;
-import mods.botania.ElvenTrade;
+onEvent('recipes', event => {
 
-// adding recipes
-
+    // adding recipes
+/*
 brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:healing"}), <item:minecraft:golden_apple>, <item:minecraft:potion>.withTag({Potion: "minecraft:awkward"}));
 
 brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:regeneration"}), <item:the_vault:vault_essence>, <item:minecraft:potion>.withTag({Potion: "minecraft:awkward"}));
@@ -101,91 +98,144 @@ brewing.addRecipe(<item:minecraft:lingering_potion>.withTag({Potion: "quark:stro
 brewing.addRecipe(<item:minecraft:lingering_potion>.withTag({Potion: "quark:danger_sight"}), <item:the_vault:gem_pog>, <item:minecraft:splash_potion>.withTag({Potion: "quark:danger_sight" as string}));
 
 brewing.addRecipe(<item:minecraft:lingering_potion>.withTag({Potion: "quark:long_danger_sight"}), <item:the_vault:vault_nugget>, <item:minecraft:lingering_potion>.withTag({Potion: "quark:danger_sight" as string}));
+*/
 
-craftingTable.addShaped("shield_painite", <item:minecraft:shield>, [
-    [<item:quark:biotite_block>, <item:the_vault:perfect_painite>, <item:quark:biotite_block>],
-    [<item:quark:biotite_block>, <item:quark:biotite_block>, <item:quark:biotite_block>],
-    [<item:minecraft:air>, <item:minecraft:oak_log>, <item:minecraft:air>]
-]);
+	event.shaped('minecraft:shield', [
+			'BGB',
+			'BBB',
+			' O ' 
+	 ], {
+		 B: 'quark:biotite_block',
+		 G: 'the_vault:perfect_painite',
+		 B: 'minecraft:oak_log'
+	 })
 
-craftingTable.addShaped("shield_alexandrite", <item:minecraft:shield>, [
-    [<item:quark:biotite_block>, <item:the_vault:perfect_alexandrite>, <item:quark:biotite_block>],
-    [<item:quark:biotite_block>, <item:quark:biotite_block>, <item:quark:biotite_block>],
-    [<item:minecraft:air>, <item:minecraft:oak_log>, <item:minecraft:air>]
-]);
 
-craftingTable.addShaped("ironhorsearmor", <item:minecraft:iron_horse_armor>, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:iron_ingot>],
-    [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>],
-    [<item:the_vault:perfect_painite>, <item:minecraft:air>, <item:the_vault:perfect_painite>]
-]);
+     event.shaped('minecraft:shield', [
+         'BGB',
+         'BBB',
+         ' O ' 
+    ], {
+         B: 'quark:biotite_block',
+         G: 'the_vault:perfect_alexandrite',
+         B: 'minecraft:oak_log'
+     })
 
-craftingTable.addShaped("goldhorsearmor", <item:minecraft:golden_horse_armor>, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:gold_ingot>],
-    [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>],
-    [<item:the_vault:perfect_alexandrite>, <item:minecraft:air>, <item:the_vault:perfect_alexandrite>]
-]);
 
-craftingTable.addShaped("diamondhorsearmor", <item:minecraft:diamond_horse_armor>, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:diamond_block>],
-    [<item:minecraft:diamond_block>, <item:minecraft:diamond_block>, <item:minecraft:diamond_block>],
-    [<item:the_vault:perfect_black_opal>, <item:minecraft:air>, <item:the_vault:perfect_black_opal>]
-]);
+	event.shaped('minecraft:iron_horse_armor', [
+			'  I',
+			'III',
+			'G G' 
+	 ], {
+		 I: 'minecraft:iron_ingot',
+		 G: 'the_vault:perfect_painite'
+	 })
 
-craftingTable.addShaped("goldenapple", <item:minecraft:golden_apple>, [
-    [<item:minecraft:gold_block>, <item:minecraft:gold_block>, <item:minecraft:gold_block>],
-    [<item:minecraft:gold_block>, <item:minecraft:apple>, <item:minecraft:gold_block>],
-    [<item:minecraft:gold_block>, <item:minecraft:gold_block>, <item:minecraft:gold_block>]
-]);
+	event.shaped('minecraft:golden_horse_armor', [
+			'  I',
+			'III',
+			'G G' 
+	 ], {
+		 I: 'minecraft:gold_ingot',
+		 G: 'the_vault:perfect_alexandrite'
+	 })
 
-craftingTable.addShaped("dragon_head", <item:minecraft:dragon_head>, [
-    [<item:minecraft:crying_obsidian>, <item:minecraft:ender_eye>, <item:minecraft:crying_obsidian>],
-    [<item:the_vault:gem_wutodie>, <item:minecraft:wither_skeleton_skull>, <item:the_vault:gem_wutodie>],
-    [<item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>]
-]);
 
-craftingTable.addShaped("nautilus_shell", <item:minecraft:nautilus_shell>, [
-    [<item:minecraft:quartz>, <item:the_vault:gem_benitoite>, <item:minecraft:quartz>],
-    [<item:the_vault:gem_benitoite>, <item:minecraft:rotten_flesh>, <item:the_vault:gem_benitoite>],
-    [<item:minecraft:quartz>, <item:the_vault:gem_benitoite>, <item:minecraft:quartz>]
-]);
+	event.shaped('minecraft:diamond_horse_armor', [
+			'  I',
+			'III',
+			'G G' 
+	 ], {
+		 I: 'minecraft:diamond_block',
+		 G: 'the_vault:perfect_black_opal'
+	 })
 
-craftingTable.addShaped("heart_of_the_sea", <item:minecraft:heart_of_the_sea>, [
-    [<item:minecraft:air>, <item:the_vault:perfect_benitoite>, <item:minecraft:air>],
-    [<item:the_vault:perfect_benitoite>, <item:minecraft:diamond_block>, <item:the_vault:perfect_benitoite>],
-    [<item:minecraft:air>, <item:the_vault:perfect_benitoite>, <item:minecraft:air>]
-]);
+	event.shaped('minecraft:golden_apple', [
+			'GGG',
+			'GAG',
+			'GGG' 
+	 ], {
+		 G: 'minecraft:gold_block',
+		 A: 'minecraft:apple'
+	 })
 
-craftingTable.addShaped("phantom_membrane", <item:minecraft:phantom_membrane>, [
-    [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>],
-    [<item:the_vault:gem_larimar>, <item:minecraft:quartz>, <item:the_vault:gem_larimar>],
-    [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>]
-]);
+	event.shaped('minecraft:dragon_head', [
+			'OEO',
+			'GWG',
+			'OOO' 
+	 ], {
+		 O: 'crying_obsidian',
+		 E: 'minecraft:ender_eye',
+		 G: 'the_vault:gem_wutodie',
+		 W: 'minecraft:wither_skeleton_skull'
+	 })
 
-craftingTable.addShaped("trident", <item:minecraft:trident>, [
-    [<item:the_vault:perfect_larimar>, <item:the_vault:gem_larimar>, <item:the_vault:perfect_larimar>],
-    [<item:minecraft:air>, <item:minecraft:netherite_ingot>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:the_vault:perfect_benitoite>, <item:minecraft:air>]
-]);
+	event.shaped('minecraft:nautilus_shell', [
+			'QBQ',
+			'BRB',
+			'QBQ' 
+	 ], {
+		 Q: 'minecraft:quartz',
+		 B: 'the_vault:gem_benitoite',
+		 R: 'minecraft:rotten_flesh'
+	 })
 
-craftingTable.addShaped("turtle_egg", <item:minecraft:turtle_egg>, [
-    [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>],
-    [<item:the_vault:gem_larimar>, <item:minecraft:egg>, <item:the_vault:gem_larimar>],
-    [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>]
-]);
+	event.shaped('minecraft:heart_of_the_sea', [
+			' B ',
+			'BDB',
+			' B ' 
+	 ], {
+		 B: 'the_vault:perfect_benitoite',
+		 D: 'minecraft:diamond_block'
+	 })
 
-craftingTable.addShaped("music_disc_11", <item:minecraft:music_disc_11>, [
-    [<item:minecraft:air>, <item:the_vault:gem_wutodie>, <item:minecraft:air>],
-    [<item:the_vault:gem_wutodie>, <item:the_vault:perfect_black_opal>, <item:the_vault:gem_wutodie>],
-    [<item:minecraft:air>, <item:the_vault:gem_wutodie>, <item:minecraft:air>]
-]);
+	event.shaped('minecraft:phantom_membrane', [
+			' L ',
+			'LQL',
+			' L ' 
+	 ], {
+	 	 L: 'the_vault:gem_larimar',
+		 Q: 'minecraft:quartz'
+	 })
 
-craftingTable.addShaped("honeycomb", <item:minecraft:honeycomb>, [
-    [<item:minecraft:air>, <item:the_vault:gem_alexandrite>, <item:minecraft:air>],
-    [<item:the_vault:gem_alexandrite>, <item:minecraft:honey_block>, <item:the_vault:gem_alexandrite>],
-    [<item:minecraft:air>, <item:the_vault:gem_alexandrite>, <item:minecraft:air>]
-]);
+	event.shaped('minecraft:trident', [
+			'LLL',
+			' N ',
+			' B ' 
+	 ], {
+		 L: 'the_vault:gem_larimar',
+		 N: 'netherite_ingot',
+		 B: 'the_vault:perfect_benitoite'
+	 })
 
+	event.shaped('minecraft:turtle_egg', [
+			' L ',
+			'LEL',
+			' L ' 
+	 ], {
+		 L: 'the_vault:gem_larimar',
+		 E: 'minecraft:egg'
+	 })
+
+	event.shaped('minecraft:music_disc_11', [
+			' W ',
+			'WBW',
+			' W ' 
+	 ], {
+		 W: 'the_vault:gem_wutodie',
+		 B: 'the_vault:perfect_black_opal'
+	 })
+
+	event.shaped('minecraft:honeycomb', [
+			' A ',
+			'AHA',
+			' A ' 
+	 ], {
+		 A: 'the_vault:gem_alexandrite',
+		 H: 'minecraft:honey_block'
+	 })
+
+/*
 craftingTable.addShapeless("suspicious_regen_stew", <item:minecraft:suspicious_stew>.withTag({Effects: [{EffectId: 10 as byte, EffectDuration: 160 as int}]}), [
     <item:the_vault:vault_essence>, <item:minecraft:red_mushroom>, <item:minecraft:bowl>,
     <item:minecraft:brown_mushroom>
@@ -250,19 +300,13 @@ craftingTable.addShapeless("suspicious_poison_stew", <item:minecraft:suspicious_
     <item:minecraft:lily_of_the_valley>, <item:minecraft:red_mushroom>, <item:minecraft:bowl>,
     <item:minecraft:brown_mushroom>
 ]);
+*/
+        event.shapeless('minecraft:yellow_shulker_box', [#forge:shulker_boxes, minecraft:yellow_dye])
 
-craftingTable.addShapeless("minecraftyellow_shulker_box", <item:minecraft:yellow_shulker_box>, [
-    <tag:items:forge:shulker_boxes>, <item:minecraft:yellow_dye>
-]);
+        event.shapeless('minecraft:blue_shulker_box', [#forge:shulker_boxes, minecraft:blue_dye])
 
-craftingTable.addShapeless("minecraftblue_shulker_box", <item:minecraft:blue_shulker_box>, [
-    <tag:items:forge:shulker_boxes>, <item:minecraft:blue_dye>
-]);
+        event.shapeless('minecraft:red_shulker_box', [#forge:shulker_boxes, minecraft:red_dye])
 
-craftingTable.addShapeless("minecraftred_shulker_box", <item:minecraft:red_shulker_box>, [
-    <tag:items:forge:shulker_boxes>, <item:minecraft:red_dye>
-]);
+        event.shapeless('minecraft:green_shulker_box', [#forge:shulker_boxes, item:minecraft:green_dye])
 
-craftingTable.addShapeless("minecraftgreen_shulker_box", <item:minecraft:green_shulker_box>, [
-    <tag:items:forge:shulker_boxes>, <item:minecraft:green_dye>
-]);
+    })
