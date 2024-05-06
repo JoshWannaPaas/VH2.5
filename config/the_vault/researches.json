@@ -817,7 +817,7 @@
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Automatic Genius",
-      "cost": 100,
+      "cost": 200,
       "usesKnowledge": true
     },
     {

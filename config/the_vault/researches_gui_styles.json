@@ -220,7 +220,7 @@
     "Automatic Genius": {
       "x": 300,
       "y": 240,
-      "frameType": "RECTANGULAR",
+      "frameType": "STAR",
       "u": 114,
       "v": 192
     },
