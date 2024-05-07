@@ -759,13 +759,13 @@
     },
     { "name": "Vault Gear",
       "rolls": {
-        "min": 0,
+        "min": 1,
         "max": 1
       },
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 50
+          "weight": 0
         },
         {
           "type": "minecraft:item",
