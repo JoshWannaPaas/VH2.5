@@ -22,8 +22,8 @@
       "COOP_CHEST": {
         "COMMON": "the_vault:chest/lvl0/vaultchestepic",
         "RARE": "the_vault:chest/lvl0/vaultchestepic",
-        "EPIC": "the_vault:chest/lvl0/vaultchestepic",
-        "OMEGA": "the_vault:chest/lvl0/vaultchestepic"
+        "EPIC": "the_vault:chest/lvl0/gildedepic",
+        "OMEGA": "the_vault:chest/lvl0/gildedomega"
       },
       "BONUS_CHEST": {
         "COMMON": "the_vault:chest/lvl0/gildedcommon",
