@@ -490,12 +490,6 @@
     },
     {
       "value": {
-        "ITEM": "minecraft:smooth_stone"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
         "ITEM": "minecraft:gravel"
       },
       "weight": 4
@@ -550,12 +544,6 @@
     },
     {
       "value": {
-        "ITEM": "minecraft:smooth_sandstone"
-      },
-      "weight": 2
-    },
-    {
-      "value": {
         "ITEM": "minecraft:bricks"
       },
       "weight": 1
@@ -571,12 +559,6 @@
         "ITEM": "minecraft:terracotta"
       },
       "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:stone_bricks"
-      },
-      "weight": 5
     },
     {
       "value": {
@@ -622,90 +604,6 @@
     },
     {
       "value": {
-        "ITEM": "quark:turf"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "quark:midori_block"
-      },
-      "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "create:weathered_limestone"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "create:limestone"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "create:dolomite"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "enviromats:alabaster_white"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "enviromats:hardened_stone"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "enviromats:travertine"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "botania:metamorphic_taiga_stone"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "botania:metamorphic_mesa_stone"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "engineersdecor:rebar_concrete"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "byg:red_rock"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "byg:scoria_stone"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "byg:rocky_stone"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
         "ITEM": "minecraft:oak_leaves"
       },
       "weight": 4
@@ -745,120 +643,6 @@
         "ITEM": "minecraft:smooth_quartz"
       },
       "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "create:gabbro"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "iskallutilities:spacex_0042_space10"
-      },
-      "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "iskallutilities:spacex_0038_space14"
-      },
-      "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "iskallutilities:spacex_0040_space12"
-      },
-      "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "iskallutilities:light_metal_plate"
-      },
-      "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "iskallutilities:metal_plate_rivets"
-      },
-      "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "quark:iron_plate"
-      },
-      "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "quark:rusty_iron_plate"
-      },
-      "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "quark:slate"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "quark:myalite"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "quark:marble"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "byg:black_ice"
-      },
-      "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "decorative_blocks:rocky_dirt"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "engineersdecor:dense_grit_sand_block"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "engineersdecor:slag_brick_block"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "engineersdecor:rebar_concrete_tile"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "engineersdecor:clinker_brick_block"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "enviromats:alabaster_gray"
-      },
-      "weight": 4
-    },
-    {
-      "value": {
-        "ITEM": "immersiveengineering:concrete"
-      },
-      "weight": 3
     },
     {
       "value": {

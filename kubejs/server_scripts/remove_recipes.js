@@ -75,14 +75,6 @@ onEvent('recipes', event => {
     event.remove({output: 'thermal:beetroot_block'})
     event.remove({output: 'thermal:apple_block'})
     event.remove({output: 'thermal:carrot_block'})
-    //event.remove({output: 'thermal:electrum_nugget'})
-    //event.remove({output: 'thermal:constantan_nugget'})
-    //event.remove({output: 'thermal:nickel_nugget'})
-    //event.remove({output: 'thermal:silver_nugget'})
-    //event.remove({output: 'thermal:lead_nugget'})
-    //event.remove({output: 'thermal:copper_nugget'})
-    //event.remove({output: 'thermal:bronze_nugget'})
-    //event.remove({output: 'thermal:tin_nugget'})
 
     event.remove({output: 'refinedstorage:controller'})
     event.remove({output: 'refinedstorage:disk_drive'})
@@ -299,14 +291,6 @@ onEvent('recipes', event => {
     event.remove({output: 'immersiveengineering:armor_faraday_legs'})
     event.remove({output: 'immersiveengineering:armor_faraday_chest'})
     event.remove({output: 'immersiveengineering:armor_faraday_head'})
-    event.remove({output: 'immersiveengineering:nugget_electrum'})
-    event.remove({output: 'immersiveengineering:nugget_steel'})
-    event.remove({output: 'immersiveengineering:nugget_constantan'})
-    event.remove({output: 'immersiveengineering:nugget_uranium'})
-    event.remove({output: 'immersiveengineering:nugget_nickel'})
-    event.remove({output: 'immersiveengineering:nugget_silver'})
-    event.remove({output: 'immersiveengineering:nugget_lead'})
-    event.remove({output: 'immersiveengineering:nugget_copper'})
     event.remove({id: 'immersiveengineering:crusher/nether_wart'})
 
     event.remove({output: 'darkutils:rune_damage_player'})
@@ -454,38 +438,31 @@ onEvent('recipes', event => {
     
     event.remove({output: 'archers_paradox:quartz_arrow'})
     event.remove({output: 'archers_paradox:diamond_arrow'})
-
     event.remove({output: 'snad:snad'})
     event.remove({output: 'snad:red_snad'})
-
     event.remove({output: 'torchmaster:megatorch'})
     event.remove({output: 'torchmaster:dreadlamp'})
     event.remove({output: 'torchmaster:feral_flare_lantern'})
-
     event.remove({output: 'dimstorage:dimensional_tank'})
     event.remove({output: 'dimstorage:dimensional_chest'})
     event.remove({output: 'dimstorage:dim_core'})
     event.remove({output: 'dimstorage:dim_wall'})
-
     event.remove({output: 'cookingforblockheads:sink'})
     event.remove({output: 'dummmmmmy:target_dummy_placer'})
+    event.remove({output: 'enchantinginfuser:advanced_enchanting_infuser'})
     event.remove({output: 'iskallutilities:concrete_metal_plate'})
     event.remove({output: 'buildinggadgets:gadget_copy_paste'})
     event.remove({id: 'compressium:snow_1'})
-
     event.remove({output: 'engineersdecor:small_solar_panel'})
     event.remove({output: 'engineersdecor:factory_hopper'})
-
     event.remove({output: 'quark:pickarang'})
     event.remove({output: 'quark:bamboo_block'})
-
     event.remove({output: 'prettypipes:pipe'})
     event.remove({output: 'prettypipes:blank_module'})
     event.remove({output: 'prettypipes:item_terminal'})
     event.remove({output: 'prettypipes:pressurizer'})
     event.remove({output: 'prettypipes:high_speed_module'})
     event.remove({output: 'prettypipes:crafting_terminal'})
-
     event.remove({output: 'the_vault:gear_charm'})
     event.remove({output: 'the_vault:helmet'})
     event.remove({output: 'the_vault:chestplate'})
@@ -498,9 +475,9 @@ onEvent('recipes', event => {
     event.remove({output: 'the_vault:vault_magnet_strong'})
     event.remove({output: 'the_vault:magnet_core_weak'})
     event.remove({output: 'the_vault:vault_magnet_weak'})
+    event.remove({output: 'the_vault:vault_altar'})
     event.remove({id: 'the_vault:reset_flask_ninja'})
     event.remove({id: 'the_vault:reset_flask_carapace'})
-
     event.remove({mod: 'byg', type: 'minecraft:smithing'})
     event.remove({mod: 'dankstorage'})
     event.remove({mod: 'simplybackpacks'})

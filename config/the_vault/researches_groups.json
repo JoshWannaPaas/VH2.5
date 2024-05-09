@@ -14,8 +14,7 @@
       ],
       "globalCostIncrease": 0.5,
       "groupCostIncrease": {
-        "Storage": 2.0,
-        "Power": 1.0
+        "Storage": 2.0
       }
     },
     "VaultUtils": {
@@ -51,7 +50,7 @@
       ],
       "globalCostIncrease": 0.5,
       "groupCostIncrease": {
-        "Farming": 2.0,
+        "Farming": 3.0,
         "Processing": 1.0
       }
     },
@@ -84,10 +83,8 @@
       ],
       "globalCostIncrease": 0.5,
       "groupCostIncrease": {
-        "Power": 4.0,
-        "Farming": 1.0,
-        "Storage": 1.0,
-        "Processing": 1.0
+        "Power": 6.0,
+        "Processing": 2.0
       }
     },
     "Base": {
@@ -105,7 +102,6 @@
       ],
       "globalCostIncrease": 0.5,
       "groupCostIncrease": {
-        "Base": 1.0
       }
     },
     "Decoration": {

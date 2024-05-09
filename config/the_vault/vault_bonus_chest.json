@@ -54,7 +54,37 @@
       "DEFAULT_POOL": [
         {
           "value": "Dummy",
-          "weight": 100
+          "weight": 160
+        },
+        {
+          "value": "Mob Trap",
+          "weight": 4
+        },
+        {
+          "value": "Poison",
+          "weight": 8
+        }
+      ],
+      "RAFFLE_POOL": [
+        {
+          "value": "Dummy",
+          "weight": 160
+        },
+        {
+          "value": "Mob Trap",
+          "weight": 4
+        },
+        {
+          "value": "Poison",
+          "weight": 8
+        }
+      ]
+    },
+    { "MIN_LEVEL": 25,
+      "DEFAULT_POOL": [
+        {
+          "value": "Dummy",
+          "weight": 160
         },
         {
           "value": "Explosion",
@@ -72,7 +102,7 @@
       "RAFFLE_POOL": [
         {
           "value": "Dummy",
-          "weight": 100
+          "weight": 160
         },
         {
           "value": "Explosion",

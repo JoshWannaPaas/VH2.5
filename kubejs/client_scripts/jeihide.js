@@ -1,13 +1,17 @@
 console.info("Removing JEI entries!")
 
 onEvent('jei.hide.items', event => {
+	event.hide(Item.of('mekanism:mekasuit_helmet', {HideFlags:2}))
+	event.hide(Item.of('mekanism:mekasuit_bodyarmor', {HideFlags:2}))
+	event.hide(Item.of('mekanism:mekasuit_pants', {HideFlags:2}))
+	event.hide(Item.of('mekanism:mekasuit_boots', {HideFlags:2}))
+	event.hide(Item.of('mekanism:meka_tool', {HideFlags:2}))
 	event.hide('mekanism:module_laser_dissipation_unit')
 	event.hide('mekanism:module_radiation_shielding_unit')
 	event.hide('mekanism:module_solar_recharging_unit')
 	event.hide('mekanism:module_jetpack_unit')
 	event.hide('mekanism:module_charge_distribution_unit')
 	event.hide('mekanism:module_elytra_unit')
-	
 	event.hide('botania:dice')
 	event.hide('botania:thor_ring')
 	event.hide('botania:loki_ring')
@@ -52,8 +56,6 @@ onEvent('jei.hide.items', event => {
 	event.hide('botania:manasteel_axe')
 	event.hide('botania:manasteel_sword')
 	event.hide('botania:manasteel_shears')
-	event.hide('industrialforegoing:mob_duplicator')
-	event.hide('ironjetpacks:emerald_jetpack')
 	event.hide('the_vault:puzzle_rune')
 	event.hide('the_vault:puzzle_rune_block')
 	event.hide('the_vault:ore_unknown')
@@ -74,16 +76,9 @@ onEvent('jei.hide.items', event => {
 	event.hide('the_vault:vault_treasure_chest')
 	event.hide('the_vault:vault_altar_chest')
 	event.hide('the_vault:vault_rune')
+	event.hide('industrialforegoing:mob_duplicator')
+	event.hide('ironjetpacks:emerald_jetpack')
+	event.hide('quark:matrix_enchanter')
+	event.hide('enchantinginfuser:advanced_enchanting_infuser')
 
-
-
-
-
-
-	event.hide(Item.of('mekanism:mekasuit_helmet', {HideFlags:2}))
-	event.hide(Item.of('mekanism:mekasuit_bodyarmor', {HideFlags:2}))
-	event.hide(Item.of('mekanism:mekasuit_pants', {HideFlags:2}))
-	event.hide(Item.of('mekanism:mekasuit_boots', {HideFlags:2}))
-	event.hide(Item.of('mekanism:meka_tool', {HideFlags:2}))
-	
 })

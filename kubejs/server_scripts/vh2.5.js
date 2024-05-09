@@ -1,6 +1,8 @@
 /* scripts made by a1qs
 for Vault Hunters 2.5 */
 
+let gemTypes = ['larimar', 'benitoite', 'wutodie', 'alexandrite', 'painite', 'black_opal']
+
 onEvent('recipes', event => {
 
     event.shaped(Item.of('the_vault:vault_paxel', '{Damage:0,ShouldEnhance:0b,Enhancement:{Id:"the_vault:fortunate"},display:{Name:\'["",{"text":"Fortunate Paxel","italic":false,"color":"#ffb31a","bold":true}]\'}}') , [
@@ -44,5 +46,31 @@ onEvent('recipes', event => {
         U: 'the_vault:charm_upgrade_tier_3',
         O: 'the_vault:omega_pog'
     })
+
+    event.shaped('the_vault:extraordinary_echo_gem', [
+        'PP ',
+        'PP '
+    ], {
+        P: 'the_vault:perfect_echo_gem'
+    })
+
+    event.shapeless('4x the_vault:perfect_echo_gem', ['the_vault:extraordinary_echo_gem']),
+    event.shapeless('4x the_vault:gem_echo', ['the_vault:perfect_echo_gem'])
+
+
+    gemTypes.forEach(gemTypes =>{
+        event.shaped('the_vault:extraordinary_'+gemTypes, [
+            'PP ',
+            'PP '
+        ], {
+            P: 'the_vault:perfect_'+gemTypes
+        })
+
+        event.shapeless('4x the_vault:perfect_'+gemTypes, ['the_vault:extraordinary_'+gemTypes]),
+        event.shapeless('4x the_vault:gem_'+gemTypes, ['the_vault:perfect_'+gemTypes])
+    })
+
+
+    
     
 })
