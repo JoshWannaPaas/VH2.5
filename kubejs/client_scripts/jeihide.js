@@ -80,5 +80,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('ironjetpacks:emerald_jetpack')
 	event.hide('quark:matrix_enchanter')
 	event.hide('enchantinginfuser:advanced_enchanting_infuser')
+	event.hide('quark:blossom_planks')
+	event.hide('quark:blossom_boards')
 
 })
