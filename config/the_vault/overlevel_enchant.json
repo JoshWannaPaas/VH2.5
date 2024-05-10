@@ -3,20 +3,62 @@
     {
       "extraLevel": 1,
       "levelNeeded": 40,
-      "prefix": "Ancient",
+      "prefix": "Super",
       "colorHex": "#ffae00"
     },
     {
       "extraLevel": 2,
       "levelNeeded": 60,
-      "prefix": "Super",
-      "colorHex": "#ff6c00"
+      "prefix": "Grand",
+      "colorHex": "#ffbf00"
     },
     {
       "extraLevel": 3,
       "levelNeeded": 80,
+      "prefix": "Ancient",
+      "colorHex": "#ff6c00"
+    },
+    {
+      "extraLevel": 4,
+      "levelNeeded": 100,
       "prefix": "Legendary",
       "colorHex": "#ff3600"
+    },
+    {
+      "extraLevel": 5,
+      "levelNeeded": 150,
+      "prefix": "Supreme",
+      "colorHex": "#ff2400"
+    },
+    {
+      "extraLevel": 6,
+      "levelNeeded": 200,
+      "prefix": "Mythic",
+      "colorHex": "#e0115f"
+    },
+    {
+      "extraLevel": 7,
+      "levelNeeded": 250,
+      "prefix": "Mighty",
+      "colorHex": "#dc143c"
+    },
+    {
+      "extraLevel": 8,
+      "levelNeeded": 350,
+      "prefix": "Celestial",
+      "colorHex": "#007fff"
+    },
+    {
+      "extraLevel": 9,
+      "levelNeeded": 500,
+      "prefix": "Ethereal",
+      "colorHex": "#a8c3bc"
+    },
+    {
+      "extraLevel": 10,
+      "levelNeeded": 1000,
+      "prefix": "Enigmatic",
+      "colorHex": "#082567"
     }
   ]
 }
