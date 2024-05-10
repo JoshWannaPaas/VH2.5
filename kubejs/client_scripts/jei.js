@@ -1,4 +1,9 @@
-console.info("Removing JEI entries!")
+console.info("Removing & Adding JEI entries!")
+
+onEvent('jei.add.items', event => {
+	event.add(Item.of('the_vault:reset_flask', '{Skillable:"Artisan"}'))
+	event.add(Item.of('the_vault:reset_flask', '{Skillable:"Treasure Hunter"}'))
+})
 
 onEvent('jei.hide.items', event => {
 	event.hide(Item.of('mekanism:mekasuit_helmet', {HideFlags:2}))
