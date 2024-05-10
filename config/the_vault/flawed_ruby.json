@@ -23,11 +23,11 @@
     "outcomes": [
       {
         "value": "FAIL",
-        "weight": 70
+        "weight": 25
       },
       {
         "value": "IMBUE",
-        "weight": 25
+        "weight": 70
       },
       {
         "value": "BREAK",
