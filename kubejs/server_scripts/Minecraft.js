@@ -59,7 +59,7 @@ onEvent('recipes', event => {
 		'GIG' 
 	 ], {
 		G: '#forge:storage_blocks/gold',
-		I: '#forge:ingots/iron',
+		I: '#forge:ingots/gold',
 		A: 'minecraft:apple'
 	})
 
