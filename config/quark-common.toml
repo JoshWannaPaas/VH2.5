@@ -229,22 +229,22 @@
 
 [management]
 	"Chests In Boats" = true
-	"Inventory Sorting" = false
+	"Inventory Sorting" = true
 	"Shulker Box Right Click" = true
 	"Hotbar Changer" = true
 	"Item Sharing" = true
 	"Right Click Armor" = true
-	"Easy Transfering" = false
+	"Easy Transfering" = true
 
 	[management.inventory_sorting]
 		#Play a click when sorting inventories using keybindings
 		"Satisfying Click" = true
-		"Enable Chests" = false
+		"Enable Chests" = true
 		"Enable Player Inventory In Chests" = true
 		"Enable Player Inventory" = true
 
 	[management.easy_transfering]
-		"Enable Shift Lock" = true
+		"Enable Shift Lock" = false
 
 	[management.item_sharing]
 		"Render Items In Chat" = true
@@ -1856,7 +1856,7 @@
 
 	[mobs.frogs]
 		"Enable Brewing" = true
-		"Enable Big Funny" = false
+		"Enable Big Funny" = true
 
 		[mobs.frogs.spawn_config]
 			#Allowed values: (0,)
@@ -2038,7 +2038,7 @@
 	"Custom Underground Biome" = false
 	"Game Nerfs" = false
 	Pallet = false
-	Shiba = false
+	Shiba = true
 	"Narrator Readout" = false
 	"Microcrafting Helper" = false
 	"Overlay Shader" = false
