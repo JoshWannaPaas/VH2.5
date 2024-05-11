@@ -228,16 +228,28 @@ onEvent('recipes', event => {
         R: 'botania:rune_autumn'
     })
 
+    event.shaped('1x botania:lava_pendant', [
+      'FCP',
+      'CPC',
+      'TCS'
+  ], {
+      F: 'botania:rune_fire',
+      C: 'botania:manaweave_cloth',
+      P: 'the_vault:gem_pog',
+      T: 'botania:terrasteel_ingot',
+      S: 'botania:rune_summer'
+  })
+
     event.shaped('1x botania:super_lava_pendant', [
         'BEB',
         'BPB',
-        'LEL'
+        'LVL'
     ], {
         B: 'botania:blaze_block',
         E: 'botania:elementium_block',
         P: 'botania:lava_pendant',
         L: 'botania:life_essence',
-        E: 'the_vault:echo_pog'
+        V: 'the_vault:echo_pog'
     })
 
     event.shaped('1x botania:ice_pendant', [
