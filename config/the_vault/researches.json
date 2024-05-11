@@ -14,7 +14,7 @@
         }
       },
       "name": "Backpacks",
-      "cost": 2,
+      "cost": 1,
       "usesKnowledge": true
     },
     {
@@ -49,7 +49,7 @@
         }
       },
       "name": "Torch Master",
-      "cost": 3,
+      "cost": 2,
       "usesKnowledge": true
     },
     {
@@ -83,7 +83,7 @@
         }
       },
       "name": "Danks",
-      "cost": 5,
+      "cost": 2,
       "usesKnowledge": true
     },
     {
@@ -100,7 +100,7 @@
         }
       },
       "name": "Building Gadgets",
-      "cost": 4,
+      "cost": 1,
       "usesKnowledge": true
     },
     {
@@ -117,7 +117,7 @@
         }
       },
       "name": "Mining Gadgets",
-      "cost": 6,
+      "cost": 3,
       "usesKnowledge": true
     },
     {
@@ -154,7 +154,7 @@
         }
       },
       "name": "Drawers",
-      "cost": 2,
+      "cost": 1,
       "usesKnowledge": true
     },
     {
@@ -210,50 +210,6 @@
     },
     {
       "modIds": [
-        "masonry",
-        "decorative_blocks",
-        "camera",
-        "mcwbridges",
-        "blockcarpentry",
-        "mcwwindows",
-        "mcwroofs",
-        "mcwdoors",
-        "enviromats",
-        "platforms"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Decorator",
-      "cost": 1,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
-        "cfm",
-        "supplementaries"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Furniture",
-      "cost": 1,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
         "engineersdecor"
       ],
       "restrictions": {
@@ -300,42 +256,7 @@
         }
       },
       "name": "Immersive Engineering",
-      "cost": 6,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
-        "elevatorid",
-        "movingelevators"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Elevators",
-      "cost": 1,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
-        "cookingforblockheads"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Chef",
-      "cost": 1,
+      "cost": 4,
       "usesKnowledge": true
     },
     {
@@ -369,7 +290,7 @@
         }
       },
       "name": "Xnet",
-      "cost": 6,
+      "cost": 4,
       "usesKnowledge": true
     },
     {
@@ -386,7 +307,7 @@
         }
       },
       "name": "Modular Routers",
-      "cost": 6,
+      "cost": 4,
       "usesKnowledge": true
     },
     {
@@ -408,23 +329,6 @@
     },
     {
       "modIds": [
-        "rftoolsbase"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "RFTools Base",
-      "cost": 1,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
         "ispawner"
       ],
       "restrictions": {
@@ -437,7 +341,7 @@
         }
       },
       "name": "Mob Spawners",
-      "cost": 4,
+      "cost": 3,
       "usesKnowledge": true
     },
     {
@@ -454,7 +358,7 @@
         }
       },
       "name": "Botania",
-      "cost": 12,
+      "cost": 7,
       "usesKnowledge": true
     },
     {
@@ -471,7 +375,7 @@
         }
       },
       "name": "Mekanism",
-      "cost": 12,
+      "cost": 9,
       "usesKnowledge": true
     },
     {
@@ -505,7 +409,7 @@
         }
       },
       "name": "Quarry",
-      "cost": 14,
+      "cost": 12,
       "usesKnowledge": true
     },
     {
@@ -522,7 +426,7 @@
         }
       },
       "name": "Jetpacks",
-      "cost": 4,
+      "cost": 3,
       "usesKnowledge": true
     },
     {
@@ -539,7 +443,7 @@
         }
       },
       "name": "Dark Utilities",
-      "cost": 6,
+      "cost": 3,
       "usesKnowledge": true
     },
     {
@@ -607,58 +511,7 @@
         }
       },
       "name": "Flux Networks",
-      "cost": 8,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
-        "simplylight"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "More Lights",
-      "cost": 1,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
-        "dummmmmmy"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Test Dummies",
-      "cost": 1,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
-        "fairylights"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Fairy Lights",
-      "cost": 1,
+      "cost": 6,
       "usesKnowledge": true
     },
     {
@@ -692,7 +545,7 @@
         }
       },
       "name": "Thermal Expansion",
-      "cost": 10,
+      "cost": 9,
       "usesKnowledge": true
     },
     {
@@ -709,7 +562,7 @@
         }
       },
       "name": "Industrial Foregoing",
-      "cost": 20,
+      "cost": 16,
       "usesKnowledge": true
     },
     {
@@ -726,7 +579,7 @@
         }
       },
       "name": "Powah",
-      "cost": 6,
+      "cost": 4,
       "usesKnowledge": true
     },
     {
@@ -1152,6 +1005,13 @@
             "USABILITY": true,
             "CRAFTABILITY": true
           }
+        },
+        "the_vault:vault_charm_upgrade_tier_4": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
         }
       },
       "blockRestrictions": {},
@@ -1272,6 +1132,369 @@
       "entityRestrictions": {},
       "name": "Vault Powerups",
       "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "thermal:dynamo_stirling": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "thermal:dynamo_gourmand": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "thermal:dynamo_compression": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "thermal:dynamo_magmatic": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "thermal:dynamo_numismatic": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "thermal:dynamo_lapidary": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "thermal:dynamo_disenchantment": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Thermal Dynamos",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "industrialforegoing:pitiful_generator": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_reactor": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:biofuel_generator": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_furnace": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_slimey": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_culinary": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_potion": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_disenchantment": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_ender": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_explosive": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_frosty": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_halitosis": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_magma": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_pink": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_netherstar": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_death": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_rocket": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_crimed": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:mycelial_meatallurgic": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:bioreactor": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Industrial Foregoing: Generators",
+      "cost": 7,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "botania:terra_pick": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "botania:tornado_rod": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          },
+          "botania:mana_gun": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:skydirt_rod": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:dirt_rod": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:goddess_charm": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:water_rod": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:gravity_rod": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:cloud_pendant": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:super_cloud_pendant": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:lava_pendant": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:super_lava_pendant": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:ice_pendant": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:magnet_ring": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:magnet_ring_greater": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:reach_ring": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:thor_ring": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:travel_belt": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:knockback_belt": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:super_travel_belt": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "botania:speed_up_belt": {
+            "restricts": {
+              "HITTABILITY": true,
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Botania Trinkets",
+      "cost": 5,
       "usesKnowledge": true
     }
   ]

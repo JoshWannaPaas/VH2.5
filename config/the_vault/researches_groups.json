@@ -9,8 +9,7 @@
         "Refined Storage",
         "Applied Energistics",
         "Drawers",
-        "Mekanism QIO",
-        "Vault Looter"
+        "Mekanism QIO"
       ],
       "globalCostIncrease": 0.5,
       "groupCostIncrease": {
@@ -20,12 +19,8 @@
     "VaultUtils": {
       "title": "Utilities",
       "research": [
-        "Backpacks",
         "Building Gadgets",
         "Botania",
-        "Jetpacks",
-        "Danks",
-        "Extendo Arm",
         "Powerful Arrows",
         "Vault Blacksmith",
         "Vault Powerups"
@@ -64,7 +59,6 @@
         "Immersive Engineering",
         "Engineers Decor",
         "Iron Furnaces",
-        "RFTools Base",
         "Automatic Genius"
       ],
       "globalCostIncrease": 0.5,
@@ -79,7 +73,9 @@
         "Flux Networks",
         "Powah",
         "RFTools Power",
-        "Mekanism Generators"
+        "Mekanism Generators",
+        "Thermal Dynamos",
+        "Industrial Foregoing: Generators"
       ],
       "globalCostIncrease": 0.5,
       "groupCostIncrease": {
@@ -95,27 +91,28 @@
         "Waystones",
         "Torch Master",
         "Trashcans",
-        "Elevators",
         "RFTools Utility",
         "Dimensional Storage",
         "Modular Routers"
       ],
       "globalCostIncrease": 0.5,
       "groupCostIncrease": {
+        "Base": 1
       }
     },
-    "Decoration": {
-      "title": "Decoration",
+    "Looting": {
+      "title": "Looting",
       "research": [
-        "Furniture",
-        "Decorator",
-        "More Lights",
-        "Chef",
-        "Test Dummies",
-        "Fairy Lights"
+        "Backpacks",
+        "Danks",
+        "Vault Looter",
+        "Extendo Arm",
+        "Jetpacks",
+        "Botania Trinkets"
       ],
-      "globalCostIncrease": -1.0,
+      "globalCostIncrease": 0.5,
       "groupCostIncrease": {
+        "Looting": 2
       }
     }
   }
