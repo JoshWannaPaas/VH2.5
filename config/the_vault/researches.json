@@ -2,23 +2,6 @@
   "MOD_RESEARCHES": [
     {
       "modIds": [
-        "simplybackpacks"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Backpacks",
-      "cost": 1,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
         "waystones",
         "usefulrailroads"
       ],
@@ -1495,6 +1478,43 @@
       "entityRestrictions": {},
       "name": "Botania Trinkets",
       "cost": 5,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "simplybackpacks:uncommonbackpack": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "simplybackpacks:rarebackpack": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "simplybackpacks:epicbackpack": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "simplybackpacks:ultimatebackpack": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Backpacks",
+      "cost": 1,
       "usesKnowledge": true
     }
   ]
