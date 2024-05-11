@@ -5,15 +5,15 @@ ported by a1qs to KubeJS */
 onEvent('recipes', event => {
     
     event.shaped('1x simplybackpacks:commonbackpack', [
-        'SAS',
-        'OLO',
+        'SWS',
+        'ILI',
         'LCL'
     ], {
         S: 'minecraft:string',
-        A: 'the_vault:perfect_alexandrite',
-        O: 'the_vault:gem_black_opal',
+        W: '#minecraft:wool',
+        I: '#forge:ingots/iron',
         L: 'minecraft:leather',
-        C: '#forge:chests/wooden'
+        C: '#forge:shulker_boxes'
     })
 
     event.shaped('1x simplybackpacks:uncommonbackpack', [
@@ -22,11 +22,11 @@ onEvent('recipes', event => {
         'LCL'
     ], {
         G: 'minecraft:gold_block',
-        P: 'the_vault:gem_pog',
+        P: 'the_vault:perfect_alexandrite',
         O: 'the_vault:gem_black_opal',
         B: 'simplybackpacks:commonbackpack',
         L: 'minecraft:leather',
-        C: '#forge:chests/wooden'
+        C: '#forge:shulker_boxes'
     })
 
     event.shaped('1x simplybackpacks:rarebackpack', [
@@ -38,8 +38,8 @@ onEvent('recipes', event => {
         P: 'the_vault:gem_pog',
         G: '#the_vault:perfectcommongems',
         U: 'simplybackpacks:uncommonbackpack',
-        C: '#forge:chests/wooden',
-        V: 'the_vault:vault_diamond_block'
+        C: '#forge:shulker_boxes',
+        V: 'the_vault:vault_diamond'
     })
 
     event.shaped('1x simplybackpacks:epicbackpack', [
@@ -48,10 +48,10 @@ onEvent('recipes', event => {
         'CNC'
     ], {
         V: 'the_vault:vault_diamond',
-        E: 'the_vault:echo_pog',
+        E: 'the_vault:perfect_echo_gem',
         P: 'the_vault:perfect_black_opal',
         R: 'simplybackpacks:rarebackpack',
-        C: '#forge:chests/wooden',
+        C: '#forge:shulker_boxes',
         N: 'minecraft:nether_star'
     })
 })
