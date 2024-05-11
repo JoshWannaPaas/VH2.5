@@ -3,6 +3,16 @@ for Vault Hunters 2.5 */
 
 let gemTypes = ['larimar', 'benitoite', 'wutodie', 'alexandrite', 'painite', 'black_opal']
 
+// starting items
+
+onEvent('player.logged_in', event => {
+    if (!event.player.stages.has('starting_items')) {
+        event.player.stages.add('starting_items')
+        event.player.give('16x minecraft:cooked_beef')
+        event.player.give(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:the_vault_guide"}'))
+    }
+})
+
 onEvent('recipes', event => {
 
     event.shaped(Item.of('the_vault:vault_paxel', '{Damage:0,ShouldEnhance:0b,Enhancement:{Id:"the_vault:fortunate"},display:{Name:\'["",{"text":"Fortunate Paxel","italic":false,"color":"#ffb31a","bold":true}]\'}}') , [
