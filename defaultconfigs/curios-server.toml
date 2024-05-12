@@ -1,0 +1,10 @@
+
+#List of curio slot type settings
+[[curiosSettings]]
+	identifier = "magnet"
+	icon = "curios:slot/empty_magnet"
+
+[[curiosSettings]]
+	identifier = "vault_charm"
+	icon = "curios:slot/empty_vault_charm"
+
