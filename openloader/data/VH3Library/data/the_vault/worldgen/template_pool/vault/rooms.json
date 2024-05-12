@@ -22,6 +22,83 @@
         }
       },
       {
+        "weight": 5,
+        "element":
+        {
+          "processors": [
+            "minecraft:empty"
+          ],
+          "element_type": "the_vault:paletted_list_pool_element",
+          "projection": "rigid",
+          "elements": [
+            {
+              "location": "the_vault:vault/enigma/rooms/colosseum/layer0/big1",
+              "projection": "rigid",
+              "element_type": "the_vault:paletted_single_pool_element",
+              "processors": "minecraft:empty"
+            }
+          ]
+        }
+      },
+      
+      {
+        "weight": 5,
+        "element":
+        {
+          "processors": [
+            "minecraft:empty"
+          ],
+          "element_type": "the_vault:paletted_list_pool_element",
+          "projection": "rigid",
+          "elements": [
+            {
+              "location": "the_vault:vault/enigma/rooms/colosseum/layer0/big2",
+              "projection": "rigid",
+              "element_type": "the_vault:paletted_single_pool_element",
+              "processors": "minecraft:empty"
+            }
+          ]
+        }
+      },
+      {
+        "weight": 80,
+        "element":
+        {
+          "processors": [
+            "minecraft:empty"
+          ],
+          "element_type": "the_vault:paletted_list_pool_element",
+          "projection": "rigid",
+          "elements": [
+            {
+              "location": "the_vault:vault/enigma/rooms/contest_squid/layer0/big1",
+              "projection": "rigid",
+              "element_type": "the_vault:paletted_single_pool_element",
+              "processors": "minecraft:empty"
+            }
+          ]
+        }
+      },
+      {
+        "weight": 80,
+        "element":
+        {
+          "processors": [
+            "minecraft:empty"
+          ],
+          "element_type": "the_vault:paletted_list_pool_element",
+          "projection": "rigid",
+          "elements": [
+            {
+              "location": "the_vault:vault/enigma/rooms/contest_toyroom/layer0/big1",
+              "projection": "rigid",
+              "element_type": "the_vault:paletted_single_pool_element",
+              "processors": "minecraft:empty"
+            }
+          ]
+        }
+      },
+      {
         "weight": 200,
         "element":
         {
