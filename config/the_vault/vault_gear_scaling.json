@@ -3771,7 +3771,7 @@
               "tier": 1,
               "rarity": "Omega"
             },
-            "weight": 32
+            "weight": 20
           },
           {
             "value": {
@@ -3789,7 +3789,7 @@
               "tier": 1,
               "rarity": "Omega"
             },
-            "weight": 8
+            "weight": 10
           },
           {
             "value": {
@@ -3809,6 +3809,71 @@
             },
             "weight": 4
           },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 350,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 400,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 450,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 500,
+        "outcomes": [
           {
             "value": {
               "tier": 2,
