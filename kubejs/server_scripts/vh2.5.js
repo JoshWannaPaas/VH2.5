@@ -78,9 +78,5 @@ onEvent('recipes', event => {
 
         event.shapeless('4x the_vault:perfect_'+gemTypes, ['the_vault:extraordinary_'+gemTypes]),
         event.shapeless('4x the_vault:gem_'+gemTypes, ['the_vault:perfect_'+gemTypes])
-    })
-
-
-    
-    
+    }) 
 })
