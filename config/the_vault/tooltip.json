@@ -618,7 +618,7 @@
     },
     {
       "item": "the_vault:shard_pouch",
-      "value": "Required in inventory for soul shards to drop\nCan store unlimited amount of soul shards"
+      "value": "Required in inventory or Curio slot for soul shards to drop\nCan store unlimited amount of soul shards"
     },
     {
       "item": "the_vault:vault_paxel",
@@ -634,15 +634,15 @@
     },
     {
       "item": "the_vault:vault_magnet_weak",
-      "value": "Weakly attracts items towards the player\nActivate by Right-clicking in hotbar"
+      "value": "Weakly attracts items towards the player\nActivate by Right-clicking in hotbar or via keybind in Curio"
     },
     {
       "item": "the_vault:vault_magnet_strong",
-      "value": "Strongly attracts items towards the player\nActivate by Right-clicking in hotbar"
+      "value": "Strongly attracts items towards the player\nActivate by Right-clicking in hotbar or via keybind in Curio"
     },
     {
       "item": "the_vault:vault_magnet_omega",
-      "value": "Teleports dropped items to the player\nActivate by Right-clicking in hotbar"
+      "value": "Teleports dropped items to the player\nActivate by Right-clicking in hotbar or via keybind in Curio"
     },
     {
       "item": "the_vault:void_liquid_bucket",
