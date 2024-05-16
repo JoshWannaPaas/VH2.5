@@ -238,6 +238,7 @@ onEvent('recipes', event => {
     event.remove({input: 'mekanism:module_base'})
     event.remove({output: 'mekanismgenerators:solar_panel'})
     event.remove({output: 'mekanismgenerators:wind_generator'})
+    event.remove({output: 'mekanismgenerators:gas_burning_generator'})
 
     event.remove({output: 'buildinggadgets:gadget_building'})
     event.remove({output: 'buildinggadgets:gadget_exchanging'})

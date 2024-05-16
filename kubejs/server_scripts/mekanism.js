@@ -291,6 +291,18 @@ onEvent('recipes', event => {
         S: '#forge:ingots/steel',
         R: 'compressium:redstone_2'
     })
+
+    event.shaped('1x mekanismgenerators:gas_burning_generator', [
+        'LPB',
+        'CEC',
+        'BPL'
+    ], {
+        L: 'the_vault:extraordinary_larimar',
+        P: 'the_vault:gem_pog',
+        B: 'the_vault:extraordinary_benitoite',
+        C: 'mekanism:steel_casing',
+        E: 'mekanism:electrolytic_core'
+    })
     
     event.custom({
         "type": "mekanism:crushing",
