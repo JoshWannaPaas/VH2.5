@@ -3,6 +3,7 @@ console.info("Removing & Adding JEI entries!")
 onEvent('jei.add.items', event => {
 	event.add(Item.of('the_vault:reset_flask', '{Skillable:"Artisan"}'))
 	event.add(Item.of('the_vault:reset_flask', '{Skillable:"Treasure Hunter"}'))
+	event.add(Item.of('appliedenergistics2:facade', '{item:"minecraft:stone"}'))
 })
 
 onEvent('jei.hide.items', event => {
@@ -87,5 +88,6 @@ onEvent('jei.hide.items', event => {
 	event.hide('enchantinginfuser:advanced_enchanting_infuser')
 	event.hide('quark:blossom_planks')
 	event.hide('quark:blossom_boards')
+	event.hide(Item.of('appliedenergistics2:facade').ignoreNBT())
 
 })
