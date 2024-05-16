@@ -116,56 +116,56 @@
       "name": "Easy",
       "icon": "the_vault:textures/gui/modifiers/easy.png",
       "color": "7405354",
-      "description": "-10 vault difficulty"
+      "description": "-10 mob level"
     },
     {
       "levelAddend": -20,
       "name": "Simple",
       "icon": "the_vault:textures/gui/modifiers/simple.png",
       "color": "7405354",
-      "description": "-20 vault difficulty"
+      "description": "-20 mob level"
     },
     {
       "levelAddend": -30,
       "name": "Trivial",
       "icon": "the_vault:textures/gui/modifiers/trivial.png",
       "color": "11468601",
-      "description": "-30 vault difficulty"
+      "description": "-30 mob level"
     },
     {
       "levelAddend": 15,
       "name": "Difficult",
       "icon": "the_vault:textures/gui/modifiers/difficult.png",
       "color": "14811136",
-      "description": "+15 vault difficulty"
+      "description": "+15 mob level"
     },
     {
       "levelAddend": 30,
       "name": "Hard",
       "icon": "the_vault:textures/gui/modifiers/hard.png",
       "color": "13107200",
-      "description": "+30 vault difficulty"
+      "description": "+30 mob level"
     },
     {
       "levelAddend": 60,
       "name": "Challenging",
       "icon": "the_vault:textures/gui/modifiers/challenging.png",
       "color": "10485760",
-      "description": "+60 vault difficulty"
+      "description": "+60 mob level"
     },
     {
       "levelAddend": 100,
       "name": "Unfair",
       "icon": "the_vault:textures/gui/modifiers/challenging.png",
       "color": "10485760",
-      "description": "+100 vault difficulty"
+      "description": "+100 mob level"
     },
     {
       "levelAddend": 100,
       "name": "Milky",
       "icon": "the_vault:textures/gui/modifiers/milky.png",
       "color": "14811136",
-      "description": "+100 cow level"
+      "description": "+100 mob level"
     }
   ],
   "EFFECT_MODIFIERS": [
