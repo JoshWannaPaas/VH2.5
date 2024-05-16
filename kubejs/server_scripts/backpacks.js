@@ -54,4 +54,17 @@ onEvent('recipes', event => {
         C: '#forge:shulker_boxes',
         N: 'minecraft:nether_star'
     })
+
+    event.shaped('1x simplybackpacks:ultimatebackpack', [
+        'ODO',
+        'EBE',
+        'CNC'
+    ], {
+        O: 'the_vault:extraordinary_black_opal',
+        D: 'the_vault:vault_diamond_block',
+        E: 'the_vault:echo_pog',
+        B: 'simplybackpacks:epicbackpack',
+        C: '#forge:shulker_boxes',
+        N: 'compressium:netherite_1'
+    })
 })
