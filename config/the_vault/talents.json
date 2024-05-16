@@ -1503,27 +1503,27 @@
     "name": "Soul Hunter",
     "levels": [
       {
-        "additionalSoulShardChance": 0.0,
+        "additionalSoulShardChance": 1.0,
         "cost": 1,
         "levelRequirement": 25
       },
       {
-        "additionalSoulShardChance": 0.5,
+        "additionalSoulShardChance": 2.0,
         "cost": 2,
         "levelRequirement": 50
       },
       {
-        "additionalSoulShardChance": 1.0,
+        "additionalSoulShardChance": 3.0,
         "cost": 3,
         "levelRequirement": 50
       },
       {
-        "additionalSoulShardChance": 2.0,
+        "additionalSoulShardChance": 4.0,
         "cost": 4,
         "levelRequirement": 50
       },
       {
-        "additionalSoulShardChance": 3.0,
+        "additionalSoulShardChance": 5.0,
         "cost": 6,
         "levelRequirement": 50
       }
