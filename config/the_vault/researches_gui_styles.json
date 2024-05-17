@@ -49,55 +49,6 @@
       "u": 0,
       "v": 112
     },
-    "Vault Looter": {
-      "x": 60,
-      "y": 80,
-      "frameType": "RECTANGULAR",
-      "u": 0,
-      "v": 128
-    },
-    "Furniture": {
-      "x": 200,
-      "y": 0,
-      "frameType": "RECTANGULAR",
-      "u": 96,
-      "v": 16
-    },
-    "Decorator": {
-      "x": 250,
-      "y": 0,
-      "frameType": "RECTANGULAR",
-      "u": 96,
-      "v": 32
-    },
-    "More Lights": {
-      "x": 300,
-      "y": 0,
-      "frameType": "RECTANGULAR",
-      "u": 96,
-      "v": 48
-    },
-    "Chef": {
-      "x": 200,
-      "y": 40,
-      "frameType": "RECTANGULAR",
-      "u": 96,
-      "v": 64
-    },
-    "Test Dummies": {
-      "x": 250,
-      "y": 40,
-      "frameType": "RECTANGULAR",
-      "u": 96,
-      "v": 80
-    },
-    "Fairy Lights": {
-      "x": 300,
-      "y": 40,
-      "frameType": "RECTANGULAR",
-      "u": 96,
-      "v": 96
-    },
     "Easy Villagers": {
       "x": 10,
       "y": 160,
@@ -189,12 +140,13 @@
       "u": 48,
       "v": 64
     },
-    "Immersive Engineering": {
+    "Automatic Genius": {
       "x": 250,
       "y": 200,
-      "frameType": "RECTANGULAR",
-      "u": 48,
-      "v": 80
+
+      "frameType": "STAR",
+      "u": 114,
+      "v": 192
     },
     "Engineers Decor": {
       "x": 300,
@@ -210,19 +162,19 @@
       "u": 48,
       "v": 112
     },
-    "RFTools Base": {
+    "Botania": {
       "x": 250,
       "y": 240,
       "frameType": "RECTANGULAR",
-      "u": 48,
-      "v": 128
+      "u": 16,
+      "v": 32
     },
-    "Automatic Genius": {
+    "Immersive Engineering": {
       "x": 300,
       "y": 240,
-      "frameType": "STAR",
-      "u": 114,
-      "v": 192
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 80
     },
     "Flux Networks": {
       "x": 390,
@@ -251,6 +203,20 @@
       "frameType": "RECTANGULAR",
       "u": 64,
       "v": 64
+    },
+    "Thermal Dynamos": {
+      "x": 440,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 999,
+      "v": 999
+    },
+    "Industrial Foregoing: Generators": {
+      "x": 490,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 999,
+      "v": 999
     },
     "Xnet": {
       "x": 390,
@@ -294,12 +260,12 @@
       "u": 80,
       "v": 96
     },
-    "Elevators": {
+    "Building Gadgets": {
       "x": 390,
       "y": 240,
       "frameType": "RECTANGULAR",
-      "u": 80,
-      "v": 112
+      "u": 16,
+      "v": 16
     },
     "RFTools Utility": {
       "x": 440,
@@ -314,48 +280,6 @@
       "frameType": "RECTANGULAR",
       "u": 80,
       "v": 144
-    },
-    "Building Gadgets": {
-      "x": 200,
-      "y": 320,
-      "frameType": "RECTANGULAR",
-      "u": 16,
-      "v": 16
-    },
-    "Botania": {
-      "x": 250,
-      "y": 320,
-      "frameType": "RECTANGULAR",
-      "u": 16,
-      "v": 32
-    },
-    "Jetpacks": {
-      "x": 300,
-      "y": 320,
-      "frameType": "RECTANGULAR",
-      "u": 16,
-      "v": 48
-    },
-    "Backpacks": {
-      "x": 200,
-      "y": 360,
-      "frameType": "RECTANGULAR",
-      "u": 16,
-      "v": 64
-    },
-    "Danks": {
-      "x": 250,
-      "y": 360,
-      "frameType": "RECTANGULAR",
-      "u": 16,
-      "v": 80
-    },
-    "Extendo Arm": {
-      "x": 300,
-      "y": 360,
-      "frameType": "RECTANGULAR",
-      "u": 16,
-      "v": 96
     },
     "Powerful Arrows": {
       "x": 200,
@@ -377,8 +301,48 @@
       "frameType": "RECTANGULAR",
       "u": 16,
       "v": 144
+    },
+    "Backpacks": {
+      "x": 200,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 64
+    },
+    "Danks": {
+      "x": 250,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 80
+    },
+    "Vault Looter": {
+      "x": 300,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 128
+    },
+    "Extendo Arm": {
+      "x": 200,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 96
+    },
+    "Jetpacks": {
+      "x": 250,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 48
+    },
+    "Botania Trinkets": {
+      "x": 300,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 999,
+      "v": 999
     }
-    
   }
-    
 }

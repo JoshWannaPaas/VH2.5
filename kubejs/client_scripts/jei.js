@@ -1,4 +1,10 @@
-console.info("Removing JEI entries!")
+console.info("Removing & Adding JEI entries!")
+
+onEvent('jei.add.items', event => {
+	event.add(Item.of('the_vault:reset_flask', '{Skillable:"Artisan"}'))
+	event.add(Item.of('the_vault:reset_flask', '{Skillable:"Treasure Hunter"}'))
+	event.add(Item.of('appliedenergistics2:facade', '{item:"minecraft:stone"}'))
+})
 
 onEvent('jei.hide.items', event => {
 	event.hide(Item.of('mekanism:mekasuit_helmet', {HideFlags:2}))
@@ -80,5 +86,8 @@ onEvent('jei.hide.items', event => {
 	event.hide('ironjetpacks:emerald_jetpack')
 	event.hide('quark:matrix_enchanter')
 	event.hide('enchantinginfuser:advanced_enchanting_infuser')
+	event.hide('quark:blossom_planks')
+	event.hide('quark:blossom_boards')
+	event.hide(Item.of('appliedenergistics2:facade').ignoreNBT())
 
 })

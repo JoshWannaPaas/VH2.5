@@ -129,7 +129,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "minecraft:flint",
+          "name": "minecraft:nether_wart",
           "functions": [
             {
               "function": "minecraft:set_count",

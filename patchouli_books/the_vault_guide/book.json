@@ -1,0 +1,6 @@
+{
+    "name": "Vault Hunters Guide Book",
+    "landing_text": "Welcome to the Vault Hunters Guide Book!",
+    "version": 0,
+    "book_texture": "patchouli:textures/gui/book_blue.png"
+}

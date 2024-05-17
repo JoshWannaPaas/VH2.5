@@ -54,11 +54,12 @@ onEvent('recipes', event => {
 	})
 
 	event.shaped('minecraft:golden_apple', [
-		'GGG',
-		'GAG',
-		'GGG' 
+		'GIG',
+		'IAI',
+		'GIG' 
 	 ], {
-		G: 'minecraft:gold_block',
+		G: '#forge:storage_blocks/gold',
+		I: '#forge:ingots/gold',
 		A: 'minecraft:apple'
 	})
 

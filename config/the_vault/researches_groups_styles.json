@@ -78,8 +78,8 @@
         "v": 0
       }
     },
-    "Decoration": {
-      "group": "Decoration",
+    "Looting": {
+      "group": "Looting",
       "headerColor": -2474012,
       "headerTextColor": -1,
       "x": 180,

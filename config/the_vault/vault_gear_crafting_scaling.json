@@ -120,7 +120,7 @@
           "value": {
             "tier": 1
           },
-          "weight": 40
+          "weight": 35
         },
         {
           "value": {
@@ -137,7 +137,7 @@
           "value": {
             "tier": 1
           },
-          "weight": 35
+          "weight": 30
         },
         {
           "value": {
@@ -154,7 +154,7 @@
           "value": {
             "tier": 1
           },
-          "weight": 30
+          "weight": 25
         },
         {
           "value": {
@@ -171,23 +171,6 @@
           "value": {
             "tier": 1
           },
-          "weight": 25
-        },
-        {
-          "value": {
-            "tier": 2
-          },
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "level": 290,
-      "outcomes": [
-        {
-          "value": {
-            "tier": 1
-          },
           "weight": 20
         },
         {
@@ -199,7 +182,7 @@
       ]
     },
     {
-      "level": 300,
+      "level": 290,
       "outcomes": [
         {
           "value": {
@@ -222,8 +205,104 @@
           "value": {
             "tier": 1
           },
-          "weight": 12
+          "weight": 10
         },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 325,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 7
+        },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 350,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 375,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 400,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 450,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 500,
+      "outcomes": [
         {
           "value": {
             "tier": 2

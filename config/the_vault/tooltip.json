@@ -18,79 +18,79 @@
     },
     {
       "item": "the_vault:gem_alexandrite",
-      "value": "An uncommon vault gem"
+      "value": "Rare vault gem"
     },
     {
       "item": "the_vault:gem_benitoite",
-      "value": "A common vault gem"
+      "value": "Common vault gem"
     },
     {
       "item": "the_vault:gem_larimar",
-      "value": "A common vault gem"
+      "value": "Common vault gem"
     },
     {
       "item": "the_vault:gem_black_opal",
-      "value": "A very rare vault gem"
+      "value": "Epic vault gem"
     },
     {
       "item": "the_vault:gem_painite",
-      "value": "A rare vault gem"
+      "value": "Rare vault gem"
     },
     {
       "item": "the_vault:gem_wutodie",
-      "value": "An uncommon vault gem"
+      "value": "Rare vault gem"
     },
     {
       "item": "the_vault:gem_iskallium",
-      "value": "A unique vault gem"
+      "value": "Player vault gem\nInspired by iskall85"
     },
     {
       "item": "the_vault:gem_gorginite",
-      "value": "A unique vault gem"
+      "value": "Player vault gem\nInspired by Stressmonster101"
     },
     {
       "item": "the_vault:gem_sparkletine",
-      "value": "A unique vault gem"
+      "value": "Player vault gem\nInspired by CaptainSparklez"
     },
     {
       "item": "the_vault:gem_ashium",
-      "value": "A unique vault gem"
+      "value": "Player vault gem\nInspired by AntonioAsh"
     },
     {
       "item": "the_vault:gem_bomignite",
-      "value": "A unique vault gem"
+      "value": "Player vault gem\nInspired by Hbomb94"
     },
     {
       "item": "the_vault:gem_funsoide",
-      "value": "A unique vault gem"
+      "value": "Player vault gem\nInspired by ItsFundy"
     },
     {
       "item": "the_vault:gem_tubium",
-      "value": "A unique vault gem"
+      "value": "Player vault gem\nInspired by Tubbo"
     },
     {
       "item": "the_vault:gem_upaline",
-      "value": "A unique vault gem"
+      "value": "Player vault gem\nInspired by 5uppps"
     },
     {
       "item": "the_vault:gem_puffium",
-      "value": "A unique vault gem"
+      "value": "A unique vault gem\nInspired by CaptainPuffy"
     },
     {
       "item": "the_vault:gem_echo",
-      "value": "A legendary vault gem"
+      "value": "Omega vault gem"
     },
     {
       "item": "the_vault:vault_rock",
-      "value": "Use in a Vault Altar to turn in to a Vault Crystal"
+      "value": "Use in a Vault Altar to start crafting a Vault Crystal"
     },
     {
       "item": "the_vault:gem_pog",
-      "value": "A combination of all legendary vault gems\nRequired in higher tier crafting recipes"
+      "value": "Pile Of Gems\nA combination of all Player vault gems\nRequired for mid-tier crafting recipes"
     },
     {
       "item": "the_vault:echo_pog",
-      "value": "Required in higher tier crafting recipes"
+      "value": "An Echo-infused Pile Of Gems\nRequired for high-tier crafting recipes"
     },
     {
       "item": "the_vault:key_iskallium",
@@ -314,15 +314,15 @@
     },
     {
       "item": "the_vault:trader_core",
-      "value": "Insert in to a Vending Machine to trade"
+      "value": "Add to a Vending Machine to trade"
     },
     {
       "item": "the_vault:orb_frame",
-      "value": "Crafting base for Skill Orbs"
+      "value": "Used to craft Skill Orbs"
     },
     {
       "item": "the_vault:skill_shard",
-      "value": "Crafting ingredient"
+      "value": "Compressed Skill Essence\nUsed to craft Skill Orbs"
     },
     {
       "item": "the_vault:key_piece",
@@ -342,43 +342,43 @@
     },
     {
       "item": "the_vault:cluster_iskallium",
-      "value": "High end crafting ingredient"
+      "value": "Player gem cluster"
     },
     {
       "item": "the_vault:cluster_gorginite",
-      "value": "High end crafting ingredient"
+      "value": "Player gem cluster"
     },
     {
       "item": "the_vault:cluster_sparkletine",
-      "value": "High end crafting ingredient"
+      "value": "Player gem cluster"
     },
     {
       "item": "the_vault:cluster_ashium",
-      "value": "High end crafting ingredient"
+      "value": "Player gem cluster"
     },
     {
       "item": "the_vault:cluster_bomignite",
-      "value": "High end crafting ingredient"
+      "value": "Player gem cluster"
     },
     {
       "item": "the_vault:cluster_funsoide",
-      "value": "High end crafting ingredient"
+      "value": "Player gem cluster"
     },
     {
       "item": "the_vault:cluster_tubium",
-      "value": "High end crafting ingredient"
+      "value": "Player gem cluster"
     },
     {
       "item": "the_vault:cluster_upaline",
-      "value": "High end crafting ingredient"
+      "value": "Player gem cluster"
     },
     {
       "item": "the_vault:cluster_puffium",
-      "value": "High end crafting ingredient"
+      "value": "Player gem cluster"
     },
     {
       "item": "the_vault:vault_stew_mystery",
-      "value": "Contains a mystery stew of unknown rarity\nRight-click to identify"
+      "value": "Contains a Vault Stew of unknown rarity\nRight-click to identify"
     },
     {
       "item": "the_vault:vault_stew_normal",
@@ -402,7 +402,7 @@
     },
     {
       "item": "the_vault:vault_gold",
-      "value": "The currency of Vault Hunters\nCan be used to purchase trades from vendors"
+      "value": "The currency of Vault Hunters\nWorth 81 Vault Bronze"
     },
     {
       "item": "the_vault:vault_diamond",
@@ -422,19 +422,19 @@
     },
     {
       "item": "the_vault:burger_patty",
-      "value": "Crafting ingredient"
+      "value": "Vault Burger piece"
     },
     {
       "item": "the_vault:burger_bun",
-      "value": "Crafting ingredient"
+      "value": "Vault Burger piece"
     },
     {
       "item": "the_vault:mystic_tomato",
-      "value": "Crafting ingredient"
+      "value": "Vault Burger piece"
     },
     {
       "item": "the_vault:mature_cheddar",
-      "value": "Crafting ingredient"
+      "value": "Vault Burger piece"
     },
     {
       "item": "the_vault:vault_ingot",
@@ -442,19 +442,19 @@
     },
     {
       "item": "the_vault:vault_platinum",
-      "value": "The currency of Vault Hunters\nCan be used to purchase trades from vendors"
+      "value": "The currency of Vault Hunters\nWorth 729 Vault Bronze"
     },
     {
       "item": "the_vault:mystery_box",
-      "value": "Contains random goodies\nRight-click to open"
+      "value": "Contains lots of goodies from outside the Vault\nRight-click to open"
     },
     {
       "item": "the_vault:drilling_tip",
-      "value": "Crafting ingredient"
+      "value": "Used to craft Drill Arrows"
     },
     {
       "item": "the_vault:drill_arrow",
-      "value": "Turns your bow in to a rocket launcher\nBEWARE!"
+      "value": "Shoot this to destroy a large amount of terrain\nUse with extreme caution"
     },
     {
       "item": "the_vault:mystery_egg",
@@ -466,47 +466,47 @@
     },
     {
       "item": "the_vault:pandoras_box",
-      "value": "??????\nRight-click to open"
+      "value": "Can contain goodies from the Vault, or junk\nRight-click to open"
     },
     {
       "item": "the_vault:chunk_iskallium",
-      "value": "Epic Crafting ingredient"
+      "value": "Compressed Player gem cluster\nOne piece of the Omega POG"
     },
     {
       "item": "the_vault:chunk_gorginite",
-      "value": "Epic Crafting ingredient"
+      "value": "Compressed Player gem cluster\nOne piece of the Omega POG"
     },
     {
       "item": "the_vault:chunk_sparkletine",
-      "value": "Epic Crafting ingredient"
+      "value": "Compressed Player gem cluster\nOne piece of the Omega POG"
     },
     {
       "item": "the_vault:chunk_ashium",
-      "value": "Epic Crafting ingredient"
+      "value": "Compressed Player gem cluster\nOne piece of the Omega POG"
     },
     {
       "item": "the_vault:chunk_bomignite",
-      "value": "Epic Crafting ingredient"
+      "value": "Compressed Player gem cluster\nOne piece of the Omega POG"
     },
     {
       "item": "the_vault:chunk_funsoide",
-      "value": "Epic Crafting ingredient"
+      "value": "Compressed Player gem cluster\nOne piece of the Omega POG"
     },
     {
       "item": "the_vault:chunk_tubium",
-      "value": "Epic Crafting ingredient"
+      "value": "Compressed Player gem cluster\nOne piece of the Omega POG"
     },
     {
       "item": "the_vault:chunk_upaline",
-      "value": "Epic Crafting ingredient"
+      "value": "Compressed Player gem cluster\nOne piece of the Omega POG"
     },
     {
       "item": "the_vault:chunk_puffium",
-      "value": "Epic Crafting ingredient"
+      "value": "Compressed Player gem cluster\nOne piece of the Omega POG"
     },
     {
       "item": "the_vault:omega_pog",
-      "value": "Used as a crafting ingredient for end game creations\nCan also be combined with an artifact in an anvil to re-roll it"
+      "value": "Omega Pile Of Gems\nUsed for end-game crafting\nCan also be used to re-roll artifacts in an anvil"
     },
     {
       "item": "the_vault:eternal_soul",
@@ -514,19 +514,19 @@
     },
     {
       "item": "the_vault:spark",
-      "value": "Can be used to craft artifacts out of thin air"
+      "value": "Extremely end-game crafting ingredient\nCan also be used to craft artifacts out of thin air"
     },
     {
       "item": "the_vault:star_shard",
-      "value": "Crafting ingredient"
+      "value": "Compressed Knowledge Essence\nUsed to craft Knowledge Stars"
     },
     {
       "item": "the_vault:star_core",
-      "value": "Crafting ingredient"
+      "value": "Used to craft Knowledge Stars"
     },
     {
       "item": "the_vault:star_essence",
-      "value": "Crafting ingredient"
+      "value": "Base ingredient for crafting Knowledge Stars"
     },
     {
       "item": "the_vault:knowledge_star",
@@ -542,31 +542,31 @@
     },
     {
       "item": "the_vault:perfect_alexandrite",
-      "value": "Uncommon perfect vault gem"
+      "value": "Compressed rare vault gem"
     },
     {
       "item": "the_vault:perfect_painite",
-      "value": "Rare perfect vault gem"
+      "value": "Compressed rare vault gem"
     },
     {
       "item": "the_vault:perfect_benitoite",
-      "value": "Common perfect vault gem"
+      "value": "Compressed common vault gem"
     },
     {
       "item": "the_vault:perfect_larimar",
-      "value": "Common perfect vault gem"
+      "value": "Compressed common vault gem"
     },
     {
       "item": "the_vault:perfect_black_opal",
-      "value": "Very rare perfect vault gem"
+      "value": "Compressed epic vault gem"
     },
     {
       "item": "the_vault:perfect_echo_gem",
-      "value": "Epic perfect vault gem"
+      "value": "Compressed omega vault gem"
     },
     {
       "item": "the_vault:perfect_wutodie",
-      "value": "Uncommon perfect vault gem"
+      "value": "Compressed rare vault gem"
     },
     {
       "item": "the_vault:vault_dust",
@@ -582,19 +582,19 @@
     },
     {
       "item": "the_vault:vault_silver",
-      "value": "The currency of Vault Hunters\nCan be used to purchase trades from vendors"
+      "value": "The currency of Vault Hunters\nWorth 9 vault bronze"
     },
     {
       "item": "the_vault:magnet_core_weak",
-      "value": "Crafting ingredient"
+      "value": "Core ingredient for the Weak Vault Magnet"
     },
     {
       "item": "the_vault:magnet_core_strong",
-      "value": "Crafting ingredient"
+      "value": "Core ingredient for the Strong Vault Magnet"
     },
     {
       "item": "the_vault:magnet_core_omega",
-      "value": "Crafting ingredient"
+      "value": "Core ingredient for the Omega Vault Magnet"
     },
     {
       "item": "the_vault:wutax_crystal",
@@ -610,7 +610,7 @@
     },
     {
       "item": "the_vault:soul_flame",
-      "value": "Combine with a Vault Crystal to add the Afterlife modifier\nPreventing loss of items if you die\nBeware though, it also removes the chance of an artifact"
+      "value": "Combine with a Vault Crystal to add the Afterlife modifier\nRestores your inventory to the state it was upon entering if you die\nRemoves the chance of an Artifact on completion"
     },
     {
       "item": "the_vault:soul_shard",
@@ -618,7 +618,7 @@
     },
     {
       "item": "the_vault:shard_pouch",
-      "value": "Required in inventory for soul shards to drop\nCan store unlimited amount of soul shards"
+      "value": "Required in inventory or Curio slot for soul shards to drop\nCan store unlimited amount of soul shards"
     },
     {
       "item": "the_vault:vault_paxel",
@@ -634,19 +634,19 @@
     },
     {
       "item": "the_vault:vault_magnet_weak",
-      "value": "Sucks dropped items towards the player\nActivate by Right-clicking in hotbar"
+      "value": "Weakly attracts items towards the player\nActivate by Right-clicking in hotbar or via keybind in Curio"
     },
     {
       "item": "the_vault:vault_magnet_strong",
-      "value": "Sucks dropped items towards the player\nActivate by Right-clicking in hotbar"
+      "value": "Strongly attracts items towards the player\nActivate by Right-clicking in hotbar or via keybind in Curio"
     },
     {
       "item": "the_vault:vault_magnet_omega",
-      "value": "Sucks dropped items towards the player\nActivate by Right-clicking in hotbar"
+      "value": "Teleports dropped items to the player\nActivate by Right-clicking in hotbar or via keybind in Curio"
     },
     {
       "item": "the_vault:void_liquid_bucket",
-      "value": "Crafting ingredient, found in the depths of an Architect Vault"
+      "value": "Void liquid is only found in the lobby of an Arhitect Vault\nFalling in will blind you and start rapidly draining the Vault Timer\nAlso is used for crafting in both liquid and bucket form"
     },
     {
       "item": "the_vault:vaulterite_ingot",
@@ -766,7 +766,7 @@
     },
     {
       "item": "the_vault:cryo_chamber",
-      "value": "Used to create Eternals\nInsert a trader core in to the cryo-chamber by\nRight-clicking the trader core on it\nWhen enough trader cores have been inserted it will generate and\nhost an eternal\n\nRight-click a Cryo Chamber with an eternal to upgrade and modify the eternal"
+      "value": "Used to create Eternals\nRight-click a Trader Core into the chamber to add it\nAdding enough Trader Cores will produce an Eternal\n\nRight-click a Cryo Chamber with an eternal to upgrade and modify the eternal"
     },
     {
       "item": "the_vault:key_press",

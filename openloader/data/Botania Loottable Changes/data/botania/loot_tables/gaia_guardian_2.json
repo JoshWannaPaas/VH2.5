@@ -1,0 +1,90 @@
+{
+    "pools": [
+      {
+        "name": "life_essence",
+        "conditions": [{ "condition": "botania:killed_by_player" }],
+        "rolls": 1,
+        "entries": [{
+          "type": "item",
+          "name": "botania:life_essence",
+          "functions": [
+            { "function": "set_count", "count": 6 },
+            {
+              "function": "set_count",
+              "count": 8,
+              "conditions": [{ "condition": "botania:true_guardian_killer" }]
+            }
+          ]
+        }]
+      },
+      {
+        "name": "black_lotuses",
+        "conditions": [
+          { "condition": "botania:killed_by_player" },
+          { "condition": "random_chance", "chance": 0.5 }
+        ],
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "botania:gaia_guardian/lotuses"
+          }
+        ]
+      },
+      {
+        "name": "overgrowth_seeds",
+        "conditions": [
+          { "condition": "botania:killed_by_player" },
+          { "condition": "random_chance", "chance": 0.25 }
+        ],
+        "rolls": 1,
+        "entries": [{
+          "type": "item",
+          "name": "botania:overgrowth_seed",
+          "functions": [{ "function": "set_count", "count": { "min": 1, "max": 3 } }]
+        }]
+      },
+      {
+        "name": "materials",
+        "conditions": [{ "condition": "botania:killed_by_player" }],
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "botania:gaia_guardian/materials"
+          }
+        ]
+      },
+      {
+        "name": "runes",
+        "conditions": [{ "condition": "botania:killed_by_player" }],
+        "rolls": { "min": 1, "max": 3 },
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "botania:gaia_guardian/runes"
+          }
+        ]
+      },
+      {
+        "name": "music_discs",
+        "conditions": [
+          { "condition": "botania:killed_by_player" },
+          { "condition": "random_chance", "chance": 0.44 }
+        ],
+        "rolls": 1,
+        "entries": [
+          {
+            "weight": 11,
+            "type": "item",
+            "name": "botania:record_gaia_2"
+          },
+          {
+            "weight": 11,
+            "type": "item",
+            "name": "minecraft:music_disc_11"
+          }
+        ]
+      }
+    ]
+  }

@@ -45,7 +45,7 @@
       "minValue": 14,
       "maxValue": 28,
       "lore": "yes",
-      "effectText": "+50% Cooldown Reduction, applied on top of regular Cooldown Reduction and surpasses caps",
+      "effectText": "Halves any ability cooldown",
       "color": 4029393
     },
     "CARAPACE": {

@@ -62,8 +62,8 @@ onEvent('recipes', event => {
     })
 
     event.shaped('1x create:andesite_alloy', [
-        '   ',
-        'AGA',
+        'AG ',
+        'GA ',
         '   '
     ], {
         A: 'minecraft:andesite',
@@ -378,6 +378,7 @@ onEvent('recipes', event => {
         
     event.recipes.createMixing('1x the_vault:vaulterite_ingot', ['3x the_vault:vault_scrap', '1x netherite_scrap', '1x the_vault:gem_painite'])
     event.recipes.createMixing('1x the_vault:red_vault_essence', ['1x the_vault:vault_essence', '1x the_vault:perfect_painite'])
+    event.recipes.createMixing('2x create:andesite_alloy', ['1x #the_vault:commongems', '2x minecraft:andesite'])
 
     vaultApples.forEach(vaultApples =>{
         event.recipes.createCrushing(['1x the_vault:vault_apple'], 'the_vault:'+vaultApples)
