@@ -687,6 +687,34 @@ onEvent('recipes', event => {
         ]     
     })
 
+    event.custom({
+      "type": "botania:terra_plate",
+      "mana": 5000000, // 5 mana pools LOL
+      "ingredients": [
+        {
+          "item": "botania:gaia_ingot"
+        },
+        {
+          "item": "botania:lens_normal"
+        },
+        {
+          "item": "botania:blacker_lotus"
+        },
+        {
+          "item": "botania:temperance_stone"
+        },
+        {
+          "item": "botania:aura_ring_greater"
+        },
+        {
+        "item": "kubejs:weaker_omega_pog"
+        }
+  ],
+  "result": {
+    "item": "botania:thor_ring"
+  }
+  })
+
     event.shapeless('1x botania:magnet_ring_greater', ['botania:magnet_ring', 'the_vault:vault_magnet_omega', 'the_vault:gem_pog'])
     event.shapeless('1x botania:glimmering_livingwood', ['#botania:livingwood', 'the_vault:vault_dust'])
 })
