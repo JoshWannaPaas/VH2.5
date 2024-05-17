@@ -9,4 +9,7 @@ onEvent('item.registry', event => {
 	event.create('the_vault:extraordinary_painite').displayName('Extraordinary Painite Gem')
 	event.create('the_vault:extraordinary_black_opal').displayName('Extraordinary Black Opal Gem')
 	event.create('the_vault:extraordinary_echo_gem').displayName('Extraordinary Echo Gem')
+
+	event.create('evil_omega_pog').displayName('Corrupted Omega POG')
+	event.create('weaker_omega_pog').displayName('Weaker Omega POG')
 })
