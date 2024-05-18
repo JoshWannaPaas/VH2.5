@@ -363,7 +363,8 @@
     },
     {
       "modIds": [
-        "easy_villagers"
+        "easy_villagers",
+        "easy_piglins"
       ],
       "restrictions": {
         "restricts": {
@@ -374,8 +375,8 @@
           "ENTITY_INTERACTABILITY": false
         }
       },
-      "name": "Easy Villagers",
-      "cost": 3,
+      "name": "Easy Villagers & Easy Piglins",
+      "cost": 4,
       "usesKnowledge": true
     },
     {

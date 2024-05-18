@@ -197,6 +197,7 @@ onEvent('recipes', event => {
     event.remove({output: 'easy_villagers:converter'})
     event.remove({output: 'easy_villagers:iron_farm'})
     event.remove({output: 'easy_villagers:auto_trader'})
+    event.remove({output: 'easy_piglins:barterer'})
 
     event.remove({output: 'mekanism:steel_casing'})
     event.remove({output: 'mekanism:jetpack'})
