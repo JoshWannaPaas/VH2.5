@@ -834,55 +834,6 @@
     },
     {
       "itemRestrictions": {
-        "the_vault:sword": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:axe": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:dagger": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:helmet": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:boots": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:leggings": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:chestplate": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
         "the_vault:vault_magnet_omega": {
           "restricts": {
             "HITTABILITY": false,
