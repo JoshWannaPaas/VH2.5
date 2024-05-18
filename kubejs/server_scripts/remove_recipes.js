@@ -478,6 +478,7 @@ onEvent('recipes', event => {
     event.remove({output: 'the_vault:magnet_core_weak'})
     event.remove({output: 'the_vault:vault_magnet_weak'})
     event.remove({output: 'the_vault:vault_altar'})
+    event.remove({output: 'the_vault:vault_scrap'})
     event.remove({output: 'the_vault:pandoras_box'})
     event.remove({id: 'the_vault:reset_flask_ninja'})
     event.remove({id: 'the_vault:reset_flask_carapace'})

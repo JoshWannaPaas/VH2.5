@@ -3,6 +3,7 @@ for Vault Hunters 2.5 */
 
 let gemTypes = ['larimar', 'benitoite', 'wutodie', 'alexandrite', 'painite', 'black_opal']
 let plankTypes = ['acacia', 'birch', 'crimson', 'dark_oak', 'jungle', 'oak', 'spruce', 'warped']
+let vaultGear = ['the_vault:sword', 'the_vault:axe', 'the_vault:helmet', 'the_vault:chestplate', 'the_vault:leggings', 'the_vault:boots', 'the_vault:idol_benevolent', 'the_vault:idol_omniscient', 'the_vault:idol_timekeeper', 'the_vault:idol_malevolence']
 
 // starting items
 
@@ -105,5 +106,9 @@ onEvent('recipes', event => {
 
     plankTypes.forEach(plankTypes => {
         event.shapeless(`9x architects_palette:${plankTypes}_boards`, [`9x minecraft:${plankTypes}_planks`])
+    })
+
+    vaultGear.forEach(vaultGear => {
+        event.blasting('the_vault:vault_scrap', vaultGear, 1.0, 300)
     })
 })
