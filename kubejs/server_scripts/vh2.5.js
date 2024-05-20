@@ -86,6 +86,15 @@ onEvent('recipes', event => {
         D: 'the_vault:vault_diamond'
     })
 
+    event.shaped('the_vault:artisan_scroll', [
+        '   ',
+        'SAS',
+        '   '
+    ], {
+        S: 'the_vault:artisan_scroll',
+        A: 'the_vault:perfect_alexandrite'
+    })
+
 
     event.shapeless('4x the_vault:perfect_echo_gem', ['the_vault:extraordinary_echo_gem']),
     event.shapeless('4x the_vault:gem_echo', ['the_vault:perfect_echo_gem'])
