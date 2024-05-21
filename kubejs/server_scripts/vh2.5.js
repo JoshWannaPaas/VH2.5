@@ -15,6 +15,16 @@ onEvent('player.logged_in', event => {
     }
 })
 
+onEvent('block.right_click', event =>{
+    if(event.block.id == 'the_vault:floating_text' && event.player.world.isOverworld()) {
+        var bx = event.block.getX()
+        var by = event.block.getY()
+        var bz = event.block.getZ()
+
+        event.server.runCommandSilent(`setblock ${bx} ${by} ${bz} air`)
+    }
+})
+
 onEvent('recipes', event => {
 
     event.shaped(Item.of('the_vault:vault_paxel', '{Damage:0,ShouldEnhance:0b,Enhancement:{Id:"the_vault:fortunate"},display:{Name:\'["",{"text":"Fortunate Paxel","italic":false,"color":"#ffb31a","bold":true}]\'}}') , [
