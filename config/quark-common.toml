@@ -270,7 +270,7 @@
 		#Amount of blocks placed is this value + 1.
 		#Set to 0 to make the Trowel unbreakable
 		#Allowed values: [0,)
-		"Trowel Max Durability" = 255
+		"Trowel Max Durability" = 0
 
 	[tools.bottled_cloud]
 		"Cloud Level Top" = 132
@@ -281,20 +281,20 @@
 		"Underwater Ruin Weight" = 0
 		"Normal Upgrade Cost" = 10
 		#Set to 0 to not generate in Woodland Mansions
-		"Woodland Mansion Weight" = 15
+		"Woodland Mansion Weight" = 0
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
 		"Item Quality" = 2
 		#Set to 0 to not generate in Dungeons
-		"Dungeon Weight" = 1
+		"Dungeon Weight" = 0
 		"Limit Break Upgrade Cost" = 30
 		#Set to 0 to not generate in Stronghold Libraries
-		"Library Weight" = 30
+		"Library Weight" = 0
 		#Set to 0 to not generate in Nether Fortresses
 		"Nether Fortress Weight" = 0
 		#Set to 0 to not generate in Monster Boxes
-		"Monster Box Weight" = 5
+		"Monster Box Weight" = 0
 		#Set to 0 to not generate in Bastions
-		"Bastion Weight" = 25
+		"Bastion Weight" = 0
 
 	[tools.pathfinder_maps]
 		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.
