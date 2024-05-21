@@ -7,10 +7,10 @@
           "ATTACK_DAMAGE": {
             "pools": [
               {
-                "base": 6.0,
+                "base": 7.0,
                 "rolls": {
                 "type": "binomial",
-                "trials": 10,
+                "trials": 6,
                 "probability": 0.5
                 },
                 "entries": [
