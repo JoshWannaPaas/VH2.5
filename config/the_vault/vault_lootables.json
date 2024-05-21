@@ -42,6 +42,10 @@
         "weight": 128
       },
       {
+        "value": "the_vault:ore_vault_rock",
+        "weight": 128
+      },
+      {
         "value": "the_vault:ore_benitoite",
         "weight": 120
       },
