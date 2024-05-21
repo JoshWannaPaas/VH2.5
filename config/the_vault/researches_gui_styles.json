@@ -330,6 +330,13 @@
       "u": 16,
       "v": 96
     },
+    "Sophisticated Backpacks": {
+      "x": 200,
+      "y": 80,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 175
+    },
     "Jetpacks": {
       "x": 250,
       "y": 40,

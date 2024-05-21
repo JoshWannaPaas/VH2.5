@@ -19,8 +19,6 @@
     "VaultUtils": {
       "title": "Utilities",
       "research": [
-        "Building Gadgets",
-        "Botania",
         "Powerful Arrows",
         "Vault Blacksmith",
         "Vault Powerups"
@@ -59,7 +57,8 @@
         "Immersive Engineering",
         "Engineers Decor",
         "Iron Furnaces",
-        "Automatic Genius"
+        "Automatic Genius",
+        "Botania"
       ],
       "globalCostIncrease": 0.5,
       "groupCostIncrease": {
@@ -91,6 +90,7 @@
         "Waystones",
         "Torch Master",
         "Trashcans",
+        "Building Gadgets",
         "RFTools Utility",
         "Dimensional Storage",
         "Modular Routers"
@@ -108,7 +108,8 @@
         "Vault Looter",
         "Extendo Arm",
         "Jetpacks",
-        "Botania Trinkets"
+        "Botania Trinkets",
+        "Sophisticated Backpacks"
       ],
       "globalCostIncrease": 0.5,
       "groupCostIncrease": {

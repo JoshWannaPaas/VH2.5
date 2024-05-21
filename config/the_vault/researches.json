@@ -66,7 +66,24 @@
         }
       },
       "name": "Danks",
-      "cost": 2,
+      "cost": 3,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "sophisticatedbackpacks"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "Sophisticated Backpacks",
+      "cost": 10,
       "usesKnowledge": true
     },
     {
