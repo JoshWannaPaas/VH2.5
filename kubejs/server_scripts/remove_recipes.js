@@ -485,6 +485,7 @@ onEvent('recipes', event => {
     event.remove({mod: 'byg', type: 'minecraft:smithing'})
     event.remove({mod: 'dankstorage'})
     event.remove({mod: 'simplybackpacks'})
+    event.remove({mod: 'sophisticatedbackpacks'}) 
     
 
     armorPieces.forEach(armorPieces =>{
