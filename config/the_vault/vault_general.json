@@ -104,7 +104,8 @@
 	  "buildinggadgets:gadget_copy_paste",
 	  "buildinggadgets:gadget_destruction",
 	  "mekanism:teleporter_frame",
-	  "refinedstorage:portable_grid"
+	  "refinedstorage:portable_grid",
+	  "botania:mana_bottle"
 	],
 	"BLOCK_BLACKLIST": [
 	  "refinedstorage:portable_grid",
@@ -223,7 +224,8 @@
 	  "rftoolsstorage:storage_scanner",
 	  "rftoolsstorage:dimensional_tablet",
 	  "mekanism:portable_qio_dashboard",
-	  "mekanism:quantum_entangloporter"
+	  "mekanism:quantum_entangloporter",
+	  "mekanism:pigment_extractor"
 	],
 	"VAULT_EXIT_TNL_MIN": 0.5,
 	"VAULT_EXIT_TNL_MAX": 1.0,
