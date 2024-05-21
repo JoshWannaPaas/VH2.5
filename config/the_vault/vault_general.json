@@ -105,7 +105,8 @@
 	  "buildinggadgets:gadget_destruction",
 	  "mekanism:teleporter_frame",
 	  "refinedstorage:portable_grid",
-	  "botania:mana_bottle"
+	  "botania:mana_bottle",
+	  "mekanism:pigment_extractor"
 	],
 	"BLOCK_BLACKLIST": [
 	  "refinedstorage:portable_grid",
