@@ -154,19 +154,9 @@ onEvent('recipes', event => {
     ], {
         B: 'botania:terrasteel_block',
         M: 'botania:mana_tablet',
-        G: 'botania:gaia_ingot',
+        G: 'botania:terrasteel_ingot',
         E: 'the_vault:echo_pog',
         D: 'botania:dreamwood_twig'
-    })
-
-    event.shaped('1x botania:gaia_ingot', [
-        'BGB',
-        'GTG',
-        'BGB'
-    ], {
-        B: 'the_vault:extraordinary_black_opal',
-        G: 'botania:life_essence',
-        T: 'botania:terrasteel_ingot'
     })
 
     event.shaped('1x botania:magnet_ring', [
@@ -685,6 +675,96 @@ onEvent('recipes', event => {
           {"tag": "botania:runes/winter"},
           {"tag": "botania:runes/earth"}
         ]     
+    })
+
+    event.custom({
+      "type": "botania:terra_plate",
+      "mana": 5000000, // 5 mana pools
+      "ingredients": [
+        {
+          "item": "botania:gaia_ingot"
+        },
+        {
+          "item": "botania:lens_normal"
+        },
+        {
+          "item": "botania:blacker_lotus"
+        },
+        {
+          "item": "botania:temperance_stone"
+        },
+        {
+          "item": "botania:aura_ring_greater"
+        },
+        {
+        "item": "kubejs:weaker_omega_pog"
+        }
+      ],
+      "result": {
+        "item": "botania:thor_ring"
+      }
+    })
+
+    event.custom({
+      "type": "botania:terra_plate",
+      "mana": 1000000, // 1 mana pool
+      "ingredients": [
+        {
+          "item": "botania:mana_cookie"
+        },
+        {
+          "item": "botania:mana_cookie"
+        },
+        {
+          "item": "botania:mana_cookie"
+        },
+        {
+          "item": "botania:mana_cookie"
+        },
+        {
+          "item": "botania:gaia_ingot"
+        },
+        {
+          "item": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "item": "the_vault:gem_pog"
+        },
+        {
+        "item": "the_vault:gem_pog"
+        }
+      ],
+        "result": {
+          "item": "botania:infinite_fruit"
+      }
+    })
+
+    event.custom({
+      "type": "botania:terra_plate",
+      "mana": 1000000, // 1 mana pool
+      "ingredients": [
+        {
+          "item": "botania:life_essence"
+        },
+        {
+          "item": "botania:life_essence"
+        },
+        {
+          "item": "the_vault:extraordinary_echo_gem"
+        },
+        {
+          "item": "botania:life_essence"
+        },
+        {
+          "item": "botania:life_essence"
+        },
+        {
+          "item": "botania:terrasteel_ingot"
+        }
+      ],
+        "result": {
+          "item": "botania:gaia_ingot"
+      }
     })
 
     event.shapeless('1x botania:magnet_ring_greater', ['botania:magnet_ring', 'the_vault:vault_magnet_omega', 'the_vault:gem_pog'])

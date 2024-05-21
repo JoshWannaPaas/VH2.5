@@ -59,6 +59,12 @@
       "levelNeeded": 1000,
       "prefix": "Enigmatic",
       "colorHex": "#082567"
+    },
+    {
+      "extraLevel": 15,
+      "levelNeeded": 5000,
+      "prefix": "\"You evil being\"",
+      "colorHex": "#fffff"
     }
   ]
 }

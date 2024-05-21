@@ -1057,14 +1057,28 @@
               "tier": 0,
               "rarity": "Scrappy+"
             },
-            "weight": 1
+            "weight": 4
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy"
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
             },
             "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 1
           }
         ]
       },
@@ -1073,21 +1087,21 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy"
-            },
-            "weight": 2
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Scrappy+"
+              "rarity": "Common+"
             },
             "weight": 4
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Common+"
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
             },
             "weight": 1
           }
@@ -1098,14 +1112,14 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
+              "rarity": "Rare+"
             },
-            "weight": 3
+            "weight": 8
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Common+"
+              "rarity": "Epic+"
             },
             "weight": 1
           }
@@ -1116,21 +1130,21 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
-            },
-            "weight": 3
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Common+"
-            },
-            "weight": 3
-          },
-          {
-            "value": {
-              "tier": 0,
               "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
             },
             "weight": 1
           }
@@ -1141,28 +1155,14 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
-            },
-            "weight": 1
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Common+"
+              "rarity": "Epic+"
             },
             "weight": 4
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Rare+"
-            },
-            "weight": 2
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Epic+"
+              "rarity": "Omega"
             },
             "weight": 1
           },
@@ -1170,6 +1170,20 @@
             "value": {
               "tier": 1,
               "rarity": "Scrappy+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
             },
             "weight": 1
           }
@@ -1180,35 +1194,42 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Common+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Rare+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 0,
               "rarity": "Epic+"
             },
-            "weight": 3
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 1
           },
           {
             "value": {
               "tier": 1,
               "rarity": "Scrappy+"
             },
-            "weight": 2
+            "weight": 6
           },
           {
             "value": {
               "tier": 1,
               "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
             },
             "weight": 1
           }
@@ -1219,37 +1240,37 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Rare+"
+              "rarity": "Omega"
             },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Epic+"
-            },
-            "weight": 4
+            "weight": 1
           },
           {
             "value": {
               "tier": 1,
               "rarity": "Scrappy+"
             },
-            "weight": 3
+            "weight": 6
           },
           {
             "value": {
               "tier": 1,
               "rarity": "Common+"
             },
-            "weight": 2
+            "weight": 6
           },
           {
             "value": {
               "tier": 1,
               "rarity": "Rare+"
             },
-            "weight": 1
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 2
           }
         ]
       },
@@ -1257,22 +1278,8 @@
         "outcomes": [
           {
             "value": {
-              "tier": 0,
-              "rarity": "Rare+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Epic+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
               "tier": 1,
-              "rarity": "Rare+"
+              "rarity": "Scrappy+"
             },
             "weight": 4
           },
@@ -1281,12 +1288,19 @@
               "tier": 1,
               "rarity": "Common+"
             },
-            "weight": 8
+            "weight": 6
           },
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
             },
             "weight": 2
           }
@@ -1299,14 +1313,7 @@
               "tier": 1,
               "rarity": "Common+"
             },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Epic+"
-            },
-            "weight": 4
+            "weight": 6
           },
           {
             "value": {
@@ -1318,39 +1325,40 @@
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Epic+"
             },
             "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 1
           }
         ]
       },
       {  "level": 225,
         "outcomes": [
+
           {
             "value": {
               "tier": 1,
-              "rarity": "Common+"
+              "rarity": "Rare+"
             },
-            "weight": 8
+            "weight": 6
           },
           {
             "value": {
               "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 1
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Rare+"
-            },
             "weight": 4
           },
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Omega"
             },
             "weight": 2
           }
@@ -1363,35 +1371,28 @@
               "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 24
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Rare+"
-            },
-            "weight": 8
+            "weight": 12
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Scrappy+"
             },
-            "weight": 2
+            "weight": 8
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 1
+            "weight": 4
           },
           {
             "value": {
               "tier": 2,
-              "rarity": "Scrappy"
+              "rarity": "Rare+"
             },
-            "weight": 8
+            "weight": 2
           }
         ]
       },
@@ -1402,33 +1403,26 @@
               "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 24
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Rare+"
-            },
-            "weight": 2
+            "weight": 10
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Scrappy+"
             },
-            "weight": 6
+            "weight": 8
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 2
+            "weight": 4
           },
           {
             "value": {
               "tier": 2,
-              "rarity": "Scrappy"
+              "rarity": "Rare+"
             },
             "weight": 2
           }
@@ -1441,85 +1435,21 @@
               "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 24
+            "weight": 8
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Scrappy+"
-            },
-            "weight": 12
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Common+"
             },
             "weight": 8
           },
           {
             "value": {
               "tier": 2,
-              "rarity": "Rare+"
-            },
-            "weight": 1
-          }
-        ]
-      },
-      {  "level": 280,
-        "outcomes": [
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 20
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 12
-          },
-          {
-            "value": {
-              "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 20
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Rare+"
-            },
-            "weight": 3
-          }
-        ]
-      },
-      {  "level": 290,
-        "outcomes": [
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 14
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 12
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Common+"
-            },
-            "weight": 20
+            "weight": 6
           },
           {
             "value": {
@@ -1527,6 +1457,84 @@
               "rarity": "Rare+"
             },
             "weight": 4
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 280,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 290,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
+            },
+            "weight": 2
           }
         ]
       },
@@ -1534,38 +1542,24 @@
         "outcomes": [
           {
             "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 16
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Common+"
-            },
-            "weight": 40
-          },
-          {
-            "value": {
               "tier": 2,
               "rarity": "Rare+"
             },
-            "weight": 16
+            "weight": 6
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Epic+"
             },
-            "weight": 1
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
+            },
+            "weight": 2
           }
         ]
       }
@@ -1576,16 +1570,16 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
+              "rarity": "Rare+"
             },
-            "weight": 1
+            "weight": 8
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy"
+              "rarity": "Epic+"
             },
-            "weight": 8
+            "weight": 4
           }
         ]
       },
@@ -1594,21 +1588,21 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy"
+              "rarity": "Rare+"
             },
-            "weight": 2
+            "weight": 8
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
+              "rarity": "Epic+"
             },
             "weight": 4
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Common+"
+              "rarity": "Omega"
             },
             "weight": 1
           }
@@ -1619,14 +1613,21 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
+              "rarity": "Rare+"
             },
-            "weight": 3
+            "weight": 6
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Common+"
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
             },
             "weight": 1
           }
@@ -1637,21 +1638,21 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
-            },
-            "weight": 3
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Common+"
-            },
-            "weight": 3
-          },
-          {
-            "value": {
-              "tier": 0,
               "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
             },
             "weight": 1
           }
@@ -1662,37 +1663,30 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
-            },
-            "weight": 1
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Common+"
+              "rarity": "Epic+"
             },
             "weight": 4
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Rare+"
-            },
-            "weight": 2
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Epic+"
+              "rarity": "Omega"
             },
             "weight": 1
           },
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Rare+"
             },
-            "weight": 1
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 2
           }
         ]
       },
@@ -1701,37 +1695,30 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Common+"
+              "rarity": "Epic+"
             },
-            "weight": 4
+            "weight": 2
           },
           {
             "value": {
               "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
               "rarity": "Rare+"
             },
             "weight": 8
           },
           {
             "value": {
-              "tier": 0,
+              "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 3
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Scrappy+"
-            },
-            "weight": 2
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Common+"
-            },
-            "weight": 1
+            "weight": 4
           }
         ]
       },
@@ -1740,13 +1727,20 @@
           {
             "value": {
               "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
               "rarity": "Rare+"
             },
             "weight": 8
           },
           {
             "value": {
-              "tier": 0,
+              "tier": 1,
               "rarity": "Epic+"
             },
             "weight": 4
@@ -1754,23 +1748,9 @@
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
-            },
-            "weight": 3
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Common+"
+              "rarity": "Omega"
             },
             "weight": 2
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Rare+"
-            },
-            "weight": 1
           }
         ]
       },
@@ -1778,14 +1758,14 @@
         "outcomes": [
           {
             "value": {
-              "tier": 0,
+              "tier": 1,
               "rarity": "Rare+"
             },
             "weight": 8
           },
           {
             "value": {
-              "tier": 0,
+              "tier": 1,
               "rarity": "Epic+"
             },
             "weight": 4
@@ -1793,21 +1773,7 @@
           {
             "value": {
               "tier": 1,
-              "rarity": "Rare+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Common+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Omega"
             },
             "weight": 2
           }
@@ -1818,13 +1784,13 @@
           {
             "value": {
               "tier": 1,
-              "rarity": "Common+"
+              "rarity": "Rare+"
             },
-            "weight": 8
+            "weight": 6
           },
           {
             "value": {
-              "tier": 0,
+              "tier": 1,
               "rarity": "Epic+"
             },
             "weight": 4
@@ -1832,14 +1798,7 @@
           {
             "value": {
               "tier": 1,
-              "rarity": "Rare+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Omega"
             },
             "weight": 2
           }
@@ -1850,20 +1809,6 @@
           {
             "value": {
               "tier": 1,
-              "rarity": "Common+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 1
-          },
-          {
-            "value": {
-              "tier": 1,
               "rarity": "Rare+"
             },
             "weight": 4
@@ -1871,7 +1816,14 @@
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Epic+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
             },
             "weight": 2
           }
@@ -1884,11 +1836,18 @@
               "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 24
+            "weight": 4
           },
           {
             "value": {
               "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
               "rarity": "Rare+"
             },
             "weight": 8
@@ -1896,23 +1855,16 @@
           {
             "value": {
               "tier": 2,
-              "rarity": "Scrappy+"
+              "rarity": "Epic+"
             },
-            "weight": 2
+            "weight": 4
           },
           {
             "value": {
               "tier": 2,
-              "rarity": "Common+"
+              "rarity": "Omega"
             },
             "weight": 1
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy"
-            },
-            "weight": 8
           }
         ]
       },
@@ -1923,35 +1875,35 @@
               "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 24
+            "weight": 2
           },
           {
             "value": {
               "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 2,
               "rarity": "Rare+"
             },
-            "weight": 2
+            "weight": 8
           },
           {
             "value": {
               "tier": 2,
-              "rarity": "Scrappy+"
+              "rarity": "Epic+"
             },
-            "weight": 6
+            "weight": 4
           },
           {
             "value": {
               "tier": 2,
-              "rarity": "Common+"
+              "rarity": "Omega"
             },
-            "weight": 2
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy"
-            },
-            "weight": 2
+            "weight": 1
           }
         ]
       },
@@ -1960,28 +1912,28 @@
           {
             "value": {
               "tier": 1,
-              "rarity": "Epic+"
+              "rarity": "Omega"
             },
-            "weight": 24
+            "weight": 1
           },
           {
             "value": {
               "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 12
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Common+"
+              "rarity": "Rare+"
             },
             "weight": 8
           },
           {
             "value": {
               "tier": 2,
-              "rarity": "Rare+"
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
             },
             "weight": 1
           }
@@ -1991,31 +1943,24 @@
         "outcomes": [
           {
             "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 20
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 12
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Common+"
-            },
-            "weight": 20
-          },
-          {
-            "value": {
               "tier": 2,
               "rarity": "Rare+"
             },
-            "weight": 3
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
+            },
+            "weight": 1
           }
         ]
       },
@@ -2023,31 +1968,24 @@
         "outcomes": [
           {
             "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 14
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 12
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Common+"
-            },
-            "weight": 20
-          },
-          {
-            "value": {
               "tier": 2,
               "rarity": "Rare+"
             },
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
             "weight": 4
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
+            },
+            "weight": 1
           }
         ]
       },
@@ -2055,36 +1993,15 @@
         "outcomes": [
           {
             "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 16
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Common+"
-            },
-            "weight": 40
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Rare+"
-            },
-            "weight": 16
-          },
-          {
-            "value": {
               "tier": 2,
               "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
             },
             "weight": 1
           }
@@ -2097,16 +2014,16 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
+              "rarity": "Common+"
             },
-            "weight": 1
+            "weight": 8
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy"
+              "rarity": "Rare+"
             },
-            "weight": 8
+            "weight": 2
           }
         ]
       },
@@ -2115,23 +2032,16 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy"
-            },
-            "weight": 2
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Scrappy+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
-              "tier": 0,
               "rarity": "Common+"
             },
-            "weight": 1
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 2
           }
         ]
       },
@@ -2140,16 +2050,16 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
+              "rarity": "Common+"
             },
-            "weight": 3
+            "weight": 4
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Common+"
+              "rarity": "Rare+"
             },
-            "weight": 1
+            "weight": 2
           }
         ]
       },
@@ -2158,21 +2068,21 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
-            },
-            "weight": 3
-          },
-          {
-            "value": {
-              "tier": 0,
               "rarity": "Common+"
             },
-            "weight": 3
+            "weight": 8
           },
           {
             "value": {
               "tier": 0,
               "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
             },
             "weight": 1
           }
@@ -2183,20 +2093,6 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
-            },
-            "weight": 1
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Common+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
-              "tier": 0,
               "rarity": "Rare+"
             },
             "weight": 2
@@ -2211,9 +2107,9 @@
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Common+"
             },
-            "weight": 1
+            "weight": 4
           }
         ]
       },
@@ -2222,28 +2118,7 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Common+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Rare+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 0,
               "rarity": "Epic+"
-            },
-            "weight": 3
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Scrappy+"
             },
             "weight": 2
           },
@@ -2252,7 +2127,14 @@
               "tier": 1,
               "rarity": "Common+"
             },
-            "weight": 1
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
           }
         ]
       },
@@ -2261,35 +2143,28 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Rare+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 0,
               "rarity": "Epic+"
             },
-            "weight": 4
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Scrappy+"
-            },
-            "weight": 3
+            "weight": 1
           },
           {
             "value": {
               "tier": 1,
               "rarity": "Common+"
             },
-            "weight": 2
+            "weight": 6
           },
           {
             "value": {
               "tier": 1,
               "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
             },
             "weight": 1
           }
@@ -2299,38 +2174,24 @@
         "outcomes": [
           {
             "value": {
-              "tier": 0,
-              "rarity": "Rare+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Epic+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Rare+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
               "tier": 1,
               "rarity": "Common+"
             },
-            "weight": 8
+            "weight": 6
           },
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Rare+"
             },
-            "weight": 2
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 1
           }
         ]
       },
@@ -2341,13 +2202,6 @@
               "tier": 1,
               "rarity": "Common+"
             },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Epic+"
-            },
             "weight": 4
           },
           {
@@ -2355,14 +2209,14 @@
               "tier": 1,
               "rarity": "Rare+"
             },
-            "weight": 4
+            "weight": 2
           },
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Epic+"
             },
-            "weight": 2
+            "weight": 1
           }
         ]
       },
@@ -2373,14 +2227,7 @@
               "tier": 1,
               "rarity": "Common+"
             },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 1
+            "weight": 4
           },
           {
             "value": {
@@ -2392,7 +2239,7 @@
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Epic+"
             },
             "weight": 2
           }
@@ -2405,35 +2252,14 @@
               "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 24
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Rare+"
-            },
             "weight": 8
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 2
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 1
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy"
-            },
-            "weight": 8
+            "weight": 4
           }
         ]
       },
@@ -2444,33 +2270,19 @@
               "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 24
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Rare+"
-            },
-            "weight": 2
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 6
+            "weight": 8
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 2
+            "weight": 4
           },
           {
             "value": {
               "tier": 2,
-              "rarity": "Scrappy"
+              "rarity": "Rare+"
             },
             "weight": 2
           }
@@ -2483,28 +2295,21 @@
               "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 24
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 12
+            "weight": 4
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 8
+            "weight": 6
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Rare+"
             },
-            "weight": 1
+            "weight": 2
           }
         ]
       },
@@ -2515,53 +2320,14 @@
               "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 20
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 12
+            "weight": 2
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 20
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Rare+"
-            },
-            "weight": 3
-          }
-        ]
-      },
-      {  "level": 290,
-        "outcomes": [
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 14
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 12
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Common+"
-            },
-            "weight": 20
+            "weight": 6
           },
           {
             "value": {
@@ -2569,6 +2335,38 @@
               "rarity": "Rare+"
             },
             "weight": 4
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 290,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 2
           }
         ]
       },
@@ -2576,38 +2374,24 @@
         "outcomes": [
           {
             "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 16
-          },
-          {
-            "value": {
               "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 40
+            "weight": 4
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Rare+"
             },
-            "weight": 16
+            "weight": 6
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Epic+"
             },
-            "weight": 1
+            "weight": 2
           }
         ]
       }
@@ -2976,14 +2760,21 @@
               "tier": 0,
               "rarity": "Scrappy+"
             },
-            "weight": 1
+            "weight": 4
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy"
+              "rarity": "Common+"
             },
-            "weight": 8
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 1
           }
         ]
       },
@@ -2992,23 +2783,23 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy"
+              "rarity": "Scrappy+"
             },
             "weight": 2
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
+              "rarity": "Common+"
             },
             "weight": 4
           },
           {
             "value": {
               "tier": 0,
-              "rarity": "Common+"
+              "rarity": "Rare+"
             },
-            "weight": 1
+            "weight": 2
           }
         ]
       },
@@ -3019,14 +2810,21 @@
               "tier": 0,
               "rarity": "Scrappy+"
             },
-            "weight": 3
+            "weight": 1
           },
           {
             "value": {
               "tier": 0,
               "rarity": "Common+"
             },
-            "weight": 1
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 2
           }
         ]
       },
@@ -3035,21 +2833,21 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
-            },
-            "weight": 3
-          },
-          {
-            "value": {
-              "tier": 0,
               "rarity": "Common+"
             },
-            "weight": 3
+            "weight": 4
           },
           {
             "value": {
               "tier": 0,
               "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
             },
             "weight": 1
           }
@@ -3060,20 +2858,6 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Scrappy+"
-            },
-            "weight": 1
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Common+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
-              "tier": 0,
               "rarity": "Rare+"
             },
             "weight": 2
@@ -3089,6 +2873,20 @@
             "value": {
               "tier": 1,
               "rarity": "Scrappy+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
             },
             "weight": 1
           }
@@ -3099,35 +2897,28 @@
           {
             "value": {
               "tier": 0,
-              "rarity": "Common+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Rare+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 0,
               "rarity": "Epic+"
             },
-            "weight": 3
+            "weight": 1
           },
           {
             "value": {
               "tier": 1,
               "rarity": "Scrappy+"
             },
-            "weight": 2
+            "weight": 4
           },
           {
             "value": {
               "tier": 1,
               "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
             },
             "weight": 1
           }
@@ -3137,24 +2928,10 @@
         "outcomes": [
           {
             "value": {
-              "tier": 0,
-              "rarity": "Rare+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Epic+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
               "tier": 1,
               "rarity": "Scrappy+"
             },
-            "weight": 3
+            "weight": 4
           },
           {
             "value": {
@@ -3176,36 +2953,22 @@
         "outcomes": [
           {
             "value": {
-              "tier": 0,
-              "rarity": "Rare+"
-            },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Epic+"
-            },
-            "weight": 4
-          },
-          {
-            "value": {
               "tier": 1,
-              "rarity": "Rare+"
+              "rarity": "Scrappy+"
             },
-            "weight": 4
+            "weight": 2
           },
           {
             "value": {
               "tier": 1,
               "rarity": "Common+"
             },
-            "weight": 8
+            "weight": 4
           },
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Rare+"
             },
             "weight": 2
           }
@@ -3218,13 +2981,6 @@
               "tier": 1,
               "rarity": "Common+"
             },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 0,
-              "rarity": "Epic+"
-            },
             "weight": 4
           },
           {
@@ -3232,14 +2988,14 @@
               "tier": 1,
               "rarity": "Rare+"
             },
-            "weight": 4
+            "weight": 2
           },
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Epic+"
             },
-            "weight": 2
+            "weight": 1
           }
         ]
       },
@@ -3250,14 +3006,7 @@
               "tier": 1,
               "rarity": "Common+"
             },
-            "weight": 8
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 1
+            "weight": 2
           },
           {
             "value": {
@@ -3269,7 +3018,7 @@
           {
             "value": {
               "tier": 1,
-              "rarity": "Scrappy+"
+              "rarity": "Epic+"
             },
             "weight": 2
           }
@@ -3282,35 +3031,28 @@
               "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 24
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Rare+"
-            },
-            "weight": 8
+            "weight": 2
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Scrappy+"
             },
-            "weight": 2
+            "weight": 4
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 1
+            "weight": 2
           },
           {
             "value": {
               "tier": 2,
-              "rarity": "Scrappy"
+              "rarity": "Rare+"
             },
-            "weight": 8
+            "weight": 1
           }
         ]
       },
@@ -3321,14 +3063,7 @@
               "tier": 1,
               "rarity": "Epic+"
             },
-            "weight": 24
-          },
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Rare+"
-            },
-            "weight": 2
+            "weight": 1
           },
           {
             "value": {
@@ -3342,12 +3077,12 @@
               "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 2
+            "weight": 4
           },
           {
             "value": {
               "tier": 2,
-              "rarity": "Scrappy"
+              "rarity": "Rare+"
             },
             "weight": 2
           }
@@ -3357,31 +3092,24 @@
         "outcomes": [
           {
             "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 24
-          },
-          {
-            "value": {
               "tier": 2,
               "rarity": "Scrappy+"
             },
-            "weight": 12
+            "weight": 6
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 8
+            "weight": 4
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Rare+"
             },
-            "weight": 1
+            "weight": 2
           }
         ]
       },
@@ -3389,56 +3117,17 @@
         "outcomes": [
           {
             "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 20
-          },
-          {
-            "value": {
               "tier": 2,
               "rarity": "Scrappy+"
             },
-            "weight": 12
+            "weight": 4
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 20
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Rare+"
-            },
-            "weight": 3
-          }
-        ]
-      },
-      {  "level": 290,
-        "outcomes": [
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 14
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Scrappy+"
-            },
-            "weight": 12
-          },
-          {
-            "value": {
-              "tier": 2,
-              "rarity": "Common+"
-            },
-            "weight": 20
+            "weight": 6
           },
           {
             "value": {
@@ -3449,35 +3138,53 @@
           }
         ]
       },
-      {  "level": 300,
+      {  "level": 290,
         "outcomes": [
-          {
-            "value": {
-              "tier": 1,
-              "rarity": "Epic+"
-            },
-            "weight": 8
-          },
           {
             "value": {
               "tier": 2,
               "rarity": "Scrappy+"
             },
-            "weight": 16
+            "weight": 4
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Common+"
             },
-            "weight": 40
+            "weight": 6
           },
           {
             "value": {
               "tier": 2,
               "rarity": "Rare+"
             },
-            "weight": 16
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 300,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 4
           },
           {
             "value": {

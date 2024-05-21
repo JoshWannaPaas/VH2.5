@@ -618,7 +618,7 @@
     },
     {
       "item": "the_vault:shard_pouch",
-      "value": "Required in inventory or Curio slot for soul shards to drop\nCan store unlimited amount of soul shards"
+      "value": "Picks up soul shards automatically \nCan store unlimited amount of soul shards"
     },
     {
       "item": "the_vault:vault_paxel",

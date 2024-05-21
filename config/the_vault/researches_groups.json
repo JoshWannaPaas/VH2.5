@@ -5,7 +5,7 @@
       "research": [
         "More Chests",
         "Pretty Pipes",
-        "RFTools Storage",
+        "IntegratedDynamics",
         "Refined Storage",
         "Applied Energistics",
         "Drawers",
@@ -33,7 +33,7 @@
     "Farming": {
       "title": "Farming",
       "research": [
-        "Easy Villagers",
+        "Easy Villagers & Easy Piglins",
         "SNAD",
         "Quarry",
         "Digital Miner",

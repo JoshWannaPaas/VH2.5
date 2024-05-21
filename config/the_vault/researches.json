@@ -176,7 +176,9 @@
     },
     {
       "modIds": [
-        "rftoolsstorage"
+        "integrateddynamics",
+        "integratedtunnels",
+        "integratedterminals"
       ],
       "restrictions": {
         "restricts": {
@@ -187,8 +189,8 @@
           "ENTITY_INTERACTABILITY": false
         }
       },
-      "name": "RFTools Storage",
-      "cost": 2,
+      "name": "IntegratedDynamics",
+      "cost": 10,
       "usesKnowledge": true
     },
     {
@@ -363,7 +365,8 @@
     },
     {
       "modIds": [
-        "easy_villagers"
+        "easy_villagers",
+        "easy_piglins"
       ],
       "restrictions": {
         "restricts": {
@@ -374,8 +377,8 @@
           "ENTITY_INTERACTABILITY": false
         }
       },
-      "name": "Easy Villagers",
-      "cost": 3,
+      "name": "Easy Villagers & Easy Piglins",
+      "cost": 4,
       "usesKnowledge": true
     },
     {
@@ -732,7 +735,7 @@
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Mekanism QIO",
-      "cost": 10,
+      "cost": 6,
       "usesKnowledge": true
     },
     {
@@ -831,55 +834,6 @@
     },
     {
       "itemRestrictions": {
-        "the_vault:sword": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:axe": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:dagger": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:helmet": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:boots": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:leggings": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:chestplate": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
         "the_vault:vault_magnet_omega": {
           "restricts": {
             "HITTABILITY": false,

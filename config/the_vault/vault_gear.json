@@ -176,7 +176,7 @@
       "POOL": [
         {
           "value": "SCRAPPY",
-          "weight": 128
+          "weight": 32
         },
         {
           "value": "COMMON",
@@ -193,7 +193,7 @@
       "POOL": [
         {
           "value": "COMMON",
-          "weight": 128
+          "weight": 32
         },
         {
           "value": "RARE",

@@ -70,4 +70,15 @@ onEvent('recipes', event => {
         I: 'compressium:iron_2',
         E: 'the_vault:echo_pog'
     })
+
+    event.shaped('1x easy_piglins:barterer', [
+        'BBB',
+        'BGB',
+        'IEI'
+    ], {
+        B: 'the_vault:perfect_benitoite',
+        G: 'compressium:gold_3',
+        I: 'compressium:iron_2',
+        E: 'the_vault:extraordinary_black_opal'
+    })
 })

@@ -40,54 +40,6 @@ onEvent('recipes', event => {
         M: 'rftoolsbase:machine_frame'
     })
 
-    event.shaped('1x rftoolsstorage:storage_module0', [
-        ' W ',
-        'GIG',
-        'QPQ'
-    ], {
-        W: '#forge:chests/wooden',
-        G: '#the_vault:perfectcommongems',
-        I: 'minecraft:iron_ingot',
-        Q: 'compressium:quartz_1',
-        P: 'the_vault:perfect_alexandrite'
-    })
-
-    event.shaped('1x rftoolsstorage:storage_module1', [
-        ' C ',
-        'WMW',
-        'QDQ'
-    ], {
-        Q: 'compressium:quartz_2',
-        D: 'the_vault:vault_diamond',
-        W: 'the_vault:perfect_wutodie',
-        M: 'rftoolsstorage:storage_module0',
-        C: '#forge:chests/wooden'
-    })
-
-    event.shaped('1x rftoolsstorage:storage_module2', [
-        ' C ',
-        'OMO',
-        'QDQ'
-    ], {
-        C: '#forge:chests/wooden',
-        O: 'the_vault:perfect_black_opal',
-        M: 'rftoolsstorage:storage_module1',
-        Q: 'compressium:quartz_3',
-        D: 'the_vault:vault_diamond_block',
-    })
-
-    event.shaped('1x rftoolsstorage:storage_module3', [
-        ' C ',
-        'EME',
-        'QPQ'
-    ], {
-        C: '#forge:chests/wooden',
-        E: 'the_vault:perfect_echo_gem',
-        M: 'rftoolsstorage:storage_module2',
-        Q: 'compressium:quartz_4',
-        P: 'the_vault:gem_pog'
-    })
-
     event.shaped('1x rftoolsutility:charged_porter', [
         'AWA',
         'WEW',
@@ -108,17 +60,6 @@ onEvent('recipes', event => {
         D: 'the_vault:vault_diamond_block',
         C: 'rftoolsutility:charged_porter',
         R: 'compressium:redstone_4'
-    })
-
-    event.shaped('1x rftoolsstorage:storage_scanner', [
-        'BGB',
-        'GMG',
-        'WGW'
-    ], {
-        B: 'the_vault:gem_black_opal',
-        G: '#the_vault:perfectcommongems',
-        M: 'rftoolsbase:machine_frame',
-        W: 'quark:ender_watcher'
     })
 
     event.shaped('1x rftoolsbuilder:shape_card_quarry', [

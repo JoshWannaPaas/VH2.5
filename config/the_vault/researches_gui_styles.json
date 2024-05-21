@@ -14,7 +14,7 @@
       "u": 0,
       "v": 32
     },
-    "RFTools Storage": {
+    "IntegratedDynamics": {
       "x": 10,
       "y": 40,
       "frameType": "RECTANGULAR",
@@ -49,7 +49,7 @@
       "u": 0,
       "v": 112
     },
-    "Easy Villagers": {
+    "Easy Villagers & Easy Piglins": {
       "x": 10,
       "y": 160,
       "frameType": "RECTANGULAR",
@@ -208,15 +208,15 @@
       "x": 440,
       "y": 40,
       "frameType": "RECTANGULAR",
-      "u": 999,
-      "v": 999
+      "u": 64,
+      "v": 80
     },
     "Industrial Foregoing: Generators": {
       "x": 490,
       "y": 40,
       "frameType": "RECTANGULAR",
-      "u": 999,
-      "v": 999
+      "u": 64,
+      "v": 96
     },
     "Xnet": {
       "x": 390,
@@ -341,8 +341,8 @@
       "x": 300,
       "y": 40,
       "frameType": "RECTANGULAR",
-      "u": 999,
-      "v": 999
+      "u": 16,
+      "v": 160
     }
   }
 }
