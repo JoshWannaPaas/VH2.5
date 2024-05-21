@@ -223,7 +223,9 @@
 	  "rftoolsstorage:storage_scanner",
 	  "rftoolsstorage:dimensional_tablet",
 	  "mekanism:portable_qio_dashboard",
-	  "mekanism:quantum_entangloporter"
+	  "mekanism:quantum_entangloporter",
+	  "botania:mana_bottle",
+	  "mekanism:pigment_extractor"
 	],
 	"VAULT_EXIT_TNL_MIN": 0.5,
 	"VAULT_EXIT_TNL_MAX": 1.0,
