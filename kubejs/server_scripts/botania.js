@@ -688,7 +688,7 @@ onEvent('recipes', event => {
           "item": "botania:lens_normal"
         },
         {
-          "item": "botania:blacker_lotus"
+          "item": "botania:dragonstone"
         },
         {
           "item": "botania:temperance_stone"
