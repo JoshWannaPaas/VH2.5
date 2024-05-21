@@ -89,6 +89,13 @@
       "description": "-10min vault time"
     },
     {
+      "timerAddend": -15000,
+      "name": "Hurry",
+      "icon": "the_vault:textures/gui/modifiers/rush.png",
+      "color": "16756847",
+      "description": "-12min 30s vault time"
+    },
+    {
       "timerAddend": 6000,
       "name": "Optimistic",
       "icon": "the_vault:textures/gui/modifiers/optimistic.png",
@@ -198,6 +205,16 @@
       "icon": "the_vault:textures/gui/modifiers/super_unlucky.png",
       "color": "10441472",
       "description": "-3 Luck level"
+    },
+    {
+      "effect": "minecraft:unluck",
+      "value": 4,
+      "operator": "ADD",
+      "type": "icon_only",
+      "name": "Very Unlucky",
+      "icon": "the_vault:textures/gui/modifiers/super_unlucky.png",
+      "color": "10441472",
+      "description": "-4 Luck level"
     }, 
     {
       "effect": "minecraft:hunger",
@@ -724,7 +741,7 @@
       "icon": "the_vault:textures/gui/modifiers/clumsy.png",
       "name": "Clumsy",
       "color": "13338221",
-      "description": "-100% Parry"
+      "description": "Removes all Parry"
     },
     {
       "stat": "RESISTANCE",
@@ -732,7 +749,7 @@
       "icon": "the_vault:textures/gui/modifiers/vulnurable.png",
       "name": "Vulnerable",
       "color": "13277787",
-      "description": "-100% Resistance"
+      "description": "Removes all Resistance"
     },
     {
       "stat": "COOLDOWN_REDUCTION",
@@ -740,7 +757,7 @@
       "icon": "the_vault:textures/gui/modifiers/inert.png",
       "name": "Inert",
       "color": "7187637",
-      "description": "-100% Cooldown Reduction"
+      "description": "Removes all Cooldown Reduction"
     },
     {
       "stat": "PARRY",
