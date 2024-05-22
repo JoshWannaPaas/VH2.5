@@ -214,4 +214,182 @@ onEvent('recipes', event => {
         S: 'the_vault:spark',
         U: 'sophisticatedbackpacks:upgrade_base'
     })
+
+
+    // custom backpack recipes to keep upgrades and stuff :peeposhy:
+
+    event.custom({
+        "type": "minecraft:crafting_shaped",
+        "conditions": [
+          {
+            "itemRegistryName": "backpack",
+            "type": "sophisticatedbackpacks:item_enabled"
+          }
+        ],
+        "pattern": [
+          "WPW",
+          "ACA",
+          "DDD"
+        ],
+        "key": {
+          "W": {
+            "item": "the_vault:perfect_wutodie"
+          },
+          "P": {
+            "item": "the_vault:gem_pog"
+          },
+          "A": {
+            "item": "the_vault:perfect_alexandrite"
+          },
+          "C": {
+            "item": "the_vault:vault_crate_arena"
+          },
+          "D": {
+            "item": "the_vault:vault_diamond"
+          }
+        },
+        "result": {
+          "item": "sophisticatedbackpacks:backpack"
+        }
+    })
+
+    event.custom({
+        "type": "sophisticatedbackpacks:backpack_upgrade",
+        "conditions": [
+          {
+            "itemRegistryName": "iron_backpack",
+            "type": "sophisticatedbackpacks:item_enabled"
+          }
+        ],
+        "pattern": [
+          "APO",
+          "IBI",
+          "OPA"
+        ],
+        "key": {
+          "A": {
+            "item": "the_vault:perfect_alexandrite"
+          },
+          "P": {
+            "item": "the_vault:gem_pog"
+          },
+          "O": {
+            "item": "the_vault:perfect_black_opal"
+          },
+          "I": {
+            "item": "compressium:iron_2"
+          },
+          "B": {
+            "item": "sophisticatedbackpacks:backpack"
+          },
+        },
+        "result": {
+          "item": "sophisticatedbackpacks:iron_backpack"
+        }
+    })
+
+    event.custom({
+        "type": "sophisticatedbackpacks:backpack_upgrade",
+        "conditions": [
+          {
+            "itemRegistryName": "gold_backpack",
+            "type": "sophisticatedbackpacks:item_enabled"
+          }
+        ],
+        "pattern": [
+          "APO",
+          "GBG",
+          "ODA"
+        ],
+        "key": {
+          "A": {
+            "item": "the_vault:extraordinary_alexandrite"
+          },
+          "P": {
+            "item": "the_vault:echo_pog"
+          },
+          "O": {
+            "item": "the_vault:extraordinary_black_opal"
+          },
+          "G": {
+            "item": "compressium:gold_2"
+          },
+          "B": {
+            "item": "sophisticatedbackpacks:iron_backpack"
+          },
+          "D": {
+            "item": "the_vault:vault_diamond_block"
+          }
+        },
+        "result": {
+          "item": "sophisticatedbackpacks:gold_backpack"
+        }
+    })
+
+    event.custom({
+        "type": "sophisticatedbackpacks:backpack_upgrade",
+        "conditions": [
+          {
+            "itemRegistryName": "diamond_backpack",
+            "type": "sophisticatedbackpacks:item_enabled"
+          }
+        ],
+        "pattern": [
+          "DPD",
+          "CBC",
+          "DED"
+        ],
+        "key": {
+          "D": {
+            "item": "the_vault:vault_diamond_block"
+          },
+          "P": {
+            "item": "the_vault:omega_pog"
+          },
+          "C": {
+            "item": "compressium:diamond_2"
+          },
+          "B": {
+            "item": "sophisticatedbackpacks:gold_backpack"
+          },
+          "E": {
+            "item": "the_vault:extraordinary_echo_gem"
+          }
+        },
+        "result": {
+          "item": "sophisticatedbackpacks:diamond_backpack"
+        }
+    })
+
+    event.custom({
+        "type": "sophisticatedbackpacks:backpack_upgrade",
+        "conditions": [
+          {
+            "itemRegistryName": "netherite_backpack",
+            "type": "sophisticatedbackpacks:item_enabled"
+          }
+        ],
+        "pattern": [
+          "EOE",
+          "NBN",
+          "EOE"
+        ],
+        "key": {
+          "E": {
+            "item": "the_vault:echo_pog"
+          },
+          "O": {
+            "item": "the_vault:extraordinary_black_opal"
+          },
+          "N": {
+            "item": "compressium:netherite_2"
+          },
+          "B": {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+          }
+        },
+        "result": {
+          "item": "sophisticatedbackpacks:netherite_backpack"
+        }
+    })
 })
