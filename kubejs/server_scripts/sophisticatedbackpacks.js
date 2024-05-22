@@ -127,10 +127,10 @@ onEvent('recipes', event => {
         'LDL'
     ], {
        B: 'the_vault:perfect_benitoite',
-       D: 'the_vault:vault_diamond_block',
+       D: 'the_vault:vault_diamond',
        U: 'sophisticatedbackpacks:upgrade_base',
        L: 'the_vault:perfect_larimar',
-       P: 'the_vault:gem_pog',
+       O: 'the_vault:gem_pog',
     })
 
     event.shaped('sophisticatedbackpacks:advanced_deposit_upgrade', [
