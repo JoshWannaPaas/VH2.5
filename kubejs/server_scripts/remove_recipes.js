@@ -437,7 +437,31 @@ onEvent('recipes', event => {
     event.remove({output: 'powah:dielectric_rod'})
     event.remove({output: 'powah:dielectric_rod_horizontal'})
     event.remove({output: 'powah:dielectric_casing'})
+
+    event.remove({output: 'integrateddynamics:coal_generator'})
+    event.remove({output: 'integrateddynamics:wrench'})
+    event.remove({output: 'integrateddynamics:variable'})
+    event.remove({output: 'integrateddynamics:cable'})
+    event.remove({output: 'integrateddynamics:logic_director'})
+    event.remove({output: 'integrateddynamics:squeezer'})
+    event.remove({output: 'integrateddynamics:mechanical_squeezer'})
+    event.remove({output: 'integrateddynamics:drying_basin'})
+    event.remove({output: 'integrateddynamics:mechanical_drying_basin'})
+    event.remove({output: 'integrateddynamics:variable_transformer_output'})
+    event.remove({output: 'integrateddynamics:variable_transformer_input'})
+    event.remove({output: 'integratedtunnels:part_player_simulator'})
+    event.remove({output: 'integratedtunnels:part_interface_item'})
+    event.remove({output: 'integratedtunnels:part_interface_energy'})
+    event.remove({output: 'integratedtunnels:part_interface_fluid'})
+    event.remove({output: 'integratedterminals:part_terminal_storage'})
+    event.remove({output: 'integratedterminals:terminal_storage_portable'})
+    event.remove({output: 'integratedterminals:part_terminal_crafting_job'})
     
+
+
+    //event.remove({output: 'integrateddynamics:cable'})
+
+
     event.remove({output: 'archers_paradox:quartz_arrow'})
     event.remove({output: 'archers_paradox:diamond_arrow'})
     event.remove({output: 'snad:snad'})
