@@ -3,8 +3,8 @@
     {
       "name": "Filler",
       "rolls": {
-        "min": 7,
-        "max": 10
+        "min": 4,
+        "max": 6
       },
       "entries": [
         {
@@ -532,8 +532,8 @@
     {
       "name": "Richity",
       "rolls": {
-        "min": 3,
-        "max": 6
+        "min": 5,
+        "max": 10
       },
       "bonus_rolls": {
         "min": 0,
@@ -955,31 +955,6 @@
         },
         {
           "type": "minecraft:item",
-          "_replaceWith": "the_vault:ancient_shard",
-          "weight": 3,
-          "name": "minecraft:orange_wool",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 0,
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.4
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 6,
           "name": "the_vault:oozing_pizza",
           "functions": [
@@ -1032,7 +1007,7 @@
       "name": "FullModdedBlocks",
       "rolls": {
         "min": 3,
-        "max": 4
+        "max": 6
       },
       "entries": [
         {
@@ -2140,8 +2115,8 @@
     {
       "name": "OmegaPool",
       "rolls": {
-        "min": 0,
-        "max": 1
+        "min": 3,
+        "max": 6
       },
       "bonus_rolls": {
         "min": 0,
@@ -2150,12 +2125,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 6
+          "weight": 4
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:diamond_sword",
+          "weight": 3,
+          "name": "the_vault:axe",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -2170,20 +2145,20 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.70
+                  "chance": 0
                 }
               ]
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:sharpness,lvl:6},{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:sweeping,lvl:3}]}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
-        },
+        }, 
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:diamond_sword",
+          "weight": 3,
+          "name": "the_vault:sword",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -2198,20 +2173,20 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.70
+                  "chance": 0
                 }
               ]
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:sharpness,lvl:6},{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:knockback,lvl:4}]}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
-        },
+        }, 
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:diamond_helmet",
+          "weight": 3,
+          "name": "the_vault:helmet",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -2226,20 +2201,20 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.70
+                  "chance": 0
                 }
               ]
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:protection,lvl:5},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:diamond_chestplate",
+          "weight": 3,
+          "name": "the_vault:chestplate",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -2254,20 +2229,20 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.70
+                  "chance": 0
                 }
               ]
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:protection,lvl:5},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
-        },
+        },  
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:diamond_leggings",
+          "weight": 3,
+          "name": "the_vault:leggings",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -2282,20 +2257,20 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.70
+                  "chance": 0
                 }
               ]
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:protection,lvl:5},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
-        },
+        },  
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:diamond_boots",
+          "weight": 3,
+          "name": "the_vault:boots",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -2310,19 +2285,131 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.70
+                  "chance": 0
                 }
               ]
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:protection,lvl:5},{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:depth_strider,lvl:3},{id:feather_falling,lvl:4}]}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 1,
+          "name": "the_vault:idol_benevolent",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "the_vault:idol_omniscient",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "the_vault:idol_malevolence",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
+            }
+          ]
+        }, 
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "the_vault:idol_timekeeper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
+            }
+          ]
+        }, 
+        {
+          "type": "minecraft:item",
+          "weight": 1,
           "name": "quark:pickarang",
           "functions": [
             {
@@ -2346,32 +2433,6 @@
               "function": "set_nbt",
               "tag": "{Enchantments:[{id:knockback,lvl:5},{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:depth_strider,lvl:3},{id:feather_falling,lvl:4}]}"
             }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:book",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "treasure": "false",
-              "levels": {
-                  "type": "uniform",
-                  "min": 25,
-                  "max": 35
-              } 
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 0,
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.1
-                }
-              ]
-            } 
           ]
         }
       ]
