@@ -1,0 +1,29 @@
+{
+  "name": {
+    "text": "Mekanized Trophy",
+    "color": "#cfc517"
+  },
+  "display": {
+    "scale": 1.75
+  },
+  "item": {
+    "item": "mekanism:pellet_antimatter"
+  },
+  "animation": {
+      "type": "spinning",
+      "speed": 0.5
+  },
+  "colors": {
+    "base": "#606060",
+    "accent": "#d042ff"
+  },
+  "effects": {
+    "sound": {
+      "soundEvent": "the_vault:confetti"
+    }
+  }
+}
+
+
+
+
