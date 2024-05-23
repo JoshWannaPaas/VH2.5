@@ -1,0 +1,62 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = true
+  backgroundimage = loadingScreen/treasure-loot-feature.6c482435.png
+  autoscale_baseheight = 768
+  renderorder = foreground
+  autoscale_basewidth = 1024
+  randommode = false
+  scale = 3
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  textcolor = #FF0000
+  action = editforgememoryinfo
+}
+
+customization {
+  x = 5
+  textcolor = #FFFFFF
+  action = editforgestatustext
+  y = -4
+}
+
+customization {
+  visible = false
+  action = editprogressbar
+}
+
+customization {
+  path = loadingScreen/vh-load.png
+  orientation = top-left
+  x = 9
+  width = 150
+  action = addtexture
+  actionid = 100e5da7-f8ed-462e-8944-b7ecc26ae3c81656714355654
+  y = 19
+  height = 112
+}
+
+customization {
+  orientation = bottom-right
+  bartexture = loadingScreen/vh-fullbar-export.png
+  x = -3
+  width = 24
+  actionid = b582f7dc-1073-4685-a3e6-bdac7511e4491656715134975
+  y = -2
+  action = addcustomprogressbar
+  backgroundtexture = loadingScreen/vh-empty-bar.png
+  height = 108
+  direction = up
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+

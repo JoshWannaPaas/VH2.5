@@ -1,0 +1,57 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = true
+  backgroundimage = loadingScreen/loadTest.png
+  autoscale_baseheight = 768
+  renderorder = foreground
+  autoscale_basewidth = 1024
+  randommode = false
+  scale = 3
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  orientation = bottom-left
+  x = 1
+  textcolor = #FF0000
+  action = editforgememoryinfo
+  y = 0
+  scale = 0.75
+}
+
+customization {
+  orientation = bottom-left
+  x = 1
+  textcolor = #FFFFFF
+  action = editforgestatustext
+  y = -8
+  scale = 0.75
+}
+
+customization {
+  visible = false
+  action = editprogressbar
+}
+
+customization {
+  orientation = bottom-right
+  bartexture = loadingScreen/vh-progress-big2.png
+  x = -9
+  width = 24
+  actionid = b582f7dc-1073-4685-a3e6-bdac7511e4491656715134975
+  y = -5
+  action = addcustomprogressbar
+  backgroundtexture = loadingScreen/vh-bar-big.png
+  height = 108
+  direction = up
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+

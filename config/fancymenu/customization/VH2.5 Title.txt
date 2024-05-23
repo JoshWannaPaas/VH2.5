@@ -1,0 +1,228 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = vhadpanorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=44%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 81286ca6-6a28-4e3e-a432-d43dbc5c4dea1716485868525
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 143
+  action = deep_customization_element:title_screen_branding
+  actionid = c5aeb404-a777-43b5-b1b2-6ad2e4b177d11716485868538
+  y = 277
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = b0498123-b418-4b76-99c6-875b1e95326f1716485868539
+  y = 319
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 8863f815-6c08-4c49-b428-49ae706242e01716485868539
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 43d9770d-8021-42d9-944e-39cbbcc96b4b1716485868539
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = false
+  x = 140
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = e07bce73-52e0-4d7a-8c7d-62a322da739a1716485868539
+  y = 87
+  height = 30
+}
+
+customization {
+  path = fancymenu_title/vhad.png
+  orientation = top-centered
+  x = -162
+  width = 325
+  action = addtexture
+  actionid = 07e6779d-8892-406e-b37e-a1c862a64efe1716488372765
+  y = 30
+  height = 76
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = ea63d956-231a-4871-a200-7086c5bf3cc01716488700602
+  y = -21
+  scale = 1.0
+  alignment = left
+  value = This is an unofficial modified pack.
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = 4d4c29bf-60aa-4d76-9e0c-06bdcd6168151716488762631
+  y = -9
+  scale = 1.0
+  alignment = left
+  value = Please support the original Vault Hunters team.
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_title\vhbutton-hover.png
+  backgroundnormal = fancymenu_title\vhbutton-normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_title\accessibility-hover.png
+  backgroundnormal = fancymenu_title\accessibility-normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_title\vhbutton-hover.png
+  backgroundnormal = fancymenu_title\vhbutton-normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_title\vhbutton-hover.png
+  backgroundnormal = fancymenu_title\vhbutton-normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_title\button-language-hover.png
+  backgroundnormal = fancymenu_title\button-language-normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_title\vhbutton-hover.png
+  backgroundnormal = fancymenu_title\vhbutton-normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_title\vhbutton-hover.png
+  backgroundnormal = fancymenu_title\vhbutton-normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_title\vhbutton-hover.png
+  backgroundnormal = fancymenu_title\vhbutton-normal.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = sethoverlabel
+  label = §kMinecraft Realms
+}
+
