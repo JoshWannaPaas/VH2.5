@@ -1162,6 +1162,30 @@
               ]
             }
           ]
+        },
+        { "_name": "Mystic Pear",
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "the_vault:mystic_pear",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.8
+                }
+              ]
+            }
+          ]
         }
       ]
     },
