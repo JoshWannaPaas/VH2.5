@@ -3,9 +3,9 @@
     "None": [
       {
         "value": {
-          "id": "minecraft:golden_apple",
+          "id": "the_vault:star_shard",
           "amountMin": 1,
-          "amountMax": 1
+          "amountMax": 4
         },
         "weight": 1
       }
@@ -18,13 +18,14 @@
       {"value": {"id": "create:deployer", "amountMin": 1, "amountMax": 1}, "weight": 4},
       {"value": {"id": "create:mechanical_harvester", "amountMin": 1, "amountMax": 1}, "weight": 6},
       {"value": {"id": "create:mechanical_plough", "amountMin": 1, "amountMax": 1}, "weight": 6}
-    ],
-    "Easy Villagers": [
+    ], 
+    "Easy Villagers & Easy Piglins": [
       {"value": {"id": "easy_villagers:villager", "amountMin": 1, "amountMax": 1}, "weight": 40},
       {"value": {"id": "easy_villagers:trader", "amountMin": 1, "amountMax": 1}, "weight": 10},
       {"value": {"id": "easy_villagers:farmer", "amountMin": 1, "amountMax": 1}, "weight": 8},
       {"value": {"id": "easy_villagers:breeder", "amountMin": 1, "amountMax": 1}, "weight": 16},
       {"value": {"id": "easy_villagers:converter", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "easy_piglins:barterer", "amountMin": 1, "amountMax": 1}, "weight": 4},
       {"value": {"id": "easy_villagers:iron_farm", "amountMin": 1, "amountMax": 1}, "weight": 1}
     ],
     "Mekanism Generators": [
@@ -62,33 +63,6 @@
       {"value": {"id": "fluxnetworks:basic_flux_storage", "amountMin": 1, "amountMax": 1}, "weight": 6},
       {"value": {"id": "fluxnetworks:herculean_flux_storage", "amountMin": 1, "amountMax": 1}, "weight": 1}
     ],
-    "Chef": [
-      {"value": {"id": "cookingforblockheads:sink", "amountMin": 1, "amountMax": 1}, "weight": 2},
-      {"value": {"id": "cookingforblockheads:oven", "amountMin": 1, "amountMax": 1}, "weight": 20},
-      {"value": {"id": "cookingforblockheads:cooking_table", "amountMin": 1, "amountMax": 1}, "weight": 20},
-      {"value": {"id": "cookingforblockheads:cow_jar", "amountMin": 1, "amountMax": 1}, "weight": 10},
-      {"value": {"id": "cookingforblockheads:fridge", "amountMin": 1, "amountMax": 1}, "weight": 20}
-    ],
-    "Furniture": [
-      {"value": {"id": "cfm:white_sofa", "amountMin": 1, "amountMax": 1}, "weight": 10},
-      {"value": {"id": "cfm:white_trampoline", "amountMin": 1, "amountMax": 1}, "weight": 10},
-      {"value": {"id": "cfm:diving_board", "amountMin": 1, "amountMax": 1}, "weight": 10},
-      {"value": {"id": "supplementaries:globe", "amountMin": 1, "amountMax": 1}, "weight": 10},
-      {"value": {"id": "supplementaries:cage", "amountMin": 1, "amountMax": 1}, "weight": 10},
-      {"value": {"id": "supplementaries:safe", "amountMin": 1, "amountMax": 1}, "weight": 4},
-      {"value": {"id": "supplementaries:clock_block", "amountMin": 1, "amountMax": 1}, "weight": 10},
-      {"value": {"id": "supplementaries:spiston_launcher", "amountMin": 1, "amountMax": 1}, "weight": 6},
-      {"value": {"id": "supplementaries:bellows", "amountMin": 1, "amountMax": 1}, "weight": 6},
-      {"value": {"id": "supplementaries:planter", "amountMin": 1, "amountMax": 1}, "weight": 8}
-    ],
-    "RFTools Storage": [
-      {"value": {"id": "rftoolsstorage:modular_storage", "amountMin": 1, "amountMax": 1}, "weight": 4},
-      {"value": {"id": "rftoolsstorage:storage_scanner", "amountMin": 1, "amountMax": 1}, "weight": 12},
-      {"value": {"id": "rftoolsstorage:storage_module0", "amountMin": 1, "amountMax": 1}, "weight": 20},
-      {"value": {"id": "rftoolsstorage:storage_module1", "amountMin": 1, "amountMax": 1}, "weight": 10},
-      {"value": {"id": "rftoolsstorage:storage_module2", "amountMin": 1, "amountMax": 1}, "weight": 4},
-      {"value": {"id": "rftoolsstorage:storage_module3", "amountMin": 1, "amountMax": 1}, "weight": 1}
-    ],
     "Drawers": [
       {"value": {"id": "framedcompactdrawers:framed_full_one", "amountMin": 1, "amountMax": 1}, "weight": 30},
       {"value": {"id": "framedcompactdrawers:framed_compact_drawer", "amountMin": 1, "amountMax": 1}, "weight": 10},
@@ -114,6 +88,15 @@
       {"value": {"id": "storage_overhaul:oak_chest_tier_3", "amountMin": 2, "amountMax": 4}, "weight": 10},
       {"value": {"id": "metalbarrels:netherite_barrel", "amountMin": 1, "amountMax": 1}, "weight": 5},
       {"value": {"id": "ironchest:obsidian_chest", "amountMin": 2, "amountMax": 2}, "weight": 10}
+    ],
+    "Thermal Dynamos": [
+      {"value": {"id": "thermal:dynamo_stirling", "amountMin": 1, "amountMax": 1}, "weight": 32},
+      {"value": {"id": "thermal:dynamo_compression", "amountMin": 1, "amountMax": 1}, "weight": 32},
+      {"value": {"id": "thermal:dynamo_magmatic", "amountMin": 1, "amountMax": 1}, "weight": 32},
+      {"value": {"id": "thermal:dynamo_lapidary", "amountMin": 1, "amountMax": 1}, "weight": 32},
+      {"value": {"id": "thermal:dynamo_numismatic", "amountMin": 1, "amountMax": 1}, "weight": 32},
+      {"value": {"id": "thermal:dynamo_disenchantment", "amountMin": 1, "amountMax": 1}, "weight": 32},
+      {"value": {"id": "thermal:dynamo_gourmand", "amountMin": 1, "amountMax": 1}, "weight": 32}
     ],
     "Refined Storage": [
       {"value": {"id": "refinedstorage:1k_storage_disk", "amountMin": 1, "amountMax": 1}, "weight": 100},
@@ -161,8 +144,12 @@
       {"value": {"id": "mekanism:qio_drive_array", "amountMin": 1, "amountMax": 1}, "weight": 1}
     ],
     "Danks": [
-      {"value": {"id": "dankstorage:dank_1", "amountMin": 1, "amountMax": 1}, "weight": 8},
-      {"value": {"id": "dankstorage:dank_2", "amountMin": 1, "amountMax": 1}, "weight": 1}
+      {"value": {"id": "dankstorage:dank_1", "amountMin": 1, "amountMax": 1}, "weight": 16},
+      {"value": {"id": "dankstorage:dank_2", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "dankstorage:dank_3", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "dankstorage:dank_4", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "dankstorage:dank_5", "amountMin": 1, "amountMax": 1}, "weight": 1}
+
     ],
     "Dark Utilities": [
       {"value": {"id": "darkutils:blank_plate", "amountMin": 1, "amountMax": 8}, "weight": 128},
@@ -195,7 +182,9 @@
     ],
     "Backpacks": [
       {"value": {"id": "simplybackpacks:commonbackpack", "amountMin": 1, "amountMax": 1}, "weight": 8},
-      {"value": {"id": "simplybackpacks:rarebackpack", "amountMin": 1, "amountMax": 1}, "weight": 1}
+      {"value": {"id": "simplybackpacks:uncommonbackpack", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "simplybackpacks:rarebackpack", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "simplybackpacks:epicbackpack", "amountMin": 1, "amountMax": 1}, "weight": 1}
     ],
     "Vault Powerups": [
       {"value": {"id": "the_vault:hearty_apple", "amountMin": 4, "amountMax": 8}, "weight": 48},
@@ -235,6 +224,27 @@
       {"value": {"id": "botania:elven_spreader", "amountMin": 1, "amountMax": 1}, "weight": 8},
       {"value": {"id": "botania:gaia_spreader", "amountMin": 1, "amountMax": 1}, "weight": 2},
       {"value": {"id": "botania:mana_pearl", "amountMin": 1, "amountMax": 4}, "weight": 20}
+    ],
+    "IntegratedDynamics": [
+      {"value": {"id": "integrateddynamics:crystalized_menril_chunk", "amountMin": 4, "amountMax": 16}, "weight": 128},
+      {"value": {"id": "integrateddynamics:crystalized_chorus_chunk", "amountMin": 4, "amountMax": 8}, "weight": 64},
+      {"value": {"id": "integrateddynamics:variable", "amountMin": 1, "amountMax": 6}, "weight": 32},
+      {"value": {"id": "integrateddynamics:cable", "amountMin": 1, "amountMax": 6}, "weight": 32},
+      {"value": {"id": "integrateddynamics:variable_transformer_input", "amountMin": 1, "amountMax": 4}, "weight": 16},
+      {"value": {"id": "integrateddynamics:variable_transformer_output", "amountMin": 1, "amountMax": 4}, "weight": 16},
+      {"value": {"id": "integratedtunnels:part_interface_item", "amountMin": 1, "amountMax": 4}, "weight": 16},
+      {"value": {"id": "integratedtunnels:part_interface_fluid", "amountMin": 1, "amountMax": 4}, "weight": 16},
+      {"value": {"id": "integratedtunnels:part_interface_energy", "amountMin": 1, "amountMax": 4}, "weight": 16},
+      {"value": {"id": "integrateddynamics:logic_director", "amountMin": 1, "amountMax": 6}, "weight": 12},
+      {"value": {"id": "integratedterminals:part_terminal_storage", "amountMin": 1, "amountMax": 1}, "weight": 2}
+    ],
+    "Sophisticated Backpacks": [
+      {"value": {"id": "sophisticatedbackpacks:upgrade_base", "amountMin": 1, "amountMax": 1}, "weight": 128},
+      {"value": {"id": "sophisticatedbackpacks:stack_upgrade_tier_1", "amountMin": 1, "amountMax": 1}, "weight": 64},
+      {"value": {"id": "sophisticatedbackpacks:backpack", "amountMin": 1, "amountMax": 1}, "weight": 32},
+      {"value": {"id": "sophisticatedbackpacks:iron_backpack", "amountMin": 1, "amountMax": 1}, "weight": 16},
+      {"value": {"id": "sophisticatedbackpacks:gold_backpack", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "sophisticatedbackpacks:diamond_backpack", "amountMin": 1, "amountMax": 1}, "weight": 1}
     ]
   }
 }
