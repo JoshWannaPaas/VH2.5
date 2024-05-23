@@ -25,7 +25,7 @@
 		#When enabled, networks will stop ticking and values will not be shown and evaluated again. This can be used to fix crashing networks by temporarily enabling this option.
 		safeMode = false
 		#If the version checker should be enabled.
-		versionChecker = true
+		versionChecker = false
 		#The ingredient network observation frequency slowdown rate in ticks.
 		ingredientNetworkObserverFrequencyDecreaseFactor = 5
 		#The slowest possible frequency in ticks at which ingredient network should be observed.
@@ -157,9 +157,9 @@
 
 	[item.on_the_dynamics_of_integration]
 		#If the info book should automatically obtained when the player first spawns.
-		obtainOnSpawn = true
+		obtainOnSpawn = false
 		#If the info book can give item rewards for tutorial completion.
-		bookRewards = true
+		bookRewards = false
 
 	[item.menril_berries]
 		#If the berries should give the night vision effect when eaten.
@@ -169,5 +169,5 @@
 
 	[biome.meneglin]
 		#The weight of spawning in the overworld, 0 disables spawning.
-		spawnWeight = 5
+		spawnWeight = 0
 
