@@ -3300,9 +3300,9 @@
         { "_name": "paxel_1",
           "value": {
             "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 1,
-              "amountMax": 6
+              "id": "the_vault:vault_silver",
+              "amountMin": 6,
+              "amountMax": 20
             },
             "sell": {
               "id": "the_vault:vault_paxel",
@@ -3365,8 +3365,8 @@
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 2,
-              "amountMax": 8
+              "amountMin": 1,
+              "amountMax": 3
             },
             "sell": {
               "id": "the_vault:infinite_water_bucket",
@@ -3402,8 +3402,8 @@
             },
             "sell": {
               "id": "the_vault:vault_dust",
-              "amountMin": 3,
-              "amountMax": 8
+              "amountMin": 8,
+              "amountMax": 14
             },
             "max_trades": 4
           },
@@ -3414,14 +3414,14 @@
             "buy": {
               "id": "the_vault:vault_bronze",
               "amountMin": 1,
-              "amountMax": 9
+              "amountMax": 4
             },
             "sell": {
               "id": "the_vault:vault_plating",
               "amountMin": 1,
               "amountMax": 1
             },
-            "max_trades": 4
+            "max_trades": 12
           },
           "weight": 4
         },
@@ -3633,7 +3633,22 @@
           },
           "weight": 1
         },
-        
+        { "_name": "pouchma_1",
+          "value": {
+            "buy": {
+              "id": "the_vault:vault_gold",
+              "amountMin": 4,
+              "amountMax": 8
+            },
+            "sell": {
+              "id": "sophisticatedbackpacks:backpack",
+              "amountMin": 1,
+              "amountMax": 1
+            },
+            "max_trades": 1
+          },
+          "weight": 1
+        },
         { "_name": "trader_1",
           "value": {
             "buy": {
