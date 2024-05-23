@@ -2225,7 +2225,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Scrappy+\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2253,7 +2253,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Scrappy+\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2281,7 +2281,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Scrappy+\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2309,7 +2309,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Scrappy+\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2337,7 +2337,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Scrappy+\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2365,7 +2365,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Scrappy+\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2393,7 +2393,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Common+\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2421,7 +2421,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Scrappy+\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2449,7 +2449,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Common+\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2477,7 +2477,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Common+\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2505,7 +2505,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Common+\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2533,7 +2533,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Common+\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
