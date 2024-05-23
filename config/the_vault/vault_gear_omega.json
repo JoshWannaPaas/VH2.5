@@ -12202,6 +12202,60 @@
             },
             "weight": 6
           },
+          "ON_HIT_AOE": {
+            "value": {
+              "pools": [
+                {
+                  "base": 1,
+                  "rolls": {
+                  "type": "uniform",
+                  "min": 0,
+                  "max": 2
+                    },
+                    "entries": [
+                      {
+                        "value": 1,
+                        "operator": {
+                          "type": "ADD"
+                        },
+                        "weight": 2
+                      }
+                    ]
+                }
+              ],
+              "collector": {
+                "type": "SET"
+              }
+            },
+            "weight": 2
+          },
+          "ON_HIT_CHAIN": {
+            "value": {
+              "pools": [
+                {
+                  "base": 1,
+                  "rolls": {
+                  "type": "uniform",
+                  "min": 0,
+                  "max": 4
+                    },
+                    "entries": [
+                      {
+                        "value": 1,
+                        "operator": {
+                          "type": "ADD"
+                        },
+                        "weight": 2
+                      }
+                    ]
+                }
+              ],
+              "collector": {
+                "type": "SET"
+              }
+            },
+            "weight": 2
+          },
           "ADD_ATTACK_SPEED": {
             "value": {
               "pools": [
@@ -12810,6 +12864,60 @@
               }
             },
             "weight": 1
+          },
+          "ON_HIT_AOE": {
+            "value": {
+              "pools": [
+                {
+                  "base": 1,
+                  "rolls": {
+                  "type": "uniform",
+                  "min": 0,
+                  "max": 2
+                    },
+                    "entries": [
+                      {
+                        "value": 1,
+                        "operator": {
+                          "type": "ADD"
+                        },
+                        "weight": 2
+                      }
+                    ]
+                }
+              ],
+              "collector": {
+                "type": "SET"
+              }
+            },
+            "weight": 2
+          },
+          "ON_HIT_CHAIN": {
+            "value": {
+              "pools": [
+                {
+                  "base": 1,
+                  "rolls": {
+                  "type": "uniform",
+                  "min": 0,
+                  "max": 4
+                    },
+                    "entries": [
+                      {
+                        "value": 1,
+                        "operator": {
+                          "type": "ADD"
+                        },
+                        "weight": 2
+                      }
+                    ]
+                }
+              ],
+              "collector": {
+                "type": "SET"
+              }
+            },
+            "weight": 2
           },
           "ADD_ATTACK_SPEED": {
             "value": {
