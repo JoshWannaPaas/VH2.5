@@ -5,7 +5,7 @@ ported by a1qs to KubeJS */
 
 console.info('Adding Tags!')
 
-let colors = ["white","orange","magenta","light_blue","yellow","lime","pink","gray","cyan","purple","blue","brown","green","black","light_gray"]
+let colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'black', 'light_gray']
 
 onEvent('item.tags', event => {
 
@@ -22,9 +22,21 @@ onEvent('item.tags', event => {
         'mekanism:formulaic_assemblicator'
     ])
 
-    event.add('the_vault:commongems',[
+    event.add('the_vault:commongems', [
         'the_vault:gem_larimar',
         'the_vault:gem_benitoite'
+    ])
+
+    event.add('the_vault:validportalblocks', [
+        'minecraft:blackstone',
+        'minecraft:polished_blackstone',
+        'minecraft:polished_blackstone_bricks',
+        'minecraft:cracked_polished_blackstone_bricks',
+        'minecraft:chiseled_polished_blackstone',
+        'minecraft:gilded_blackstone',
+        'the_vault:vault_stone',
+        'the_vault:final_vault_frame'
+
     ])
     
     colors.forEach(colors =>{
