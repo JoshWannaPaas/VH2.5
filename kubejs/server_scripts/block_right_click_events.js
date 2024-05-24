@@ -1,22 +1,21 @@
 /* scripts made by a1qs
 for Vault Hunters 2.5 */
 
-/*
+
 onEvent('block.right_click', event =>{
-    if( event.block.id == 'minecraft:stone' && event.hand == MAIN_HAND && event.item.id == 'the_vault:hunter_eye'){
+    if(event.block.id == 'the_vault:vault_altar' && event.hand == MAIN_HAND && event.item.id != 'the_vault:vault_rock' && event.item.id != 'the_vault:gem_pog' && !event.player.crouching){
         var bx = event.block.getX()
         var by = event.block.getY()
         var bz = event.block.getZ()
-        var particleEffect = 'minecraft:end_rod'
+        var itemCount = event.item.count
+        console.log(event.item.id)
 
         let itemEntity = event.level.createEntity('minecraft:item')
             itemEntity.setX(bx + 0.5)
-            itemEntity.setY(by + 1.0)
+            itemEntity.setY(by + 1.5)
             itemEntity.setZ(bz + 0.5)
-            itemEntity.item = Item.of('the_vault:ore_vault_rock')
+            itemEntity.item = Item.of(event.item.id, itemCount)
             itemEntity.spawn()
-            event.server.runCommandSilent(`playsound minecraft:block.beacon.power_select master @a ${bx} ${by} ${bz}`)
-            event.server.runCommandSilent(`particle ${particleEffect} ${bx} ${by+1} ${bz} 0.2 0.2 0.2 0.2 5 normal`)
+            event.item.count = 0
     }
 })   
-*/   
