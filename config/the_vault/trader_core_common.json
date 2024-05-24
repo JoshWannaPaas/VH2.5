@@ -3649,7 +3649,7 @@
           },
           "weight": 1
         },
-        { "_name": "trader_1",
+        { "_name": "trader_1", 
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
@@ -3873,91 +3873,6 @@
           },
           "weight": 2
         },
-        { "_name": "sharpness7_1",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 4,
-              "amountMax": 16
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:sharpness\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 1
-        },
-        { "_name": "unbreaking_1",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 4,
-              "amountMax": 16
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:4,id:\"minecraft:unbreaking\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 1
-        },
-        { "_name": "protection_1",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 2,
-              "amountMax": 8
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:protection\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 1
-        },
-        { "_name": "smite_2",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 4,
-              "amountMax": 16
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:smite\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 1
-        },
-        { "_name": "fortune_1",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 2,
-              "amountMax": 8
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:4,id:\"minecraft:fortune\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 1
-        },
         { "_name": "heckmet_3",
           "value": {
             "buy": {
@@ -4017,7 +3932,7 @@
               "amountMax": 4
             },
             "sell": {
-              "id": "the_vault:helmet",
+              "id": "the_vault:boots",
               "nbt": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"trader\"}]}}",
               "amountMin": 1,
               "amountMax": 1
@@ -4034,7 +3949,7 @@
               "amountMax": 4
             },
             "sell": {
-              "id": "the_vault:chestplate",
+              "id": "the_vault:sword",
               "nbt": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"trader\"}]}}",
               "amountMin": 1,
               "amountMax": 1
