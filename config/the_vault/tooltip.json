@@ -2,11 +2,11 @@
   "tooltips": [
     {
       "item": "the_vault:vault_burger",
-      "value": "Eat to gain 0-3% of required\nexperience to next level"
+      "value": "Eat to gain 0.5 - 3% of required\nexperience to the next level"
     },
     {
       "item": "the_vault:oozing_pizza",
-      "value": "Eat to gain 0-1% of required\nexperience to next level"
+      "value": "Eat to gain 0.3 - 1% of required\nexperience to the next level"
     },
     {
       "item": "the_vault:vault_cookie",
