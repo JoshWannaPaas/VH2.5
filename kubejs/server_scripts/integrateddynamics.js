@@ -28,23 +28,23 @@ onEvent('recipes', event => {
         P: 'the_vault:perfect_black_opal'
     })
 
-    event.shaped('8x integrateddynamics:cable', [
+    event.shaped('4x integrateddynamics:cable', [
         'CPC',
         'CAC',
         'CPC'
     ], {
         C: 'integrateddynamics:crystalized_menril_chunk',
-        P: 'the_vault:perfect_black_opal',
+        P: '#the_vault:perfectcommongems',
         A: 'the_vault:perfect_alexandrite'
     })
 
-    event.shaped('8x integrateddynamics:cable', [
+    event.shaped('4x integrateddynamics:cable', [
         'CCC',
         'PAP',
         'CCC'
     ], {
         C: 'integrateddynamics:crystalized_menril_chunk',
-        P: 'the_vault:perfect_black_opal',
+        P: '#the_vault:perfectcommongems',
         A: 'the_vault:perfect_alexandrite'
     })
 
@@ -85,21 +85,20 @@ onEvent('recipes', event => {
     ], {
         R: '#forge:rods/wooden',
         I: 'compressium:iron_2',
-        A: 'the_vault:extraordinary_black_opal',
+        A: 'the_vault:perfect_black_opal',
         O: 'the_vault:gem_pog',
         P: '#minecraft:planks'
     })
 
     event.shaped('1x integrateddynamics:mechanical_squeezer', [
-        'PEP',
+        ' E ',
         'BSB',
-        'PDP'
+        ' P '
     ], {
         P: 'the_vault:gem_pog',
         E: 'the_vault:extraordinary_black_opal',
         B: 'integrateddynamics:energy_battery',
-        S: 'integrateddynamics:squeezer',
-        D: 'compressium:obsidian_3'
+        S: 'integrateddynamics:squeezer'
     })
 
     event.shaped('1x integrateddynamics:drying_basin', [
@@ -125,24 +124,24 @@ onEvent('recipes', event => {
         D: 'compressium:obsidian_3'
     })
 
-    event.shaped('4x integrateddynamics:variable_transformer_input', [
+    event.shaped('2x integrateddynamics:variable_transformer_input', [
         ' V ',
         'CPC',
         ' V '
     ], {
         V: 'integrateddynamics:variable',
         C: 'integrateddynamics:crystalized_chorus_chunk',
-        P: 'the_vault:perfect_black_opal'
+        P: 'the_vault:gem_black_opal'
     })
 
-    event.shaped('4x integrateddynamics:variable_transformer_output', [
+    event.shaped('2x integrateddynamics:variable_transformer_output', [
         ' C ',
         'VPV',
         ' C '
     ], {
         V: 'integrateddynamics:variable',
         C: 'integrateddynamics:crystalized_chorus_chunk',
-        P: 'the_vault:perfect_black_opal'
+        P: 'the_vault:gem_black_opal'
     })
 
     event.shaped('1x integratedterminals:part_terminal_storage', [
@@ -155,7 +154,7 @@ onEvent('recipes', event => {
         O: 'integrateddynamics:variable_transformer_output',
         D: 'integrateddynamics:part_display_panel',
         I: 'integrateddynamics:variable_transformer_input',
-        E: 'the_vault:echo_pog'
+        E: 'the_vault:gem_pog'
     })
 
     event.shaped('1x integratedterminals:terminal_storage_portable', [

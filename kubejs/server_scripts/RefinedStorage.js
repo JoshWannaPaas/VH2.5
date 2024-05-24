@@ -27,7 +27,7 @@ onEvent('recipes', event => {
     ], {
         S: '#forge:silicon',
         Q: 'refinedstorage:quartz_enriched_iron',
-        L: 'the_vault:perfect_larimar',
+        L: '#the_vault:commongems',
         A: 'the_vault:gem_alexandrite'
     })
 
@@ -37,9 +37,9 @@ onEvent('recipes', event => {
         'WKW'
     ], {
         W: 'the_vault:perfect_wutodie',
-        N: 'the_vault:vault_nugget',
+        A: 'the_vault:vault_diamond',
         K: 'refinedstorage:1k_storage_part',
-        A: 'the_vault:gem_alexandrite'
+        N: 'the_vault:perfect_alexandrite'
     })
 
     event.shaped('refinedstorage:16k_storage_part', [
@@ -47,10 +47,10 @@ onEvent('recipes', event => {
         'KWK',
         'BKB'
     ], {
-        B: 'the_vault:perfect_black_opal',
-        I: 'the_vault:vault_ingot',
+        B: 'the_vault:vault_diamond',
+        I: 'the_vault:extraordinary_alexandrite',
         K: 'refinedstorage:4k_storage_part',
-        W: 'the_vault:perfect_wutodie'
+        W: 'the_vault:perfect_black_opal'
     })
 
     event.shaped('refinedstorage:64k_storage_part', [
@@ -58,10 +58,10 @@ onEvent('recipes', event => {
         'KEK',
         'PKP'
     ], {
-        P: 'the_vault:gem_pog',
-        I: 'the_vault:vault_ingot',
+        P: 'the_vault:perfect_black_opal',
+        E: 'the_vault:extraordinary_alexandrite',
         K: 'refinedstorage:16k_storage_part',
-        E: 'the_vault:perfect_echo_gem'
+        I: 'the_vault:gem_echo'
     })
 
     event.shaped('refinedstorage:wireless_grid', [
@@ -124,7 +124,7 @@ onEvent('recipes', event => {
         'minecraft:crafting_table',
         'the_vault:perfect_larimar',
         'the_vault:perfect_larimar',
-        'the_vault:echo_pog'
+        'the_vault:gem_pog'
     ])
 
     event.shapeless('refinedstorageaddons:wireless_crafting_grid', [
@@ -134,7 +134,7 @@ onEvent('recipes', event => {
         'minecraft:crafting_table',
         'the_vault:perfect_larimar',
         'the_vault:perfect_larimar',
-        'the_vault:echo_pog'
+        'the_vault:gem_pog'
     ])
 
     event.shapeless('refinedstorage:pattern_grid', [
@@ -165,7 +165,7 @@ onEvent('recipes', event => {
         L: 'the_vault:perfect_larimar',
         A: 'refinedstorage:advanced_processor',
         M: 'refinedstorage:machine_casing',
-        E: 'the_vault:echo_pog'
+        E: 'the_vault:gem_pog'
     })
 
     event.shaped('refinedstorage:disk_drive', [

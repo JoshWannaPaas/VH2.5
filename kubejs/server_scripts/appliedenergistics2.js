@@ -10,7 +10,7 @@ onEvent('recipes', event => {
         'OFO'
     ], {
         O: 'the_vault:perfect_black_opal',
-        P: 'the_vault:echo_pog',
+        P: 'the_vault:gem_pog',
         F: 'appliedenergistics2:purified_fluix_crystal',
         E: 'appliedenergistics2:engineering_processor'
     })
@@ -44,7 +44,7 @@ onEvent('recipes', event => {
         'CAC',
         'BCB'
     ], {
-        B: 'the_vault:perfect_benitoite',
+        B: '#the_vault:commongems',
         C: '#appliedenergistics2:crystals/certus',
         A: 'the_vault:gem_alexandrite'
     })
@@ -54,7 +54,7 @@ onEvent('recipes', event => {
         'CDC',
         'WCW'
     ], {
-        W: 'the_vault:perfect_wutodie',
+        W: '#the_vault:perfectcommongems',
         A: 'the_vault:perfect_alexandrite',
         C: 'appliedenergistics2:1k_cell_component',
         D: 'the_vault:vault_diamond'
@@ -65,10 +65,10 @@ onEvent('recipes', event => {
         'CDC',
         'OCO'
     ], {
-        O: 'the_vault:perfect_black_opal',
+        O: 'the_vault:vault_diamond',
         A: 'the_vault:perfect_alexandrite',
         C: 'appliedenergistics2:4k_cell_component',
-        D: 'the_vault:vault_diamond_block'
+        D: 'the_vault:perfect_black_opal'
     })
 
     event.shaped('1x appliedenergistics2:64k_cell_component', [
@@ -76,10 +76,10 @@ onEvent('recipes', event => {
         'CEC',
         'PCP'
     ], {
-        P: 'the_vault:gem_pog',
-        A: 'the_vault:perfect_alexandrite',
+        P: 'the_vault:perfect_black_opal',
+        A: 'the_vault:gem_echo',
         C: 'appliedenergistics2:16k_cell_component',
-        E: 'the_vault:perfect_echo_gem'
+        E: 'the_vault:vault_diamond_block'
     })
 
     event.shaped('1x appliedenergistics2:logic_processor', [
@@ -203,7 +203,7 @@ onEvent('recipes', event => {
 
     event.shapeless('1x appliedenergistics2:storage_bus', ['#appliedenergistics2:interface', 'minecraft:piston', 'the_vault:perfect_larimar', 'minecraft:sticky_piston', 'the_vault:perfect_larimar', 'the_vault:perfect_larimar'])
     event.shapeless('1x appliedenergistics2:terminal', ['appliedenergistics2:annihilation_core', 'appliedenergistics2:formation_core', 'the_vault:perfect_larimar', 'the_vault:perfect_benitoite', 'the_vault:perfect_larimar', 'appliedenergistics2:logic_processor'])
-    event.shapeless('1x appliedenergistics2:crafting_terminal', ['#forge:workbench', 'appliedenergistics2:calculation_processor', 'appliedenergistics2:terminal', 'the_vault:echo_pog'])
+    event.shapeless('1x appliedenergistics2:crafting_terminal', ['#forge:workbench', 'appliedenergistics2:calculation_processor', 'appliedenergistics2:terminal', 'the_vault:gem_pog'])
     event.shapeless('1x appliedenergistics2:speed_card', ['appliedenergistics2:advanced_card', 'appliedenergistics2:purified_fluix_crystal', '#the_vault:perfectcommongems'])
     event.shapeless('1x appliedenergistics2:capacity_card', ['appliedenergistics2:basic_card', 'appliedenergistics2:charged_certus_quartz_crystal', '#the_vault:perfectcommongems'])
     event.shapeless('4x appliedenergistics2:fluix_glass_cable', ['appliedenergistics2:quartz_fiber', '#appliedenergistics2:crystals/fluix', 'the_vault:gem_larimar', '#appliedenergistics2:crystals/fluix'])
