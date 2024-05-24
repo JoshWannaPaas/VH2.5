@@ -297,6 +297,7 @@ onEvent('recipes', event => {
 
     event.remove({output: 'darkutils:rune_damage_player'})
     event.remove({output: 'darkutils:charm_experience'})
+    event.remove({output: 'darkutils:charm_gluttony'})
     event.remove({output: 'darkutils:ender_hopper'})
     event.remove({output: 'darkutils:vector_plate_fast'})
     event.remove({output: 'darkutils:vector_plate_extreme'})
