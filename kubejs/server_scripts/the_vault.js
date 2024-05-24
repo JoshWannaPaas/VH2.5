@@ -112,7 +112,7 @@ onEvent('recipes', event => {
         S: 'minecraft:stone_bricks',
         O: 'minecraft:obsidian',
         D: 'minecraft:diamond_block'
-    })
+    }).id('the_vault:vault_altar')
 
     event.shaped('1x the_vault:magnet_core_strong', [
         'CWC'
