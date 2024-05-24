@@ -91,9 +91,9 @@ onEvent('recipes', event => {
     })
 
     event.shaped('1x integrateddynamics:mechanical_squeezer', [
-        ' E ',
+        ' P ',
         'BSB',
-        ' P '
+        ' E '
     ], {
         P: 'the_vault:gem_pog',
         E: 'the_vault:extraordinary_black_opal',
@@ -113,9 +113,9 @@ onEvent('recipes', event => {
     })
 
     event.shaped('1x integrateddynamics:mechanical_drying_basin', [
-        'PEP',
+        ' P',
         'BSB',
-        'PDP'
+        ' E '
     ], {
         P: 'the_vault:gem_pog',
         E: 'the_vault:extraordinary_black_opal',
