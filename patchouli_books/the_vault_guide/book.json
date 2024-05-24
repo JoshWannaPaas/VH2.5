@@ -1,6 +1,6 @@
 {
-    "name": "Vault Hunters Guide Book",
-    "landing_text": "Welcome to the Vault Hunters Guide Book!",
+    "name": "Vault Encyclopedia",
+    "landing_text": "The Vault Hunters Guide Book to teach new Hunters about the various aspects of $(#033dfc)The Vault$()",
     "version": 0,
     "book_texture": "patchouli:textures/gui/book_blue.png"
 }

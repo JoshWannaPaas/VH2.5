@@ -1,0 +1,22 @@
+{
+    "name": "The Vault Altar",
+    "icon": "the_vault:vault_altar",
+    "category": "patchouli:get_started",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The $(#033dfc)Vault Altar$() is the core block in your Vault Hunters Journey. $(br)This block has the power to infuse $(l:get_started/vault_rock)Vault Rocks$() into usable $(#033dfc)Vault Crystals$() that can grant access to the Vault dimension. $(br)To use the $(#033dfc)Vault Altar$(), a $(l:get_started/vault_rock)Vault Rock$() needs to be placed on it, following that, it will request $(l:get_started/vault_rock)4 Items$() of various types which you will need to provide by throwing the requested items at it."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:vault_altar",
+            "title": "Vault Altar",
+            "text": "Once it's requests are met, a $(#f00)redstone signal$() will need to be provided for the Vault Rock to be infused."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Advanced use",
+            "text": "Once you have further progressed in the Modpack, you can automate the $(#033dfc)Vault Altar$() by importing items into it, for example via a $(#033dfc)Hopper$() or transportation methods provided by $(#033dfc)other mods$(), for example Applied Energistics 2 $(#033dfc)Export Busses$() or Refined Storage $(#033dfc)Exporters$()."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Vault Stone",
+    "icon": "the_vault:vault_stone",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

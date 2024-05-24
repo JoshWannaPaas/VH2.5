@@ -1,0 +1,29 @@
+{
+    "name": "The Vault Portal",
+    "icon": "the_vault:vault_stone",
+    "category": "patchouli:get_started",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "To enter the Vaults, you will require some sort of gateway.$(br2)A portal similar to the Nether Portal would do, but instead of using obsidian you should try a variant of Blackstone, perhaps $(l:other/vault_stone)Vault Stone$() could also work."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "The Vault Portal",
+
+            "multiblock": {
+                "pattern": [
+                    [ "BBBB"], 
+                    [ "B  B"], 
+                    [ "B  B"], 
+                    [ "B0 B"],
+                    [ "BBBB"]
+                ],
+                "mapping": {
+                    "B": "#the_vault:validportalblocks"
+                },
+                "symmetrical": true
+            }
+        }
+    ]
+}

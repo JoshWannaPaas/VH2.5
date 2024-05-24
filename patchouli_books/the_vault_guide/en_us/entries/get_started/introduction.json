@@ -1,0 +1,18 @@
+{
+    "name": "Introduction",
+    "icon": "the_vault:vault_crystal",
+    "category": "patchouli:get_started",
+    "priority": true,
+    "pages": [
+        {
+            "title": "Introduction",
+            "type": "patchouli:text",
+            "text": "Welcome to the Vault Hunters 2.5 Modpack!$(br2)To start the Journey of a Vault Hunter, you require a few things first, namely a $(l:get_started/vault_altar)Vault Altar$(), $(l:get_started/vault_rock)Vault Rocks$() and you will require a $(l:get_started/vault_portal)Portal Frame.$()$(br2)Vault Hunters is a $(#f00)difficult Modpack$(), so be wary of the challenges that you may face in $(#033dfc)the Vault$()!"
+        },
+        {
+            "title": "Preparations",
+            "type": "patchouli:text",
+            "text": "In $(#033dfc)Vaults$(), your health $(#f00)$(l)will not regenerate$(), so you will have to be careful.$(br2)Prior to entering $(#033dfc)a Vault$(), you should prepare yourself with a few things, mainly enchanted Armor, Food, Healing and Crates, Shulkers or Common Backpacks to store richities obtained in $(#033dfc)the Vault$()."
+        }
+    ] 
+}
