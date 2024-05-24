@@ -26,18 +26,6 @@ onEvent('item.tags', event => {
         'the_vault:gem_larimar',
         'the_vault:gem_benitoite'
     ])
-
-    event.add('the_vault:validportalblocks', [
-        'minecraft:blackstone',
-        'minecraft:polished_blackstone',
-        'minecraft:polished_blackstone_bricks',
-        'minecraft:cracked_polished_blackstone_bricks',
-        'minecraft:chiseled_polished_blackstone',
-        'minecraft:gilded_blackstone',
-        'the_vault:vault_stone',
-        'the_vault:final_vault_frame'
-
-    ])
     
     colors.forEach(colors =>{
         event.add('ag:concrete',
@@ -48,4 +36,17 @@ onEvent('item.tags', event => {
         event.add('ag:concrete_powder',
             `minecraft:${colors}_concrete_powder`
     )})
+})
+
+onEvent('block.tags', event => {
+    event.add('the_vault:validportalblocks', [
+        'minecraft:polished_blackstone',
+        'minecraft:polished_blackstone_bricks',
+        'minecraft:cracked_polished_blackstone_bricks',
+        'minecraft:chiseled_polished_blackstone',
+        'minecraft:gilded_blackstone',
+        'minecraft:blackstone',
+        'the_vault:vault_stone'
+
+    ])
 })
