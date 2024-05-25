@@ -16,7 +16,12 @@ vaulthunters-2.5.code-workspace
 openloader/.cache
 config/environmental
 config/valkyrielib
-config/jei/
+config/fpsreducer
+config/konkrete
+config/skyblockbuilder
+config/waila
+config/jei
+fancymenu_data
 crash-reports
 mods/.index
 modernfix*
