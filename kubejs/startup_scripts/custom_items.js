@@ -12,4 +12,11 @@ onEvent('item.registry', event => {
 
 	event.create('evil_omega_pog').displayName('Corrupted Omega POG')
 	event.create('weaker_omega_pog').displayName('Weaker Omega POG')
+	
+	//shapes for the gudie book
+	event.create('shape_diamond').displayName('Diamond Shape')
+	event.create('shape_square').displayName('Square Shape')
+	event.create('shape_triangle').displayName('Triangle Shape')
+	event.create('shape_circle').displayName('Circle Shape')
+	event.create('shape_spiral').displayName('Spiral Shape')
 })

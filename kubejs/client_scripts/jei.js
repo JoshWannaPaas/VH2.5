@@ -126,6 +126,12 @@ onEvent('jei.hide.items', event => {
 	event.hide('immersiveengineering:toolupgrade_drill_waterproof')
 	event.hide('immersiveengineering:toolupgrade_drill_damage')
 
+	event.hide('kubejs:shape_diamond')
+	event.hide('kubejs:shape_square')
+	event.hide('kubejs:shape_circle')
+	event.hide('kubejs:shape_triangle')
+	event.hide('kubejs:shape_spiral')
+
 	event.hide(Item.of('appliedenergistics2:facade').ignoreNBT())
 
 })
