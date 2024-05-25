@@ -293,6 +293,11 @@ onEvent('recipes', event => {
     event.remove({output: 'immersiveengineering:armor_faraday_legs'})
     event.remove({output: 'immersiveengineering:armor_faraday_chest'})
     event.remove({output: 'immersiveengineering:armor_faraday_head'})
+    event.remove({output: 'immersiveengineering:drill'})
+    event.remove({output: 'immersiveengineering:drillhead_iron'})
+    event.remove({output: 'immersiveengineering:drillhead_steel'})
+    event.remove({output: 'immersiveengineering:toolupgrade_drill_waterproof'})
+    event.remove({output: 'immersiveengineering:toolupgrade_drill_damage'})
     event.remove({id: 'immersiveengineering:crusher/nether_wart'})
 
     event.remove({output: 'darkutils:rune_damage_player'})

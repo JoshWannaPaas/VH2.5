@@ -18,6 +18,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('mekanism:module_jetpack_unit')
 	event.hide('mekanism:module_charge_distribution_unit')
 	event.hide('mekanism:module_elytra_unit')
+
 	event.hide('botania:dice')
 	event.hide('botania:thor_ring')
 	event.hide('botania:loki_ring')
@@ -62,6 +63,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('botania:manasteel_axe')
 	event.hide('botania:manasteel_sword')
 	event.hide('botania:manasteel_shears')
+
 	event.hide('the_vault:puzzle_rune')
 	event.hide('the_vault:puzzle_rune_block')
 	event.hide('the_vault:ore_unknown')
@@ -82,12 +84,14 @@ onEvent('jei.hide.items', event => {
 	event.hide('the_vault:vault_treasure_chest')
 	event.hide('the_vault:vault_altar_chest')
 	event.hide('the_vault:vault_rune')
+
 	event.hide('industrialforegoing:mob_duplicator')
 	event.hide('ironjetpacks:emerald_jetpack')
 	event.hide('quark:matrix_enchanter')
 	event.hide('enchantinginfuser:advanced_enchanting_infuser')
 	event.hide('quark:blossom_planks')
 	event.hide('quark:blossom_boards')
+
 	event.hide('sophisticatedbackpacks:compacting_upgrade')
 	event.hide('sophisticatedbackpacks:advanced_compacting_upgrade')
 	event.hide('sophisticatedbackpacks:filter_upgrade')
@@ -111,9 +115,17 @@ onEvent('jei.hide.items', event => {
 	event.hide('sophisticatedbackpacks:pump_upgrade')
 	event.hide('sophisticatedbackpacks:advanced_pump_upgrade')
 	event.hide('sophisticatedbackpacks:xp_pump_upgrade')
+
 	event.hide('integrateddynamics:coal_generator')
 	event.hide('integratedtunnels:part_player_simulator') 
-	event.hide('integratedterminals:part_terminal_crafting_job') 
+	event.hide('integratedterminals:part_terminal_crafting_job')
+	
+	event.hide('immersiveengineering:drill')
+	event.hide('immersiveengineering:drillhead_iron')
+	event.hide('immersiveengineering:drillhead_steel')
+	event.hide('immersiveengineering:toolupgrade_drill_waterproof')
+	event.hide('immersiveengineering:toolupgrade_drill_damage')
+
 	event.hide(Item.of('appliedenergistics2:facade').ignoreNBT())
 
 })
