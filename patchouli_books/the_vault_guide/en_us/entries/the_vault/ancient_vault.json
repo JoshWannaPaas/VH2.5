@@ -1,0 +1,11 @@
+{
+    "name": "Ancient Vaults",
+    "icon": "the_vault:crystal_seal_ancients",
+    "category": "patchouli:the_vault",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "sortnum": 4,
+    "name": "Vault Crystals",
+    "icon": "the_vault:vault_crystal",
+    "category": "patchouli:get_started",
+    "pages": [
+        {
+            "title": "Vault Crystals",
+            "type": "patchouli:text",
+            "text": "$(#033dfc)Vault Crystals$() are the key to entering $(#033dfc)Vaults$(), they are created by infusing $(l:get_started/vault_rock)Vault Rocks$() in a $(l:get_started/vault_altar)Vault Altar$(). These mystical Crystals possess the power to open the Vault Realm."
+        },
+        {
+            "title": "Crystal Aspects",
+            "type": "patchouli:text",
+            "text": "Vault Crystals have a few attributes to them, mainly the $(#033dfc)Vault Type$() and the $(#033dfc)Vault Objective$(), these define what kind of Vault, the Vault is going to be and what your task is inside the Vault.$(br)$(br2)On the next pages, the $(#033dfc)Summon and Kill the Boss$() and $(#033dfc)Scavenger$() Objective will be explained more in-depth"
+        },
+        {
+            "title": "Summon and Kill the Boss",
+            "type": "patchouli:text",
+            "text": "The first Objective you will come across is the $(#033dfc)Summon and Kill the Boss$() Objective, with your goal being, as the name suggests, to Summon and Kill the Boss.$(br)To summon the Boss, you will need to find $(#033dfc)Vault Obelisks$(), which are the Objective block of the Objective. Once you have activated the required amount of Obelisks, a Boss will spawn, which you will have to slay to complete the Vault."
+        },
+        {
+            "title": "Scavenger Objective",
+            "type": "patchouli:text",
+            "text": "Starting from Level 25, the $(#033dfc)Scavenger$() Objective will appear.$(br)Your goal is to collect a specified amount of items displayed at the top of your screen, these may be obtainable from $(#033dfc)Chests$(), $(#033dfc)Richity Piles$() and $(#033dfc)Vault Mobs$().$(br)Once you have obtained all the required items, you will need to find a $(#033dfc)Scavenger Chest$() to deposit the items which completes the Vault."
+        }
+    ] 
+}

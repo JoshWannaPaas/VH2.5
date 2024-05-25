@@ -1,0 +1,18 @@
+{
+    "sortnum": 6,
+    "name": "Preparations",
+    "icon": "the_vault:drill_arrow",
+    "category": "patchouli:get_started",
+    "pages": [
+        {
+            "title": "Preparations",
+            "type": "patchouli:text",
+            "text": "For your first $(#033dfc)Vault$(), you should prepare a few things.$(br2)You should have enchanted armor. $(br)$(o)(Note that Vanilla armor has been nerfed)$()$(br)You should bring ways of healing yourself, as previously mentioned, your health$(#f00)$(l) will not naturally regenerate$() and a way to store all the goodies you will be finding."
+        },
+        {
+
+            "type": "patchouli:text",
+            "text": "The Vault will have a $(#f00)$(l)25 minute Timer$() by default, so you cannot stay as long as you'd like. Once this timer hits 0, $(#f00)$(l)you will be unalived$()."
+        }
+    ]
+}

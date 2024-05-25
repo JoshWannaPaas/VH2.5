@@ -1,0 +1,6 @@
+{
+    "sortnum": 2,
+    "name": "The Vault",
+    "description": "An extensive view of the Vault dimension, providing various information about the $(#033dfc)Vault$(), $(#033dfc)Vault Types$(), $(#033dfc)Objectives$() and much more!",
+    "icon": "the_vault:vault_crystal"
+}

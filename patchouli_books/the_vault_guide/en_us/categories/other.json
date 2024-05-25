@@ -1,5 +1,6 @@
 {
-    "name": "other",
-    "description": "misc entries",
+    "sortnum": 3,
+    "name": "Miscellaneous Entries",
+    "description": "This Category teaches you about various items that do not fit in other categories.",
     "icon": "the_vault:skill_orb"
 }

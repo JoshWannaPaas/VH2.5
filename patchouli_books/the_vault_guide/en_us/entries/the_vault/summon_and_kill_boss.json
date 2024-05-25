@@ -1,0 +1,11 @@
+{
+    "name": "Summon and Kill Boss Vaults",
+    "icon": "the_vault:crystal_seal_executioner",
+    "category": "patchouli:the_vault",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

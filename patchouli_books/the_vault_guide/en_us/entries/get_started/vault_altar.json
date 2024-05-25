@@ -1,11 +1,12 @@
 {
+    "sortnum": 2,
     "name": "The Vault Altar",
     "icon": "the_vault:vault_altar",
     "category": "patchouli:get_started",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "The $(#033dfc)Vault Altar$() is the core block in your Vault Hunters Journey. $(br)This block has the power to infuse $(l:get_started/vault_rock)Vault Rocks$() into usable $(#033dfc)Vault Crystals$() that can grant access to the Vault dimension. $(br)To use the $(#033dfc)Vault Altar$(), a $(l:get_started/vault_rock)Vault Rock$() needs to be placed on it, following that, it will request $(l:get_started/vault_rock)4 Items$() of various types which you will need to provide by throwing the requested items at it."
+            "text": "The $(#033dfc)Vault Altar$() is the core block in your Vault Hunters Journey. $(br)It has the power to infuse $(l:get_started/vault_rock)Vault Rocks$() into usable $(#033dfc)Vault Crystals$() that grant access to the Vault dimension. $(br)To use the $(#033dfc)Vault Altar$(), a $(l:get_started/vault_rock)Vault Rock$() needs to be placed on it, following that, it will request $(#033dfc)4 Items$() of various types which you will need to provide by throwing or right clicking the Altar with the requested items."
         },
         {
             "type": "patchouli:crafting",

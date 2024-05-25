@@ -1,6 +1,7 @@
 {
+    "sortnum": 1,
     "name": "Introduction",
-    "icon": "the_vault:vault_crystal",
+    "icon": "the_vault:etching",
     "category": "patchouli:get_started",
     "priority": true,
     "pages": [
@@ -12,7 +13,7 @@
         {
             "title": "Preparations",
             "type": "patchouli:text",
-            "text": "In $(#033dfc)Vaults$(), your health $(#f00)$(l)will not regenerate$(), so you will have to be careful.$(br2)Prior to entering $(#033dfc)a Vault$(), you should prepare yourself with a few things, mainly enchanted Armor, Food, Healing and Crates, Shulkers or Common Backpacks to store richities obtained in $(#033dfc)the Vault$()."
+            "text": "In $(#033dfc)Vaults$(), your health $(#f00)$(l)will not naturally regenerate$(), so you will have to be careful.$(br2)Prior to entering $(#033dfc)a Vault$(), you should prepare yourself with a few things, mainly enchanted Armor, Food, Healing and Crates, Shulkers or Common Backpacks to store richities obtained in $(#033dfc)the Vault$()."
         }
     ] 
 }

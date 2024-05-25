@@ -1,0 +1,48 @@
+{
+    "sortnum": 1,
+    "name": "Vault Layouts",
+    "icon": "the_vault:vault_stone",
+    "category": "patchouli:the_vault",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Vaults consist of multiple Layouts that gradually show up while you continue your Journey as a $(#033dfc)Vault Hunter$()."
+        },
+        {
+            "title": "Diamond Layout",
+            "type": "patchouli:spotlight",
+            "item": "kubejs:shape_diamond",
+            "text": "The first layout you will come across is the $(#033dfc)Diamond layout$(), which shapes Vaults in a diamond form. This layout will accompany you from your very first Vaults, to your very last ones."
+        },
+        {
+            "title": "Square Layout",
+            "type": "patchouli:spotlight",
+            "item": "kubejs:shape_square",
+            "text": "Starting from $(#033dfc)Level 50$(), you will be greeted with the $(#033dfc)Square layout layout$(), which shapes Vaults in a Square form. It is one of the easiest to navigate through, but has the most rooms out of all the layouts!"
+        },
+        {
+            "title": "Circle Layout",
+            "type": "patchouli:spotlight",
+            "item": "kubejs:shape_circle",
+            "text": "$(#033dfc)Level 100$() onwards, the $(#033dfc)Circle layout will be introduced$(), which shapes Vaults in a Circle shape. This layout is balanced inbetween the $(#033dfc)Diamond$() & the $(#033dfc)Square$() Layout in terms of rooms. "
+        },
+        {
+            "title": "Triangle Layout",
+            "type": "patchouli:spotlight",
+            "item": "kubejs:shape_triangle",
+            "text": "Similar to the $(#033dfc)Circle Layout$(), the $(#033dfc)Triangle Layout$() will appear, starting from $(#033dfc)Level 100$() and shapes Vaults in a Triangle shape. It is considered to be the most difficult layout to navigate through."
+        },
+        {
+            "title": "Spiral Layout",
+            "type": "patchouli:spotlight",
+            "item": "kubejs:shape_spiral",
+            "text": "The $(#033dfc)Spiral layout$() is a unique layout which only appears in $(l:the_vault/cake_vault)Cake Vaults$(). Rooms are generated per clicked cake and will not connect hallways to already generated Rooms."
+        }
+    ]
+
+
+
+
+
+    
+}

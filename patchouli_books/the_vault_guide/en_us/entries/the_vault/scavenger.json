@@ -1,0 +1,11 @@
+{
+    "name": "Scavenger Vaults",
+    "icon": "the_vault:crystal_seal_hunter",
+    "category": "patchouli:the_vault",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

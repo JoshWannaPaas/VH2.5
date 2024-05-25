@@ -1,5 +1,6 @@
 {
+    "sortnum": 1,
     "name": "Getting Started!",
-    "description": "How to get started with Vault Hunters!",
+    "description": "How to get started with becoming a $(#033dfc)Vault Hunter$()!",
     "icon": "the_vault:vault_altar"
 }

@@ -1,0 +1,16 @@
+{
+    "sortnum": 2,
+    "name": "Vault Rooms",
+    "icon": "the_vault:vault_stone",
+    "category": "patchouli:the_vault",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The first room in a Vault is the $(#033dfc)Portal Room$(). This room will allow the Player to return to the Overworld in rcase they cannot complete the Vault, however, if the Vault is locked, this will not be possible. Vault Rooms are the key part of the Vaults. Each Vault will have a varying amount of rooms, interconnected by hallways."
+        },
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}
