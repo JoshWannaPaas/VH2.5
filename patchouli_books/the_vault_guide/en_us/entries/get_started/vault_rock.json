@@ -6,7 +6,8 @@
     "pages": [
         {
             "title": "Vault Rocks",
-            "type": "patchouli:text",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_rock",
             "text": "$(#033dfc)Vault Rocks$() are the primary resource required from the $(l:get_started/vault_altar)Vault Altar$() to create $(l:get_started/vault_crystals)Vault Crystals$(). These magical rocks can be found below $(#033dfc)Y: 11$() and can spawn $(#033dfc)once$() per chunk.$(br2)Upon finding , you can either smelt the $(#033dfc)Vault Rocks$()Vault Rock Ore$(), or fortune them for a chance at multiple $(#033dfc)Vault Rocks$()."
         },
         {

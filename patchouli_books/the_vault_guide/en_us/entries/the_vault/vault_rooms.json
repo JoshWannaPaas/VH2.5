@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "The first room in a Vault is the $(#033dfc)Portal Room$(). This room will allow the Player to return to the Overworld in rcase they cannot complete the Vault, however, if the Vault is locked, this will not be possible. Vault Rooms are the key part of the Vaults. Each Vault will have a varying amount of rooms, interconnected by hallways."
+            "text": "The first room in a Vault is the $(#033dfc)Portal Room$(). This room will allow the Player to return to the Overworld in case they $(#f00)cannot complete$() $(#033dfc)the Vault$().$(br2)$(#033dfc)Vault Rooms$() are the key part of the $(#033dfc)Vaults$(). Each Vault will have a varying amount of rooms which are 47x47x47 Blocks in size, interconnected by $(#033dfc)hallways$()."
         },
         {
             "type": "patchouli:text",
-            "text": ""
+            "text": "Vault Rooms contain the Loot in the Vaults, which is usually guarded by special $(#033dfc)Spawners$() that constantly spawn Mobs. Vault Rooms come in different rarities, $(#033dfc)Common$(), $(#033dfc)Rare$(), $(#033dfc)Epic$() and $(#033dfc)Omega$() Rooms, which all contain a varying degree of Loot and Spawners."
         }
     ]
 }

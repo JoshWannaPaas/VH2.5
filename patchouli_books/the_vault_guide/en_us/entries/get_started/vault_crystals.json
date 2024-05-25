@@ -6,7 +6,8 @@
     "pages": [
         {
             "title": "Vault Crystals",
-            "type": "patchouli:text",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_crystal",
             "text": "$(#033dfc)Vault Crystals$() are the key to entering $(#033dfc)Vaults$(), they are created by infusing $(l:get_started/vault_rock)Vault Rocks$() in a $(l:get_started/vault_altar)Vault Altar$(). These mystical Crystals possess the power to open the Vault Realm."
         },
         {

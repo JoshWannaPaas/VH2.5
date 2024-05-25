@@ -1,11 +1,25 @@
 {
+    "sortnum": 3,
     "name": "Summon and Kill Boss Vaults",
     "icon": "the_vault:crystal_seal_executioner",
     "category": "patchouli:the_vault",
     "pages": [
         {
+            "title": "Summon and Kill the Boss",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:obelisk",
+            "text": "The $(#033dfc)Summon and Kill the Boss$() Objective is the first Objective you will come across.$(br2)Your goal is to find between $(#033dfc)3 - 6$() Obelisks, which usually spawn in the center of a $(l:get_started/vault_rooms)Vault Room$().$(br)In each Vault there will be a maximum of $(#033dfc)10 Obelisks$() across all the rooms."
+        },
+        {
+            "title": "Obelisk Activation",
             "type": "patchouli:text",
-            "text": ""
+            "text": "To activate $(#033dfc)Obelisks$(), you simply need to right click one, this will add to the counter at the $(#033dfc)bottom of your screen$().$(br2)Once you activate the last $(#033dfc)Obelisk$() required, a $(#033dfc)Boss$() will spawn which you will have to defeat$(br2)Upon defeating the boss, a $(#033dfc)Boss Crate$() will spawn in it's place and you will be teleported out of $(#033dfc)the Vault$()"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "the_vault:crystal_seal_executioner",
+            "text": "If you would like the $(l:get_started/vault_crystal)Vault Crystal$() to guarantee the $(#033dfc)Summon and Kill the Boss$() Objective, you may apply a $(#033dfc)Seal of the Executioner$() to your Crystal if said Crystal is not exhausted."
         }
+
     ]
 }
