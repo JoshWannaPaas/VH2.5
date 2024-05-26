@@ -115,6 +115,12 @@
 ### Miscellaneous Changes
 - Added a `the_vault:commongems` tag for Larimar & Beniotite
 - Added a `the_vault:validportalblocks` tag for Valid Vault portal blocks
+- added a `the_vault:wooden_chest` tag to all items found in wooden vault chests
+- added a `the_vault:gilded_chest` tag to all items found in gilded chests
+- added a `the_vault:vault_junk` tag to items in the junk resource pool (junk items in both chest types)
+- added a `the_vault:vault_resource` tag to items in the resource pool (resource items in both chest types)
+- added a `the_vault:vault_powerup` tag to items in the power-up resource pool (power-up items in both chest types)
+- added a `the_vault:vault_special` tag to items in the special pool (special items in both chest types)
 - Fixed the Vault Altar Model in Inventories
 - Hid all AE2 facades (excluding stone) from JEI
 - Renamed Mob difficulty Modifiers to be more clearer
