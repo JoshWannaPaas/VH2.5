@@ -10,8 +10,7 @@ onEvent('item.registry', event => {
 	event.create('the_vault:extraordinary_black_opal').displayName('Extraordinary Black Opal Gem')
 	event.create('the_vault:extraordinary_echo_gem').displayName('Extraordinary Echo Gem')
 
-	event.create('evil_omega_pog').displayName('Corrupted Omega POG')
-	event.create('weaker_omega_pog').displayName('Weaker Omega POG')
+	event.create('corrupted_omega_pog').displayName('Corrupted Omega POG')
 	
 	//shapes for the gudie book
 	event.create('shape_diamond').displayName('Diamond Shape')
