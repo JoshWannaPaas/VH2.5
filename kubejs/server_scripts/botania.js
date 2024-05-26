@@ -697,7 +697,7 @@ onEvent('recipes', event => {
           "item": "botania:aura_ring_greater"
         },
         {
-        "item": "kubejs:weaker_omega_pog"
+        "item": "the_vault:omega_pog"
         }
       ],
       "result": {
