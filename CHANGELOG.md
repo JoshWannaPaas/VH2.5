@@ -160,6 +160,7 @@
 - \+ Skyblock Builder [BOTH]
 - \+ SuperMartijn642's Config Lib [BOTH]
 - \+ Iceberg [BOTH]
+- \+ Polymorph [BOTH]
 - \+ Embeddium [CLIENT]
 - \+ AppleSkin [CLIENT]
 - \+ FancyMenu [CLIENT]
