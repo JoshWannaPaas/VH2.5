@@ -154,6 +154,12 @@
 - \+ Emojiful [BOTH] (?)
 - \+ Jade [BOTH]
 - \+ SecondChance [BOTH]
+- \+ Enchanting Infuser [Forge & Fabric] [BOTH]
+- \+ LibX [BOTH]
+- \+ Puzzles Lib [Forge & Fabric] [BOTH]
+- \+ Skyblock Builder [BOTH]
+- \+ SuperMartijn642's Config Lib [BOTH]
+- \+ Iceberg [BOTH]
 - \+ Embeddium [CLIENT]
 - \+ AppleSkin [CLIENT]
 - \+ FancyMenu [CLIENT]
@@ -161,10 +167,14 @@
 - \+ ShutUpExperimentalSettings [CLIENT]
 - \+ LegendaryTooltips [CLIENT]
 - \+ FPSreducer [CLIENT]
+- \+ Drippy Loading Screen [CLIENT]
+- \+ Konkrete [CLIENT]
+- \+ Prism [CLIENT]
 
 - \- ToroHealth [BOTH]
 - \- RangedPumps [BOTH]
 - \- HWYLA [BOTH]
 - \- CreateTweaker [BOTH]
+- \- RFTools Storage [BOTH]
 
 
