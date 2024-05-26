@@ -100,7 +100,10 @@
 - Added a Cage Dust Recipe
 - Added an Elytra Recipe
 - Made SimplyBackpacks significantly cheaper
-- Made Golden apples significantly cheaper
+- Golden apples have been reverted to their vanilla recipe
+- Health potions have been reverted to their vanilla recipe
+- Regeneration potions have been reverted to their vanilla recipe
+- Lingering potions have been reverted to their vanilla recipe
 - Added an efficient Andesite Alloy recipe
 - Modified the Gas Burning Generator recipe from Mekanism
 - Added a Recipe to the Thor's Ring Relic from Botania
@@ -156,5 +159,6 @@
 - \- ToroHealth [BOTH]
 - \- RangedPumps [BOTH]
 - \- HWYLA [BOTH]
+- \- CreateTweaker [BOTH]
 
 
