@@ -113,7 +113,7 @@ onEvent('recipes', event => {
     })
 
     event.shaped('1x integrateddynamics:mechanical_drying_basin', [
-        ' P',
+        ' P ',
         'BSB',
         ' E '
     ], {
