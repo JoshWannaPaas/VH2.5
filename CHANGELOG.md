@@ -88,7 +88,10 @@
     - This is the Guide book for VH2.5
     - This book is used to explain majority of mechanics to the player with the Vault Mod and the Vault Extras Mod
     - It also includes Challenges for dedicated Players which will reward the Player with certain Items (?)
-
+- Made the Soul Shard Trading Menu (F7) reset every 2 hours instead of 12 hours
+- Added the **Vault Annihilator**
+    - This is ***the*** Endgame tool, it can instantly mine Vault chests without any problem
+    - This comes at a hefty price [TBD]
 
 
 ### Recipe Changes
