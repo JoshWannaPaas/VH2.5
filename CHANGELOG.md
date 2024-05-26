@@ -176,6 +176,5 @@
 - \- HWYLA [BOTH]
 - \- CreateTweaker [BOTH]
 - \- RFTools Storage [BOTH]
-- \- MrCrayfish's Furniture Mod [BOTH]
 
 
