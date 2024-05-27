@@ -34,7 +34,7 @@
 - Up to Vault Level 5, All Vaults guarantee Safe Zone, Personal Space & Phoenix
 - Modified Quark Configs for QOL Tweaks
 - Upped chance to get Netherite Gear in LVL 0 - 24 Loottables
-- Added the Library Room from VH3, 5x as rare
+- Added the Library Room from VH3, 5x as rare as a Mine Room
 - Added Unused Colosseum, Toy & Squid Room
 - Upped chance for non-artisans to craft Tier 3 Gear
 - Added Deco Wood Board Blocks from a newer version of Architects Palette

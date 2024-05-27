@@ -2249,7 +2249,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2277,7 +2277,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2305,7 +2305,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2333,7 +2333,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2361,7 +2361,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2389,7 +2389,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2417,7 +2417,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2445,7 +2445,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2473,7 +2473,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2501,7 +2501,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2529,7 +2529,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
@@ -2557,7 +2557,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"treasureroom\"}]}}"
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"treasureroom\"}]}}"
             }
           ]
         },
