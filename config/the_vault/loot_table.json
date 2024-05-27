@@ -31,7 +31,7 @@
         "EPIC": "the_vault:chest/lvl0/gildedepic",
         "OMEGA": "the_vault:chest/lvl0/gildedomega"
       },
-      "ALTAR": "the_vault:chest/altar",
+      "ALTAR": "the_vault:chest/altar0",
       "BOSS_CRATE": "the_vault:chest/lvl0/bosscrate",
       "SCAVENGER_CRATE": "the_vault:chest/lvl0/bosscratenew",
       "BOSS_BONUS_CRATE": "the_vault:chest/lvl25/championbox",
@@ -80,7 +80,7 @@
         "EPIC": "the_vault:chest/lvl25/gildedepic",
         "OMEGA": "the_vault:chest/lvl25/gildedomega"
       },
-      "ALTAR": "the_vault:chest/altar",
+      "ALTAR": "the_vault:chest/altar0",
       "BOSS_CRATE": "the_vault:chest/lvl25/bosscrate",
       "SCAVENGER_CRATE": "the_vault:chest/lvl25/scavengecrate",
       "BOSS_BONUS_CRATE": "the_vault:chest/lvl25/championbox",
@@ -178,7 +178,7 @@
         "EPIC": "the_vault:chest/lvl75/gildedepic",
         "OMEGA": "the_vault:chest/lvl75/gildedomega"
       },
-      "ALTAR": "the_vault:chest/altar",
+      "ALTAR": "the_vault:chest/altar0",
       "BOSS_CRATE": "the_vault:chest/lvl75/bosscratenew",
       "SCAVENGER_CRATE": "the_vault:chest/lvl75/scavengecrate",
       "BOSS_BONUS_CRATE": "the_vault:chest/lvl75/championbox",
@@ -227,7 +227,7 @@
         "EPIC": "the_vault:chest/lvl100/gildedepic",
         "OMEGA": "the_vault:chest/lvl100/gildedomega"
       },
-      "ALTAR": "the_vault:chest/altar",
+      "ALTAR": "the_vault:chest/altar100",
       "BOSS_CRATE": "the_vault:chest/lvl100/bosscratenew",
       "SCAVENGER_CRATE": "the_vault:chest/lvl100/scavengecrate",
       "BOSS_BONUS_CRATE": "the_vault:chest/lvl100/championbox",
@@ -276,7 +276,7 @@
         "EPIC": "the_vault:chest/lvl150/gildedepic",
         "OMEGA": "the_vault:chest/lvl150/gildedomega"
       },
-      "ALTAR": "the_vault:chest/altar",
+      "ALTAR": "the_vault:chest/altar100",
       "BOSS_CRATE": "the_vault:chest/lvl150/bosscratenew",
       "SCAVENGER_CRATE": "the_vault:chest/lvl150/scavengecrate",
       "BOSS_BONUS_CRATE": "the_vault:chest/lvl150/championbox",
@@ -325,7 +325,7 @@
         "EPIC": "the_vault:chest/lvl200/gildedepic",
         "OMEGA": "the_vault:chest/lvl200/gildedomega"
       },
-      "ALTAR": "the_vault:chest/altar",
+      "ALTAR": "the_vault:chest/altar200",
       "BOSS_CRATE": "the_vault:chest/lvl200/bosscratenew",
       "SCAVENGER_CRATE": "the_vault:chest/lvl200/scavengecrate",
       "BOSS_BONUS_CRATE": "the_vault:chest/lvl200/championbox",
@@ -374,7 +374,56 @@
         "EPIC": "the_vault:chest/lvl250/gildedepic",
         "OMEGA": "the_vault:chest/lvl250/gildedomega"
       },
-      "ALTAR": "the_vault:chest/altar",
+      "ALTAR": "the_vault:chest/altar200",
+      "BOSS_CRATE": "the_vault:chest/lvl250/bosscratenew",
+      "SCAVENGER_CRATE": "the_vault:chest/lvl250/scavengecrate",
+      "BOSS_BONUS_CRATE": "the_vault:chest/lvl250/championbox",
+      "ARENA_CRATE": "the_vault:chest/lvl250/arena",
+      "VAULT_FIGHTER": "the_vault:entities/lvl250/vault_fighter",
+      "COW": "the_vault:entities/lvl250/cow",
+      "TREASURE_GOBLIN": "the_vault:entities/lvl250/treasure_goblin",
+      "ANCIENT_ETERNAL_BOX": "the_vault:chest/ancientbox",
+      "ARTIFACT_CHANCE": 0.07,
+      "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
+      "CRYSTAL_TYPE": [
+        {
+          "value": "COOP",
+          "weight": 1
+        }
+      ]
+    },
+    { "MIN_LEVEL": 300,
+      "VAULT_CHEST": {
+        "COMMON": "the_vault:chest/lvl250/vaultchestcommon",
+        "RARE": "the_vault:chest/lvl250/vaultchestrare",
+        "EPIC": "the_vault:chest/lvl250/vaultchestepic",
+        "OMEGA": "the_vault:chest/lvl250/vaultchestomega"
+      },
+      "TREASURE_CHEST": {
+        "COMMON": "the_vault:chest/lvl250/treasurecommon",
+        "RARE": "the_vault:chest/lvl250/treasurerare",
+        "EPIC": "the_vault:chest/lvl250/treasurerare",
+        "OMEGA": "the_vault:chest/lvl250/treasureomega"
+      },
+      "ALTAR_CHEST": {
+        "COMMON": "the_vault:chest/lvl250/godaltarcommon",
+        "RARE": "the_vault:chest/lvl250/godaltarrare",
+        "EPIC": "the_vault:chest/lvl250/godaltarepic",
+        "OMEGA": "the_vault:chest/lvl250/godaltaromega"
+      },
+      "COOP_CHEST": {
+        "COMMON": "the_vault:chest/lvl250/coopchest",
+        "RARE": "the_vault:chest/lvl250/coopchest",
+        "EPIC": "the_vault:chest/lvl250/coopchest",
+        "OMEGA": "the_vault:chest/lvl250/coopchest"
+      },
+      "BONUS_CHEST": {
+        "COMMON": "the_vault:chest/lvl250/gildedcommon",
+        "RARE": "the_vault:chest/lvl250/gildedrare",
+        "EPIC": "the_vault:chest/lvl250/gildedepic",
+        "OMEGA": "the_vault:chest/lvl250/gildedomega"
+      },
+      "ALTAR": "the_vault:chest/altar300",
       "BOSS_CRATE": "the_vault:chest/lvl250/bosscratenew",
       "SCAVENGER_CRATE": "the_vault:chest/lvl250/scavengecrate",
       "BOSS_BONUS_CRATE": "the_vault:chest/lvl250/championbox",

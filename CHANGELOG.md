@@ -96,6 +96,11 @@
 - Added the **Vault Annihilator**
     - This is ***the*** Endgame tool, it can instantly mine Vault chests without any problem
     - This comes at a hefty price [TBD]
+- Added Altar Tiers [LVL0, LVL100, LVL200, LVL300]
+    - You no longer will be able to get Nether stars or similar items on your first crystals
+    - New items have been added to the tiers
+    - tweaked some min/max values of items
+    - This is an experimental change    
 
 
 ### Recipe Changes
