@@ -14,7 +14,13 @@
       "color": "16364031",
       "description": "-2 mobs spawning"
     },
-    
+    {
+      "maxMobsAddend": -10,
+      "name": "Peaceful",
+      "icon": "the_vault:textures/gui/modifiers/silent.png",
+      "color": "10740469",
+      "description": "No natural Mob Spawning"
+    },
     {
       "maxMobsAddend": 4,
       "name": "Crowded",
@@ -498,6 +504,13 @@
       "description": "No chests will be trapped"
     },
     {
+      "chanceOfTrappedChests": 0.0,
+      "name": "Beginner's Insurance",
+      "icon": "the_vault:textures/gui/modifiers/safezone.png",
+      "color": "10740469",
+      "description": "No chests will be trapped"
+    },
+    {
       "chanceOfTrappedChests": 3.0,
       "name": "Trapped",
       "icon": "the_vault:textures/gui/modifiers/trapped.png",
@@ -619,6 +632,13 @@
       "preventsArtifact": false,
       "name": "Phoenix",
       "icon": "the_vault:textures/gui/modifiers/phoenix.png",
+      "color": "16746752",
+      "description": "All items you entered with will be restored on death"
+    },
+    {
+      "preventsArtifact": false,
+      "name": "Beginner's Grace",
+      "icon": "the_vault:textures/gui/modifiers/beginners_grace.png",
       "color": "16746752",
       "description": "All items you entered with will be restored on death"
     },
@@ -932,7 +952,7 @@
               "weight": 0
             },
             {
-              "value": "Safe Zone",
+              "value": "Beginner's Insurance",
               "weight": 1
             },
             {
@@ -976,12 +996,13 @@
         { "_NAME": "Inventory",
         	"MIN_ROLLS": 1,
         	"MAX_ROLLS": 1,
-        "POOL": [
+          "POOL": [
             {
-                "value": "Phoenix",
-                "weight": 1
+              "value": "Beginner's Grace",
+              "weight": 1
             }
-        ]}
+          ]
+        }
       ],
       "RAFFLE_POOLS": [
         { "_NAME": "Chests",
@@ -1567,12 +1588,12 @@
               "weight": 8
             },
             {
-              "value": "Safe Zone",
+              "value": "Beginner's Insurance",
               "weight": 1
             },
             {
               "value": "Trapped",
-              "weight": 1
+              "weight": 0
             }
           ]
         },
@@ -1605,6 +1626,16 @@
             {
               "value": "Dummy",
               "weight": 10
+            }
+          ]
+        },
+        { "_NAME": "Inventory",
+        	"MIN_ROLLS": 1,
+        	"MAX_ROLLS": 1,
+          "POOL": [
+            {
+              "value": "Beginner's Grace",
+              "weight": 1
             }
           ]
         }
