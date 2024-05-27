@@ -49,6 +49,9 @@
     "item.the_vault.scavenger_ripped_page": "§eRipped Page",
     "item.the_vault.scavenger_saddle_bag": "§eSaddle Bag",
     "item.the_vault.scavenger_spice_jar": "§eSpice Jar",
-    "item.the_vault.scavenger_wizard_wand": "§eWizard Wand"
-    
+    "item.the_vault.scavenger_wizard_wand": "§eWizard Wand",
+
+    "gamerule.vaultExpMultiplier": "Vault Experience Multiplier",
+    "gamerule.finalVaultAllowParty": "Allow Final Vault Party Members"
+
 }
