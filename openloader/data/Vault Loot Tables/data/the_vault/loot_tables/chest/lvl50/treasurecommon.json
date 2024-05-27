@@ -3,8 +3,8 @@
     {
       "name": "Filler",
       "rolls": {
-        "min": 4,
-        "max": 6
+        "min": 6,
+        "max": 8
       },
       "entries": [
         {
@@ -1128,7 +1128,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 6,
           "name": "refinedstorage:cable",
           "functions": [
             {
@@ -1705,7 +1705,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 6,
           "name": "appliedenergistics2:fluix_glass_cable",
           "functions": [
             {
@@ -2204,7 +2204,7 @@
       "name": "GearPool",
       "rolls": {
         "min": 1,
-        "max": 2
+        "max": 3
       },
       "bonus_rolls": {
         "min": 0,
@@ -2593,7 +2593,7 @@
       "name": "ScalePool",
       "rolls": {
         "min": 0,
-        "max": 2
+        "max": 3
       },
       "bonus_rolls": {
         "min": 0,
