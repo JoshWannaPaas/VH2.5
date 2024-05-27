@@ -8,9 +8,28 @@
       },
       "entries": [
         {
+          "_name": "sharpness9",
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:sharpness,lvl:9}]}"
+            }
+          ]
+        },
+        {
           "_name": "sharpness10",
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 1,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -27,28 +46,9 @@
           ]
         },
         {
-          "_name": "sharpness15",
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:enchanted_book",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{StoredEnchantments:[{id:sharpness,lvl:15}]}"
-            }
-          ]
-        },
-        {
           "_name": "protection5",
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 2,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -65,9 +65,9 @@
           ]
         },
         {
-          "_name": "unbreaking10",
+          "_name": "smite9",
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 2,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -79,12 +79,12 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{StoredEnchantments:[{id:unbreaking,lvl:10}]}"
+              "tag": "{StoredEnchantments:[{id:smite,lvl:9}]}"
             }
           ]
         },
         {
-          "_name": "unbreaking15",
+          "_name": "smite10",
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:enchanted_book",
@@ -98,14 +98,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{StoredEnchantments:[{id:unbreaking,lvl:15}]}"
+              "tag": "{StoredEnchantments:[{id:smite,lvl:10}]}"
             }
           ]
         },
         {
-          "_name": "fortune10",
+          "_name": "unbreaking7",
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 2,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -117,12 +117,12 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{StoredEnchantments:[{id:fortune,lvl:10}]}"
+              "tag": "{StoredEnchantments:[{id:unbreaking,lvl:7}]}"
             }
           ]
         },
         {
-          "_name": "fortune15",
+          "_name": "unbreaking8",
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:enchanted_book",
@@ -136,14 +136,71 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{StoredEnchantments:[{id:fortune,lvl:15}]}"
+              "tag": "{StoredEnchantments:[{id:unbreaking,lvl:7}]}"
+            }
+          ]
+        },
+        {
+          "_name": "fortune6",
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:fortune,lvl:6}]}"
+            }
+          ]
+        },
+        {
+          "_name": "fortune7",
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:fortune,lvl:7}]}"
+            }
+          ]
+        },
+        {
+          "_name": "looting9",
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:looting,lvl:9}]}"
             }
           ]
         },
         {
           "_name": "looting10",
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 2,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -160,28 +217,9 @@
           ]
         },
         {
-          "_name": "looting15",
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:enchanted_book",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{StoredEnchantments:[{id:looting,lvl:15}]}"
-            }
-          ]
-        },
-        {
           "_name": "featherfalling5",
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 2,
           "name": "minecraft:enchanted_book",
           "functions": [
             {

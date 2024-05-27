@@ -2945,6 +2945,29 @@
           ]
         }
       ]
+    },
+    { "name": "Enchanted Books",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "the_vault:chest/t13enchantedbooks",
+          "expand": "true",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }

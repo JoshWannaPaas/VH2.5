@@ -70,7 +70,8 @@
 - Completly Overhauled Trader Cores
 - Added Chaining and Attack AoE to tier 2
 - Add new Modbox drops to new Mods & changed the default drop to 4 star shards incase the player has no mods unlocked
-- Significantly buffed LVL 0 Treasure Chests
+- Significantly buffed LVL 0 - 99 Treasure Chests
+- Buffed all Enchanted Books in Treasure Chests *heavily*
 - Added the Mystic Pear to LVL 200+ Loottables
 - Lowered Vault Chest Hardness by 20% to make mining Vault Chests easier in the Earlygame
 - Made Treasure Chests prior to LVL 100 use the `treasureroom` Gear pool, which significantly buffs the rarity rolls
@@ -144,6 +145,7 @@
 - Players can now right click the Vault altar to drop items directly onto it
 - Changed stack sizes for Ender Pearls & Snowballs to 64
 - Added JEI Integration for Etching Vendors
+- Added language keys for Vault Gamerules
 
 
 ### Mod Changes
