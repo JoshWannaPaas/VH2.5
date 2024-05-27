@@ -3,8 +3,8 @@
     {
       "name": "Filler",
       "rolls": {
-        "min": 7,
-        "max": 10
+        "min": 4,
+        "max": 6
       },
       "entries": [
         {
@@ -556,8 +556,8 @@
     {
       "name": "Richity",
       "rolls": {
-        "min": 7,
-        "max": 9
+        "min": 9,
+        "max": 11
       },
       "bonus_rolls": {
         "min": 0,
@@ -1050,8 +1050,8 @@
     {
       "name": "FullModdedBlocks",
       "rolls": {
-        "min": 4,
-        "max": 6
+        "min": 6,
+        "max": 8
       },
       "entries": [
         {
@@ -1104,7 +1104,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 6,
           "name": "refinedstorage:cable",
           "functions": [
             {
@@ -1681,7 +1681,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 6,
           "name": "appliedenergistics2:fluix_glass_cable",
           "functions": [
             {
@@ -2173,6 +2173,30 @@
               ]
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "dankstorage:dank_3",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.11
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2180,11 +2204,11 @@
       "name": "GearPool",
       "rolls": {
         "min": 0,
-        "max": 2
+        "max": 3
       },
       "bonus_rolls": {
         "min": 0,
-        "max": 1
+        "max": 3
       },
       "entries": [
         {
@@ -2597,17 +2621,14 @@
       "name": "ScalePool",
       "rolls": {
         "min": 0,
-        "max": 2
+        "max": 3
       },
       "bonus_rolls": {
         "min": 0,
         "max": 1
       },
       "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 6
-        },
+
         {
           "type": "minecraft:item",
           "weight": 2,
