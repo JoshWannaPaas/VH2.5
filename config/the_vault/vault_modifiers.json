@@ -876,7 +876,7 @@
               "weight": 0
             },
             {
-              "value": "Personal Space",
+              "value": "Peaceful",
               "weight": 1
             }
           ]
@@ -1505,14 +1505,14 @@
           "POOL": [
             {
               "value": "Crowded",
-              "weight": 1
+              "weight": 0
             },
             {
               "value": "Dummy",
-              "weight": 6
+              "weight": 0
             },
             {
-              "value": "Personal Space",
+              "value": "Peaceful",
               "weight": 1
             }
           ]

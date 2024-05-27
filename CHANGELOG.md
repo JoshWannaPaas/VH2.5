@@ -31,7 +31,11 @@
 - Unified Relic weights
 - Supply the player with **The Vault Encyclopedia** and 16x Steak
 - Added Nether Wart to LVL0 Loottables
-- Up to Vault Level 5, All Vaults guarantee Safe Zone, Personal Space & Phoenix
+- Up to Vault Level 24, All Vaults are Beginner's Grace, Insurance and Peaceful
+    - Beginner's Grace will spawn the player with all their items upon their death in the Vault
+    - Beginner's Insurance makes all Vault Chests not trapped 
+    - Peaceful will guarantee no natural mob spawning
+    - If the Crystal is modified, these *will not appear*
 - Modified Quark Configs for QOL Tweaks
 - Upped chance to get Netherite Gear in LVL 0 - 24 Loottables
 - Added the Library Room from VH3, 5x as rare as a Mine Room
