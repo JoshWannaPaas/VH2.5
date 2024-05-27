@@ -120,8 +120,7 @@ onEvent('recipes', event => {
         P: 'the_vault:gem_pog',
         E: 'the_vault:extraordinary_black_opal',
         B: 'integrateddynamics:energy_battery',
-        S: 'integrateddynamics:drying_basin',
-        D: 'compressium:obsidian_3'
+        S: 'integrateddynamics:drying_basin'
     })
 
     event.shaped('2x integrateddynamics:variable_transformer_input', [
