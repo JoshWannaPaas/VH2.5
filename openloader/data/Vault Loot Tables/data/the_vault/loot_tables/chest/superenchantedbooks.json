@@ -27,9 +27,9 @@
           ]
         },
         {
-          "_name": "sharpness15",
+          "_name": "sharpness12",
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -41,7 +41,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{StoredEnchantments:[{id:sharpness,lvl:15}]}"
+              "tag": "{StoredEnchantments:[{id:sharpness,lvl:12}]}"
             }
           ]
         },
@@ -84,9 +84,9 @@
           ]
         },
         {
-          "_name": "unbreaking15",
+          "_name": "unbreaking12",
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -98,7 +98,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{StoredEnchantments:[{id:unbreaking,lvl:15}]}"
+              "tag": "{StoredEnchantments:[{id:unbreaking,lvl:12}]}"
             }
           ]
         },
@@ -122,9 +122,9 @@
           ]
         },
         {
-          "_name": "fortune15",
+          "_name": "fortune12",
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -136,7 +136,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{StoredEnchantments:[{id:fortune,lvl:15}]}"
+              "tag": "{StoredEnchantments:[{id:fortune,lvl:12}]}"
             }
           ]
         },
@@ -160,9 +160,9 @@
           ]
         },
         {
-          "_name": "looting15",
+          "_name": "looting12",
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -174,7 +174,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{StoredEnchantments:[{id:looting,lvl:15}]}"
+              "tag": "{StoredEnchantments:[{id:looting,lvl:12}]}"
             }
           ]
         },
