@@ -13,7 +13,7 @@
         {
             "title": "Preparations",
             "type": "patchouli:text",
-            "text": "In $(#033dfc)Vaults$(), your health $(#f00)$(l)will not naturally regenerate$(), so you will have to be careful.$(br2)Prior to entering $(#033dfc)a Vault$(), you should prepare yourself with a few things, mainly enchanted Armor, Food, Healing and Crates, Shulkers or Common Backpacks to store richities obtained in $(#033dfc)the Vault$()."
+            "text": "In $(#033dfc)Vaults$(), your health $(#f00)$(l)will not naturally regenerate$(), so you will have to be careful.$(br2)Prior to entering $(#033dfc)a Vault$(), you should prepare yourself with a few things, mainly enchanted Armor, Food, Healing and Crates, Shulkers or Common Backpacks to store richities obtained in $(#033dfc)the Vault$().$(br)Upon spawing, you get 5 Skill points which you can spend in the Skill tree, openable by pressing $(#033dfc)$(k:the_vault.open_ability_tree)$()."
         }
     ] 
 }

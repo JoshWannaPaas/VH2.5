@@ -5,8 +5,20 @@
     "category": "patchouli:the_vault",
     "pages": [
         {
+            "title": "Raffle Vaults",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:raid_controller",
+            "text": "$(#033dfc)Raid Vaults$() are a special Vault which you $(#F00)cannot Complete$(). Each room spawns with a $(#033dfc)Raid Controller$(), which will spawn a random wave of Mobs, adding negative and positive effects to $(#033dfc)the Vault$()."
+        },
+        {
+            "title": "Mechanics",
             "type": "patchouli:text",
-            "text": ""
+            "text": "Each Completed Raid will open up $(#033dfc)3 (if available) Paths$() for each direction, with a $(#033dfc)Raid Controller$() in each of them. This can go on indefinetly until the $(#033dfc)Vault Timer$() expires."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:crystal_seal_raid",
+            "text": "To roll this Objective, you need to apply a $(#033dfc)Seal of the Devastator$() to a $(l:get_started/vault_crystal)Vault Crystal$() if the Crystal is not exhausted.   These Seals may be $(#033dfc)crafted$() or obtained by other methods, like $(#033dfc)looting in the Vault$() or purchasing them in the $(#033dfc)Soul Shard Shop$()"
         }
     ]
 }

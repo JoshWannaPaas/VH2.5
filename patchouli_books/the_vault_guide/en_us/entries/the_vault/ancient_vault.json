@@ -5,8 +5,20 @@
     "category": "patchouli:the_vault",
     "pages": [
         {
+            "title": "Raffle Vaults",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:cryo_chamber{Damage: 1}",
+            "text": "$(#033dfc)Ancient Vaults$() are a special Vault where you need to rescue up to $(#033dfc)4 Ancient Eternals$(), spawning in Ancient Cryo chambers that are randomly scattered in $(#033dfc)the Vault$()."
+        },
+        {
+            "title": "Mechanics",
             "type": "patchouli:text",
-            "text": ""
+            "text": "Ancient Vaults have Custom generation, spawning Vault Rooms right next to eachother, without any Hallways and always spawn in a Square $(l:the_vault/vault_layout)Layout$(), in addition to that, you only have $(#033dfc)15 minutes$() of Vault time..$(br2)Upon exiting with at least one Eternal, you will be rewarded with a $(#033dfc)Vault Crate$() containing a $(#033dfc)Shulker Box$() with loot for each $(#033dfc)Eternal$() you rescued."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:crystal_seal_ancient",
+            "text": "To roll this Objective, you need to apply a $(#033dfc)Seal of the Explorer$() to a $(l:get_started/vault_crystal)Vault Crystal$() if the Crystal is not exhausted.$(br)These Seals may be $(#033dfc)crafted$() or obtained by other methods, like $(#033dfc)looting in the Vault$() or purchasing them in the $(#033dfc)Soul Shard Shop$()"
         }
     ]
 }

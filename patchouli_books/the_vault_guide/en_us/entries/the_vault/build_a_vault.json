@@ -5,8 +5,20 @@
     "category": "patchouli:the_vault",
     "pages": [
         {
+            "title": "Architect Vaults",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:stabilizer",
+            "text": "$(#033dfc)Architect Vaults$() are special Vaults, which start with a single room, with a $(#033dfc)Vault Stabilizer$() in the center of the Room, upon clicking the Stabilizer, you have a $(#033dfc)15s$() Window of voting 3 directions with different outcomes."
+        },
+        {
+            "title": "Mechanics",
             "type": "patchouli:text",
-            "text": ""
+            "text": "Every Architect Vault starts with a 20s $(#033dfc)Vote Lock Timer$() which stops the ability to vote until that timer expires. Each Vote with either decrease it, or increase it.$(br2)To complete the Architect Vault, you need to generate a random amount of rooms, signified by the bar at the bottom of your screen. Once filled, you receive the option to create a $(#033dfc)Vault Portal$() Room."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:crystal_seal_architect",
+            "text": "To roll this Objective, you need to apply a $(#033dfc)Seal of the Architect$() to a $(l:get_started/vault_crystal)Vault Crystal$() if the Crystal is not exhausted.$(br)These Seals may be $(#033dfc)crafted$() or obtained by other methods, like $(#033dfc)looting in the Vault$() or purchasing them in the $(#033dfc)Soul Shard Shop$()"
         }
     ]
 }

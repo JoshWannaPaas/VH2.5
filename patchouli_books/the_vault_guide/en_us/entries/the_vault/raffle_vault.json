@@ -5,8 +5,20 @@
     "category": "patchouli:the_vault",
     "pages": [
         {
+            "title": "Raffle Vaults",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:obelisk",
+            "text": "$(#033dfc)Raffle Vaults$() are a special version of the $(l:the_vault/summon_and_kill_boss)Summon and Kill Boss$() Objective.$(br2)If you defeat the Vault Boss in less than 5 minutes, your time will be added to the Fastest Raffle-Boss Kill in the Stats menu if no one else has already a faster time, which you can view with $(#033dfc)$(k:the_vault.open_ability_tree)$()"
+        },
+        {
+            "title": "Reward Crates",
             "type": "patchouli:text",
-            "text": ""
+            "text": "If by the end of the week, you still have the Fastest Raffle-Boss Kill, you will be granted with a $(#033dfc)Special Crate$() that contains a guaranteed $(#033dfc)Artifact$() and a $(#033dfc)Challenge Crystal$()"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "the_vault:crystal_seal_raffle",
+            "text": "To roll this Objective, you need to apply a $(#033dfc)Seal of the Challenger$() to a $(l:get_started/vault_crystal)Vault Crystal$() if the Crystal is not exhausted.$(br2)These Seals are obtainable from Vault Fighters, which have a low chance of dropping such $(#033dfc)Seals$()"
         }
     ]
 }

@@ -5,8 +5,20 @@
     "category": "patchouli:the_vault",
     "pages": [
         {
+            "title": "Cake Vaults",
+            "type": "patchouli:spotlight",
+            "item": "minecraft:cake",
+            "text": "$(#033dfc)Cake Vaults$() are special Vaults, where you have to find a $(#033dfc)Cake$() in each room you go through, to progress to the next one. You have to consume a $(#033dfc)random amount of Cakes$(), displayed at the bottom of your screen."
+        },
+        {
+            "title": "Special Aspects",
             "type": "patchouli:text",
-            "text": ""
+            "text": "For each Cake that you consume, you have the chance of adding any random modifier there is, $(#f00)(excluding Locked)$().$(br2)Upon clicking the last cake, you will be teleported out of the Vault and receive a $(#033dfc)Crake$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:cake",
+            "text": "To roll this Objective, you need to apply a $(#033dfc)Cake$() to a $(l:get_started/vault_crystal)Vault Crystal$() if the Crystal is not exhausted.$(br2)Upon applying, you cannot add any additional modifiers to the Crystal."
         }
     ]
 }

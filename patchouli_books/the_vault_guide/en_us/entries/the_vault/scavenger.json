@@ -5,8 +5,20 @@
     "category": "patchouli:the_vault",
     "pages": [
         {
+            "title": "Scavenger Objective",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:scavenger_chest",
+            "text": "The $(#033dfc)Scavenger$() Objective is an Objective you will come across at $(#033dfc)Levels 25 and above$().$(br2)Your goal is to find between $(#033dfc)3 - 6$() Vault items, which can drop from Richity piles found in $(l:get_started/vault_rooms)Vault Rooms$(), from Vault Mobs, or in the Vault Chests."
+        },
+        {
+            "title": "Scavenger Completion",
             "type": "patchouli:text",
-            "text": ""
+            "text": "To complete the $(#033dfc)Vault$(), you will have to gather all required items and amounts on top of your screen and deposit them into a $(#033dfc)Scavenger Chest$() which can randomly spawn in any $(l:get_started/vault_rooms)Vault Room$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "the_vault:crystal_seal_hunter",
+            "text": "If you would like the $(l:get_started/vault_crystal)Vault Crystal$() to guarantee the $(#033dfc)Scavenger$() Objective, you may apply a $(#033dfc)Seal of the Executioner$() to your Crystal if said Crystal is not exhausted."
         }
     ]
 }

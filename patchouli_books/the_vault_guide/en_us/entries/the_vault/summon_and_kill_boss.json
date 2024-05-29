@@ -20,6 +20,5 @@
             "item": "the_vault:crystal_seal_executioner",
             "text": "If you would like the $(l:get_started/vault_crystal)Vault Crystal$() to guarantee the $(#033dfc)Summon and Kill the Boss$() Objective, you may apply a $(#033dfc)Seal of the Executioner$() to your Crystal if said Crystal is not exhausted."
         }
-
     ]
 }
