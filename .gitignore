@@ -22,4 +22,7 @@ backups
 local
 emojiful/*
 hotbar.nbt
-
+lightspeed-cache
+shaderpacks
+servers.dat
+servers.dat_old
