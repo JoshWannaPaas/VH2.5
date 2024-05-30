@@ -8,13 +8,14 @@ onEvent('block.right_click', event =>{
         var by = event.block.getY()
         var bz = event.block.getZ()
         var itemCount = event.item.count
+        var nbt = event.item.nbt
         console.log(event.item.id)
 
         let itemEntity = event.level.createEntity('minecraft:item')
             itemEntity.setX(bx + 0.5)
             itemEntity.setY(by + 1.5)
             itemEntity.setZ(bz + 0.5)
-            itemEntity.item = Item.of(event.item.id, itemCount)
+            itemEntity.item = Item.of(event.item.id, itemCount, nbt)
             itemEntity.spawn()
             event.item.count = 0
     }
