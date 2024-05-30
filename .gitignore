@@ -2,7 +2,7 @@ logs
 playerSnapshots
 resourcepacks
 server-resource-packs
-options.txt 
+./options.txt
 icon.png
 patchouli_data.json
 usercache.json
