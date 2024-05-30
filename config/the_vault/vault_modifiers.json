@@ -425,6 +425,13 @@
   ],
   "SCALE_MODIFIERS": [
     {
+      "scale": 0.1,
+      "name": "Antlike",
+      "icon": "the_vault:textures/gui/modifiers/daycare.png",
+      "color": "13609471",
+      "description": "What is this"
+    },
+    {
       "scale": 0.5,
       "name": "Daycare",
       "icon": "the_vault:textures/gui/modifiers/daycare.png",
@@ -437,6 +444,13 @@
       "icon": "the_vault:textures/gui/modifiers/daycare.png",
       "color": "13631438",
       "description": "Makes mobs in the vault Giants"
+    },
+    {
+      "scale": 5.0,
+      "name": "TFMoment",
+      "icon": "the_vault:textures/gui/modifiers/daycare.png",
+      "color": "13631438",
+      "description": "Makes mobs in the vault Giant-er"
     }
   ],
   "FRENZY_MODIFIERS": [
@@ -448,6 +462,33 @@
       "icon": "the_vault:textures/gui/modifiers/frenzy.png",
       "color": "16546908",
       "description": "Mobs deal 3x damage, +10% movement speed and have only 1 health"
+    },
+    {
+      "damageMultiplier": 10.0,
+      "additionalMovementSpeed": 0.25,
+      "doHealthReduction": true,
+      "name": "Frenzier",
+      "icon": "the_vault:textures/gui/modifiers/frenzy.png",
+      "color": "16546908",
+      "description": "Because a1qs said so"
+    },
+    {
+      "damageMultiplier": 100.0,
+      "additionalMovementSpeed": 1.0,
+      "doHealthReduction": false,
+      "name": "Frenziest",
+      "icon": "the_vault:textures/gui/modifiers/frenzy.png",
+      "color": "16546908",
+      "description": "You asked for Fragged"
+    },
+    {
+      "damageMultiplier": 0.0,
+      "additionalMovementSpeed": 0.0,
+      "doHealthReduction": true,
+      "name": "CasualMode",
+      "icon": "the_vault:textures/gui/modifiers/frenzy.png",
+      "color": "16546908",
+      "description": "If you're afraid of dying then this is for you"
     },
     {
       "damageMultiplier": 0.5,
@@ -540,11 +581,33 @@
       "color": "14483250",
       "description": "+50% Artifact Chance"
     }
+    ,
+    {
+      "artifactChanceIncrease": 1.0,
+      "name": "Voyage",
+      "icon": "the_vault:textures/gui/modifiers/more-artifact2.png",
+      "color": "14483250",
+      "description": "Guaranteed Artifact"
+    }
   ],
   "CATALYST_MODIFIERS": [
     {
+      "catalystChanceIncrease": 5.0,
+      "name": "Iridescent",
+      "icon": "the_vault:textures/gui/modifiers/more-catalyst.png",
+      "color": "16515299",
+      "description": "5x Chance to find Catalyst Fragments"
+    },
+    {
       "catalystChanceIncrease": 4.0,
       "name": "Prismatic",
+      "icon": "the_vault:textures/gui/modifiers/more-catalyst.png",
+      "color": "16515299",
+      "description": "4x Chance to find Catalyst Fragments"
+    },
+    {
+      "catalystChanceIncrease": 3.0,
+      "name": "Chromatic",
       "icon": "the_vault:textures/gui/modifiers/more-catalyst.png",
       "color": "16515299",
       "description": "3x Chance to find Catalyst Fragments"
@@ -625,6 +688,31 @@
       "icon": "the_vault:textures/gui/modifiers/copious.png",
       "color": "16730879",
       "description": "4x Chance for Vault ores"
+    },
+    {
+      "pool": "ORE",
+      "resultMultipliers": {
+        "the_vault:ore_larimar": 5.0,
+        "the_vault:ore_funsoide": 5.0,
+        "the_vault:ore_puffium": 5.0,
+        "the_vault:ore_ashium": 5.0,
+        "the_vault:ore_upaline": 5.0,
+        "the_vault:ore_painite": 5.0,
+        "the_vault:ore_echo": 5.0,
+        "the_vault:ore_iskallium": 5.0,
+        "the_vault:ore_benitoite": 5.0,
+        "the_vault:ore_tubium": 5.0,
+        "the_vault:ore_sparkletine": 5.0,
+        "the_vault:ore_wutodie": 5.0,
+        "the_vault:ore_gorginite": 5.0,
+        "the_vault:ore_alexandrite": 5.0,
+        "the_vault:ore_bomignite": 5.0,
+        "the_vault:ore_black_opal": 5.0
+      },
+      "name": "Abundant",
+      "icon": "the_vault:textures/gui/modifiers/copious.png",
+      "color": "16730879",
+      "description": "5x Chance for Vault ores"
     }
   ],
   "INV_RESTORE_MODIFIERS": [
@@ -700,6 +788,16 @@
       "icon": "the_vault:textures/gui/modifiers/time_accel.png",
       "color": "10950607",
       "description": "Getting hit by mobs will rapidly decrease the vault timer"
+    },
+    {
+      "effectName": "minecraft:regeneration",
+      "effectAmplifier": 1,
+      "effectDuration": 5,
+      "onHitApplyChance": 0.5,
+      "name": "Free Hugs",
+      "icon": "the_vault:textures/gui/modifiers/regeneration.png",
+      "color": "10950607",
+      "description": "Wait a minute"
     }
   ],
   "DURABILITY_DAMAGE_MODIFIERS": [
@@ -819,9 +917,6 @@
     }
   ],
   "MODIFIER_PREVENTIONS": {
-    "the_vault:scavenger_hunt":[
-      "Locked"
-    ],
     "the_vault:ancients":[
       "Locked"
     ]
