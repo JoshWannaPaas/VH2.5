@@ -4,8 +4,8 @@
 	"NO_EXIT_CHANCE": 10,
 	"OBELISK_DROP_CHANCE": 2,
 	"ITEM_BLACKLIST": [
+		"minecraft:ravager_spawn_egg",
 	  "minecraft:ender_chest",
-	  "minecraft:*_spawn_*",
 	  "industrialforegoing:mob_crusher",
 	  "industrialforegoing:mob_slaughter_factory",
 	  "dimstorage:*",
