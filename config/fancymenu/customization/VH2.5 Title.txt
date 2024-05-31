@@ -19,12 +19,12 @@ customization {
 }
 
 customization {
-  identifier = %id=376322%
+  identifier = %id=604346%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=44%
+  identifier = %id=376322%
   action = hidebutton
 }
 
@@ -58,11 +58,11 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 411
+  x = 113
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = b0498123-b418-4b76-99c6-875b1e95326f1716485868539
-  y = 319
+  y = 236
   height = 9
 }
 
