@@ -469,6 +469,7 @@ onEvent('recipes', event => {
     //event.remove({output: 'integrateddynamics:cable'})
 
 
+    event.remove({output: 'enchantinginfuser:enchanting_infuser'})
     event.remove({output: 'archers_paradox:quartz_arrow'})
     event.remove({output: 'archers_paradox:diamond_arrow'})
     event.remove({output: 'snad:snad'})

@@ -2,7 +2,7 @@ logs
 playerSnapshots
 resourcepacks
 server-resource-packs
-options.txt 
+./options.txt
 icon.png
 patchouli_data.json
 usercache.json
@@ -14,7 +14,6 @@ XaeroWaypoints*
 XaeroWorldMap
 vaulthunters-2.5.code-workspace
 openloader/.cache
-config
 fancymenu_data
 crash-reports
 mods/.index

@@ -22,7 +22,7 @@
         }
       },
       {
-        "weight": 5,
+        "weight": 50,
         "element":
         {
           "processors": [
@@ -42,7 +42,7 @@
       },
       
       {
-        "weight": 5,
+        "weight": 50,
         "element":
         {
           "processors": [
@@ -61,7 +61,7 @@
         }
       },
       {
-        "weight": 80,
+        "weight": 35,
         "element":
         {
           "processors": [
