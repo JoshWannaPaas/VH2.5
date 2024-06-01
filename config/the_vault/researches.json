@@ -858,13 +858,6 @@
             "CRAFTABILITY": true
           }
         },
-        "the_vault:paxel_charm": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
         "the_vault:repair_core": {
           "restricts": {
             "HITTABILITY": false,
