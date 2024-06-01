@@ -18,6 +18,7 @@ onEvent('recipes', event => {
     event.remove({output: 'minecraft:shield'})
     event.remove({output: 'minecraft:bamboo'})
     event.remove({id: 'minecraft:suspicious_stew'})
+    event.remove({output: 'minecraft:chest'})
     
     
     event.remove({output: 'rftoolsbase:machine_frame'})
