@@ -7,7 +7,7 @@
       "pullItems": true,
       "pullExperience": false,
       "pullInstantly": false,
-      "maxDurability": 1500
+      "maxDurability": 2500
     },
     "OMEGA": {
       "speed": 3.0,
