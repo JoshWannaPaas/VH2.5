@@ -176,6 +176,7 @@
 - \+ Skyblock Builder [BOTH]
 - \+ SuperMartijn642's Config Lib [BOTH]
 - \+ Iceberg [BOTH]
+- \+ NotEnoughRecipeBook [BOTH]
 - \+ Embeddium [CLIENT]
 - \+ AppleSkin [CLIENT]
 - \+ FancyMenu [CLIENT]
