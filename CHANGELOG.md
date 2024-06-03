@@ -77,6 +77,8 @@
 - Made Treasure Chests prior to LVL 100 use the `treasureroom` Gear pool, which significantly buffs the rarity rolls
 - Vault Burgers/Pizza can no longer roll 0% XP
 - Added a Keybind to toggle Magnets in Curio Slots
+- Cakes now always notify whenever one is clicked
+    - this has the issue of doubling up whenever one is clicked, but alas
 - Added the mod SecondChance
     - This mod has 2 notable features
     - If you are above 13.5 health points, a fatal blow that would normally unalive you, will set you to 5% of your total health
