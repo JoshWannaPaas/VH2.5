@@ -150,6 +150,14 @@ onEvent('recipes', event => {
         A: 'the_vault:perfect_alexandrite',
 		M: 'minecraft:phantom_membrane'
     })
+
+	event.shaped('minecraft:chest', [
+        'PPP',
+        'P P',
+        'PPP'
+    ], {
+        P: '#minecraft:planks'
+    })
 	
 	event.shapeless(Item.of('suspicious_stew', '{Effects:[{EffectId:10b,EffectDuration:160}]}'), ['the_vault:vault_essence', 'red_mushroom', 'brown_mushroom', 'bowl'])
 	event.shapeless(Item.of('suspicious_stew', '{Effects:[{EffectId:18b,EffectDuration:180}]}'), ['red_tulip', 'red_mushroom', 'brown_mushroom', 'bowl'])
