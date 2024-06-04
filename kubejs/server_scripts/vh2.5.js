@@ -105,6 +105,28 @@ onEvent('recipes', event => {
         A: 'the_vault:perfect_alexandrite'
     })
 
+    event.shaped('the_vault:crystal_seal_executioner', [
+        'ASA',
+        'DCD',
+        'AEA'
+    ], {
+        A: 'the_vault:perfect_alexandrite',
+        S: 'minecraft:wooden_sword',
+        D: 'the_vault:skill_essence',
+        E: 'the_vault:eternal_soul'
+    })
+
+    event.shaped('the_vault:crystal_seal_hunter', [
+        'AMA',
+        'DCD',
+        'AEA'
+    ], {
+        A: 'the_vault:perfect_alexandrite',
+        M: 'minecraft:red_mushroom',
+        D: 'the_vault:skill_essence',
+        E: 'the_vault:eternal_soul'
+    })
+
 
     event.shapeless('4x the_vault:perfect_echo_gem', ['the_vault:extraordinary_echo_gem']),
     event.shapeless('4x the_vault:gem_echo', ['the_vault:perfect_echo_gem'])

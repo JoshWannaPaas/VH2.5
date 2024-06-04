@@ -125,6 +125,7 @@
 - Lowered the Smelt time of Vault gear from 60s to 15s
 - Added a recipe to reroll Artisan Scrolls
 - Changed the Vault Altar recipe to not require Purpur
+- Added Recipes to Executioner and Hunter Seals
 
 
 ### Miscellaneous Changes
