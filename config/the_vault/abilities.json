@@ -82,7 +82,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 600,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "possibleEffects": [
@@ -93,7 +93,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 560,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "possibleEffects": [
@@ -104,7 +104,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 520,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "possibleEffects": [
@@ -116,7 +116,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 480,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "possibleEffects": [
@@ -128,7 +128,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 440,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "possibleEffects": [
@@ -140,7 +140,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 400,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "possibleEffects": [
@@ -152,7 +152,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 360,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "possibleEffects": [
@@ -164,7 +164,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 320,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "possibleEffects": [
@@ -176,7 +176,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 280,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "possibleEffects": [
@@ -188,7 +188,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 240,
-        "levelRequirement": 25
+        "levelRequirement": 5
       }
     ],
     "healLevelConfiguration": [
@@ -197,70 +197,70 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 600,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healthPerEffectRemoved": 1.0,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 560,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healthPerEffectRemoved": 1.5,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 520,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healthPerEffectRemoved": 2.0,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 480,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healthPerEffectRemoved": 2.5,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 440,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healthPerEffectRemoved": 3.0,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 400,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healthPerEffectRemoved": 3.5,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 360,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healthPerEffectRemoved": 4.0,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 320,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healthPerEffectRemoved": 4.5,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 280,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healthPerEffectRemoved": 5.0,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 240,
-        "levelRequirement": 25
+        "levelRequirement": 5
       }
     ],
     "immuneLevelConfiguration": [
@@ -269,70 +269,70 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 600,
-        "levelRequirement": 0
+        "levelRequirement": 25
       },
       {
         "immunityDuration": 400,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 540,
-        "levelRequirement": 0
+        "levelRequirement": 25
       },
       {
         "immunityDuration": 400,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 500,
-        "levelRequirement": 0
+        "levelRequirement": 25
       },
       {
         "immunityDuration": 400,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 460,
-        "levelRequirement": 0
+        "levelRequirement": 25
       },
       {
         "immunityDuration": 400,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 400,
-        "levelRequirement": 0
+        "levelRequirement": 25
       },
       {
         "immunityDuration": 400,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 360,
-        "levelRequirement": 0
+        "levelRequirement": 25
       },
       {
         "immunityDuration": 400,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 320,
-        "levelRequirement": 0
+        "levelRequirement": 25
       },
       {
         "immunityDuration": 400,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 280,
-        "levelRequirement": 0
+        "levelRequirement": 25
       },
       {
         "immunityDuration": 400,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 240,
-        "levelRequirement": 0
+        "levelRequirement": 25
       },
       {
         "immunityDuration": 400,
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 200,
-        "levelRequirement": 0
+        "levelRequirement": 25
       }
     ],
     "name": "Cleanse",
@@ -500,7 +500,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 400,
-        "levelRequirement": 25
+        "levelRequirement": 50
       },
       {
         "attackDamagePercentPerDash": 0.55,
@@ -509,7 +509,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 380,
-        "levelRequirement": 25
+        "levelRequirement": 50
       },
       {
         "attackDamagePercentPerDash": 0.6,
@@ -518,7 +518,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 360,
-        "levelRequirement": 25
+        "levelRequirement": 50
       },
       {
         "attackDamagePercentPerDash": 0.65,
@@ -527,7 +527,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 340,
-        "levelRequirement": 25
+        "levelRequirement": 50
       },
       {
         "attackDamagePercentPerDash": 0.7,
@@ -536,7 +536,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 320,
-        "levelRequirement": 25
+        "levelRequirement": 50
       },
       {
         "attackDamagePercentPerDash": 0.75,
@@ -545,7 +545,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 300,
-        "levelRequirement": 25
+        "levelRequirement": 50
       },
       {
         "attackDamagePercentPerDash": 0.8,
@@ -554,7 +554,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 280,
-        "levelRequirement": 25
+        "levelRequirement": 50
       },
       {
         "attackDamagePercentPerDash": 0.85,
@@ -563,7 +563,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 260,
-        "levelRequirement": 25
+        "levelRequirement": 50
       },
       {
         "attackDamagePercentPerDash": 0.90,
@@ -572,7 +572,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 240,
-        "levelRequirement": 25
+        "levelRequirement": 50
       },
       {
         "attackDamagePercentPerDash": 0.95,
@@ -581,7 +581,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 220,
-        "levelRequirement": 25
+        "levelRequirement": 50
       }
     ],
     "healLevelConfiguration": [
@@ -591,7 +591,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 400,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healPerDash": 2.0,
@@ -599,7 +599,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 400,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healPerDash": 3.0,
@@ -607,7 +607,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 400,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healPerDash": 4.0,
@@ -615,7 +615,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 360,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healPerDash": 5.0,
@@ -623,7 +623,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 360,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healPerDash": 6.0,
@@ -631,7 +631,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 360,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healPerDash": 7.0,
@@ -639,7 +639,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 320,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healPerDash": 8.0,
@@ -647,7 +647,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 320,
-        "levelRequirement": 0
+        "levelRequirement": 5
       },
       {
         "healPerDash": 9.0,
@@ -655,7 +655,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 320,
-        "levelRequirement": 25
+        "levelRequirement": 5
       },
       {
         "healPerDash": 10.0,
@@ -663,7 +663,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 280,
-        "levelRequirement": 25
+        "levelRequirement": 5
       }
     ],
     "name": "Dash",
@@ -814,7 +814,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3600,
-        "levelRequirement": 50
+        "levelRequirement": 100
       },
       {
         "damagePercentMissingHealth": 0.4,
@@ -826,7 +826,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3600,
-        "levelRequirement": 50
+        "levelRequirement": 100
       },
       {
         "damagePercentMissingHealth": 0.6,
@@ -838,7 +838,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3600,
-        "levelRequirement": 50
+        "levelRequirement": 100
       },
       {
         "damagePercentMissingHealth": 0.8,
@@ -850,7 +850,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3600,
-        "levelRequirement": 50
+        "levelRequirement": 100
       },
       {
         "damagePercentMissingHealth": 1.0,
@@ -862,7 +862,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3600,
-        "levelRequirement": 50
+        "levelRequirement": 100
       }
     ],
     "name": "Execute",
@@ -1014,7 +1014,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3600,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "additionalParryChance": 0.20,
@@ -1025,7 +1025,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3200,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "additionalParryChance": 0.3,
@@ -1036,7 +1036,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2800,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "additionalParryChance": 0.4,
@@ -1047,7 +1047,7 @@
         "learningCost": 4,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2400,
-        "levelRequirement": 50
+        "levelRequirement": 100
       },
       {
         "additionalParryChance": 0.5,
@@ -1058,7 +1058,7 @@
         "learningCost": 5,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2000,
-        "levelRequirement": 50
+        "levelRequirement": 100
       },
       {
         "additionalParryChance": 0.6,
@@ -1069,7 +1069,7 @@
         "learningCost": 6,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 1600,
-        "levelRequirement": 75
+        "levelRequirement": 100
       },
       {
         "additionalParryChance": 0.7,
@@ -1080,7 +1080,7 @@
         "learningCost": 6,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 1200,
-        "levelRequirement": 75
+        "levelRequirement": 100
       }
     ],
     "regenerationLevelConfiguration": [
@@ -1094,7 +1094,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2000,
-        "levelRequirement": 75
+        "levelRequirement": 5
       },
       {
         "regenerationAmplifier": 1,
@@ -1106,7 +1106,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2000,
-        "levelRequirement": 75
+        "levelRequirement": 5
       },
       {
         "regenerationAmplifier": 1,
@@ -1118,7 +1118,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 1800,
-        "levelRequirement": 75
+        "levelRequirement": 25
       },
       {
         "regenerationAmplifier": 2,
@@ -1130,7 +1130,7 @@
         "learningCost": 4,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 1800,
-        "levelRequirement": 75
+        "levelRequirement": 50
       },
       {
         "regenerationAmplifier": 2,
@@ -1142,7 +1142,7 @@
         "learningCost": 5,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 1400,
-        "levelRequirement": 75
+        "levelRequirement": 50
       },
       {
         "regenerationAmplifier": 2,
@@ -1300,7 +1300,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 500,
-        "levelRequirement": 25
+        "levelRequirement": 75
       },
       {
         "radius": 3.0,
@@ -1310,7 +1310,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 400,
-        "levelRequirement": 25
+        "levelRequirement": 75
       },
       {
         "radius": 4.0,
@@ -1320,7 +1320,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 300,
-        "levelRequirement": 25
+        "levelRequirement": 75
       },
       {
         "radius": 5.0,
@@ -1330,7 +1330,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 200,
-        "levelRequirement": 25
+        "levelRequirement": 75
       },
       {
         "radius": 6.0,
@@ -1340,7 +1340,7 @@
         "learningCost": 5,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 140,
-        "levelRequirement": 25
+        "levelRequirement": 75
       }
     ],
     "breakLevelConfiguration": [
@@ -1431,7 +1431,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3600,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "dotSecondDuration": 13,
@@ -1443,7 +1443,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3200,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "dotSecondDuration": 12,
@@ -1455,7 +1455,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2800,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "dotSecondDuration": 11,
@@ -1467,7 +1467,7 @@
         "learningCost": 4,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2400,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "dotSecondDuration": 10,
@@ -1479,7 +1479,7 @@
         "learningCost": 4,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2000,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "dotSecondDuration": 9,
@@ -1491,7 +1491,7 @@
         "learningCost": 6,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 1600,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "dotSecondDuration": 8,
@@ -1503,7 +1503,7 @@
         "learningCost": 6,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 1400,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "dotSecondDuration": 7,
@@ -1515,7 +1515,7 @@
         "learningCost": 8,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 1200,
-        "levelRequirement": 25
+        "levelRequirement": 100
       }
     ],
     "leechLevelConfiguration": [
@@ -1529,7 +1529,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3600,
-        "levelRequirement": 30
+        "levelRequirement": 5
       },
       {
         "leechPercent": 0.01,
@@ -1541,7 +1541,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3200,
-        "levelRequirement": 30
+        "levelRequirement": 5
       },
       {
         "leechPercent": 0.02,
@@ -1553,7 +1553,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2800,
-        "levelRequirement": 30
+        "levelRequirement": 5
       },
       {
         "leechPercent": 0.02,
@@ -1565,7 +1565,7 @@
         "learningCost": 4,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2400,
-        "levelRequirement": 30
+        "levelRequirement": 5
       },
       {
         "leechPercent": 0.02,
@@ -1818,7 +1818,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3600,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "additionalCount": 1,
@@ -1830,7 +1830,7 @@
         "learningCost": 2,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3400,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "additionalCount": 1,
@@ -1842,7 +1842,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3200,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "additionalCount": 1,
@@ -1854,7 +1854,7 @@
         "learningCost": 3,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 3000,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "additionalCount": 1,
@@ -1866,7 +1866,7 @@
         "learningCost": 4,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2800,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "additionalCount": 1,
@@ -1878,7 +1878,7 @@
         "learningCost": 5,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2600,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "additionalCount": 1,
@@ -1890,7 +1890,7 @@
         "learningCost": 6,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2400,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "additionalCount": 1,
@@ -1902,7 +1902,7 @@
         "learningCost": 6,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2200,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "additionalCount": 1,
@@ -1914,7 +1914,7 @@
         "learningCost": 7,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 2000,
-        "levelRequirement": 25
+        "levelRequirement": 100
       },
       {
         "additionalCount": 2,
@@ -1926,7 +1926,7 @@
         "learningCost": 9,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 1800,
-        "levelRequirement": 25
+        "levelRequirement": 100
       }
     ],
     "damageLevelConfiguration": [
@@ -2615,44 +2615,44 @@
   "VEIN_MINER": {
     "durabilityLevelConfiguration": [
       {
-        "noDurabilityUsageChance": 0.8,
+        "noDurabilityUsageChance": 0.7,
         "blockLimit": 4,
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 15
+        "levelRequirement": 5
       },
       {
-        "noDurabilityUsageChance": 0.7,
+        "noDurabilityUsageChance": 0.55,
         "blockLimit": 8,
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 15
+        "levelRequirement": 5
       },
       {
-        "noDurabilityUsageChance": 0.6,
+        "noDurabilityUsageChance": 0.4,
         "blockLimit": 16,
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 15
+        "levelRequirement": 5
       },
       {
-        "noDurabilityUsageChance": 0.5,
+        "noDurabilityUsageChance": 0.25,
         "blockLimit": 32,
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 15
+        "levelRequirement": 5
       },
       {
-        "noDurabilityUsageChance": 0.4,
+        "noDurabilityUsageChance": 0.1,
         "blockLimit": 64,
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 15
+        "levelRequirement": 5
       }
     ],
     "fortuneLevelConfiguration": [
@@ -2662,7 +2662,7 @@
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 20
+        "levelRequirement": 15
       },
       {
         "additionalFortuneLevel": 1,
@@ -2670,7 +2670,7 @@
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 20
+        "levelRequirement": 15
       },
       {
         "additionalFortuneLevel": 1,
@@ -2678,7 +2678,7 @@
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 20
+        "levelRequirement": 15
       },
       {
         "additionalFortuneLevel": 1,
@@ -2686,7 +2686,7 @@
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 20
+        "levelRequirement": 15
       },
       {
         "additionalFortuneLevel": 2,
@@ -2694,49 +2694,49 @@
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 20
+        "levelRequirement": 15
       }
     ],
     "sizeLevelConfiguration": [
       {
-        "doubleDurabilityCostChance": 0.05,
-        "blockLimit": 6,
+        "doubleDurabilityCostChance": 0.00,
+        "blockLimit": 16,
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 50
+        "levelRequirement": 25
       },
       {
-        "doubleDurabilityCostChance": 0.05,
-        "blockLimit": 12,
-        "learningCost": 1,
-        "behavior": "HOLD_TO_ACTIVATE",
-        "cooldown": 200,
-        "levelRequirement": 50
-      },
-      {
-        "doubleDurabilityCostChance": 0.05,
-        "blockLimit": 24,
-        "learningCost": 1,
-        "behavior": "HOLD_TO_ACTIVATE",
-        "cooldown": 200,
-        "levelRequirement": 50
-      },
-      {
-        "doubleDurabilityCostChance": 0.05,
+        "doubleDurabilityCostChance": 0.00,
         "blockLimit": 48,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 25
+      },
+      {
+        "doubleDurabilityCostChance": 0.00,
+        "blockLimit": 112,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 25
+      },
+      {
+        "doubleDurabilityCostChance": 0.00,
+        "blockLimit": 192,
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 50
+        "levelRequirement": 25
       },
       {
-        "doubleDurabilityCostChance": 0.05,
+        "doubleDurabilityCostChance": 0.00,
         "blockLimit": 256,
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 50
+        "levelRequirement": 25
       }
     ],
     "voidLevelConfigruation": [
@@ -2764,7 +2764,7 @@
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 75
+        "levelRequirement": 5
       },
       {
         "whitelist": [
@@ -2790,7 +2790,7 @@
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 75
+        "levelRequirement": 5
       },
       {
         "whitelist": [
@@ -2816,7 +2816,7 @@
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 75
+        "levelRequirement": 5
       },
       {
         "whitelist": [
@@ -2842,7 +2842,7 @@
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 75
+        "levelRequirement": 5
       },
       {
         "whitelist": [
@@ -2868,7 +2868,7 @@
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 75
+        "levelRequirement": 5
       }
     ],
     "name": "Vein Miner",
@@ -2924,7 +2924,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 800,
-        "levelRequirement": 25
+        "levelRequirement": 15
       },
       {
         "spawnerRegistryKeys": [
@@ -2968,7 +2968,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 800,
-        "levelRequirement": 0
+        "levelRequirement": 5
       },
       {
         "chestRegistryKeys": [
@@ -2982,7 +2982,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 800,
-        "levelRequirement": 0
+        "levelRequirement": 25
       },
       {
         "chestRegistryKeys": [
@@ -2996,7 +2996,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 800,
-        "levelRequirement": 0
+        "levelRequirement": 50
       }
     ],
     "blocksLevelConfiguration": [
@@ -3017,7 +3017,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 1000,
-        "levelRequirement": 75
+        "levelRequirement": 25
       },
       {
         "objectiveRegistryKeys": [
@@ -3036,7 +3036,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 1000,
-        "levelRequirement": 75
+        "levelRequirement": 25
       },
       {
         "objectiveRegistryKeys": [
@@ -3055,7 +3055,7 @@
         "learningCost": 1,
         "behavior": "RELEASE_TO_PERFORM",
         "cooldown": 1000,
-        "levelRequirement": 75
+        "levelRequirement": 50
       }
     ],
     "name": "Hunter",
