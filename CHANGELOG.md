@@ -48,6 +48,16 @@
 - Double clicking the JEI search bar now highlights inventory slots that match what's in your search bar, including in external inventories
 - Added a ping, which highlights a block for other people to see
 - Vanilla Tutorial Toasts now no longer show
+- Joining a world will give you temporary invincibility
+- Added the ability to cling to walls and wall-jump
+- Added the ability to jump up 1.5 blocks such as fences
+- Added a hotkey to find what chests an item is located in, to help with early base storage
+- Enabled Pendorite Gear
+- Enabled Ametrine Armor, but changed values to only be a slight upgrade from Netherite
+- Added Raw Pendorite and Ametrine Gems to 0 - 25 Gildeds
+- Enabled Manaweave Armor
+- Enabled Manasteel Armor, but changed armor values to match Diamond
+- Changed various ability specializations to have different level requirements
 - Upped chance to get Netherite Gear in LVL 0 - 24 Loottables
 - Added the Library Room from VH3, 5x as rare as a Mine Room
 - Added Unused Colosseum, Toy & Squid Room
@@ -189,6 +199,7 @@
 - You can now change the audio device Minecraft is using to your current default audio device with F3+R
 - Added spark mod for debugging
 - Command autofill no longer requires typing out mod id's to autofill
+- Servers will dynamically change server render distance based on mspt
 
 
 ### Mod Changes
@@ -272,6 +283,7 @@
 - \+ Prism [CLIENT]
 - \+ Raised [CLIENT]
 - \+ ReAuth [CLIENT]
+- \+ Rebind Narrator [CLIENT]
 - \+ Reload Audio Driver (RAD) [CLIENT]
 - \+ ShutUpExperimentalSettings [CLIENT]
 - \+ Suggestion Provider Fix [CLIENT]
