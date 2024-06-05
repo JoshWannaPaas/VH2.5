@@ -592,25 +592,25 @@
   ],
   "CATALYST_MODIFIERS": [
     {
-      "catalystChanceIncrease": 5.0,
-      "name": "Iridescent",
-      "icon": "the_vault:textures/gui/modifiers/more-catalyst.png",
-      "color": "16515299",
-      "description": "5x Chance to find Catalyst Fragments"
-    },
-    {
       "catalystChanceIncrease": 4.0,
-      "name": "Prismatic",
+      "name": "Iridescent",
       "icon": "the_vault:textures/gui/modifiers/more-catalyst.png",
       "color": "16515299",
       "description": "4x Chance to find Catalyst Fragments"
     },
     {
       "catalystChanceIncrease": 3.0,
-      "name": "Chromatic",
+      "name": "Prismatic",
       "icon": "the_vault:textures/gui/modifiers/more-catalyst.png",
       "color": "16515299",
       "description": "3x Chance to find Catalyst Fragments"
+    },
+    {
+      "catalystChanceIncrease": 2.0,
+      "name": "Chromatic",
+      "icon": "the_vault:textures/gui/modifiers/more-catalyst.png",
+      "color": "16515299",
+      "description": "2x Chance to find Catalyst Fragments"
     }
   ],
   "LOOTABLE_MODIFIERS": [
@@ -1097,6 +1097,20 @@
               "weight": 1
             }
           ]
+        },   
+        { "_NAME": "CatalystMods",
+          "MIN_ROLLS": 1,
+          "MAX_ROLLS": 1,
+          "POOL": [
+            {
+              "value": "Chromatic",
+              "weight": 1
+            },
+            {
+              "value": "Dummy",
+              "weight": 8
+            }
+          ]
         }
       ],
       "RAFFLE_POOLS": [
@@ -1560,7 +1574,7 @@
         }
       ]
     },
-    { "MIN_LEVEL": 5,
+    { "MIN_LEVEL": 10,
       "DEFAULT_POOLS": [
         { "_NAME": "Chests",
           "MIN_ROLLS": 1,
@@ -2433,6 +2447,24 @@
               "weight": 1
             }
           ]
+        },   
+        { "_NAME": "CatalystMods",
+          "MIN_ROLLS": 1,
+          "MAX_ROLLS": 1,
+          "POOL": [
+            {
+              "value": "Chromatic",
+              "weight": 2
+            },
+            {
+              "value": "Prismatic",
+              "weight": 1
+            },
+            {
+              "value": "Dummy",
+              "weight": 5
+            }
+          ]
         }
       ],
       "RAFFLE_POOLS": [
@@ -3159,6 +3191,24 @@
             {
               "value": "Locked",
               "weight": 1
+            }
+          ]
+        },   
+        { "_NAME": "CatalystMods",
+          "MIN_ROLLS": 1,
+          "MAX_ROLLS": 2,
+          "POOL": [
+            {
+              "value": "Chromatic",
+              "weight": 2
+            },
+            {
+              "value": "Prismatic",
+              "weight": 1
+            },
+            {
+              "value": "Dummy",
+              "weight": 5
             }
           ]
         }
@@ -3900,11 +3950,19 @@
         },   
         { "_NAME": "CatalystMods",
           "MIN_ROLLS": 1,
-          "MAX_ROLLS": 1,
+          "MAX_ROLLS": 2,
           "POOL": [
             {
-              "value": "Prismatic",
+              "value": "Iridescent",
               "weight": 1
+            },
+            {
+              "value": "Prismatic",
+              "weight": 2
+            },
+            {
+              "value": "Chromatic",
+              "weight": 4
             },
             {
               "value": "Dummy",
