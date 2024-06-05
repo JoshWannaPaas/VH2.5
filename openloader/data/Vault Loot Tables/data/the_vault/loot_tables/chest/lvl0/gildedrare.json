@@ -609,7 +609,7 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 24
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -750,6 +750,66 @@
                 {
                   "condition": "minecraft:random_chance",
                   "chance": 0.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    { "name": "Gear Upgrades",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "byg:ametrine_gems",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "byg:raw_pendorite",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3
                 }
               ]
             }
