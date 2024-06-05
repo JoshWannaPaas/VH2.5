@@ -515,17 +515,14 @@ onEvent('recipes', event => {
     event.remove({id: 'the_vault:reset_flask_ninja'})
     event.remove({id: 'the_vault:reset_flask_carapace'})
     event.remove({id: 'blockcarpentry:carpentering_manual'})
-    event.remove({mod: 'byg', type: 'minecraft:smithing'})
     event.remove({mod: 'dankstorage'})
     event.remove({mod: 'simplybackpacks'})
     event.remove({mod: 'sophisticatedbackpacks'}) 
     
 
     armorPieces.forEach(armorPieces =>{
-        event.remove({output: `botania:terrasteel_${armorPieces}`})
-        event.remove({output: `botania:manasteel_${armorPieces}`})
         event.remove({output: `botania:elementium_${armorPieces}`})
-        event.remove({output: `botania:manaweave_${armorPieces}`})
+        event.remove({output: `botania:terrasteel_${armorPieces}`})
     })
 
     tools.forEach(tools =>{
