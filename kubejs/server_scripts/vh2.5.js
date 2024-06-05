@@ -113,7 +113,8 @@ onEvent('recipes', event => {
         A: 'the_vault:perfect_alexandrite',
         S: 'minecraft:wooden_sword',
         D: 'the_vault:skill_essence',
-        E: 'the_vault:eternal_soul'
+        E: 'the_vault:eternal_soul',
+        C: 'the_vault:vault_crystal'
     })
 
     event.shaped('the_vault:crystal_seal_hunter', [
@@ -124,7 +125,8 @@ onEvent('recipes', event => {
         A: 'the_vault:perfect_alexandrite',
         M: 'minecraft:red_mushroom',
         D: 'the_vault:skill_essence',
-        E: 'the_vault:eternal_soul'
+        E: 'the_vault:eternal_soul',
+        C: 'the_vault:vault_crystal'
     })
 
 
