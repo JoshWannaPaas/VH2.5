@@ -158,6 +158,7 @@
 - Added a recipe to reroll Artisan Scrolls
 - Changed the Vault Altar recipe to not require Purpur
 - Added Recipes to Executioner and Hunter Seals
+- Changed Step and Elvish flasks to use Extraordinary Painite
 
 
 ### Miscellaneous Changes
