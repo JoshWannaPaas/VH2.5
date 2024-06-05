@@ -20,6 +20,9 @@ onEvent('recipes', event => {
     event.remove({id: 'minecraft:suspicious_stew'})
     event.remove({output: 'minecraft:chest'})
     
+    event.remove({output: Item.of('the_vault:reset_flask', '{Skillable:"Elvish"}')})
+    event.remove({output: Item.of('the_vault:reset_flask', '{Skillable:"Step"}')})
+
     
     event.remove({output: 'rftoolsbase:machine_frame'})
     event.remove({output: 'rftoolsbuilder:builder'})

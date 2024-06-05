@@ -4,6 +4,26 @@ ported by a1qs to KubeJS */
 
 onEvent('recipes', event => {
 
+    event.shaped( Item.of('the_vault:reset_flask', '{Skillable:"Elvish"}') , [
+        'PFP',
+        'FRF',
+        'PFP'
+    ], {
+        P: 'the_vault:extraordinary_painite',
+        F: 'minecraft:feather',
+        R: 'the_vault:reset_flask'
+    })
+
+    event.shaped( Item.of('the_vault:reset_flask', '{Skillable:"Step"}') , [
+        'PFP',
+        'FRF',
+        'PFP'
+    ], {
+        P: 'the_vault:extraordinary_painite',
+        F: 'minecraft:stone_brick_stairs',
+        R: 'the_vault:reset_flask'
+    })
+
     event.shaped('1x the_vault:advanced_vending_machine', [
         'GRG',
         'GPG',
