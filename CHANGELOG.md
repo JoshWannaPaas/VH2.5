@@ -2,6 +2,7 @@
 
 
 ### Gameplay changes
+- Vault portals can now be made out of Enviormental Materials' Basalt
 - ALL Vault Crystals are now Cooperative
 - Added Extraordinary Gems from VH3
 - Added Uncrafting of Perfect & Extraordinary Gems into their counterparts
@@ -37,6 +38,16 @@
     - Peaceful will guarantee no natural mob spawning
     - If the Crystal is modified, these *will not appear*
 - Modified Quark Configs for QOL Tweaks
+- Added Crafting Tweaks for utility such as balancing items, spreading items in every slot, quick compressing, etc
+- If you have more than 10 hearts, joining a world will let you login with up to that many hearts, instead of just setting you down to 10 hearts
+- Moving between dimensions doesn't visually/temporarily remove your MC Exp and potion effects
+- Durability now shows up in tooltips without advanced tooltips turned on
+- You can now compare equipment to what you're equipped with by holding a hotkey
+- Added Extreme Sound Muffler to mute specific unwanted sounds
+- Added a hotkey to see light levels for mob spawning
+- Double clicking the JEI search bar now highlights inventory slots that match what's in your search bar, including in external inventories
+- Added a ping, which highlights a block for other people to see
+- Vanilla Tutorial Toasts now no longer show
 - Upped chance to get Netherite Gear in LVL 0 - 24 Loottables
 - Added the Library Room from VH3, 5x as rare as a Mine Room
 - Added Unused Colosseum, Toy & Squid Room
@@ -79,10 +90,10 @@
 - Added a Keybind to toggle Magnets in Curio Slots
 - Cakes now always notify whenever one is clicked
     - this has the issue of doubling up whenever one is clicked, but alas
-- Added the mod SecondChance
+- Added the mod Second Chance
     - This mod has 2 notable features
-    - If you are above 13.5 health points, a fatal blow that would normally unalive you, will set you to 5% of your total health
-    - Give players a .5s window upon falling of a block to Jump (CoyoteJump)
+    - If you are above a configurable amount of health points, a fatal blow that would normally unalive you, will keep you at half a heart, and plays a sound when it happens
+    - Give players a small window of time upon falling off a block to still be able to jump (CoyoteJump)
 - Added Advanced Vault Pearls
     - These have been added to give a use to Vault pearls (and to not make them a total joke)
     - Advanced Vault Pearl [INDESTRUCTABLE]: an infinite Vault Pearl.
@@ -104,6 +115,21 @@
     - New items have been added to the tiers
     - tweaked some min/max values of items
     - This is an experimental change    
+- Scavengers can randomly roll Locked
+- Changed description of Prismatic to match the actual value (4x)
+- Added more Vault modifiers
+    - Currently don't roll anywhere, and some are jokes
+    - Antlike: 10% Mob Size
+    - TFMoment: 500% Mob Size
+    - Frenzier: 10x Damage, +25% Movement Speed, 1 HP
+    - Frenziest: 100x Damage, +100% Movement Speed, Normal Health
+    - CasualMode: 0x Damage, Normal Movement Speed, 1 HP
+    - Voyage: 100% Artifact Chance
+    - Iridescent: 5x Catalyst Chance
+    - Chromatic: 3x Catalyst Chance
+    - Abundant: 5x Vault Ore Chance
+    - Free Hugs: Mobs apply regeneration on hit
+- Enabled spawn eggs to be used in Vaults (except for Ravager)
 
 
 ### Recipe Changes
@@ -115,10 +141,6 @@
 - Added a Cage Dust Recipe
 - Added an Elytra Recipe
 - Made SimplyBackpacks significantly cheaper
-- Golden apples have been reverted to their vanilla recipe
-- Health potions have been reverted to their vanilla recipe
-- Regeneration potions have been reverted to their vanilla recipe
-- Lingering potions have been reverted to their vanilla recipe
 - Added an efficient Andesite Alloy recipe
 - Modified the Gas Burning Generator recipe from Mekanism
 - Added a Recipe to the Thor's Ring Relic from Botania
@@ -142,57 +164,128 @@
 - Renamed Mob difficulty Modifiers to be more clearer
 - Added more Overlevel config Entries
 - Cleaned up JEI
-- Added a Custom Loading & Titlescreen
+- Added a Custom Loading Screen, Title Screen, Window Bar, and Icon
 - Added Custom Splashes
 - Modified AE2 & RS recipes to be generally cheaper
 - Players can now right click the Vault altar to drop items directly onto it
 - Changed stack sizes for Ender Pearls & Snowballs to 64
 - Added JEI Integration for Etching Vendors
 - Added language keys for Vault Gamerules
+- Added a Multiplayer Chunk Claim mod/block
+- Added Cosmetic Armor Slots
+- Gear/Tools/Weapons in your hotbar now cosmetically show on your character
+- Advancement screen now scales in size
+- Brightness slider can now go to higher values, all the way up to fullbright
+- F3 Menu is color coded in attempt to be more readable
+- Server menu now accurately tells you if your modpack version matches the server
+- Added a hotkey to edit configs in game
+- Added connected textures with supported resource packs
+- Added Default Options to unbind most keybinds players won't be using right away, and to set default settings
+- Added a sound when your modpack finishes loading
+- Can now see Pigling Bartering items in JEI
+- Added a hotkey to open a GUI to see keybinds on a keyboard graphic
+- Added shader support
+- Added a hotkey to change the height placement of your hotbar or chat
+- You can now change the audio device Minecraft is using to your current default audio device with F3+R
+- Added spark mod for debugging
+- Command autofill no longer requires typing out mod id's to autofill
 
 
 ### Mod Changes
-- \+ The Vault Extras [BOTH]
-- \+ FerriteCore [BOTH]
-- \+ LazyDFU [BOTH]
-- \+ Rhino [BOTH]
-- \+ KubeJS [BOTH]
-- \+ KubeJS Create [BOTH]
-- \+ Polymorph [BOTH]
 - \+ Architects Palette [BOTH]
-- \+ Nature's Compass [BOTH]
+- \+ Better Compability Check [BOTH]
+- \+ Claim Chunk [BOTH]
+- \+ Cloth Config API [BOTH] (?)
+- \+ Collective [BOTH]
 - \+ CommonCapabilities [BOTH]
+- \+ Configured [BOTH]
+- \+ Connectivity [BOTH]
+- \+ Cosmetic Armor Reworked [BOTH]
+- \+ Crafting Tweaks [BOTH]
 - \+ CyclopsCore [BOTH]
+- \+ Dimensional Sync Fixes [BOTH] (?)
+- \+ EasyPiglins [BOTH]
+- \+ Emojiful [BOTH] (?)
+- \+ Enchanting Infuser [Forge & Fabric] [BOTH]
+- \+ Fast Furnace minus Replacement [BOTH]
+- \+ FastSuite [BOTH]
+- \+ FerriteCore [BOTH]
+- \+ Iceberg [BOTH]
 - \+ IntegratedDynamics [BOTH]
 - \+ IntegratedTerminals [BOTH]
 - \+ IntegratedTunnels [BOTH]
-- \+ EasyPiglins [BOTH]
-- \+ SophisticatedBackpacks [BOTH]
-- \+ Emojiful [BOTH] (?)
 - \+ Jade [BOTH]
-- \+ SecondChance [BOTH]
-- \+ Enchanting Infuser [Forge & Fabric] [BOTH]
+- \+ Krypton Reforged [BOTH]
+- \+ KubeJS [BOTH]
+- \+ KubeJS Create [BOTH]
+- \+ Lazy DataFixerUpper(LazyDFU) [BOTH]
 - \+ LibX [BOTH]
-- \+ Puzzles Lib [Forge & Fabric] [BOTH]
-- \+ Skyblock Builder [BOTH]
-- \+ SuperMartijn642's Config Lib [BOTH]
-- \+ Iceberg [BOTH]
+- \+ Lightspeed - Launch optimizations [BOTH]
+- \+ Nature's Compass [BOTH]
 - \+ NotEnoughRecipeBook [BOTH]
-- \+ Embeddium [CLIENT]
-- \+ AppleSkin [CLIENT]
-- \+ FancyMenu [CLIENT]
-- \+ ~~ModernFix [CLIENT]~~
-- \+ ShutUpExperimentalSettings [CLIENT]
-- \+ LegendaryTooltips [CLIENT]
-- \+ FPSreducer [CLIENT]
-- \+ Drippy Loading Screen [CLIENT]
-- \+ Konkrete [CLIENT]
-- \+ Prism [CLIENT]
+- \+ Ping [BOTH]
+- \+ Property Modifier [BOTH] (?)
+- \+ Polymorph [BOTH]
+- \+ Puzzles Lib [Forge & Fabric] [BOTH]
+- \+ Rhino [BOTH]
+- \+ Saturn [BOTH]
+- \+ Searchables [BOTH]
+- \+ Second Chance (Forge) [BOTH]
+- \+ Server Performance - Smooth Chunk Save [BOTH]
+- \+ Skyblock Builder [BOTH]
+- \+ Smooth Boot (Forge) [BOTH]
+- \+ SophisticatedBackpacks [BOTH]
+- \+ spark [BOTH]
+- \+ Starlight x Create [BOTH]
+- \+ SuperMartijn642's Config Lib [BOTH]
+- \+ The Vault Extras [BOTH]
+- \+ YDM's Weapon Master [BOTH]
 
-- \- ToroHealth [BOTH]
-- \- RangedPumps [BOTH]
+- \+ AppleSkin [CLIENT]
+- \+ Babel [CLIENT]
+- \+ Better Advancements [CLIENT]
+- \+ Better Biome Blend [CLIENT]
+- \+ Better Brightness Slider [CLIENT]
+- \+ Better Fps - Render Distance [CLIENT]
+- \+ Better Runtime Resource Pack (BRRP) [CLIENT]
+- \+ BetterF3 [CLIENT]
+- \+ ConnectedTexturesMod [CLIENT]
+- \+ Default Options [CLIENT]
+- \+ Ding [CLIENT]
+- \+ Drippy Loading Screen [CLIENT]
+- \+ Durability Tooltip [CLIENT]
+- \+ Embeddium [CLIENT]
+- \+ Embeddium Extension [CLIENT]
+- \+ Embeddium/Rubidium Extras [CLIENT]
+- \+ Enhanced Block Entities Backforged [CLIENT]
+- \+ Equipment Compare [CLIENT]
+- \+ Extreme sound muffler [CLIENT]
+- \+ FancyMenu [CLIENT]
+- \+ Fast IP Ping [CLIENT]
+- \+ ForgedAPI Fork [CLIENT]
+- \+ Just Enough Piglin bartering [CLIENT]
+- \+ Keyboard Wizard [CLIENT]
+- \+ Konkrete [CLIENT]
+- \+ LegendaryTooltips [CLIENT]
+- \+ More Overlays Updated [CLIENT]
+- \+ Oculus [CLIENT]
+- \+ Prism [CLIENT]
+- \+ Raised [CLIENT]
+- \+ ReAuth [CLIENT]
+- \+ Reload Audio Driver (RAD) [CLIENT]
+- \+ ShutUpExperimentalSettings [CLIENT]
+- \+ Suggestion Provider Fix [CLIENT]
+- \+ Toast Control [CLIENT]
+
+- \+ Dynamic View [SERVER]
+- \+ Fast Async World Save [SERVER]
+- \+ Login Protection [SERVER]
+- \+ Max Health Fix [SERVER]
+
+
 - \- HWYLA [BOTH]
-- \- CreateTweaker [BOTH]
+- \- RangedPumps [BOTH]
 - \- RFTools Storage [BOTH]
+- \- ToroHealth [BOTH]
 
 
