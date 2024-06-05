@@ -1302,7 +1302,8 @@
             "HITTABILITY": true,
             "USABILITY": true,
             "CRAFTABILITY": true
-          },
+          }
+        },
           "botania:mana_gun": {
             "restricts": {
               "HITTABILITY": true,
@@ -1436,8 +1437,7 @@
               "CRAFTABILITY": true
             }
           }
-        }
-      },
+        },
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Botania Trinkets",
