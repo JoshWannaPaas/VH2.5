@@ -180,7 +180,8 @@
 - Modified AE2 & RS recipes to be generally cheaper
 - Players can now right click the Vault altar to drop items directly onto it
 - Changed stack sizes for Ender Pearls & Snowballs to 64
-- Added JEI Integration for Etching Vendors
+- Added JEI Integration for Etching Vendors [BROKEN]
+- Added JEI Integration for Vault Seals 
 - Added language keys for Vault Gamerules
 - Added a Multiplayer Chunk Claim mod/block
 - Added Cosmetic Armor Slots
@@ -201,6 +202,20 @@
 - Added spark mod for debugging
 - Command autofill no longer requires typing out mod id's to autofill
 - Servers will dynamically change server render distance based on mspt
+- the Vault Level will now be displayed next to the Player's name in the Tablist
+- Whether the Player is in a Vault will now display next to the Player's name in the Tablist
+- Added Command /the_vault debug SetGlobalDifficulty
+- Added Command /the_vault debug SetGlobalCrystalDifficulty
+    - These Commands are used to modify the Global Difficulty which are set at the start of the server
+- Added a Cake Seal
+    - This replaces the Cake for the Cake Vault Objective Recipe in the Anvil
+    - Recipe may be changed in the future
+- Swift pearls now grant +2 Speed for 15 seconds and apply the Vault Powerup effect
+    - This means that they do not stack with sweet apples, and disallow for any other Vault Powerup to be consumed at that time
+
+
+
+
 
 
 ### Mod Changes
