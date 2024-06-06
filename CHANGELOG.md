@@ -201,6 +201,7 @@
 - Added spark mod for debugging
 - Command autofill no longer requires typing out mod id's to autofill
 - Servers will dynamically change server render distance based on mspt
+- Added Connected Textures
 
 
 ### Mod Changes
