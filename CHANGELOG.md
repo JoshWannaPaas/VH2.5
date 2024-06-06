@@ -158,6 +158,8 @@
 - Added a recipe to reroll Artisan Scrolls
 - Changed the Vault Altar recipe to not require Purpur
 - Added Recipes to Executioner and Hunter Seals
+- Changed Other Seal Recipes
+- Added a new (inedible) cake that acts as a Cake Hunt seal
 - Changed Step and Elvish flasks to use Extraordinary Painite
 
 

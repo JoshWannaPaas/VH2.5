@@ -24,6 +24,44 @@ onEvent('recipes', event => {
         R: 'the_vault:reset_flask'
     })
 
+    event.shaped('1x the_vault:crystal_seal_architect' , [
+        'PKP',
+        'SVS',
+        'PEP'
+    ], {
+        P: 'the_vault:perfect_painite',
+        K: 'the_vault:knowledge_star',
+        S: 'the_vault:skill_shard',
+        V: 'the_vault:vault_crystal',
+        E: 'the_vault:infused_eternal_soul'
+    })
+
+    event.shaped('1x the_vault:crystal_seal_ancients' , [
+        'PCP',
+        'SVS',
+        'PEP'
+    ], {
+        P: 'the_vault:perfect_painite',
+        C: 'the_vault:gem_pog',
+        S: 'the_vault:skill_shard',
+        V: 'the_vault:vault_crystal',
+        E: 'the_vault:infused_eternal_soul'
+    })
+
+    event.shaped('1x the_vault:crystal_seal_raid' , [
+        'PGP',
+        'SVS',
+        'PEP'
+    ], {
+        P: 'the_vault:perfect_painite',
+        G: 'the_vault:gem_echo',
+        S: 'the_vault:skill_shard',
+        V: 'the_vault:vault_crystal',
+        E: 'the_vault:infused_eternal_soul'
+    })
+
+    
+
     event.shaped('1x the_vault:advanced_vending_machine', [
         'GRG',
         'GPG',
