@@ -22,6 +22,9 @@ onEvent('recipes', event => {
     
     event.remove({output: Item.of('the_vault:reset_flask', '{Skillable:"Elvish"}')})
     event.remove({output: Item.of('the_vault:reset_flask', '{Skillable:"Step"}')})
+    event.remove({output: 'the_vault:crystal_seal_architect'})
+    event.remove({output: 'the_vault:crystal_seal_ancients'})
+    event.remove({output: 'the_vault:crystal_seal_raid'})
 
     
     event.remove({output: 'rftoolsbase:machine_frame'})
