@@ -130,7 +130,7 @@
 	#Portable Teleporter Settings
 	[gear.portable_teleporter]
 		#Maximum amount (joules) of energy the Portable Teleporter can contain.
-		maxEnergy = "100000"
+		maxEnergy = "1000000"
 		#Amount (joules) of energy the Portable Teleporter can accept per tick.
 		chargeRate = "3000"
 		#Delay in ticks before a player is teleported after clicking the Teleport button in the portable teleporter.
@@ -139,7 +139,7 @@
 	#Atomic Disassembler Settings
 	[gear.atomic_disassembler]
 		#Maximum amount (joules) of energy the Atomic Disassembler can contain.
-		maxEnergy = "800000"
+		maxEnergy = "2560000"
 		#Amount (joules) of energy the Atomic Disassembler can accept per tick.
 		chargeRate = "3500"
 		#Cost in Joules of using the Atomic Disassembler as a weapon.
