@@ -147,6 +147,17 @@ onEvent('recipes', event => {
         R: 'thermal:redstone_servo'
     })
 
+    event.shaped('1x thermal:device_rock_gen', [
+        'IGI',
+        'OFO',
+        'IGI'
+    ], {
+        I: '#forge:storage_blocks/invar',
+        G: 'the_vault:gem_pog',
+        O: 'thermal:obsidian_glass',
+        F: 'thermal:machine_frame'
+    })
+
     event.shaped('1x thermal:energy_cell_frame', [
         'ICI',
         'GMG',
