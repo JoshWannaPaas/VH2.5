@@ -1293,147 +1293,147 @@
         "botania:terra_pick": {
           "restricts": {
             "HITTABILITY": true,
-            "USABILITY": true,
+            "USABILITY": false,
             "CRAFTABILITY": true
           }
         },
         "botania:tornado_rod": {
           "restricts": {
             "HITTABILITY": true,
-            "USABILITY": true,
+            "USABILITY": false,
             "CRAFTABILITY": true
           }
         },
           "botania:mana_gun": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:skydirt_rod": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:dirt_rod": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:goddess_charm": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:water_rod": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:gravity_rod": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:cloud_pendant": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:super_cloud_pendant": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:lava_pendant": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:super_lava_pendant": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:ice_pendant": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:magnet_ring": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:magnet_ring_greater": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:reach_ring": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:thor_ring": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:travel_belt": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:knockback_belt": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:super_travel_belt": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           },
           "botania:speed_up_belt": {
             "restricts": {
               "HITTABILITY": true,
-              "USABILITY": true,
+              "USABILITY": false,
               "CRAFTABILITY": true
             }
           }
