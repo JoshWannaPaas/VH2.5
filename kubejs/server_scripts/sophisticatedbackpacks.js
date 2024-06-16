@@ -186,19 +186,21 @@ onEvent('recipes', event => {
         'OUO',
         'DED'
     ], {
-       D: 'the_vault:vault_diamond_block',
+       D: 'the_vault:vault_diamond',
        B: 'the_vault:extraordinary_benitoite',
-       O: 'the_vault:extraordinary_black_opal',
+       O: 'the_vault:perfect_black_opal',
        U: 'sophisticatedbackpacks:stack_upgrade_tier_2',
-       E: 'the_vault:echo_pog'
+       E: 'the_vault:gem_echo'
     })
 
     event.shaped('sophisticatedbackpacks:stack_upgrade_tier_4', [
-        'DED',
-        'EUE',
+        'DBD',
+        'OUO',
         'DED'
     ], {
        D: 'the_vault:vault_diamond_block',
+       B: 'the_vault:extraordinary_benitoite',
+       O: 'the_vault:extraordinary_black_opal',
        E: 'the_vault:echo_pog',
        U: 'sophisticatedbackpacks:stack_upgrade_tier_3'
     })
@@ -344,7 +346,7 @@ onEvent('recipes', event => {
             "item": "the_vault:vault_diamond_block"
           },
           "P": {
-            "item": "the_vault:omega_pog"
+            "item": "the_vault:echo_pog"
           },
           "C": {
             "item": "compressium:diamond_2"
@@ -353,7 +355,7 @@ onEvent('recipes', event => {
             "item": "sophisticatedbackpacks:gold_backpack"
           },
           "E": {
-            "item": "the_vault:extraordinary_echo_gem"
+            "item": "the_vault:extraordinary_black_opal"
           }
         },
         "result": {
@@ -370,9 +372,9 @@ onEvent('recipes', event => {
           }
         ],
         "pattern": [
-          "EOE",
+          "OEO",
           "NBN",
-          "EOE"
+          "OMO"
         ],
         "key": {
           "E": {
@@ -383,6 +385,9 @@ onEvent('recipes', event => {
           },
           "N": {
             "item": "compressium:netherite_2"
+          },
+          "M": {
+            "item": "the_vault:omega_pog"
           },
           "B": {
             "item": "sophisticatedbackpacks:diamond_backpack"
