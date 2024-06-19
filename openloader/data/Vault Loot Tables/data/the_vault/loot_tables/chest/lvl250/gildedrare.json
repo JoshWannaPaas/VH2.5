@@ -10,15 +10,15 @@
         "max": 2
       },
       "entries": [
-                { "_name": "enchantedbook",
+        { "_name": "enchantedbook",
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 3,
           "name": "the_vault_extras:mystery_book",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 0,
                 "max": 1
               }
             },
@@ -28,7 +28,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.5
+                  "chance": 0.0
                 }
               ]
             } 
