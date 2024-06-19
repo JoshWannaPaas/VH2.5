@@ -593,14 +593,14 @@
   "CATALYST_MODIFIERS": [
     {
       "catalystChanceIncrease": 4.0,
-      "name": "Iridescent",
+      "name": "Prismatic",
       "icon": "the_vault:textures/gui/modifiers/more-catalyst.png",
       "color": "16515299",
       "description": "4x Chance to find Catalyst Fragments"
     },
     {
       "catalystChanceIncrease": 3.0,
-      "name": "Prismatic",
+      "name": "Iridescent",
       "icon": "the_vault:textures/gui/modifiers/more-catalyst.png",
       "color": "16515299",
       "description": "3x Chance to find Catalyst Fragments"
@@ -1099,7 +1099,7 @@
           ]
         },   
         { "_NAME": "CatalystMods",
-          "MIN_ROLLS": 1,
+          "MIN_ROLLS": 0,
           "MAX_ROLLS": 1,
           "POOL": [
             {
@@ -1108,7 +1108,7 @@
             },
             {
               "value": "Dummy",
-              "weight": 8
+              "weight": 19
             }
           ]
         }
@@ -1745,6 +1745,20 @@
             {
               "value": "Beginner's Grace",
               "weight": 1
+            }
+          ]
+        },   
+        { "_NAME": "CatalystMods",
+          "MIN_ROLLS": 0,
+          "MAX_ROLLS": 1,
+          "POOL": [
+            {
+              "value": "Chromatic",
+              "weight": 1
+            },
+            {
+              "value": "Dummy",
+              "weight": 14
             }
           ]
         }
@@ -2449,20 +2463,20 @@
           ]
         },   
         { "_NAME": "CatalystMods",
-          "MIN_ROLLS": 1,
+          "MIN_ROLLS": 0,
           "MAX_ROLLS": 1,
           "POOL": [
             {
               "value": "Chromatic",
+              "weight": 4
+            },
+            {
+              "value": "Iridescent",
               "weight": 2
             },
             {
-              "value": "Prismatic",
-              "weight": 1
-            },
-            {
               "value": "Dummy",
-              "weight": 5
+              "weight": 29
             }
           ]
         }
@@ -3193,22 +3207,22 @@
               "weight": 1
             }
           ]
-        },   
+        },
         { "_NAME": "CatalystMods",
-          "MIN_ROLLS": 1,
+          "MIN_ROLLS": 0,
           "MAX_ROLLS": 2,
           "POOL": [
             {
               "value": "Chromatic",
+              "weight": 4
+            },
+            {
+              "value": "Iridescent",
               "weight": 2
             },
             {
-              "value": "Prismatic",
-              "weight": 1
-            },
-            {
               "value": "Dummy",
-              "weight": 5
+              "weight": 29
             }
           ]
         }
@@ -3949,24 +3963,24 @@
           ]
         },   
         { "_NAME": "CatalystMods",
-          "MIN_ROLLS": 1,
+          "MIN_ROLLS": 0,
           "MAX_ROLLS": 2,
           "POOL": [
             {
-              "value": "Iridescent",
+              "value": "Prismatic",
               "weight": 1
             },
             {
-              "value": "Prismatic",
-              "weight": 2
+              "value": "Iridescent",
+              "weight": 3
             },
             {
               "value": "Chromatic",
-              "weight": 4
+              "weight": 6
             },
             {
               "value": "Dummy",
-              "weight": 8
+              "weight": 20
             }
           ]
         },    
