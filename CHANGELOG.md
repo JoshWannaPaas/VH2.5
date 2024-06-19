@@ -98,6 +98,7 @@
 - Made Treasure Chests prior to LVL 100 use the `treasureroom` Gear pool, which significantly buffs the rarity rolls
 - Vault Burgers/Pizza can no longer roll 0% XP
 - Added a Keybind to toggle Magnets in Curio Slots
+- Cakes no longer roll Catalyst Modifiers (Experimental)
 - Cakes now always notify whenever one is clicked
     - this has the issue of doubling up whenever one is clicked, but alas
 - Added the mod Second Chance
@@ -135,11 +136,21 @@
     - Frenziest: 100x Damage, +100% Movement Speed, Normal Health
     - CasualMode: 0x Damage, Normal Movement Speed, 1 HP
     - Voyage: 100% Artifact Chance
-    - Iridescent: 5x Catalyst Chance
-    - Chromatic: 3x Catalyst Chance
     - Abundant: 5x Vault Ore Chance
     - Free Hugs: Mobs apply regeneration on hit
+- Custom Vault Modifiers that actually roll
+    - Chromatic: (T1 Catalyst Modifier) 2x Chance for Catalyst Fragments
+    - Iridescent: (T2 Catalyst Modifier) 3x Chance for Catalyst Fragments
 - Enabled spawn eggs to be used in Vaults (except for Ravager)
+- Added Mystery Runes
+    - These act as a Mystery Box type item for Quark's many runes
+    - All loot tables that drop Quark Runes now drop Mystery Runes instead
+- Added Mystery Books
+    - These act as a Mystery Box type item for Enchanted Books
+    - All loot tables that drop normal Enchanted Books now drop Mystery Books instead
+- Both of the new Mystery items have associated configs
+    - Along with this, /the_vault reloadcfg also works with these custom configs
+    - These configs are found in the_vault config folder
 
 
 ### Recipe Changes
@@ -160,6 +171,9 @@
 - Added Recipes to Executioner and Hunter Seals
 - Changed Other Seal Recipes
 - Added a new (inedible) cake that acts as a Cake Hunt seal
+    - This replaces the vanilla cake that was used for Cake Hunts
+    - This cake is crafted with a Trove (experimental)
+    - Can alternatively be found in Altar Chests, Treasure Goblins, and the Shard Shop
 - Changed Step and Elvish flasks to use Extraordinary Painite
 
 
@@ -209,9 +223,6 @@
 - Added Command /the_vault debug SetGlobalDifficulty
 - Added Command /the_vault debug SetGlobalCrystalDifficulty
     - These Commands are used to modify the Global Difficulty which are set at the start of the server
-- Added a Cake Seal
-    - This replaces the Cake for the Cake Vault Objective Recipe in the Anvil
-    - Recipe may be changed in the future
 - Swift pearls now grant +2 Speed for 15 seconds and apply the Vault Powerup effect
     - This means that they do not stack with sweet apples, and disallow for any other Vault Powerup to be consumed at that time
 
