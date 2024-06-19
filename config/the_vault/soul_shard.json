@@ -400,6 +400,17 @@
     {
       "value": {
         "item": {
+          "ITEM": "the_vault_extras:cake_seal",
+          "NBT": "{}"
+        },
+        "minPrice": 800,
+        "maxPrice": 1200
+      },
+      "weight": 12
+    },
+    {
+      "value": {
+        "item": {
           "ITEM": "the_vault:crystal_seal_executioner",
           "NBT": "{}"
         },
