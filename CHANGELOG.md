@@ -58,6 +58,9 @@
 - Enabled Manaweave Armor
 - Enabled Manasteel Armor, but changed armor values to match Diamond
 - Changed various ability specializations to have different level requirements
+- Changed some Vein Miner specializations to mine more blocks
+    - Finesse now mines double the amount of blocks
+    - Void now mines quadruple the amount of blocks
 - Upped chance to get Netherite Gear in LVL 0 - 24 Loottables
 - Added the Library Room from VH3, 5x as rare as a Mine Room
 - Added Unused Colosseum, Toy & Squid Room
@@ -151,6 +154,7 @@
 - Both of the new Mystery items have associated configs
     - Along with this, /the_vault reloadcfg also works with these custom configs
     - These configs are found in the_vault config folder
+
 
 
 ### Recipe Changes
