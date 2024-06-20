@@ -710,20 +710,6 @@
             "collector": {
               "type": "SET"
             }
-          },
-          "FEATHER_FEET": {
-            "pools": [
-              {
-                "base": 0.0,
-                "rolls": {
-                  "type": "empty"
-                },
-                "entries": []
-              }
-            ],
-            "collector": {
-              "type": "SET"
-            }
           }
         },
         "the_vault:helmet": {
@@ -1768,20 +1754,6 @@
             }
           },
           "REACH": {
-            "pools": [
-              {
-                "base": 0.0,
-                "rolls": {
-                  "type": "empty"
-                },
-                "entries": []
-              }
-            ],
-            "collector": {
-              "type": "SET"
-            }
-          },
-          "FEATHER_FEET": {
             "pools": [
               {
                 "base": 0.0,
@@ -4386,23 +4358,6 @@
             },
             "weight": 1
           },
-          "ADD_FEATHER_FEET": {
-            "value": {
-              "pools": [
-                {
-                  "base": 0.05,
-                  "rolls": {
-                    "type": "empty"
-                  },
-                  "entries": []
-                }
-              ],
-              "collector": {
-                "type": "SET"
-              }
-            },
-            "weight": 1
-          },
           "ADD_SOULBOUND": {
             "value": {
               "pools": [
@@ -6309,23 +6264,6 @@
               }
             },
             "weight": 1
-          },
-          "ADD_FEATHER_FEET": {
-            "value": {
-              "pools": [
-                {
-                  "base": 1.0,
-                  "rolls": {
-                    "type": "empty"
-                  },
-                  "entries": []
-                }
-              ],
-              "collector": {
-                "type": "SET"
-              }
-            },
-            "weight": 2
           },
           "ADD_ARMOR_2": {
             "value": {
@@ -10220,20 +10158,6 @@
             "collector": {
               "type": "SET"
             }
-          },
-          "FEATHER_FEET": {
-            "pools": [
-              {
-                "base": 0.0,
-                "rolls": {
-                  "type": "empty"
-                },
-                "entries": []
-              }
-            ],
-            "collector": {
-              "type": "SET"
-            }
           }
         },
         "the_vault:helmet": {
@@ -11278,20 +11202,6 @@
             }
           },
           "REACH": {
-            "pools": [
-              {
-                "base": 0.0,
-                "rolls": {
-                  "type": "empty"
-                },
-                "entries": []
-              }
-            ],
-            "collector": {
-              "type": "SET"
-            }
-          },
-          "FEATHER_FEET": {
             "pools": [
               {
                 "base": 0.0,
@@ -14107,23 +14017,6 @@
             },
             "weight": 1
           },
-          "ADD_FEATHER_FEET": {
-            "value": {
-              "pools": [
-                {
-                  "base": 0.05,
-                  "rolls": {
-                    "type": "empty"
-                  },
-                  "entries": []
-                }
-              ],
-              "collector": {
-                "type": "SET"
-              }
-            },
-            "weight": 1
-          },
           "ADD_SOULBOUND": {
             "value": {
               "pools": [
@@ -16306,23 +16199,6 @@
               }
             },
             "weight": 5
-          },
-          "ADD_FEATHER_FEET": {
-            "value": {
-              "pools": [
-                {
-                  "base": 1.0,
-                  "rolls": {
-                    "type": "empty"
-                  },
-                  "entries": []
-                }
-              ],
-              "collector": {
-                "type": "SET"
-              }
-            },
-            "weight": 2
           },
           "ADD_ARMOR_2": {
             "value": {
@@ -20748,20 +20624,6 @@
             "collector": {
               "type": "SET"
             }
-          },
-          "FEATHER_FEET": {
-            "pools": [
-              {
-                "base": 0.0,
-                "rolls": {
-                  "type": "empty"
-                },
-                "entries": []
-              }
-            ],
-            "collector": {
-              "type": "SET"
-            }
           }
         },
         "the_vault:helmet": {
@@ -21806,20 +21668,6 @@
             }
           },
           "REACH": {
-            "pools": [
-              {
-                "base": 0.0,
-                "rolls": {
-                  "type": "empty"
-                },
-                "entries": []
-              }
-            ],
-            "collector": {
-              "type": "SET"
-            }
-          },
-          "FEATHER_FEET": {
             "pools": [
               {
                 "base": 0.0,
@@ -24956,23 +24804,6 @@
             },
             "weight": 1
           },
-          "ADD_FEATHER_FEET": {
-            "value": {
-              "pools": [
-                {
-                  "base": 0.05,
-                  "rolls": {
-                    "type": "empty"
-                  },
-                  "entries": []
-                }
-              ],
-              "collector": {
-                "type": "SET"
-              }
-            },
-            "weight": 1
-          },
           "ADD_SOULBOUND": {
             "value": {
               "pools": [
@@ -27666,23 +27497,6 @@
             },
             "weight": 5
           },
-          "ADD_FEATHER_FEET": {
-            "value": {
-              "pools": [
-                {
-                  "base": 1.0,
-                  "rolls": {
-                    "type": "empty"
-                  },
-                  "entries": []
-                }
-              ],
-              "collector": {
-                "type": "SET"
-              }
-            },
-            "weight": 2
-          },    
           "THORNS_CHANCE": {
             "value": {
               "pools": [
