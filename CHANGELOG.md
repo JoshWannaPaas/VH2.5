@@ -179,6 +179,7 @@
     - This cake is crafted with a Trove (experimental)
     - Can alternatively be found in Altar Chests, Treasure Goblins, and the Shard Shop
 - Changed Step and Elvish flasks to use Extraordinary Painite
+- Made Vault Nuggets cost 9 Vault Dust instead of 8 Vault dust & one Diamond
 
 
 ### Miscellaneous Changes
