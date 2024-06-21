@@ -1,0 +1,22 @@
+{
+  "POOL": [
+    {"value": {"id": "quark:black_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:blue_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:brown_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:cyan_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:gray_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:green_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:light_blue_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:light_gray_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:lime_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:magenta_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:orange_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:pink_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:purple_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:red_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:white_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:yellow_rune", "amountMin": 1, "amountMax": 1}, "weight": 2},
+    {"value": {"id": "quark:rainbow_rune", "amountMin": 1, "amountMax": 1}, "weight": 1},
+    {"value": {"id": "quark:blank_rune", "amountMin": 1, "amountMax": 1}, "weight": 3}
+  ]
+}

@@ -11,6 +11,21 @@
             "weight": 6
           },
           
+          { "_name": "Cake Seal",
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "the_vault_extras:cake_seal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+          },
+          
           {
             "type": "minecraft:item",
             "weight": 4,

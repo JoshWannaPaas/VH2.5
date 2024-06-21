@@ -27,6 +27,18 @@ onEvent('block.right_click', event =>{
 
 onEvent('recipes', event => {
 
+    event.shaped('the_vault_extras:cake_seal', [
+        'ACA',
+        'KVK',
+        'ADA'
+    ], {
+        A: 'the_vault:perfect_alexandrite',
+        K: 'the_vault:star_shard',
+        V: Item.of('the_vault:vault_crystal', '{CrystalData:{Type:"TROVE"}}'),
+        C: 'minecraft:cake',
+        D: 'the_vault:vault_diamond_block'
+    })
+
     event.shaped(Item.of('the_vault:vault_paxel', '{Damage:0,ShouldEnhance:0b,Enhancement:{Id:"the_vault:fortunate"},display:{Name:\'["",{"text":"Fortunate Paxel","italic":false,"color":"#ffb31a","bold":true}]\'}}') , [
         'PCP',
         'EVE',

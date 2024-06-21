@@ -2616,14 +2616,6 @@
     "durabilityLevelConfiguration": [
       {
         "noDurabilityUsageChance": 0.7,
-        "blockLimit": 4,
-        "learningCost": 1,
-        "behavior": "HOLD_TO_ACTIVATE",
-        "cooldown": 200,
-        "levelRequirement": 5
-      },
-      {
-        "noDurabilityUsageChance": 0.55,
         "blockLimit": 8,
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
@@ -2631,7 +2623,7 @@
         "levelRequirement": 5
       },
       {
-        "noDurabilityUsageChance": 0.4,
+        "noDurabilityUsageChance": 0.55,
         "blockLimit": 16,
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
@@ -2639,8 +2631,16 @@
         "levelRequirement": 5
       },
       {
-        "noDurabilityUsageChance": 0.25,
+        "noDurabilityUsageChance": 0.4,
         "blockLimit": 32,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 5
+      },
+      {
+        "noDurabilityUsageChance": 0.25,
+        "blockLimit": 64,
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
@@ -2648,7 +2648,7 @@
       },
       {
         "noDurabilityUsageChance": 0.1,
-        "blockLimit": 64,
+        "blockLimit": 128,
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
@@ -2662,7 +2662,7 @@
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 15
+        "levelRequirement": 5
       },
       {
         "additionalFortuneLevel": 1,
@@ -2670,7 +2670,7 @@
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 15
+        "levelRequirement": 5
       },
       {
         "additionalFortuneLevel": 1,
@@ -2678,7 +2678,7 @@
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 15
+        "levelRequirement": 5
       },
       {
         "additionalFortuneLevel": 1,
@@ -2686,7 +2686,7 @@
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 15
+        "levelRequirement": 5
       },
       {
         "additionalFortuneLevel": 2,
@@ -2694,7 +2694,7 @@
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
-        "levelRequirement": 15
+        "levelRequirement": 5
       }
     ],
     "sizeLevelConfiguration": [
@@ -2760,58 +2760,6 @@
           "the_vault:ore_puffium",
           "the_vault:ore_echo"
         ],
-        "blockLimit": 4,
-        "learningCost": 1,
-        "behavior": "HOLD_TO_ACTIVATE",
-        "cooldown": 200,
-        "levelRequirement": 5
-      },
-      {
-        "whitelist": [
-          "forge:ores",
-          "the_vault:ore_alexandrite",
-          "the_vault:ore_benitoite",
-          "the_vault:ore_larimar",
-          "the_vault:ore_black_opal",
-          "the_vault:ore_painite",
-          "the_vault:ore_iskallium",
-          "the_vault:ore_gorginite",
-          "the_vault:ore_sparkletine",
-          "the_vault:ore_wutodie",
-          "the_vault:ore_ashium",
-          "the_vault:ore_bomignite",
-          "the_vault:ore_funsoide",
-          "the_vault:ore_tubium",
-          "the_vault:ore_upaline",
-          "the_vault:ore_puffium",
-          "the_vault:ore_echo"
-        ],
-        "blockLimit": 8,
-        "learningCost": 1,
-        "behavior": "HOLD_TO_ACTIVATE",
-        "cooldown": 200,
-        "levelRequirement": 5
-      },
-      {
-        "whitelist": [
-          "forge:ores",
-          "the_vault:ore_alexandrite",
-          "the_vault:ore_benitoite",
-          "the_vault:ore_larimar",
-          "the_vault:ore_black_opal",
-          "the_vault:ore_painite",
-          "the_vault:ore_iskallium",
-          "the_vault:ore_gorginite",
-          "the_vault:ore_sparkletine",
-          "the_vault:ore_wutodie",
-          "the_vault:ore_ashium",
-          "the_vault:ore_bomignite",
-          "the_vault:ore_funsoide",
-          "the_vault:ore_tubium",
-          "the_vault:ore_upaline",
-          "the_vault:ore_puffium",
-          "the_vault:ore_echo"
-        ],
         "blockLimit": 16,
         "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
@@ -2839,7 +2787,7 @@
           "the_vault:ore_echo"
         ],
         "blockLimit": 32,
-        "learningCost": 2,
+        "learningCost": 1,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,
         "levelRequirement": 5
@@ -2865,6 +2813,58 @@
           "the_vault:ore_echo"
         ],
         "blockLimit": 64,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 5
+      },
+      {
+        "whitelist": [
+          "forge:ores",
+          "the_vault:ore_alexandrite",
+          "the_vault:ore_benitoite",
+          "the_vault:ore_larimar",
+          "the_vault:ore_black_opal",
+          "the_vault:ore_painite",
+          "the_vault:ore_iskallium",
+          "the_vault:ore_gorginite",
+          "the_vault:ore_sparkletine",
+          "the_vault:ore_wutodie",
+          "the_vault:ore_ashium",
+          "the_vault:ore_bomignite",
+          "the_vault:ore_funsoide",
+          "the_vault:ore_tubium",
+          "the_vault:ore_upaline",
+          "the_vault:ore_puffium",
+          "the_vault:ore_echo"
+        ],
+        "blockLimit": 128,
+        "learningCost": 2,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 5
+      },
+      {
+        "whitelist": [
+          "forge:ores",
+          "the_vault:ore_alexandrite",
+          "the_vault:ore_benitoite",
+          "the_vault:ore_larimar",
+          "the_vault:ore_black_opal",
+          "the_vault:ore_painite",
+          "the_vault:ore_iskallium",
+          "the_vault:ore_gorginite",
+          "the_vault:ore_sparkletine",
+          "the_vault:ore_wutodie",
+          "the_vault:ore_ashium",
+          "the_vault:ore_bomignite",
+          "the_vault:ore_funsoide",
+          "the_vault:ore_tubium",
+          "the_vault:ore_upaline",
+          "the_vault:ore_puffium",
+          "the_vault:ore_echo"
+        ],
+        "blockLimit": 256,
         "learningCost": 2,
         "behavior": "HOLD_TO_ACTIVATE",
         "cooldown": 200,

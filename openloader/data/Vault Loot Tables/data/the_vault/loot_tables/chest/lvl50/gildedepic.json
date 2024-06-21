@@ -12,17 +12,15 @@
       "entries": [
         { "_name": "enchantedbook",
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:book",
+          "weight": 3,
+          "name": "the_vault_extras:mystery_book",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "treasure": "false",
-              "levels": {
-                  "type": "uniform",
-                  "min": 35,
-                  "max": 50
-              } 
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -30,7 +28,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.1
+                  "chance": 0.0
                 }
               ]
             } 
@@ -1070,7 +1068,7 @@
         { "_name": "quarkrunes",
           "type": "minecraft:tag",
           "weight": 1,
-          "name": "quark:runes",
+          "name": "the_vault:mystery_runes",
           "expand": "true",
           "functions": [
             {

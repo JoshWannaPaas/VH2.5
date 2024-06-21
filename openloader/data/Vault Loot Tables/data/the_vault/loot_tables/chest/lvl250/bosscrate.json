@@ -1258,7 +1258,7 @@
         {
           "type": "minecraft:tag",
           "weight": 6,
-          "name": "quark:runes",
+          "name": "the_vault:mystery_runes",
           "expand": "true",
           "functions": [
             {
