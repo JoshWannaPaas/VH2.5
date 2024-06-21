@@ -130,8 +130,12 @@ onEvent('recipes', event => {
     })
 
 
-    event.shapeless('4x the_vault:perfect_echo_gem', ['the_vault:extraordinary_echo_gem']),
+    event.shapeless('4x the_vault:perfect_echo_gem', ['the_vault:extraordinary_echo_gem'])
     event.shapeless('4x the_vault:gem_echo', ['the_vault:perfect_echo_gem'])
+    event.shapeless('9x the_vault:vault_dust', ['the_vault:vault_nugget']),
+    event.shapeless('the_vault:vault_nugget', ['9x the_vault:vault_dust']),
+    event.shapeless('9x the_vault:vault_nugget', ['the_vault:vault_ingot']),
+    event.shapeless('the_vault:vault_ingot', ['9x the_vault:vault_nugget']),
     event.shapeless('9x architects_palette:twisted_boards', ['9x architects_palette:twisted_planks'])
 
 
