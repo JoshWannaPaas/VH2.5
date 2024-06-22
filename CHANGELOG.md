@@ -171,7 +171,7 @@
 - Implemented the Vault Recycler
     - Melts Vault Gear, Idols & Magnets
 - Vault Gear is now Unbreakable outside Vaults
-- Elytras take 5x less durability Damage
+- Elytras take 5x less durability damage
 
 
 ### Recipe Changes
@@ -198,6 +198,7 @@
     - Guaranteed from Crakes
 - Changed Step and Elvish flasks to use Extraordinary Painite
 - Made Vault Nuggets cost 9 Vault Dust instead of 8 Vault dust & one Diamond
+- Rebalanced many Create recipes, the mod is now heavy on Wutodie instead of Black Opal
 
 
 ### Miscellaneous Changes
