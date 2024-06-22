@@ -64,7 +64,7 @@
     - Finesse now mines double the amount of blocks
     - Void now mines quadruple the amount of blocks
 - Upped chance to get Netherite Gear in LVL 0 - 24 Loottables
-- Added the Library Room from VH3, 5x as rare as a Mine Room
+- Added the Library Room from VH3, the same rarity as a mine room
 - Added Unused Colosseum, Toy & Squid Room
 - Upped chance for non-artisans to craft Tier 3 Gear
 - Added Deco Wood Board Blocks from a newer version of Architects Palette

@@ -3,7 +3,7 @@
     "fallback": "the_vault:vault/rooms",
     "elements": [
       {
-        "weight": 1,
+        "weight": 5,
         "element":
         {
           "processors": [
