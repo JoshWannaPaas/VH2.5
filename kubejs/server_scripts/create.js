@@ -90,7 +90,7 @@ onEvent('recipes', event => {
         V: 'the_vault:vault_diamond',
         T: 'create:turntable',
         G: '#the_vault:perfectcommongems',
-        P: 'the_vault:perfect_wutodie',
+        P: 'create:andesite_casing',
         S: 'create:shaft'
     })
 
