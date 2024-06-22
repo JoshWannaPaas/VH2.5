@@ -8,12 +8,12 @@ onEvent('recipes', event => {
 
     event.shaped('1x create:crushing_wheel', [
         'ALA',
-        'AGA',
+        'LGL',
         'ALA'
     ], {
         A: 'create:andesite_alloy',
         L: '#minecraft:logs',
-        G: 'the_vault:perfect_alexandrite'
+        G: 'the_vault:perfect_black_opal'
     })
 
     event.shaped('1x create:encased_fan', [
@@ -21,11 +21,24 @@ onEvent('recipes', event => {
         'WCW',
         'OPO'
     ], {
-        O: 'the_vault:gem_black_opal',
+        O: 'the_vault:perfect_wutodie',
         S: 'create:shaft',
         W: 'create:cogwheel',
         C: 'create:andesite_casing',
         P: 'create:propeller'
+    })
+
+    event.shaped('1x create:hose_pulley', [
+        ' C ',
+        'SGF',
+        ' P '
+    ], {
+        C: 'create:copper_casing',
+        S: 'create:shaft',
+        G: 'the_vault:gem_pog',
+        F: 'create:fluid_pipe',
+        P: '#forge:plates/copper'
+
     })
 
     event.shaped('1x create:furnace_engine', [
@@ -44,12 +57,11 @@ onEvent('recipes', event => {
     event.shaped('1x create:cart_assembler', [
         ' V ',
         'AEA',
-        'VPV'
+        'V V'
     ], {
         V: 'the_vault:vault_diamond_block',
         A: 'create:andesite_alloy',
-        E: 'the_vault:echo_pog',
-        P: 'the_vault:gem_pog'
+        E: 'the_vault:echo_pog'
     })
 
     event.shaped('1x create:basin', [
@@ -58,7 +70,7 @@ onEvent('recipes', event => {
         'AAA'
     ], {
         A: 'create:andesite_alloy',
-        G: 'the_vault:gem_alexandrite'
+        G: 'the_vault:perfect_alexandrite'
     })
 
     event.shaped('1x create:andesite_alloy', [
@@ -77,8 +89,8 @@ onEvent('recipes', event => {
     ], {
         V: 'the_vault:vault_diamond',
         T: 'create:turntable',
-        G: 'the_vault:gem_black_opal',
-        P: 'the_vault:gem_pog',
+        G: '#the_vault:perfectcommongems',
+        P: 'the_vault:perfect_wutodie',
         S: 'create:shaft'
     })
 
@@ -101,12 +113,12 @@ onEvent('recipes', event => {
         C: 'create:brass_casing'
     })
 
-    event.shaped('1x create:brass_funnel', [
+    event.shaped('2x create:brass_funnel', [
         ' G ',
         'BEB',
         ' C '
     ], {
-        G: 'the_vault:gem_wutodie',
+        G: 'the_vault:perfect_wutodie',
         B: '#forge:ingots/brass',
         E: 'create:electron_tube',
         C: 'create:belt_connector',
@@ -151,7 +163,7 @@ onEvent('recipes', event => {
         'WCW',
         'OHO'
     ], {
-        O: 'the_vault:gem_black_opal',
+        O: 'the_vault:perfect_wutodie',
         A: 'create:andesite_alloy',
         W: 'create:cogwheel',
         C: 'create:andesite_casing',
@@ -163,7 +175,7 @@ onEvent('recipes', event => {
         'WCW',
         'OHO'
     ], {
-        O: 'the_vault:gem_black_opal',
+        O: 'the_vault:perfect_wutodie',
         A: 'create:andesite_alloy',
         W: 'create:cogwheel',
         C: 'create:andesite_casing',
@@ -206,8 +218,8 @@ onEvent('recipes', event => {
         'VPV'
     ], {
         V: 'the_vault:vault_diamond',
-        P: 'the_vault:gem_black_opal',
-        G: 'the_vault:gem_pog'
+        P: '#the_vault:perfectcommongems',
+        G: 'the_vault:perfect_alexandrite'
     })
 
     event.shaped('1x create:wand_of_symmetry', [
@@ -275,7 +287,7 @@ onEvent('recipes', event => {
         P: '#the_vault:perfectcommongems'
     })
 
-    event.shaped('1x create:fluid_tank', [
+    event.shaped('4x create:fluid_tank', [
         'PCP',
         'NGN',
         'PCP'
@@ -291,7 +303,7 @@ onEvent('recipes', event => {
         'PIP',
         'OAO'
     ], {
-        O: 'the_vault:gem_black_opal',
+        O: 'the_vault:perfect_wutodie',
         P: '#forge:plates/iron',
         I: '#forge:ingots/iron',
         A: 'create:andesite_casing'
@@ -313,7 +325,7 @@ onEvent('recipes', event => {
         'AIA',
         'OCO'
     ], {
-        O: 'the_vault:gem_black_opal',
+        O: 'the_vault:perfect_wutodie',
         A: 'create:andesite_alloy',
         I: '#forge:ingots/iron',
         C: 'create:andesite_casing'
@@ -326,7 +338,7 @@ onEvent('recipes', event => {
     ], {
         A: 'create:andesite_alloy',
         P: '#forge:plates/iron',
-        O: 'the_vault:gem_black_opal',
+        O: 'the_vault:perfect_wutodie',
         C: 'create:andesite_casing'
     })
 
@@ -337,7 +349,7 @@ onEvent('recipes', event => {
     ], {
         A: 'create:andesite_alloy',
         P: '#forge:plates/iron',
-        O: 'the_vault:gem_black_opal',
+        O: 'the_vault:perfect_wutodie',
         C: 'create:andesite_casing'
     })
 
@@ -361,6 +373,19 @@ onEvent('recipes', event => {
         G: 'the_vault:gem_pog'
     })
 
+    event.shaped('1x create:rotation_speed_controller', [
+        ' P ',
+        'WMW',
+        'SCS'
+    ], {
+        P: 'the_vault:gem_pog',
+        W: 'the_vault:perfect_wutodie',
+        M: 'create:precision_mechanism',
+        S: 'create:shaft',
+        C: 'create:brass_casing'
+
+    })    
+
     event.recipes.createSequencedAssembly([
         Item.of('create:cogwheel')
         ], 'create:andesite_alloy', [
@@ -375,6 +400,14 @@ onEvent('recipes', event => {
             event.recipes.createDeploying('create:incomplete_large_cogwheel',['create:incomplete_large_cogwheel', '#minecraft:wooden_buttons']),
             event.recipes.createCutting('create:incomplete_large_cogwheel', 'create:large_cogwheel')
         ]).transitionalItem('create:incomplete_large_cogwheel').loops(1)
+
+    event.recipes.createSequencedAssembly([
+        Item.of('create:precision_mechanism')
+        ], '#forge:plates/gold', [
+            event.recipes.createDeploying('create:incomplete_precision_mechanism',['create:incomplete_precision_mechanism', 'create:cogwheel']),
+            event.recipes.createDeploying('create:incomplete_precision_mechanism',['create:incomplete_precision_mechanism', 'create:large_cogwheel']),
+            event.recipes.createDeploying('create:incomplete_precision_mechanism',['create:precision_mechanism', '#forge:nuggets/iron']),
+        ]).transitionalItem('create:incomplete_precision_mechanism').loops(5)
         
     event.recipes.createMixing('1x the_vault:vaulterite_ingot', ['3x the_vault:vault_scrap', '1x netherite_scrap', '1x the_vault:gem_painite'])
     event.recipes.createMixing('1x the_vault:red_vault_essence', ['1x the_vault:vault_essence', '1x the_vault:perfect_painite'])

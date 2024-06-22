@@ -143,7 +143,6 @@ onEvent('recipes', event => {
     event.remove({output: 'create:large_cogwheel'})
     event.remove({output: 'create:wrench'})
     event.remove({output: 'create:wand_of_symmetry'})
-    event.remove({output: 'create:potato_cannon'})
     event.remove({output: 'create:encased_fan'})
     event.remove({output: 'create:water_wheel'})
     event.remove({output: 'create:windmill_bearing'})
@@ -165,6 +164,8 @@ onEvent('recipes', event => {
     event.remove({output: 'create:schematic_and_quill'})
     event.remove({output: 'create:andesite_casing'})
     event.remove({output: 'create:brass_casing'})
+    event.remove({output: 'create:brass_funnel'})
+    event.remove({output: 'create:hose_pulley'})
 
     event.remove({output: 'waystones:warp_stone'})
     event.remove({output: 'waystones:return_scroll'})
