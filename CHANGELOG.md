@@ -1,5 +1,7 @@
 # Changelog between VH2 & VH2.5
 
+### Major Changes
+
 
 ### Gameplay changes
 - Vault portals can now be made out of Enviormental Materials' Basalt
@@ -112,7 +114,8 @@
     - These have been added to give a use to Vault pearls (and to not make them a total joke)
     - Advanced Vault Pearl [INDESTRUCTABLE]: an infinite Vault Pearl.
     - Advanced Vault Pearl [UNSTABLE]: a Pearl that explodes upon impact with the power of a TNT Block
-    - Advanced Vault Pearl [SWIFT]: a rapid Vault Pearl with less accuracy.
+    - Advanced Vault Pearl [SWIFT]: a rapid Vault Pearl with less accuracy
+        - Grant +2 Speed for 15 seconds and apply the Vault Powerup effect
 - Added the **Infusion Altar Block**
     - Allows Players to make Challenge Crystals Cooperative
     - May be used for other items in the future
@@ -154,7 +157,21 @@
 - Both of the new Mystery items have associated configs
     - Along with this, /the_vault reloadcfg also works with these custom configs
     - These configs are found in the_vault config folder
-
+- Removed Feather Feet as a rollable modifier
+- Parties now get automatically created upon inviting a player
+- Players get automatically removed from parties upon leaving the game
+- Majority of Anvil Recipes relating to the Vault mod use 1xp now
+- Changed the amount of XP you receive in Vaults
+    - Players are now required to be inside the Vault for half the Vault Timers duration to receive 100% XP (Previously the entire duration)
+    - Changed XP Cap to LVL 500 (Previously 200)
+    - Upped the general amount of XP you receive until LVL 500
+- Added the Chest Rarity Potion Effect
+    - Each Level gives you +50% Chest Rarity
+    - Only Obtainable via Vault Modifiers
+- Implemented the Vault Recycler
+    - Melts Vault Gear, Idols & Magnets
+- Vault Gear is now Unbreakable outside Vaults
+- Elytras take 5x less durability Damage
 
 
 ### Recipe Changes
@@ -178,6 +195,7 @@
     - This replaces the vanilla cake that was used for Cake Hunts
     - This cake is crafted with a Trove (experimental)
     - Can alternatively be found in Altar Chests, Treasure Goblins, and the Shard Shop
+    - Guaranteed from Crakes
 - Changed Step and Elvish flasks to use Extraordinary Painite
 - Made Vault Nuggets cost 9 Vault Dust instead of 8 Vault dust & one Diamond
 
@@ -185,12 +203,12 @@
 ### Miscellaneous Changes
 - Added a `the_vault:commongems` tag for Larimar & Beniotite
 - Added a `the_vault:validportalblocks` tag for Valid Vault portal blocks
-- added a `the_vault:wooden_chest` tag to all items found in wooden vault chests
-- added a `the_vault:gilded_chest` tag to all items found in gilded chests
-- added a `the_vault:vault_junk` tag to items in the junk resource pool (junk items in both chest types)
-- added a `the_vault:vault_resource` tag to items in the resource pool (resource items in both chest types)
-- added a `the_vault:vault_powerup` tag to items in the power-up resource pool (power-up items in both chest types)
-- added a `the_vault:vault_special` tag to items in the special pool (special items in both chest types)
+- Added a `the_vault:wooden_chest` tag to all items found in wooden vault chests
+- Added a `the_vault:gilded_chest` tag to all items found in gilded chests
+- Added a `the_vault:vault_junk` tag to items in the junk resource pool (junk items in both chest types)
+- Added a `the_vault:vault_resource` tag to items in the resource pool (resource items in both chest types)
+- Added a `the_vault:vault_powerup` tag to items in the power-up resource pool (power-up items in both chest types)
+- Added a `the_vault:vault_special` tag to items in the special pool (special items in both chest types)
 - Fixed the Vault Altar Model in Inventories
 - Hid all AE2 facades (excluding stone) from JEI
 - Renamed Mob difficulty Modifiers to be more clearer
@@ -201,8 +219,12 @@
 - Modified AE2 & RS recipes to be generally cheaper
 - Players can now right click the Vault altar to drop items directly onto it
 - Changed stack sizes for Ender Pearls & Snowballs to 64
-- Added JEI Integration for Etching Vendors [BROKEN]
-- Added JEI Integration for Vault Seals 
+- Added JEI Integration for
+    - Etching Vendors
+    - Applying Vault Seals to Crystals
+    - Rerolling Vault Gear via Artisan Scrolls
+    - Creating Artisan Scrolls
+    - Repairing Vault Gear
 - Added language keys for Vault Gamerules
 - Added a Multiplayer Chunk Claim mod/block
 - Added Cosmetic Armor Slots
@@ -219,8 +241,9 @@
 - Added a hotkey to open a GUI to see keybinds on a keyboard graphic
 - Added shader support
 - Added a hotkey to change the height placement of your hotbar or chat
-- You can now change the audio device Minecraft is using to your current default audio device with F3+R
+- You can reload your Audio Drivers via `F3+R`
 - Added spark mod for debugging
+- Added Tags to Diorite, Andesite & Granite telling players where these resources spawn
 - Command autofill no longer requires typing out mod id's to autofill
 - Servers will dynamically change server render distance based on mspt
 - the Vault Level will now be displayed next to the Player's name in the Tablist
@@ -228,12 +251,6 @@
 - Added Command /the_vault debug SetGlobalDifficulty
 - Added Command /the_vault debug SetGlobalCrystalDifficulty
     - These Commands are used to modify the Global Difficulty which are set at the start of the server
-- Swift pearls now grant +2 Speed for 15 seconds and apply the Vault Powerup effect
-    - This means that they do not stack with sweet apples, and disallow for any other Vault Powerup to be consumed at that time
-
-
-
-
 
 
 ### Mod Changes
@@ -328,10 +345,7 @@
 - \+ Login Protection [SERVER]
 - \+ Max Health Fix [SERVER]
 
-
 - \- HWYLA [BOTH]
 - \- RangedPumps [BOTH]
 - \- RFTools Storage [BOTH]
 - \- ToroHealth [BOTH]
-
-
