@@ -7,6 +7,16 @@ let dyeColors = ['white', 'orange', 'magenta', 'light_blue','yellow', 'lime', 'p
 
 onEvent('recipes', event => {
 
+    event.shaped('1x byg:pendorite_ingot', [
+        'PPP',
+        'PNE',
+        'EEE'
+    ], {
+        P: 'byg:pendorite_scraps',
+        N: 'minecraft:netherite_ingot',
+        E: 'minecraft:emerald'
+    })
+
     event.shaped('1x dummmmmmy:target_dummy_placer', [
         ' H ',
         'PAP',

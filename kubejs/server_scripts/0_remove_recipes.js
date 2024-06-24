@@ -471,9 +471,10 @@ onEvent('recipes', event => {
     event.remove({output: 'integratedterminals:terminal_storage_portable'})
     event.remove({output: 'integratedterminals:part_terminal_crafting_job'})
     
-
-
     //event.remove({output: 'integrateddynamics:cable'})
+
+
+    event.remove({output: 'byg:pendorite_ingot'})
 
 
     event.remove({output: 'enchantinginfuser:enchanting_infuser'})
