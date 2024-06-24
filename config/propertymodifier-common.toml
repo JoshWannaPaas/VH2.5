@@ -107,9 +107,9 @@
 	#Settings related to armor. Only armor items (excluding the elytra) can be affected, anything else will be skipped.
 	[items.armor]
 		#Sets the armor value.
-		armor = ["byg:ametrine_helmet;4", "byg:ametrine_helmet;5", "byg:ametrine_helmet;5", "byg:ametrine_helmet;4", "botania:terrasteel_helmet;4", "botania:terrasteel_chestplate;5", "botania:terrasteel_leggings;5", "botania:terrasteel_boots;4", "botania:manasteel_helmet;3", "botania:manasteel_chestplate;4", "botania:manasteel_leggings;4", "botania:manasteel_boots;3"]
+		armor = ["byg:ametrine_helmet;4", "byg:ametrine_chestplate;5", "byg:ametrine_leggings;5", "byg:ametrine_boots;4", "botania:terrasteel_helmet;4", "botania:terrasteel_chestplate;5", "botania:terrasteel_leggings;5", "botania:terrasteel_boots;4", "botania:manasteel_helmet;3", "botania:manasteel_chestplate;4", "botania:manasteel_leggings;4", "botania:manasteel_boots;3"]
 		#Sets the armor toughness value. Default value: 0
-		toughness = ["byg:ametrine_helmet;0.2", "byg:ametrine_helmet;0.3", "byg:ametrine_helmet;0.3", "byg:ametrine_helmet;0.2", "botania:terrasteel_helmet;0.2", "botania:terrasteel_chestplate;0.3", "botania:terrasteel_leggings;0.3", "botania:terrasteel_boots;0.2"]
+		toughness = ["byg:ametrine_helmet;0.2", "byg:ametrine_chestplate;0.3", "byg:ametrine_leggings;0.3", "byg:ametrine_boots;0.2", "botania:terrasteel_helmet;0.2", "botania:terrasteel_chestplate;0.3", "botania:terrasteel_leggings;0.3", "botania:terrasteel_boots;0.2"]
 		#Sets the knockback resistance. Default value: 0
 		knockback_resistance = ["botania:terrasteel_helmet;0", "botania:terrasteel_chestplate;0", "botania:terrasteel_leggings;0", "botania:terrasteel_boots;0"]
 
