@@ -758,12 +758,12 @@
     { "name": "Gear Upgrades",
       "rolls": {
         "min": 1,
-        "max": 1
+        "max": 2
       },
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -774,7 +774,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 4
               }
             },
             {
@@ -798,7 +798,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 1
+                "max": 2
               }
             },
             {
