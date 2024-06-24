@@ -88,5 +88,5 @@ onEvent('recipes', event => {
   	event.shapeless('modularrouters:augment_core', ['modularrouters:blank_module', 'the_vault:perfect_alexandrite', 'modularrouters:blank_upgrade'])
   	event.shapeless('modularrouters:void_module', ['modularrouters:blank_module', 'the_vault:perfect_alexandrite', 'the_vault:void_liquid_bucket'])
   	event.shapeless('modularrouters:puller_module_1', ['modularrouters:blank_module', 'the_vault:vault_essence', 'minecraft:sticky_piston'])
-  	event.shapeless('modularrouters:puller_module_2', ['modularrouters:puller_module_1', 'the_vault:vault_diamond_block', 'the_vault:vault_essence'])
+  	event.shapeless('modularrouters:puller_module_2', ['modularrouters:puller_module_1', 'the_vault:perfect_larimar', 'the_vault:vault_essence', 'the_vault:vault_diamond'])
 })

@@ -851,28 +851,7 @@
     },
     {
       "itemRestrictions": {
-        "the_vault:vault_magnet_omega": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:repair_core": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
         "the_vault:etching": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:fabrication_jewel": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,

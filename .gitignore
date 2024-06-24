@@ -16,7 +16,7 @@ vaulthunters-2.5.code-workspace
 openloader/.cache
 fancymenu_data
 crash-reports
-mods/.index
+mods
 backups
 local
 emojiful/*
@@ -25,3 +25,11 @@ lightspeed-cache
 shaderpacks
 servers.dat
 servers.dat_old
+config
+reauth.toml
+options.txt
+knownkeys.txt
+defaultconfigs/rrp.properties
+ESM/soundsMuffled.dat
+ESM/Minecraft Server/anchors.dat
+impossible_data/what_is_this_folder.txt
