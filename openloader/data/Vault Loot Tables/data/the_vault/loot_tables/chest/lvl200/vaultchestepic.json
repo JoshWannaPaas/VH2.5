@@ -569,27 +569,15 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:book",
+          "name": "the_vault_extras:mystery_book",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "treasure": "false",
-              "levels": {
-                  "type": "uniform",
-                  "min": 35,
-                  "max": 45
-              } 
-            },
-            {
               "function": "minecraft:set_count",
-              "count": 0,
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.1
-                }
-              ]
-            } 
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
           ]
         },
         {
