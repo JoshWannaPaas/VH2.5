@@ -22,6 +22,25 @@
         }
       },
       {
+        "weight": 3,
+        "element":
+        {
+          "processors": [
+            "minecraft:empty"
+          ],
+          "element_type": "the_vault:paletted_list_pool_element",
+          "projection": "rigid",
+          "elements": [
+            {
+              "location": "the_vault:vault/enigma/rooms/god_room/layer0/big1",
+              "projection": "rigid",
+              "element_type": "the_vault:paletted_single_pool_element",
+              "processors": "minecraft:empty"
+            }
+          ]
+        }
+      },
+      {
         "weight": 20,
         "element":
         {
