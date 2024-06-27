@@ -611,128 +611,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:netherite_sword",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 0,
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:netherite_axe",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 0,
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:netherite_helmet",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 0,
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:netherite_chestplate",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 0,
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:netherite_leggings",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 0,
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:netherite_boots",
+          "weight": 24,
+          "name": "minecraft:netherite_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -755,26 +635,26 @@
         }
       ]
     },
-    { "name": "Gear Upgrades",
+    { "name": "Vault Gear",
       "rolls": {
-        "min": 1,
-        "max": 2
+        "min": 0,
+        "max": 1
       },
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 0
+          "weight": 11
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "byg:ametrine_gems",
+          "name": "the_vault:idol_benevolent",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 4
+                "min": 1,
+                "max": 1
               }
             },
             {
@@ -786,19 +666,23 @@
                   "chance": 0.3
                 }
               ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
             }
           ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "byg:raw_pendorite",
+          "name": "the_vault:idol_omniscient",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 2
+                "min": 1,
+                "max": 1
               }
             },
             {
@@ -810,6 +694,234 @@
                   "chance": 0.3
                 }
               ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "the_vault:idol_timekeeper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "the_vault:idol_malevolence",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "the_vault:sword",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "the_vault:axe",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "the_vault:helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "the_vault:chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "the_vault:leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "the_vault:boots",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 0,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
             }
           ]
         }
