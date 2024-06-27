@@ -65,6 +65,7 @@
     - Void now mines quadruple the amount of blocks
 - Upped chance to get Netherite Gear in LVL 0 - 24 Loottables
 - Added the Library Room from VH3, the same rarity as a mine room
+- Added a God Room, which looks similar to a Vault Trove and is slightly rarer than a mine room
 - Added Unused Colosseum, Toy & Squid Room
 - Upped chance for non-artisans to craft Tier 3 Gear
 - Added Deco Wood Board Blocks from a newer version of Architects Palette
@@ -128,10 +129,10 @@
     - This is ***the*** Endgame tool, it can instantly mine Vault chests without any problem
     - This comes at a hefty price [TBD]
 - Added Altar Tiers [LVL0, LVL100, LVL200, LVL300]
-    - You no longer will be able to get Nether stars or similar items on your first crystals
+    - You will no longer be able to get Nether stars or similar items on your first crystals
     - New items have been added to the tiers
     - tweaked some min/max values of items
-    - This is an experimental change    
+    - This is an experimental change
 - Scavengers can randomly roll Locked
 - Changed description of Prismatic to match the actual value (4x)
 - Added more Vault modifiers
@@ -172,6 +173,10 @@
     - Melts Vault Gear, Idols & Magnets
 - Vault Gear is now Unbreakable outside Vaults
 - Elytras take 5x less durability damage
+- Added a Sanctified Pedestal
+    - This block can enhance your Idols, by giving them +2 additional Modifier slots
+    - This block is unbreakable, cannot be crafted and is single-use
+    - This block can be found in the God Room
 
 
 ### Recipe Changes
