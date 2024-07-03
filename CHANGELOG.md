@@ -177,6 +177,13 @@
     - This block can enhance your Idols, by giving them +2 additional Modifier slots
     - This block is unbreakable, cannot be crafted and is single-use
     - This block can be found in the God Room
+- Added the Bunny Charm
+    - This trinket allows you to move more freely in the air, which significantly helps your movement in Vaults
+    - Recipe TBD
+- Added the Vault Meal
+    - Can be eaten faster than most foods
+    - Gives the highest saturation & hunger points out of all foods
+    - Recipe TBD
 
 
 ### Recipe Changes
@@ -257,6 +264,7 @@
 - Added Command /the_vault debug SetGlobalDifficulty
 - Added Command /the_vault debug SetGlobalCrystalDifficulty
     - These Commands are used to modify the Global Difficulty which are set at the start of the server
+- Updated majority of mods in the modpack
 
 
 ### Mod Changes
