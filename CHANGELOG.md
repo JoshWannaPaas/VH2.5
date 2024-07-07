@@ -54,9 +54,6 @@
 - Added the ability to cling to walls and wall-jump
 - Added the ability to jump up 1.5 blocks such as fences
 - Added a hotkey to find what chests an item is located in, to help with early base storage
-- Enabled Pendorite Gear
-- Enabled Ametrine Armor, but changed values to only be a slight upgrade from Netherite
-- Added Raw Pendorite and Ametrine Gems to 0 - 25 Gildeds
 - Enabled Manaweave Armor
 - Enabled Manasteel Armor, but changed armor values to match Diamond
 - Changed various ability specializations to have different level requirements
@@ -86,6 +83,8 @@
 - Added the SkyVaults World Type
     - This is based off of Deadpines Skyvaults for VH2
     - You will spawn on an island similar to VH3s SkyVaults which has a button that can generate infinite Rotten Vault Crystals
+        - These crystals have `Very Unlucky` (-4 Luck), `Hurry` (-12.5 minutes), `No Extras` (Time Fruit have no effect), and will have `Beginner's Grace` below level 51
+        - It's also a Boss vault that requires 11 obelisks to summon
     - The Island has been modified to provide Items unobtainable in the vault in Altars to remove the need to cheat in items
 - Added Vault Rock ore in the Vaults (As rare as Painite)
 - Modified Vault Sword rolls to guarantee being better than a Netherite Sword
@@ -184,6 +183,9 @@
     - Can be eaten faster than most foods
     - Gives the highest saturation & hunger points out of all foods
     - Recipe TBD
+- Netherite gear can no longer be found at lower levels
+    - Replaced by Netherite Ingots
+    - Can choose to use ingots to upgrade diamond gear, or to make Legendary Treasures
 
 
 ### Recipe Changes
