@@ -271,19 +271,19 @@ onEvent('recipes', event => {
     event.shaped('1x the_vault:sword', [
         ' V ',
         ' V ',
-        ' I '
+        ' R '
     ], {
         V: 'the_vault:vaulterite_ingot',
-        I: 'the_vault:red_vault_essence'
+        R: 'the_vault:red_vault_essence'
     })
 
     event.shaped('1x the_vault:sword', [
         ' V ',
         ' V ',
-        ' R '
+        ' N '
     ], {
-        V: 'the_vault:vaulterite_ingot',
-        R: 'the_vault:red_vault_essence'
+        V: 'the_vault:vault_ingot',
+        N: 'minecraft:netherite_ingot'
     })
 
     event.shaped('1x the_vault:axe', [
