@@ -284,39 +284,11 @@
     },
     {
       "value": {
-        "id": "minecraft:diamond_helmet",
-        "nbt": "{Enchantments:[{id:\"protection\",lvl:4s},{id:\"unbreaking\",lvl:3s}]}",
+        "id": "the_vault:legendary_treasure_normal",
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 1
-    },
-    {
-      "value": {
-        "id": "minecraft:diamond_boots",
-        "nbt": "{Enchantments:[{id:\"protection\",lvl:4s},{id:\"unbreaking\",lvl:3s},{id:\"depth_strider\",lvl:3s},{id:\"feather_falling\",lvl:4s}]}",
-        "amountMin": 1,
-        "amountMax": 1
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "id": "minecraft:diamond_leggings",
-        "nbt": "{Enchantments:[{id:\"protection\",lvl:4s},{id:\"unbreaking\",lvl:3s}]}",
-        "amountMin": 1,
-        "amountMax": 1
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "id": "minecraft:diamond_chestplate",
-        "nbt": "{Enchantments:[{id:\"protection\",lvl:4s},{id:\"unbreaking\",lvl:3s}]}",
-        "amountMin": 1,
-        "amountMax": 1
-      },
-      "weight": 1
+      "weight": 4
     },
     {
       "value": {
