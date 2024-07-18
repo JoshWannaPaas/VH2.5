@@ -470,13 +470,8 @@ onEvent('recipes', event => {
     event.remove({output: 'integratedterminals:part_terminal_storage'})
     event.remove({output: 'integratedterminals:terminal_storage_portable'})
     event.remove({output: 'integratedterminals:part_terminal_crafting_job'})
-    
-    //event.remove({output: 'integrateddynamics:cable'})
-
 
     event.remove({output: 'byg:pendorite_ingot'})
-
-
     event.remove({output: 'enchantinginfuser:enchanting_infuser'})
     event.remove({output: 'archers_paradox:quartz_arrow'})
     event.remove({output: 'archers_paradox:diamond_arrow'})
@@ -494,7 +489,6 @@ onEvent('recipes', event => {
     event.remove({output: 'enchantinginfuser:advanced_enchanting_infuser'})
     event.remove({output: 'iskallutilities:concrete_metal_plate'})
     event.remove({output: 'buildinggadgets:gadget_copy_paste'})
-    event.remove({id: 'compressium:snow_1'})
     event.remove({output: 'engineersdecor:small_solar_panel'})
     event.remove({output: 'engineersdecor:factory_hopper'})
     event.remove({output: 'quark:pickarang'})
@@ -518,36 +512,38 @@ onEvent('recipes', event => {
     event.remove({output: 'the_vault:magnet_core_weak'})
     event.remove({output: 'the_vault:vault_magnet_weak'})
     event.remove({output: 'the_vault:vault_altar'})
-    event.remove({output: 'the_vault:vault_scrap'})
+    event.remove({output: 'the_vault:vault_scrap', type: "minecraft:blasting"})
     event.remove({output: 'the_vault:pandoras_box'})
     event.remove({output: 'the_vault:vault_nugget'})
+    event.remove({output: "the_vault:repair_core"})
     event.remove({id: 'the_vault:reset_flask_ninja'})
     event.remove({id: 'the_vault:reset_flask_carapace'})
+    event.remove({id: 'compressium:snow_1'})
     event.remove({id: 'blockcarpentry:carpentering_manual'})
     event.remove({mod: 'dankstorage'})
     event.remove({mod: 'simplybackpacks'})
     event.remove({mod: 'sophisticatedbackpacks'}) 
     
 
-    armorPieces.forEach(armorPieces =>{
+    armorPieces.forEach(armorPieces => {
         event.remove({output: `botania:elementium_${armorPieces}`})
         event.remove({output: `botania:terrasteel_${armorPieces}`})
     })
 
-    tools.forEach(tools =>{
+    tools.forEach(tools => {
         event.remove({output: `botania:elementium_${tools}`})
     })
 
-    powahTiers.forEach(powahTiers =>{
+    powahTiers.forEach(powahTiers => {
         event.remove({output: `powah:solar_panel_${powahTiers}`})
     })
 
-    storageComponents.forEach(storageComponents =>{
+    storageComponents.forEach(storageComponents => {
         event.remove({output: `appliedenergistics2:${storageComponents}_cell_component`})
         event.remove({output: `refinedstorage:${storageComponents}_storage_part`})
     })
 
-    woodTypes.forEach(woodTypes =>{
+    woodTypes.forEach(woodTypes => {
         event.remove({output: `storagedrawers:${woodTypes}_full_drawers_1`})
         event.remove({output: `storagedrawers:${woodTypes}_full_drawers_2`})
         event.remove({output: `storagedrawers:${woodTypes}_full_drawers_4`})

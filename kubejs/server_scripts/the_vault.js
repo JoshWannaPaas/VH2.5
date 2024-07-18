@@ -145,6 +145,17 @@ onEvent('recipes', event => {
         E: 'the_vault:vault_essence'
     })
 
+    event.shaped('1x the_vault:repair_core', [
+        'SPS',
+        'SES',
+        'SGS'
+    ], {
+        S: 'the_vault:vault_scrap',
+        P: 'the_vault:gem_pog',
+        E: 'the_vault:vault_essence',
+        G: 'the_vault:perfect_painite'
+    })
+
     event.shaped('1x the_vault:magnet_core_weak', [
         'IGI'
     ], {
