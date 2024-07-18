@@ -304,15 +304,6 @@ onEvent('recipes', event => {
         N: 'minecraft:netherite_ingot'
     })
 
-    event.shaped('1x the_vault:vault_ingot', [
-        'NNN',
-        'NNN',
-        'NNN'
-
-    ], {
-        N: 'the_vault:vault_nugget'
-    })
-
     event.shaped('1x the_vault:armor_crate_botania', [
         'MEM',
         'MPM',
