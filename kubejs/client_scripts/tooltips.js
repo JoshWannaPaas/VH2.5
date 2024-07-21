@@ -13,4 +13,8 @@ onEvent('item.tooltip', tooltip => {
         text.add(1, Text.gray('Spawns in Forest Biomes'))
         text.add(2, [Text.gray('Changed by '), Text.white('Quark')])
     })
+
+    tooltip.addAdvanced('the_vault_extras:infusion_altar', (item, advanced, text) => {
+        text.add(1, Text.lightPurple('Converts Challenge Crystals to COOP Crystals'))
+    })
 })
