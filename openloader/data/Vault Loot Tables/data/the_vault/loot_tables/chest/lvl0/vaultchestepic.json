@@ -81,7 +81,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "minecraft:bread",
+          "name": "the_vault_extras:vault_meal",
           "functions": [
             {
               "function": "minecraft:set_count",
