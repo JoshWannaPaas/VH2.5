@@ -227,6 +227,22 @@
           },
           "weight": 30
         },
+        { "_name": "kiwi_1",
+          "value": {
+            "buy": {
+              "id": "the_vault:vault_silver",
+              "amountMin": 2,
+              "amountMax": 4
+            },
+            "sell": {
+              "id": "the_vault:sweet_kiwi",
+              "amountMin": 1,
+              "amountMax": 2
+            },
+            "max_trades": 5
+          },
+          "weight": 15
+        },
         { "_name": "hearty_HALLO_apple_7",
           "value": {
             "buy": {
@@ -771,91 +787,6 @@
           },
           "weight": 15
         },
-        { "_name": "respiration_4",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:4,id:\"minecraft:respiration\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 10
-        },
-        { "_name": "respiration_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:respiration\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "featherfall_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:feather_falling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "soulspeed_4",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:4,id:\"minecraft:soul_speed\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 10
-        },
-        { "_name": "soulspeed_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:soul_speed\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
         { "_name": "sharpness_6",
           "value": {
             "buy": {
@@ -872,23 +803,6 @@
             "max_trades": 1
           },
           "weight": 6
-        },
-        { "_name": "sharpness_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 2,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:sharpness\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 4
         },
         { "_name": "smite_6",
           "value": {
@@ -907,22 +821,22 @@
           },
           "weight": 6
         },
-        { "_name": "bane_6",
+        { "_name": "smite_7",
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 1,
-              "amountMax": 3
+              "amountMin": 2,
+              "amountMax": 4
             },
             "sell": {
               "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:bane_of_arthropods\"}]}",
+              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:smite\"}]}",
               "amountMin": 1,
               "amountMax": 1
             },
             "max_trades": 1
           },
-          "weight": 6
+          "weight": 4
         },
         { "_name": "looting_4",
           "value": {
@@ -958,75 +872,24 @@
           },
           "weight": 4
         },
-        { "_name": "sweep_4",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:4,id:\"minecraft:sweeping_edge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "sweep_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:sweeping_edge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "knockback_3",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:3,id:\"minecraft:knockback\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "knockback_4",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:4,id:\"minecraft:knockback\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
         { "_name": "efficiency_6",
+          "value": {
+            "buy": {
+              "id": "the_vault:vault_gold",
+              "amountMin": 2,
+              "amountMax": 4
+            },
+            "sell": {
+              "id": "minecraft:enchanted_book",
+              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:efficiency\"}]}",
+              "amountMin": 1,
+              "amountMax": 1
+            },
+            "max_trades": 1
+          },
+          "weight": 6
+        },
+        { "_name": "efficiency_7",
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
@@ -1035,7 +898,7 @@
             },
             "sell": {
               "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:efficiency\"}]}",
+              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:efficiency\"}]}",
               "amountMin": 1,
               "amountMax": 1
             },
@@ -1093,346 +956,6 @@
             "max_trades": 1
           },
           "weight": 4
-        },
-        { "_name": "unbreaking_6",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:unbreaking\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 2
-        },
-        { "_name": "impaling_6",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:impaling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "impaling_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:impaling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "loyalty_4",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:4,id:\"minecraft:loyalty\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 10
-        },
-        { "_name": "loyalty_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:loyalty\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "riptide_4",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:4,id:\"minecraft:riptide\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "riptide_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:riptide\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "riptide_6",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 10,
-              "amountMax": 13
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:riptide\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 4
-        },
-        { "_name": "lure_4",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:4,id:\"minecraft:lure\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 10
-        },
-        { "_name": "lure_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:lure\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "lots_o_fish_4",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:4,id:\"minecraft:luck_of_the_sea\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 10
-        },
-        { "_name": "lots_o_fish_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:luck_of_the_sea\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "lots_o_fish_6",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 5,
-              "amountMax": 7
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:luck_of_the_sea\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "lots_o_fish_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 8
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:luck_of_the_sea\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 4
-        },
-        { "_name": "power_6",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:power\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "punch_3",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:3,id:\"minecraft:punch\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "punch_4",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:4,id:\"minecraft:punch\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "piercing_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:piercing\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 10
-        },
-        { "_name": "piercing_6",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:piercing\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "quickcharge_4",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:4,id:\"minecraft:quick_charge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
         }
       ]
     },
@@ -1469,6 +992,22 @@
             "max_trades": 3
           },
           "weight": 38
+        },
+        { "_name": "kiwi_2",
+          "value": {
+            "buy": {
+              "id": "the_vault:vault_silver",
+              "amountMin": 2,
+              "amountMax": 4
+            },
+            "sell": {
+              "id": "the_vault:sweet_kiwi",
+              "amountMin": 1,
+              "amountMax": 2
+            },
+            "max_trades": 5
+          },
+          "weight": 15
         },
         { "_name": "perfect_lari_3",
           "value": {
@@ -2541,97 +2080,12 @@
           },
           "weight": 19
         },
-        { "_name": "respiration_6",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:respiration\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "respiration_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:respiration\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "featherfall_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:feather_falling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "soulspeed_6",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:soul_speed\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "soulspeed_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:soul_speed\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
         { "_name": "sharpness_7",
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 1,
-              "amountMax": 2
+              "amountMin": 2,
+              "amountMax": 3
             },
             "sell": {
               "id": "minecraft:enchanted_book",
@@ -2647,8 +2101,8 @@
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 1,
-              "amountMax": 3
+              "amountMin": 3,
+              "amountMax": 5
             },
             "sell": {
               "id": "minecraft:enchanted_book",
@@ -2670,23 +2124,6 @@
             "sell": {
               "id": "minecraft:enchanted_book",
               "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:smite\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "bane_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:bane_of_arthropods\"}]}",
               "amountMin": 1,
               "amountMax": 1
             },
@@ -2728,40 +2165,6 @@
           },
           "weight": 6
         },
-        { "_name": "sweep_6",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:sweeping_edge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "knockback_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:knockback\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
         { "_name": "efficiency_6",
           "value": {
             "buy": {
@@ -2800,7 +2203,7 @@
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 2,
+              "amountMin": 3,
               "amountMax": 5
             },
             "sell": {
@@ -2817,8 +2220,8 @@
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 3,
-              "amountMax": 6
+              "amountMin": 5,
+              "amountMax": 8
             },
             "sell": {
               "id": "minecraft:enchanted_book",
@@ -2863,227 +2266,6 @@
             "max_trades": 1
           },
           "weight": 9
-        },
-        { "_name": "impaling_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 7
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:impaling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "impaling_8",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:8,id:\"minecraft:impaling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "loyalty_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:loyalty\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "riptide_6",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 7
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:riptide\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "riptide_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:riptide\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "lure_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:lure\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "lots_o_fish_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 2,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:luck_of_the_sea\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 18
-        },
-        { "_name": "lots_o_fish_8",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:8,id:\"minecraft:luck_of_the_sea\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "lots_o_fish_9",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:9,id:\"minecraft:luck_of_the_sea\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "power_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:power\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "punch_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:punch\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "piercing_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:piercing\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "quickcharge_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:quick_charge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
         }
       ]
     },
@@ -3104,6 +2286,22 @@
             "max_trades": 3
           },
           "weight": 150
+        },
+        { "_name": "kiwi_3",
+          "value": {
+            "buy": {
+              "id": "the_vault:vault_silver",
+              "amountMin": 2,
+              "amountMax": 4
+            },
+            "sell": {
+              "id": "the_vault:sweet_kiwi",
+              "amountMin": 2,
+              "amountMax": 3
+            },
+            "max_trades": 5
+          },
+          "weight": 15
         },
         { "_name": "skill_essence_2",
           "value": {
@@ -4060,125 +3258,6 @@
           },
           "weight": 6
         },
-        { "_name": "respiration_8",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:8,id:\"minecraft:respiration\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "respiration_9",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:9,id:\"minecraft:respiration\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "respiration_10",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 5,
-              "amountMax": 7
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:10,id:\"minecraft:respiration\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "featherfall_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:feather_falling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "soulspeed_8",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:8,id:\"minecraft:soul_speed\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "soulspeed_9",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:9,id:\"minecraft:soul_speed\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "soulspeed_10",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 5,
-              "amountMax": 7
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:10,id:\"minecraft:soul_speed\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
         { "_name": "sharpness_9",
           "value": {
             "buy": {
@@ -4281,57 +3360,6 @@
           },
           "weight": 3
         },
-        { "_name": "bane_8",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:8,id:\"minecraft:bane_of_arthropods\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "bane_9",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 2,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:9,id:\"minecraft:bane_of_arthropods\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "bane_10",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:10,id:\"minecraft:bane_of_arthropods\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 3
-        },
         { "_name": "looting_8",
           "value": {
             "buy": {
@@ -4359,108 +3387,6 @@
             "sell": {
               "id": "minecraft:enchanted_book",
               "nbt": "{StoredEnchantments:[{lvl:9,id:\"minecraft:looting\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "sweep_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:sweeping_edge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "sweep_8",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:8,id:\"minecraft:sweeping_edge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "sweep_9",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 10,
-              "amountMax": 13
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:9,id:\"minecraft:sweeping_edge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "knockback_6",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:knockback\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "knockback_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:knockback\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "knockback_8",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 10,
-              "amountMax": 13
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:8,id:\"minecraft:knockback\"}]}",
               "amountMin": 1,
               "amountMax": 1
             },
@@ -4523,8 +3449,8 @@
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 3,
-              "amountMax": 6
+              "amountMin": 5,
+              "amountMax": 10
             },
             "sell": {
               "id": "minecraft:enchanted_book",
@@ -4540,8 +3466,8 @@
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 4,
-              "amountMax": 7
+              "amountMin": 10,
+              "amountMax": 15
             },
             "sell": {
               "id": "minecraft:enchanted_book",
@@ -4603,329 +3529,6 @@
             "max_trades": 1
           },
           "weight": 3
-        },
-        { "_name": "impaling_9",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:9,id:\"minecraft:impaling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "impaling_10",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:10,id:\"minecraft:impaling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "impaling_11",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 10,
-              "amountMax": 13
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:11,id:\"minecraft:impaling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "loyalty_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:loyalty\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "riptide_8",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:8,id:\"minecraft:riptide\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "riptide_9",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:9,id:\"minecraft:riptide\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "lure_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:lure\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "lots_o_fish_10",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:10,id:\"minecraft:luck_of_the_sea\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "lots_o_fish_11",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:11,id:\"minecraft:luck_of_the_sea\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "lots_o_fish_12",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 5,
-              "amountMax": 7
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:12,id:\"minecraft:luck_of_the_sea\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "power_8",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:8,id:\"minecraft:power\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "power_9",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 2,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:9,id:\"minecraft:power\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "power_10",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:10,id:\"minecraft:power\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 3
-        },
-        { "_name": "punch_6",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:6,id:\"minecraft:punch\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "punch_7",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:7,id:\"minecraft:punch\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "punch_8",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 10,
-              "amountMax": 13
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:8,id:\"minecraft:punch\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "piercing_8",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:8,id:\"minecraft:piercing\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "piercing_9",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:9,id:\"minecraft:piercing\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "quickcharge_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:quick_charge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
         }
       ]
     },
@@ -4946,6 +3549,22 @@
             "max_trades": 16
           },
           "weight": 112
+        },
+        { "_name": "kiwi_4",
+          "value": {
+            "buy": {
+              "id": "the_vault:vault_silver",
+              "amountMin": 3,
+              "amountMax": 7
+            },
+            "sell": {
+              "id": "the_vault:sweet_kiwi",
+              "amountMin": 2,
+              "amountMax": 4
+            },
+            "max_trades": 7
+          },
+          "weight": 15
         },
         { "_name": "skill_essence_2",
           "value": {
@@ -5758,91 +4377,6 @@
           },
           "weight": 12
         },
-        { "_name": "respiration_11",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:11,id:\"minecraft:respiration\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "respiration_12",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:12,id:\"minecraft:respiration\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "featherfall_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:feather_falling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "soulspeed_11",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:11,id:\"minecraft:soul_speed\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "soulspeed_12",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:12,id:\"minecraft:soul_speed\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
         { "_name": "sharpness_12",
           "value": {
             "buy": {
@@ -5945,57 +4479,6 @@
           },
           "weight": 3
         },
-        { "_name": "bane_11",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:11,id:\"minecraft:bane_of_arthropods\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "bane_12",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 2,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:12,id:\"minecraft:bane_of_arthropods\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "bane_13",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:13,id:\"minecraft:bane_of_arthropods\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 3
-        },
         { "_name": "looting_10",
           "value": {
             "buy": {
@@ -6029,91 +4512,6 @@
             "max_trades": 1
           },
           "weight": 6
-        },
-        { "_name": "sweep_10",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:10,id:\"minecraft:sweeping_edge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "sweep_11",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:11,id:\"minecraft:sweeping_edge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "sweep_12",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 10,
-              "amountMax": 13
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:12,id:\"minecraft:sweeping_edge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "knockback_9",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:9,id:\"minecraft:knockback\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "knockback_10",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:10,id:\"minecraft:knockback\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
         },
         { "_name": "efficiency_11",
           "value": {
@@ -6170,8 +4568,8 @@
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 3,
-              "amountMax": 6
+              "amountMin": 10,
+              "amountMax": 15
             },
             "sell": {
               "id": "minecraft:enchanted_book",
@@ -6187,8 +4585,8 @@
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 4,
-              "amountMax": 7
+              "amountMin": 12,
+              "amountMax": 18
             },
             "sell": {
               "id": "minecraft:enchanted_book",
@@ -6204,8 +4602,8 @@
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 5,
-              "amountMax": 8
+              "amountMin": 10,
+              "amountMax": 20
             },
             "sell": {
               "id": "minecraft:enchanted_book",
@@ -6250,278 +4648,6 @@
             "max_trades": 1
           },
           "weight": 6
-        },
-        { "_name": "impaling_12",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:12,id:\"minecraft:impaling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "impaling_13",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:13,id:\"minecraft:impaling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "loyalty_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:loyalty\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "riptide_10",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:10,id:\"minecraft:riptide\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "riptide_11",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:11,id:\"minecraft:riptide\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "lure_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:lure\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "lots_o_fish_13",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:13,id:\"minecraft:luck_of_the_sea\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "power_11",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:11,id:\"minecraft:power\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "power_12",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 2,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:12,id:\"minecraft:power\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 6
-        },
-        { "_name": "power_13",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:13,id:\"minecraft:power\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 3
-        },
-        { "_name": "punch_9",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:9,id:\"minecraft:punch\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "punch_10",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 8,
-              "amountMax": 11
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:10,id:\"minecraft:punch\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "piercing_10",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:10,id:\"minecraft:piercing\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
-        },
-        { "_name": "piercing_11",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 4,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:11,id:\"minecraft:piercing\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "piercing_12",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 5,
-              "amountMax": 7
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:12,id:\"minecraft:piercing\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 9
-        },
-        { "_name": "quickcharge_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:quick_charge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 15
         }
       ]
     },
@@ -6542,6 +4668,22 @@
             "max_trades": 4
           },
           "weight": 120
+        },
+        { "_name": "kiwi_5",
+          "value": {
+            "buy": {
+              "id": "the_vault:vault_gold",
+              "amountMin": 1,
+              "amountMax": 3
+            },
+            "sell": {
+              "id": "the_vault:sweet_kiwi",
+              "amountMin": 5,
+              "amountMax": 10
+            },
+            "max_trades": 5
+          },
+          "weight": 15
         },
         { "_name": "skill_shard_2",
           "value": {
@@ -7530,57 +5672,6 @@
           },
           "weight": 20
         },
-        { "_name": "respiration_13",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 9,
-              "amountMax": 12
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:13,id:\"minecraft:respiration\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 16
-        },
-        { "_name": "featherfall_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:feather_falling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 20
-        },
-        { "_name": "soulspeed_13",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 9,
-              "amountMax": 12
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:13,id:\"minecraft:soul_speed\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 16
-        },
         { "_name": "sharpness_15",
           "value": {
             "buy": {
@@ -7597,159 +5688,6 @@
             "max_trades": 1
           },
           "weight": 8
-        },
-        { "_name": "smite_14",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:14,id:\"minecraft:smite\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "smite_15",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 5,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:15,id:\"minecraft:smite\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "bane_14",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:14,id:\"minecraft:bane_of_arthropods\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "bane_15",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 5,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:15,id:\"minecraft:bane_of_arthropods\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "looting_12",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:12,id:\"minecraft:looting\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "looting_13",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 5,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:13,id:\"minecraft:looting\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "sweep_13",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 15,
-              "amountMax": 20
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:13,id:\"minecraft:sweeping_edge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "knockback_11",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 10,
-              "amountMax": 13
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:11,id:\"minecraft:knockback\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 16
-        },
-        { "_name": "knockback_12",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 15,
-              "amountMax": 20
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:12,id:\"minecraft:knockback\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
         },
         { "_name": "efficiency_14",
           "value": {
@@ -7789,8 +5727,8 @@
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 4,
-              "amountMax": 7
+              "amountMin": 10,
+              "amountMax": 15
             },
             "sell": {
               "id": "minecraft:enchanted_book",
@@ -7806,8 +5744,8 @@
           "value": {
             "buy": {
               "id": "the_vault:vault_gold",
-              "amountMin": 5,
-              "amountMax": 8
+              "amountMin": 15,
+              "amountMax": 20
             },
             "sell": {
               "id": "minecraft:enchanted_book",
@@ -7823,8 +5761,8 @@
           "value": {
             "buy": {
               "id": "the_vault:vault_platinum",
-              "amountMin": 1,
-              "amountMax": 2
+              "amountMin": 2,
+              "amountMax": 4
             },
             "sell": {
               "id": "minecraft:enchanted_book",
@@ -7852,244 +5790,6 @@
             "max_trades": 1
           },
           "weight": 8
-        },
-        { "_name": "impaling_14",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 10,
-              "amountMax": 13
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:14,id:\"minecraft:impaling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 16
-        },
-        { "_name": "impaling_15",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 15,
-              "amountMax": 20
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:15,id:\"minecraft:impaling\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "loyalty_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:loyalty\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 20
-        },
-        { "_name": "riptide_12",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 10,
-              "amountMax": 13
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:12,id:\"minecraft:riptide\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 16
-        },
-        { "_name": "riptide_13",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 15,
-              "amountMax": 20
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:13,id:\"minecraft:riptide\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "lure_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:lure\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 20
-        },
-        { "_name": "lots_o_fish_13",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:13,id:\"minecraft:luck_of_the_sea\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 20
-        },
-        { "_name": "power_14",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 3,
-              "amountMax": 5
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:14,id:\"minecraft:power\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "power_15",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_gold",
-              "amountMin": 5,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:15,id:\"minecraft:power\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 8
-        },
-        { "_name": "punch_11",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 10,
-              "amountMax": 13
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:11,id:\"minecraft:punch\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 16
-        },
-        { "_name": "punch_12",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 15,
-              "amountMax": 20
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:12,id:\"minecraft:punch\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 12
-        },
-        { "_name": "piercing_13",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 6,
-              "amountMax": 8
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:13,id:\"minecraft:piercing\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 20
-        },
-        { "_name": "piercing_14",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 9,
-              "amountMax": 12
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:14,id:\"minecraft:piercing\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 16
-        },
-        { "_name": "quickcharge_5",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 3
-            },
-            "sell": {
-              "id": "minecraft:enchanted_book",
-              "nbt": "{StoredEnchantments:[{lvl:5,id:\"minecraft:quick_charge\"}]}",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 20
         }
       ]
     }
