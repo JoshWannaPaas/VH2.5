@@ -186,6 +186,10 @@
 - Netherite gear can no longer be found at lower levels
     - Replaced by Netherite Ingots
     - Can choose to use ingots to upgrade diamond gear, or to make Legendary Treasures
+- Vault Gear can be obtained via Mystery boxes now through Legendary Treasures -> Replaces Diamond Armor in Mystery boxes
+- Commander now increases the Eternal cap (LVL1 -> +3; LVL2 -> +4; LVL3 -> +5)
+- Cleared up the Commander description to signify that the Players Eternal receives a damage boost
+- Added Casual mode, can be enabled via the command /gamerule vaultCasualMode [true/false]
 
 
 ### Recipe Changes
@@ -213,6 +217,7 @@
 - Changed Step and Elvish flasks to use Extraordinary Painite
 - Made Vault Nuggets cost 9 Vault Dust instead of 8 Vault dust & one Diamond
 - Rebalanced many Create recipes, the mod is now heavy on Wutodie instead of Black Opal
+- Made the Repair Core T1 recipe use Painite gems instead of Echo gems
 
 
 ### Miscellaneous Changes
