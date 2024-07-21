@@ -182,7 +182,7 @@
 - Added the Vault Meal
     - Can be eaten faster than most foods
     - Gives the highest saturation & hunger points out of all foods
-    - Recipe TBD
+    - Obtained via Vault Chests, replacing Bread
 - Netherite gear can no longer be found at lower levels
     - Replaced by Netherite Ingots
     - Can choose to use ingots to upgrade diamond gear, or to make Legendary Treasures
