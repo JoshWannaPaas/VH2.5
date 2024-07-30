@@ -1120,6 +1120,72 @@
         "SCALE_PER_LEVEL": 0.0
       }
     ],
+    "the_vault:monster_eye": [
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "MIN": 0.02,
+        "MAX": 0.02,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 1.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.1,
+        "MAX": 0.3,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.5,
+        "MAX": 1.8,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 0.8,
+        "MAX": 1.8,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 150.0, 
+        "MAX": 300.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.0,
+        "MAX": 1.1,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.indirect_tp_chance",
+        "MIN": 0.25,
+        "MAX": 0.60,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.tp_range",
+        "MIN": 4.0,
+        "MAX": 16.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
     "the_vault:arena_boss": [
       {
         "NAME": "minecraft:generic.knockback_resistance",
@@ -1322,7 +1388,7 @@
           "value": {
             "NAME": "the_vault:blue_blaze"
           },
-          "weight": 2
+          "weight": 6
         }
       ],
       "RAFFLE_BOSS_POOL": [
@@ -1450,13 +1516,13 @@
           "value": {
             "NAME": "the_vault:boogieman"
           },
-          "weight": 4
+          "weight": 5
         },
         {
           "value": {
             "NAME": "the_vault:blue_blaze"
           },
-          "weight": 2
+          "weight": 4
         }
       ],
       "RAFFLE_BOSS_POOL": [
@@ -1670,7 +1736,13 @@
           "value": {
             "NAME": "the_vault:boogieman"
           },
-          "weight": 4
+          "weight": 6
+        },
+        {
+          "value": {
+            "NAME": "the_vault:monster_eye"
+          },
+          "weight": 3
         }
       ],
       "RAFFLE_BOSS_POOL": [
@@ -1870,7 +1942,13 @@
           "value": {
             "NAME": "the_vault:boogieman"
           },
-          "weight": 4
+          "weight": 6
+        },
+        {
+          "value": {
+            "NAME": "the_vault:monster_eye"
+          },
+          "weight": 3
         }
       ],
       "RAFFLE_BOSS_POOL": [
@@ -2092,7 +2170,13 @@
           "value": {
             "NAME": "the_vault:boogieman"
           },
-          "weight": 4
+          "weight": 6
+        },
+        {
+          "value": {
+            "NAME": "the_vault:monster_eye"
+          },
+          "weight": 3
         }
       ],
       "RAFFLE_BOSS_POOL": [
@@ -2326,7 +2410,13 @@
           "value": {
             "NAME": "the_vault:boogieman"
           },
-          "weight": 4
+          "weight": 6
+        },
+        {
+          "value": {
+            "NAME": "the_vault:monster_eye"
+          },
+          "weight": 3
         }
       ],
       "RAFFLE_BOSS_POOL": [
@@ -2566,7 +2656,13 @@
           "value": {
             "NAME": "the_vault:boogieman"
           },
-          "weight": 4
+          "weight": 6
+        },
+        {
+          "value": {
+            "NAME": "the_vault:monster_eye"
+          },
+          "weight": 3
         }
       ],
       "RAFFLE_BOSS_POOL": [
@@ -2812,7 +2908,13 @@
           "value": {
             "NAME": "the_vault:boogieman"
           },
-          "weight": 4
+          "weight": 6
+        },
+        {
+          "value": {
+            "NAME": "the_vault:monster_eye"
+          },
+          "weight": 3
         }
       ],
       "RAFFLE_BOSS_POOL": [
@@ -3064,7 +3166,13 @@
           "value": {
             "NAME": "the_vault:boogieman"
           },
-          "weight": 4
+          "weight": 6
+        },
+        {
+          "value": {
+            "NAME": "the_vault:monster_eye"
+          },
+          "weight": 3
         }
       ],
       "RAFFLE_BOSS_POOL": [
@@ -3337,7 +3445,13 @@
           "value": {
             "NAME": "the_vault:boogieman"
           },
-          "weight": 4
+          "weight": 6
+        },
+        {
+          "value": {
+            "NAME": "the_vault:monster_eye"
+          },
+          "weight": 3
         }
       ],
       "RAFFLE_BOSS_POOL": [
@@ -3616,7 +3730,13 @@
           "value": {
             "NAME": "the_vault:boogieman"
           },
-          "weight": 4
+          "weight": 6
+        },
+        {
+          "value": {
+            "NAME": "the_vault:monster_eye"
+          },
+          "weight": 3
         }
       ],
       "RAFFLE_BOSS_POOL": [
@@ -3907,7 +4027,13 @@
           "value": {
             "NAME": "the_vault:boogieman"
           },
-          "weight": 4
+          "weight": 6
+        },
+        {
+          "value": {
+            "NAME": "the_vault:monster_eye"
+          },
+          "weight": 3
         }
       ],
       "RAFFLE_BOSS_POOL": [
