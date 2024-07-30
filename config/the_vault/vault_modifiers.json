@@ -44,6 +44,13 @@
       "description": "+10 mobs spawning"
     },
     {
+      "maxMobsAddend": 13,
+      "name": "Destruction",
+      "icon": "the_vault:textures/gui/modifiers/destruction.png",
+      "color": "7143424",
+      "description": "+13 mobs spawning"
+    },
+    {
       "maxMobsAddend": 1,
       "name": "Mooore",
       "icon": "the_vault:textures/gui/modifiers/mooore.png",
@@ -189,7 +196,7 @@
       "type": "icon_only",
       "name": "Lucky",
       "icon": "the_vault:textures/gui/modifiers/lucky.png",
-      "color": "16771328",
+      "color": "14085376",
       "description": "+1 Luck level"
     },
     {
@@ -328,7 +335,7 @@
       "operator": "ADD",
       "type": "icon_only",
       "name": "Luckier",
-      "icon": "the_vault:textures/gui/modifiers/super_luck.png",
+      "icon": "the_vault:textures/gui/modifiers/luckier.png",
       "color": "14085376",
       "description": "+2 Luck level"
     },
@@ -341,6 +348,16 @@
       "icon": "the_vault:textures/gui/modifiers/super_luck.png",
       "color": "14085376",
       "description": "+3 Luck level"
+    },
+    {
+      "effect": "minecraft:luck",
+      "value": 4,
+      "operator": "ADD",
+      "type": "icon_only",
+      "name": "Harmony",
+      "icon": "the_vault:textures/gui/modifiers/harmony.png",
+      "color": "14085376",
+      "description": "+4 Luck level"
     },
     {
       "effect": "minecraft:regeneration",
@@ -395,6 +412,12 @@
       "icon": "the_vault:textures/gui/modifiers/no_exit.png",
       "color": "16711680",
       "description": "Locks the vault"
+    },
+    {
+      "name": "Get Rolled",
+      "icon": "the_vault:textures/gui/modifiers/no_exit.png",
+      "color": "16711680",
+      "description": "Complete the Scav. This is not a suggestion."
     }
   ],
   "ADDITIONAL_CHEST_MODIFIERS": [
@@ -410,7 +433,7 @@
       "additionalBonusChestPasses": 2,
       "chestGenerationAttempts": 24,
       "name": "Hoard",
-      "icon": "the_vault:textures/gui/modifiers/hoard.png",
+      "icon": "the_vault:textures/gui/modifiers/treasure.png",
       "color": "16765440",
       "description": "+2 sets of Gilded Chests"
     },
@@ -418,9 +441,17 @@
       "additionalBonusChestPasses": 3,
       "chestGenerationAttempts": 24,
       "name": "Treasure",
-      "icon": "the_vault:textures/gui/modifiers/treasure.png",
+      "icon": "the_vault:textures/gui/modifiers/hoard.png",
       "color": "16760576",
       "description": "+3 sets of Gilded Chests"
+    },
+    {
+      "additionalBonusChestPasses": 4,
+      "chestGenerationAttempts": 24,
+      "name": "Erudition",
+      "icon": "the_vault:textures/gui/modifiers/erudition.png",
+      "color": "16760576",
+      "description": "+4 sets of Gilded Chests"
     }
   ],
   "SCALE_MODIFIERS": [
@@ -570,22 +601,22 @@
     {
       "artifactChanceIncrease": 0.25,
       "name": "Exploration",
-      "icon": "the_vault:textures/gui/modifiers/more-artifact1.png",
+      "icon": "the_vault:textures/gui/modifiers/more-artifact2.png",
       "color": "15466381",
       "description": "+25% Artifact Chance"
     },
     {
       "artifactChanceIncrease": 0.5,
       "name": "Odyssey",
-      "icon": "the_vault:textures/gui/modifiers/more-artifact2.png",
+      "icon": "the_vault:textures/gui/modifiers/odyssey.png",
       "color": "14483250",
       "description": "+50% Artifact Chance"
     }
     ,
     {
       "artifactChanceIncrease": 1.0,
-      "name": "Voyage",
-      "icon": "the_vault:textures/gui/modifiers/more-artifact2.png",
+      "name": "Hunt",
+      "icon": "the_vault:textures/gui/modifiers/hunt.png",
       "color": "14483250",
       "description": "Guaranteed Artifact"
     }
@@ -709,8 +740,8 @@
         "the_vault:ore_bomignite": 5.0,
         "the_vault:ore_black_opal": 5.0
       },
-      "name": "Abundant",
-      "icon": "the_vault:textures/gui/modifiers/copious.png",
+      "name": "Abundance",
+      "icon": "the_vault:textures/gui/modifiers/abundance.png",
       "color": "16730879",
       "description": "5x Chance for Vault ores"
     }
@@ -862,6 +893,22 @@
   "STAT_MODIFIERS": [
     {
       "stat": "PARRY",
+      "multiplier": 1.25,
+      "icon": "the_vault:textures/gui/modifiers/nihility.png",
+      "name": "Nihility",
+      "color": "13338221",
+      "description": "+25% of your current Parry"
+    },
+    {
+      "stat": "RESISTANCE",
+      "multiplier": 1.5,
+      "icon": "the_vault:textures/gui/modifiers/preservation.png",
+      "name": "Preservation",
+      "color": "13277787",
+      "description": "+50% of your current Resistance"
+    },
+    {
+      "stat": "PARRY",
       "multiplier": 0.0,
       "icon": "the_vault:textures/gui/modifiers/clumsy.png",
       "name": "Clumsy",
@@ -925,11 +972,13 @@
   ],
   "MODIFIER_PREVENTIONS": {
     "the_vault:ancients":[
-      "Locked"
+      "Locked", "Get Rolled"
+    ],
+    "the_vault:summon_and_kill_boss":[
+      "Get Rolled"
     ]
   },
   
-
   "LEVELS": [
     { "MIN_LEVEL": 0,
       "DEFAULT_POOLS": [
@@ -3961,10 +4010,14 @@
           "POOL": [
             {
               "value": "Dummy",
-              "weight": 20
+              "weight": 100
             },
             {
               "value": "Locked",
+              "weight": 5
+            },
+            {
+              "value": "Get Rolled",
               "weight": 1
             }
           ]
