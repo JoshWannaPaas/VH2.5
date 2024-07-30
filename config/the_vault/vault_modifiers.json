@@ -47,7 +47,7 @@
       "maxMobsAddend": 13,
       "name": "Destruction",
       "icon": "the_vault:textures/gui/modifiers/destruction.png",
-      "color": "7143424",
+      "color": "5111808",
       "description": "+13 mobs spawning"
     },
     {
@@ -196,7 +196,7 @@
       "type": "icon_only",
       "name": "Lucky",
       "icon": "the_vault:textures/gui/modifiers/lucky.png",
-      "color": "14085376",
+      "color": "16772352",
       "description": "+1 Luck level"
     },
     {
@@ -336,7 +336,7 @@
       "type": "icon_only",
       "name": "Luckier",
       "icon": "the_vault:textures/gui/modifiers/luckier.png",
-      "color": "14085376",
+      "color": "15265024",
       "description": "+2 Luck level"
     },
     {
@@ -356,7 +356,7 @@
       "type": "icon_only",
       "name": "Harmony",
       "icon": "the_vault:textures/gui/modifiers/harmony.png",
-      "color": "14085376",
+      "color": "12643584",
       "description": "+4 Luck level"
     },
     {
@@ -450,7 +450,7 @@
       "chestGenerationAttempts": 24,
       "name": "Erudition",
       "icon": "the_vault:textures/gui/modifiers/erudition.png",
-      "color": "16760576",
+      "color": "16754944",
       "description": "+4 sets of Gilded Chests"
     }
   ],
@@ -602,14 +602,14 @@
       "artifactChanceIncrease": 0.25,
       "name": "Exploration",
       "icon": "the_vault:textures/gui/modifiers/more-artifact2.png",
-      "color": "15466381",
+      "color": "15466360",
       "description": "+25% Artifact Chance"
     },
     {
       "artifactChanceIncrease": 0.5,
       "name": "Odyssey",
       "icon": "the_vault:textures/gui/modifiers/odyssey.png",
-      "color": "14483250",
+      "color": "15466329",
       "description": "+50% Artifact Chance"
     }
     ,
@@ -617,7 +617,7 @@
       "artifactChanceIncrease": 1.0,
       "name": "Hunt",
       "icon": "the_vault:textures/gui/modifiers/hunt.png",
-      "color": "14483250",
+      "color": "14483275",
       "description": "Guaranteed Artifact"
     }
   ],
@@ -742,7 +742,7 @@
       },
       "name": "Abundance",
       "icon": "the_vault:textures/gui/modifiers/abundance.png",
-      "color": "16730879",
+      "color": "16730831",
       "description": "5x Chance for Vault ores"
     }
   ],
