@@ -777,6 +777,16 @@
   ],
   "CURSE_ON_HIT_MODIFIERS": [
     {
+      "effectName": "the_vault_extras:extra_chest_rarity",
+      "effectAmplifier": 7,
+      "effectDuration": 100,
+      "onHitApplyChance": 0.5,
+      "name": "Forbidden Knowledge",
+      "icon": "the_vault:textures/gui/modifiers/hex_poison.png",
+      "color": "8699671",
+      "description": "Mobs instill Forbidden Knowledge unto you"
+    },
+    {
       "effectName": "minecraft:poison",
       "effectAmplifier": 3,
       "effectDuration": 120,
