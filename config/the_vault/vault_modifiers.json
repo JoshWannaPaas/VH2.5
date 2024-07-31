@@ -460,7 +460,7 @@
       "name": "Antlike",
       "icon": "the_vault:textures/gui/modifiers/daycare.png",
       "color": "13609471",
-      "description": "What is this"
+      "description": "What is this, a vault for ants?"
     },
     {
       "scale": 0.5,
@@ -611,8 +611,7 @@
       "icon": "the_vault:textures/gui/modifiers/odyssey.png",
       "color": "15466329",
       "description": "+50% Artifact Chance"
-    }
-    ,
+    },
     {
       "artifactChanceIncrease": 1.0,
       "name": "Hunt",
