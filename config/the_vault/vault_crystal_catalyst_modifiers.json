@@ -5,6 +5,14 @@
       "color": 15597568,
       "modifiers": [
         {
+          "value": "Nihility",
+          "weight": 0
+        },
+        {
+          "value": "Preservation",
+          "weight": 0
+        },
+        {
           "value": "Crowded",
           "weight": 100
         },
@@ -15,6 +23,10 @@
         {
           "value": "Impossible",
           "weight": 2
+        },
+        {
+          "value": "Destruction",
+          "weight": 0
         },
         {
           "value": "Hard",
@@ -164,6 +176,10 @@
           "weight": 6
         },
         {
+          "value": "Erudition",
+          "weight": 0
+        },
+        {
           "value": "Resilient",
           "weight": 60
         },
@@ -194,6 +210,10 @@
         {
           "value": "Super Lucky",
           "weight": 3
+        },
+        {
+          "value": "Harmony",
+          "weight": 0
         },
         {
           "value": "Healing",
@@ -232,6 +252,10 @@
           "weight": 1
         },
         {
+          "value": "Hunt",
+          "weight": 0
+        },
+        {
           "value": "Plentiful",
           "weight": 60
         },
@@ -242,6 +266,10 @@
         {
           "value": "Copious",
           "weight": 2
+        },
+        {
+          "value": "Abundance",
+          "weight": 0
         },
         {
           "value": "Phoenix",

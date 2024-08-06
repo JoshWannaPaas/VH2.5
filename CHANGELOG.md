@@ -5,6 +5,7 @@
 
 ### Gameplay changes
 - Vault portals can now be made out of Enviormental Materials' Basalt
+- Vault portals can now be made out of any blackstone variant
 - ALL Vault Crystals are now Cooperative
 - Added Extraordinary Gems from VH3
 - Added Uncrafting of Perfect & Extraordinary Gems into their counterparts
@@ -190,6 +191,23 @@
 - Commander now increases the Eternal cap (LVL1 -> +3; LVL2 -> +4; LVL3 -> +5)
 - Cleared up the Commander description to signify that the Players Eternal receives a damage boost
 - Added Casual mode, can be enabled via the command /gamerule vaultCasualMode [true/false]
+- Added T4/Special Catalyst Modifiers
+    - These can't be rolled randomly and must be found
+    - Currently only in Treasure Rooms
+    - T4: Abundance (5x Ores), Erudition (+4 Gilded), Harmony (+4 Luck), Hunt (100% Artifact Chance), Destruction (+13 Mob Spawn)
+    - Special: Nihility (+25% of current Parry%), Preservation (+50% of current Resistance%)
+    - Custom Modifier Icons
+- Added Custom Compressed Blocks
+    - Blackstone, Basalt, Deepslate, Cobbled Deepslate
+- Backported Unobtanium and Unobtanium Blocks, and added color variants
+    - 5 Twisting Leaves + 4 Netherite Ingots = 1 Unobtanium Block
+    - 8 Unobtanium Blocks + Dye = 8 Dyed Unobtanium Blocks
+    - Works in compacting drawers
+- Reintroduced Monster Eye boss from VH1
+    - Introduced into boss pool after Blue Blaze leaves
+    - Same stats as Boogieman
+    - Rarity is in between Robot and Boogieman
+- Added custom challenge crystal(s)
 
 
 ### Recipe Changes
@@ -272,6 +290,10 @@
 - Added Command /the_vault debug SetGlobalCrystalDifficulty
     - These Commands are used to modify the Global Difficulty which are set at the start of the server
 - Updated majority of mods in the modpack
+- Gave certain vault modifiers their own unique icon, instead of reusing icons
+    - Also changed the color of their names
+- Totem stacking no longer works and you will be shamed if you try it
+- Sand will no longer compact into sandstone in a compacting drawer
 
 
 ### Mod Changes

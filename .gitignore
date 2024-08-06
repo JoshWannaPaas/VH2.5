@@ -25,7 +25,6 @@ lightspeed-cache
 shaderpacks
 servers.dat
 servers.dat_old
-config
 reauth.toml
 options.txt
 knownkeys.txt

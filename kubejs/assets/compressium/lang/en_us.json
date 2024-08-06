@@ -1,0 +1,43 @@
+{
+  "itemGroup.compressium": "Compressium",
+
+  "block.compressium.deepslate_1": "Compressed Deepslate (1x)",
+  "block.compressium.deepslate_2": "Compressed Deepslate (2x)",
+  "block.compressium.deepslate_3": "Compressed Deepslate (3x)",
+  "block.compressium.deepslate_4": "Compressed Deepslate (4x)",
+  "block.compressium.deepslate_5": "Compressed Deepslate (5x)",
+  "block.compressium.deepslate_6": "Compressed Deepslate (6x)",
+  "block.compressium.deepslate_7": "Compressed Deepslate (7x)",
+  "block.compressium.deepslate_8": "Compressed Deepslate (8x)",
+  "block.compressium.deepslate_9": "Compressed Deepslate (9x)",
+
+  "block.compressium.cobbled_deepslate_1": "Compressed Cobbled Deepslate (1x)",
+  "block.compressium.cobbled_deepslate_2": "Compressed Cobbled Deepslate (2x)",
+  "block.compressium.cobbled_deepslate_3": "Compressed Cobbled Deepslate (3x)",
+  "block.compressium.cobbled_deepslate_4": "Compressed Cobbled Deepslate (4x)",
+  "block.compressium.cobbled_deepslate_5": "Compressed Cobbled Deepslate (5x)",
+  "block.compressium.cobbled_deepslate_6": "Compressed Cobbled Deepslate (6x)",
+  "block.compressium.cobbled_deepslate_7": "Compressed Cobbled Deepslate (7x)",
+  "block.compressium.cobbled_deepslate_8": "Compressed Cobbled Deepslate (8x)",
+  "block.compressium.cobbled_deepslate_9": "Compressed Cobbled Deepslate (9x)",
+
+  "block.compressium.blackstone_1": "Compressed Blackstone (1x)",
+  "block.compressium.blackstone_2": "Compressed Blackstone (2x)",
+  "block.compressium.blackstone_3": "Compressed Blackstone (3x)",
+  "block.compressium.blackstone_4": "Compressed Blackstone (4x)",
+  "block.compressium.blackstone_5": "Compressed Blackstone (5x)",
+  "block.compressium.blackstone_6": "Compressed Blackstone (6x)",
+  "block.compressium.blackstone_7": "Compressed Blackstone (7x)",
+  "block.compressium.blackstone_8": "Compressed Blackstone (8x)",
+  "block.compressium.blackstone_9": "Compressed Blackstone (9x)",
+
+  "block.compressium.basalt_1": "Compressed Basalt (1x)",
+  "block.compressium.basalt_2": "Compressed Basalt (2x)",
+  "block.compressium.basalt_3": "Compressed Basalt (3x)",
+  "block.compressium.basalt_4": "Compressed Basalt (4x)",
+  "block.compressium.basalt_5": "Compressed Basalt (5x)",
+  "block.compressium.basalt_6": "Compressed Basalt (6x)",
+  "block.compressium.basalt_7": "Compressed Basalt (7x)",
+  "block.compressium.basalt_8": "Compressed Basalt (8x)",
+  "block.compressium.basalt_9": "Compressed Basalt (9x)"
+}

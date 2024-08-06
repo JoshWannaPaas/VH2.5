@@ -1,0 +1,3 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:totem_of_undying"}}] store result score @s groundTotems run data get entity @s Item.Count
+execute as @e[type=item,nbt={Item:{id:"minecraft:totem_of_undying"}}] if score @s groundTotems > maxAllowedTotems groundTotems run tellraw @a ["",{"selector":"@p"},{"text":" don't do that or a1qs will literally beat you up"}]
+execute as @e[type=item,nbt={Item:{id:"minecraft:totem_of_undying"}}] if score @s groundTotems > maxAllowedTotems groundTotems run kill @s

@@ -6,8 +6,27 @@
     "minecraft:cracked_polished_blackstone_bricks",
     "minecraft:chiseled_polished_blackstone",
     "minecraft:gilded_blackstone",
+
+    "enviromats:basalt",
+
+    "byg:overgrown_crimson_blackstone",
+    "byg:dusted_polished_blackstone_bricks",
+
+    "quark:blackstone_bricks",
+    "quark:twisted_blackstone_bricks",
+    "quark:weeping_blackstone_bricks",
+
+    "supplementaries:blackstone_lamp",
+    "supplementaries:blackstone_tile",
+
+    "architects_palette:weeping_blackstone",
+    "architects_palette:twisting_blackstone",
+    "architects_palette:weeping_blackstone_bricks",
+    "architects_palette:twisting_blackstone_bricks",
+
     "the_vault:vault_stone",
-    "the_vault:final_vault_frame",
-    "enviromats:basalt"
+    "the_vault:vault_bedrock",
+    "the_vault:vault_glass",
+    "the_vault:final_vault_frame"
   ]
 }

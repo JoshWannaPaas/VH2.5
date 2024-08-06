@@ -1,0 +1,2 @@
+scoreboard objectives add groundTotems dummy
+scoreboard players set maxAllowedTotems groundTotems 1
