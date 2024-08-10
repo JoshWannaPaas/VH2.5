@@ -19,4 +19,9 @@ onEvent('block.right_click', event =>{
             itemEntity.spawn()
             event.item.count = 0
     }
+
+    if(event.block.id == "minecraft:end_stone" && event.item.id == "minecraft:glass_bottle" && !event.player.crouching) {
+        event.item.count--
+        event.player.give("botania:ender_air_bottle")
+    }
 })   
