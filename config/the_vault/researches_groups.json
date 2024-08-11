@@ -16,18 +16,6 @@
         "Storage": 2.0
       }
     },
-    "VaultUtils": {
-      "title": "Utilities",
-      "research": [
-        "Powerful Arrows",
-        "Vault Blacksmith",
-        "Vault Powerups"
-      ],
-      "globalCostIncrease": 0.5,
-      "groupCostIncrease": {
-        "VaultUtils": 2.0
-      }
-    },
     "Farming": {
       "title": "Farming",
       "research": [
@@ -109,7 +97,8 @@
         "Extendo Arm",
         "Jetpacks",
         "Botania Trinkets",
-        "Sophisticated Backpacks"
+        "Sophisticated Backpacks",
+        "Vault Powerups"
       ],
       "globalCostIncrease": 0.5,
       "groupCostIncrease": {

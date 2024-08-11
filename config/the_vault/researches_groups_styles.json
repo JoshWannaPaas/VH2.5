@@ -13,19 +13,6 @@
         "v": 0
       }
     },
-    "VaultUtils": {
-      "group": "VaultUtils",
-      "headerColor": -14336,
-      "headerTextColor": -1,
-      "x": 180,
-      "y": 295,
-      "boxWidth": 170,
-      "boxHeight": 145,
-      "icon": {
-        "u": 16,
-        "v": 0
-      }
-    },
     "Power": {
       "group": "Power",
       "headerColor": -1498590,
