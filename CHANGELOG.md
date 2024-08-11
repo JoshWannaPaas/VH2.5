@@ -1,7 +1,45 @@
 # Changelog between VH2 & VH2.5
 
 ### Major Changes
-
+- Added the Vault Encyclopedia, a Guide book for VH2.5
+- ALL Vault Crystals are now Cooperative, including Challenge Crystals
+- Overhauled the Researches, which includes cost, researches, rearrangements, deletions & new Mods
+- Added Curio Support for the Vault Charm, Magnet & Soul Shard Pouch
+- All Vaults up until LVL 24 will restore your gear on death, have no traps & spawn no natural mobs
+- Changed Vault Rooms:
+    - Added: VH3 Library
+    - Added: Squid Games Room
+    - Added: Colloseum Room
+    - Added: Toy Room
+    - Added: God Room
+    - Removed: Wooden Mine Room
+- Changed some values for Skills including (but not limited to) Veinminer, Soul Hunter, Commander
+- Vault Altar requirements now scale with Player Vault Level
+- Significantly buffed Overlevel Enchantment Books, in return, added a softcap to prevent abusing the Enchantment Extractor too much
+- Significantly buffed Vault Gear rolls for both Artisans & non-Artisans, going up to LVL500 now
+- Significantly buffed Treasure rooms, making them more viable to run them earlier in the game.
+- Completly Overhauled Trader Cores Trades
+- Commander now increases the Eternal cap (LVL1 -> +3; LVL2 -> +4; LVL3 -> +5)
+- Added Casual mode, can be enabled via the command /gamerule vaultCasualMode [true/false]
+- Added T4/Special Catalyst Modifiers, Currently only Obtainable via Treasure Rooms & Weekly reward Crates
+- Added the SkyVaults World Type, a combination of VH3 and Deadpines VH2 Skyvaults
+- Reintroduced an old Vault Boss
+- Added & Overhauled Paxel Charm Enhancements
+- Added Chaining and Attack AoE to tier 2
+- Vault Burgers/Pizza can no longer roll 0% XP
+- Buffed the XP obtained from vaults dramatically
+- Added Advanced Vault Pearls which are enhanced Vault Pearls with various effects
+- Added the Vault Recycler & the Vault Anvil from VH3 
+- Added the Vault Annihilator, a true Endgame tool, capable of destroying anything in its path
+- Vault Gear is now Unbreakable outside Vaults, including Vault Magnets
+- Vault Magnets now work with Unbreaking & the Unbreakable Talent
+- Added the Sanctified Pedestal, able to enhance your Vault Idols
+- Added JEI Integration for various aspects of the Game
+- Added the Bunny Charm, enhancing player mobility
+- Add Artisan & Treasure Hunter Flask Recipes to respec between them
+- God Influences function now In COOPs
+- Vault Snapshots now get called prior to death, restoring all loot that you gained in a vault
+- Purchasing something in the Shard shop will reroll its trades globally
 
 ### Gameplay changes
 - Vault portals can now be made out of Enviormental Materials' Basalt
@@ -36,7 +74,7 @@
 - Added an Unbreakable Anvil
 - Uncommon Backpack is no longer gated behind Research
 - Unified Relic weights
-- Supply the player with **The Vault Encyclopedia** and 16x Steak
+- Supply the player with **The Vault Encyclopedia** and 16x Steak upon first login
 - Added Nether Wart to LVL0 Loottables
 - Up to Vault Level 24, All Vaults are Beginner's Grace, Insurance and Peaceful
     - Beginner's Grace will respawn the player with all their items upon perishing in the Vault
@@ -100,7 +138,7 @@
     - This change was made to bring VH3 players that are used to SophisticatedBackpacks an alternative to Danks further in the Game.
 - Completly Overhauled Trader Cores
 - Added Chaining and Attack AoE to tier 2
-- Add new Modbox drops to new Mods & changed the default drop to 4 star shards incase the player has no mods unlocked
+- Add new Modbox drops to new Mods & changed the default drop to 4 star shards in case the player has no mods unlocked
 - Significantly buffed LVL 0 - 99 Treasure Chests
 - Buffed all Enchanted Books in Treasure Chests *heavily*
 - Added the Mystic Pear to LVL 200+ Loottables
@@ -109,8 +147,7 @@
 - Vault Burgers/Pizza can no longer roll 0% XP
 - Added a Keybind to toggle Magnets in Curio Slots
 - Cakes no longer roll Catalyst Modifiers (Experimental)
-- Cakes now always notify whenever one is clicked
-    - this has the issue of doubling up whenever one is clicked, but alas
+- Cakes now always notify whenever one is clicked via a sound
 - Added the mod Second Chance
     - This mod has 2 notable features
     - If you are above a configurable amount of health points, a fatal blow that would normally unalive you, will keep you at half a heart, and plays a sound when it happens
