@@ -6,6 +6,7 @@
 ### Gameplay changes
 - Vault portals can now be made out of Enviormental Materials' Basalt
 - Vault portals can now be made out of any blackstone variant
+- Vault Portals can now be made out of Vault Stone
 - ALL Vault Crystals are now Cooperative
 - Added Extraordinary Gems from VH3
 - Added Uncrafting of Perfect & Extraordinary Gems into their counterparts
@@ -17,8 +18,10 @@
 - Modified Research Costs
 - Removed certain Researches
 - Moved certain Researches to a new Looting Category
+- Removed Vault Utilities Category
+- Moved Vault Powerups to the Looting Category
+- Removed Vault Blacksmith & Powerful Arrows Research
 - Modified AG Research Cost from 100 -> 200
-- Allow Players to use Vault Stone as a Portal Block
 - Mega Statues no longer produce decorative Items
 - Vault Gear can be obtained starting from Vault Level 0
 - Modified Tooltips for various Vault Items
@@ -36,7 +39,7 @@
 - Supply the player with **The Vault Encyclopedia** and 16x Steak
 - Added Nether Wart to LVL0 Loottables
 - Up to Vault Level 24, All Vaults are Beginner's Grace, Insurance and Peaceful
-    - Beginner's Grace will spawn the player with all their items upon their death in the Vault
+    - Beginner's Grace will respawn the player with all their items upon perishing in the Vault
     - Beginner's Insurance makes all Vault Chests not trapped 
     - Peaceful will guarantee no natural mob spawning
     - If the Crystal is modified, these *will not appear*
@@ -72,6 +75,7 @@
 - Increased Soul Hunter Values (0% -> 100%, 50% -> 200%, 100% -> 300%, 200% -> 400%, 300% -> 500%)
 - Colored Scavenger Items to reflect where they drop from
 - Updated the Vault Altar pool to remove Quark Items
+- Updated the Vault Altar to require more tedious Items later in the game
 - Removed RFTools Storage due to gamebreaking bug
 - Added the IntegratedDynamics mod (+ Addons) which is the replacement for RFTools Storage
 - Added Emojiful and added Emojis for all the Vault Modifiers
@@ -83,9 +87,9 @@
 - Added a soft cap to Overlevel Enchantments (15 levels above default)
 - Added the SkyVaults World Type
     - This is based off of Deadpines Skyvaults for VH2
-    - You will spawn on an island similar to VH3s SkyVaults which has a button that can generate infinite Rotten Vault Crystals
+    - You will spawn on an island similar to VH3s SkyVaults which has the Decayed Crystallizer, which generates Vault Crystals
         - These crystals have `Very Unlucky` (-4 Luck), `Hurry` (-12.5 minutes), `No Extras` (Time Fruit have no effect), and will have `Beginner's Grace` below level 51
-        - It's also a Boss vault that requires 11 obelisks to summon
+        - It's also a Boss vault that requires 11 obelisks to summon, making it uncompletable
     - The Island has been modified to provide Items unobtainable in the vault in Altars to remove the need to cheat in items
 - Added Vault Rock ore in the Vaults (As rare as Painite)
 - Modified Vault Sword rolls to guarantee being better than a Netherite Sword
@@ -117,9 +121,6 @@
     - Advanced Vault Pearl [UNSTABLE]: a Pearl that explodes upon impact with the power of a TNT Block
     - Advanced Vault Pearl [SWIFT]: a rapid Vault Pearl with less accuracy
         - Grant +2 Speed for 15 seconds and apply the Vault Powerup effect
-- Added the **Infusion Altar Block**
-    - Allows Players to make Challenge Crystals Cooperative
-    - May be used for other items in the future
 - Added the Vault Encyclopedia
     - This is the Guide book for VH2.5
     - This book is used to explain majority of mechanics to the player with the Vault Mod and the Vault Extras Mod
@@ -170,11 +171,12 @@
     - Each Level gives you +50% Chest Rarity
     - Only Obtainable via Vault Modifiers
 - Implemented the Vault Recycler
-    - Melts Vault Gear, Idols & Magnets
-- Vault Gear is now Unbreakable outside Vaults
+    - Melts Vault Gear, Idols, Magnets & Etchings
+- Vault Gear is now Unbreakable outside Vaults, including Vault Magnets
+- Vault Magnets now work with Unbreaking & the Unbreakable Talent
 - Elytras take 5x less durability damage
 - Added a Sanctified Pedestal
-    - This block can enhance your Idols, by giving them +2 additional Modifier slots
+    - This block can enhance your Idols, by giving them +2 additional Modifier slots for a total max of 11 Modifier Slots
     - This block is unbreakable, cannot be crafted and is single-use
     - This block can be found in the God Room
 - Added the Bunny Charm
@@ -208,7 +210,29 @@
     - Same stats as Boogieman
     - Rarity is in between Robot and Boogieman
 - Added custom challenge crystal(s)
-
+- Overhauled Paxel Charms
+    - Rush 1 -> Grants +1 Haste -> 13%
+    - Auto Smelt -> Smelts Items automatically upon being mined -> 10%
+    - Hammer -> 3x3 AOE Mining -> 10%
+    - Speedy -> Grants +1 Speed -> 10%
+    - Fragile -> -3000 Durability -> 10%
+    - Rush 2 -> Grants +2 Haste -> 7%
+    - Explosive -> Blocks mined will explode -> 5%
+    - Destructive -> Destroys mined Blocks -> 5%
+    - Sturdy -> +3000 Durability -> 5%
+    - Reaching -> +2.5 Reach -> 5%
+    - Lucky -> +1 Luck -> 5%
+    - Advanced Hammer -> 5x5 AOE Mining -> 5%
+    - Advanced Reaching -> +5 Reach -> 3%
+    - Fortunate -> +1 Fortune -> 2%
+    - Luckier -> +2 Luck -> 2%
+    - Opulent -> +1 Extra Chest Rarity -> 2%
+    - Advanced Fortune -> +2 Fortune -> 1%
+- God Influences function now In COOPs
+- Fixed the Mining Speed slowdown bug in midair
+- Vault Snapshots now get called prior to death, restoring all loot that you gained in a vault
+- Purchasing something in the Shard shop will reroll its trades globally
+- By default, all Challenge Crystals are now runnable in COOP
 
 ### Recipe Changes
 - Added a recipe to Craft Fortune Paxels
@@ -229,7 +253,6 @@
 - Changed Other Seal Recipes
 - Added a new (inedible) cake that acts as a Cake Hunt seal
     - This replaces the vanilla cake that was used for Cake Hunts
-    - This cake is crafted with a Trove (experimental)
     - Can alternatively be found in Altar Chests, Treasure Goblins, and the Shard Shop
     - Guaranteed from Crakes
 - Changed Step and Elvish flasks to use Extraordinary Painite
@@ -263,6 +286,18 @@
     - Rerolling Vault Gear via Artisan Scrolls
     - Creating Artisan Scrolls
     - Repairing Vault Gear
+    - Appling Armor Plating
+    - Applying Wutax Shards/Crystals
+    - Applying Gear Charms
+    - Applying Flawed Rubies
+    - Applying Banished Souls
+    - Applying Soul Flames
+    - Applying Void Orbs
+    - Repairing Magnets
+    - Crystal Inhibiting
+    - Catalyst Crystal Application
+    - Painite Star Rerolling
+    - Runed Crystals
 - Added language keys for Vault Gamerules
 - Added a Multiplayer Chunk Claim mod/block
 - Added Cosmetic Armor Slots
@@ -289,11 +324,17 @@
 - Added Command /the_vault debug SetGlobalDifficulty
 - Added Command /the_vault debug SetGlobalCrystalDifficulty
     - These Commands are used to modify the Global Difficulty which are set at the start of the server
+- Added Command /the_vault debug getPlayerLevel -> Returns the Player Level of the specified PlayerEntity
+- Added Command /the_vault debug modifyFavourData -> Modify the Favour Data of the specified PlayerEntity
 - Updated majority of mods in the modpack
 - Gave certain vault modifiers their own unique icon, instead of reusing icons
     - Also changed the color of their names
 - Totem stacking no longer works and you will be shamed if you try it
 - Sand will no longer compact into sandstone in a compacting drawer
+- Right clicking a Glass Bottle on Endstone will grant Ender air, making Endstone generation easier for SkyVaults
+- Added Feedback sound upon purchasing something in the Shard shop
+- Delete the Vault Dimension Region files upon Players exiting the vault and if noone is inside the Vault Dimension
+- Display Remaining Vault Time in the PlayerTabList
 
 
 ### Mod Changes
