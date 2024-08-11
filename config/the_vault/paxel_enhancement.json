@@ -1,40 +1,72 @@
 {
   "ENHANCEMENT_WEIGHTS": [
     {
+      "value": "the_vault:rush", 
+      "weight": 13
+    },
+    {
       "value": "the_vault:auto_smelt",
       "weight": 10
     },
     {
-      "value": "the_vault:fortunate",
-      "weight": 1
-    },
-    {
-      "value": "the_vault:sturdy",
-      "weight": 1
-    },
-    {
       "value": "the_vault:hammer",
-      "weight": 6
-    },
-    {
-      "value": "the_vault:rush_2",
-      "weight": 4
+      "weight": 10
     },
     {
       "value": "the_vault:speedy",
-      "weight": 8
+      "weight": 10
     },
     {
       "value": "the_vault:fragile",
       "weight": 10
     },
     {
-      "value": "the_vault:rush",
-      "weight": 8
+      "value": "the_vault:rush_2",
+      "weight": 7
+    },
+    {
+      "value": "the_vault:explosive",
+      "weight": 5
     },
     {
       "value": "the_vault:destructive",
-      "weight": 4
+      "weight": 5
+    },
+    {
+      "value": "the_vault:sturdy",
+      "weight": 5
+    },
+    {
+      "value": "the_vault:reaching",
+      "weight": 5
+    },
+    {
+      "value": "the_vault:lucky",
+      "weight": 5
+    },
+    {
+      "value": "the_vault:advanced_hammer",
+      "weight": 5
+    },
+    {
+      "value": "the_vault:advanced_reaching",
+      "weight": 3
+    },
+    {
+      "value": "the_vault:fortunate",
+      "weight": 2
+    },
+    {
+      "value": "the_vault:luckier",
+      "weight": 2
+    },
+    {
+      "value": "the_vault:opulent",
+      "weight": 2
+    },
+    {
+      "value": "the_vault:advanced_fortune",
+      "weight": 1
     }
   ]
 }
