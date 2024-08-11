@@ -13,7 +13,7 @@
         {
             "title": "Reward Crates",
             "type": "patchouli:text",
-            "text": "If by the end of the week, you still have the Fastest Raffle-Boss Kill, you will be granted with a $(#033dfc)Special Crate$() that contains a guaranteed $(#033dfc)Artifact$() and a $(#033dfc)Challenge Crystal$()"
+            "text": "If by the end of the week, you still have the Fastest Raffle-Boss Kill, you will be granted a $(#033dfc)Special Crate$() that contains a guaranteed $(#033dfc)Artifact$() and a $(#033dfc)Challenge Crystal$()"
         },
         {
             "type": "patchouli:spotlight",

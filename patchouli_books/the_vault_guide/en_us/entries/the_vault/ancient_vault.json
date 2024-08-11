@@ -5,7 +5,7 @@
     "category": "patchouli:the_vault",
     "pages": [
         {
-            "title": "Raffle Vaults",
+            "title": "Ancient Vaults",
             "type": "patchouli:spotlight",
             "item": "the_vault:cryo_chamber{Damage: 1}",
             "text": "$(#033dfc)Ancient Vaults$() are a special Vault where you need to rescue up to $(#033dfc)4 Ancient Eternals$(), spawning in Ancient Cryo chambers that are randomly scattered in $(#033dfc)the Vault$()."
@@ -17,7 +17,7 @@
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "the_vault:crystal_seal_ancient",
+            "recipe": "kubejs:kjs_9nrgrqeko4oe5yy0ux3ppk8kb",
             "text": "To roll this Objective, you need to apply a $(#033dfc)Seal of the Explorer$() to a $(l:get_started/vault_crystal)Vault Crystal$() if the Crystal is not exhausted.$(br)These Seals may be $(#033dfc)crafted$() or obtained by other methods, like $(#033dfc)looting in the Vault$() or purchasing them in the $(#033dfc)Soul Shard Shop$()"
         }
     ]

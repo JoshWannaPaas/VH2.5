@@ -17,7 +17,7 @@
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "the_vault:crystal_seal_architect",
+            "recipe": "kubejs:kjs_2yqg04ylbpo2crkhf2ozo0m4q",
             "text": "To roll this Objective, you need to apply a $(#033dfc)Seal of the Architect$() to a $(l:get_started/vault_crystal)Vault Crystal$() if the Crystal is not exhausted.$(br)These Seals may be $(#033dfc)crafted$() or obtained by other methods, like $(#033dfc)looting in the Vault$() or purchasing them in the $(#033dfc)Soul Shard Shop$()"
         }
     ]

@@ -18,7 +18,7 @@
         {
             "type": "patchouli:spotlight",
             "item": "the_vault:crystal_seal_hunter",
-            "text": "If you would like the $(l:get_started/vault_crystal)Vault Crystal$() to guarantee the $(#033dfc)Scavenger$() Objective, you may apply a $(#033dfc)Seal of the Executioner$() to your Crystal if said Crystal is not exhausted."
+            "text": "If you would like the $(l:get_started/vault_crystal)Vault Crystal$() to guarantee the $(#033dfc)Scavenger$() Objective, you may apply a $(#033dfc)Seal of the Hunter$() to your Crystal if said Crystal is not exhausted."
         }
     ]
 }

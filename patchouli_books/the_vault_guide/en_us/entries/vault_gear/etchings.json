@@ -1,0 +1,25 @@
+{
+    "sortnum": 2,
+    "name": "Etchings",
+    "icon": "the_vault:etching",
+    "category": "patchouli:vault_gear",
+    "pages": [
+        {
+            "title": "Etchings!",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:etching",
+            "text": "$(#033dfc)Etchings$() are a late-game mechanic being introduced with Gear Tier 3 at Level 250!$(br)These provide you with varying extremely strong buffs if you apply 4 matching Etchings to a set of armor"
+        },
+        {
+            "title": "Obtaining",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:etching_fragment",
+            "text": "Etchings have two primary ways of Obtaining, either through a special Vault Room called the Vault Vendor, which has an entity in the center of the room trading Vault Platinum for Vault etchings with varying prices between 7 - 64 Platinum.$(br)JEI has built-in Integration for Vault Vendors to see all offers and price ranges!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:unidentified_etching",
+            "text": "Alternatively to that, you can also craft Etchings via Etching Fragments, which can be obtained by Smelting unwanted Etchings or through other means such as finding them inside the Vault."
+        }
+    ]
+}
