@@ -1,0 +1,19 @@
+{
+    "sortnum": 2,
+    "name": "Modifying Vault Gear",
+    "icon": "the_vault:wutax_crystal",
+    "category": "patchouli:vault_gear",
+    "pages": [
+        {
+            "title": "Modifying Vault Gear",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:wutax_crystal",
+            "text": "$(#033dfc)Vault Gear$() can be modified through various means, for example, decreasing the minimum level required to make use of the gear piece, adding and removing modifiers, rerolling, targetting a specific modifier and much more!"
+        },
+        {
+            "title": "Obtaining",
+            "type": "patchouli:text",
+            "text": "Vault Gear can be obtained through various means such as looting inside the Vault, crafting Legendary Treasures, opening Completion Crates, or crafting it with Vault Materials."
+        }
+    ]
+}

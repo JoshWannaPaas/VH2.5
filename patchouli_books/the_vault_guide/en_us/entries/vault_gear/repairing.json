@@ -1,0 +1,20 @@
+{
+    "sortnum": 4,
+    "name": "Repairing Vault Gear",
+    "icon": "the_vault:repair_core",
+    "category": "patchouli:vault_gear",
+    "pages": [
+        {
+            "title": "Repairing Vault Gear",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:repair_core_t2",
+            "text": "Repairing $(#033dfc)Vault Gear$() requires you to apply a $(#033dfc)Repair core$() of the corresponding Gear Piece (e.g. T2 Chestplate -> T2 Repair Core) and available Repair Slots on the Gear Piece.$(br2)Upon applying, a repair slot will be consumed"
+        },
+        {
+            "title": "Obtaining",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:repair_core_t3",
+            "text": "$(#033dfc)Repair Cores$() can be found inside the Vaults, prominently in $(#033dfc)God Altars$() and also crafted with Vault Resources."
+        }
+    ]
+}
