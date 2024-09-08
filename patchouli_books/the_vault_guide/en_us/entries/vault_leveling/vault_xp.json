@@ -1,0 +1,55 @@
+{
+    "name": "Experience Foods",
+    "icon": "the_vault:vault_cookie",
+    "category": "patchouli:vault_leveling",
+    "pages": [
+        {
+            "title": "Vault Burger",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_burger",
+            "text": "Vault Burgers are a Vault XP food Item that grants between 0.5 - 3.0% XP for the next required level."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:vault_burger",
+            "text": "Crafting a $(#033dfc)Vault Burger$().$(br2)Can also be found inside Vaults"
+        },
+
+        {
+            "title": "Oozing Pizza",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:oozing_pizza",
+            "text": "Oozing Pizzas are a Vault XP food Item that grants between 0.3 - 1.0% XP for the next required level."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:oozing_pizza",
+            "text": "Crafting a $(#033dfc)Oozing Pizza$()."
+        },
+
+        {
+            "title": "Vault Cookie",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_cookie",
+            "text": "Vault Cookies are a Vault XP food Item that grants between 1000 - 3500 XP.$(br2)Only works below LVL25"
+        },
+        {
+            "title": "Vault Cookie",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_cookie",
+            "text": "Vault Cookies can be traded for in Vendor Traders & found inside Vaults below LVL25"
+        },
+
+        {
+            "title": "Mystery Stew",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_stew_mystery",
+            "text": "Mystery Stews can give between 20 - 99% XP for the next level depending on the stew tier that drops"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:vault_stew_mystery",
+            "text": "Crafting a $(#033dfc)Oozing Pizza$().$(br2)Can also be found in Vault Chests or crafted from Vendor Traders."
+        }
+    ]
+}

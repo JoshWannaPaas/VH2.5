@@ -1,0 +1,19 @@
+{
+    "name": "Armor Crates",
+    "icon": "the_vault:armor_crate_botania",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "title": "Armor Crates",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:armor_crate_botania",
+            "text": "$(#033dfc)Armor Crates$() are craftable boxes that contain transmogs relating to a mod in the modpack, each crate contains a gear piece for each armor slot."
+        },
+        {
+            "title": "Crafting",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:armor_crate_create",
+            "text": "$(#033dfc)Armor Crates$() are simple crafting recipes but usually require fairly in-depth modded resources from the Mod you are creating the Crate from."
+        }
+    ]
+}

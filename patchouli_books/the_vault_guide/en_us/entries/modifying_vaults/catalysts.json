@@ -1,0 +1,31 @@
+{
+    "name": "Vault Catalysts",
+    "icon": "the_vault:vault_catalyst",
+    "category": "patchouli:modifying_vaults",
+    "pages": [
+        {
+            "title": "Vault Catalysts",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_catalyst",
+            "text": "$(#033dfc)Vault Catalysts$() are your primary way of adding Modifiers to Vaults.$(br)Each $(#033dfc)Catalyst$() may either roll static modifiers, or a random positive/negative/curse.$(br)Upon applying a modifier, that modifier will $(#033dfc)no longer be able to roll$().$(br)Upon application, all other $(#033dfc)Catalyst$() will reroll their modifiers."
+        },
+        {
+            "title": "Obtaining",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_catalyst_fragment",
+            "text": "$(#033dfc)Vault Catalysts$() are obtained through either crafting them with $(#033dfc)Catalyst Fragments$() & $(#033dfc)Vault Gems$(), rerolling $(#033dfc)pre-existing Catalysts$() or finding them inside $(#033dfc)Vault Chests$().$()If the $(#033dfc)Vault$() has been modified with $(#033dfc)Catalyst$(), $(#033dfc)Catalyst fragments$() will not be obtainable"
+        },
+        {
+            "title": "Usage",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_catalyst",
+            "text": "$(#033dfc)Vault Catalysts$() can be used by applying them to $(#033dfc)Vault Crystals$() inside an anvil, or creating $(#033dfc)Vault Inhibitors$(), that do the exact opposite of $(#033dfc)Vault Catalysts$().$(br)Each $(#033dfc)Vault Catalyst$() has different modifiers that are differently weighted, some being more significant and rarer, others being more common and less impacting."
+        },
+        {
+            "title": "Vault Inhibitors",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_inhibitor",
+            "text": "$(#033dfc)Vault Inhibitors$() are used to remove $(#033dfc)Vault Modifiers$() from Crystals. To obtain, combine a $(#033dfc)Vault Catalyst$() with a perfect echo gem inside an anvil, which will result in a Vault Inhibitor.$(br)Vault Inhibitors inherit the attributes of the $(#033dfc)Vault Catalyst$() and reverse it's effect. Each application has a chance to exhaust the Crystal."
+        }
+    ]
+}

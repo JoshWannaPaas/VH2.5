@@ -13,7 +13,7 @@
             "title": "Consumable types",
             "type": "patchouli:spotlight",
             "item": "the_vault:relic_booster_pack",
-            "text": "$(#033dfc)Relic Booster Packs$(), $(#033dfc)Mystery Boxes$(), $(#033dfc)Runes$(), $(#033dfc)Eggs$() & $(#033dfc)Books$(), $(#033dfc)Pandoras Boxes$(), are all considered $(#033dfc)Consumables$() and their Item pools can be viewed in $(#033dfc)JEI$()."
+            "text": "$(#033dfc)Relic Booster Packs$(), $(#033dfc)Mystery Boxes$(), $(#033dfc)Runes$(), $(#033dfc)Eggs$() & $(#033dfc)Books$(), $(#033dfc)Pandoras Boxes$() and $(#033dfc)Mod Boxes$() are all considered $(#033dfc)Consumables$() and their Item pools can be viewed in $(#033dfc)JEI$()."
         }
     ]
 }

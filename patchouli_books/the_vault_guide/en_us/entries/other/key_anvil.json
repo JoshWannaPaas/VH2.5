@@ -1,0 +1,19 @@
+{
+    "name": "Key Anvil",
+    "icon": "the_vault:key_press",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "title": "Key Anvil",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:key_press",
+            "text": "The $(#033dfc)Key Anvil$() is a block used to create $(#033dfc)Treasure Keys$(), that can be used to open $(#033dfc)Treasure Doors$()inside of Vaults.$(br2)$(#f00)Cannot be used inside Vaults$()"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:key_press",
+            "text": "Crafting the $(#033dfc)Key Anvil$()."
+        }
+        
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "sortnum": 1,
+    "name": "LVL25",
+    "icon": "the_vault:banished_soul",
+    "category": "patchouli:vault_leveling",
+    "pages": [
+        {
+            "title": "Changes",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:banished_soul",
+            "text": "$(#033dfc)Changes between LVL25:$()$(li)Loot tables updated$()$(li)Cookies can no longer be eaten$()$(li)Beginners Grace, Insurance & Peaceful wear off($()"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Painite Stars",
+    "icon": "the_vault:painite_star",
+    "category": "patchouli:modifying_vaults",
+    "pages": [
+        {
+            "title": "Painite Stars",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:painite_star",
+            "text": "$(#033dfc)Painite Stars$() are a Crystal modification item that allow for the user to reroll all available $(#033dfc)Catalyst roll options$() of the Crystal by combining the $(#033dfc)Vault Crystal$() with a $(#033dfc)Painite Star$().  $(#033dfc)a Crystal$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:painite_star",
+            "text": "Crafting a $(#033dfc)Painite Star$()."
+        }
+    ]
+}

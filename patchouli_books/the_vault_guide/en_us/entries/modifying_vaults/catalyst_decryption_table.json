@@ -1,0 +1,19 @@
+{
+    "name": "Catalyst Decryption Table",
+    "icon": "the_vault:catalyst_decryption_table",
+    "category": "patchouli:modifying_vaults",
+    "pages": [
+        {
+            "title": "Decryption Table",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:catalyst_decryption_table",
+            "text": "The $(#033dfc)Catalyst Decryption Table$() is used to view what $(#033dfc)random Catalysts$() will grant you certain modifiers!$(br2)Each random roll on a $(#033dfc)Catalyst$() has a different chance to roll different tiers of modifiers, and with this block, you can view $(#033dfc)10 Catalysts$() at the same time."
+        },
+        {
+            "title": "Decryption Table",
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:catalyst_decryption_table",
+            "text": "Crafting the $(#033dfc)Catalyst Decryption Table$()."
+        }
+    ]
+}

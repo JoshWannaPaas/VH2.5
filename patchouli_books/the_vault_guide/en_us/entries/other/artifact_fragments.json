@@ -1,0 +1,24 @@
+{
+    "name": "Creating Artifacts",
+    "icon": "the_vault:unidentified_artifact",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "title": "Creating Artifacts",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:artifact_fragment",
+            "text": "$(#033dfc)Artifacts$() can be created through numerous of ways.$(br2)You can burn identified $(#033dfc)Artifacts$(), turning them into artifact fragments, allowing you to create a new $(#033dfc)Artifact$() with 4 fragments."
+        },
+        {
+            "title": "Rerolling Artifacts",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:unidentified_artifact",
+            "text": "$(#033dfc)Artifacts$() can be rerolled by combining a identified $(#033dfc)Artifact$() with an $(#033dfc)Omega Pog$() inside of an anvil."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kubejs:kjs_dvrhzcztiuf3uw1spoj91qaly",
+            "text": "Crafting $(#033dfc)Artifacts$() out of thin air."
+        }
+    ]
+}

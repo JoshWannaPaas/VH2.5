@@ -1,0 +1,18 @@
+{
+    "name": "soul_shards",
+    "icon": "the_vault_extras:bunny_charm",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "title": "Bunny Charm",
+            "type": "patchouli:spotlight",
+            "item": "the_vault_extras:bunny_charm",
+            "text": "VH2.5 features the $(#033dfc)Bunny Charm$()!$(br)With this trinket you can freely move in the air and gain a slight speed boost!$(br2)For you to use it, it needs to be inside one of your $(#033dfc)Curio$() slots."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault_extras:bunny_charm",
+            "text": "Crafting the $(#033dfc)Bunny Charm$()."
+        }
+    ]
+}
