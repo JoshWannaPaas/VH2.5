@@ -1,0 +1,18 @@
+{
+    "sortnum": 11,
+    "name": "Treasure Rooms",
+    "icon": "the_vault:unidentified_treasure_key",
+    "category": "patchouli:the_vault",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(#033dfc)Treasure Rooms$() are small rooms that can be found inside the walls of Vault Rooms, which can be unlocked with Vault Keys that match the door type.$(br2)Treasure Rooms contain two Treasure Chests that have extremly valuable loot, containing otherwise unobtainable Items and modded Items."
+        },
+        {
+            "title": "Opening Rooms",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:unidentified_treasure_key",
+            "text": "To open Treasure Rooms, you require a Treasure Key that matches its door type.$(br2)Upon right clicking with the key, the door will open and the key will be consumed. Attempting to otherwise get into a Treasure Room will instantly unalive the player."
+        }
+    ]
+}

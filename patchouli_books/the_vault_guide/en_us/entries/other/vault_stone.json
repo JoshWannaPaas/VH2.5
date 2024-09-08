@@ -4,8 +4,22 @@
     "category": "patchouli:other",
     "pages": [
         {
-            "type": "patchouli:text",
-            "text": ""
+            "title": "Vault Stone",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_stone",
+            "text": "$(#033dfc)Vault Stone$() is a rare type of stone that can be used for the $(#033dfc)Vault Portal$() & the $(#033dfc)Vault Charm Inscription Table$()."
+        },
+        {
+            "title": "Obtaining",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_stone",
+            "text": "$(#033dfc)Vault Stone$() can be obtained via Vault Rooms inside the Vault, specifically through the $(#033dfc)Viewer Puzzle Factory$(), which may contain it inside the Vaults, additionaly, a plentiful amount can be found inside a $(#033dfc)Trove Vault$() of its walls."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:vault_charm_controller",
+            "text": "Crafting the $(#033dfc)Vault Charm Inscription Table$()."
         }
+        
     ]
 }

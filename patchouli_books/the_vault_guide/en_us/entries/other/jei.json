@@ -1,0 +1,13 @@
+{
+    "name": "JEI Integration",
+    "icon": "the_vault:vault_stone",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "title": "JEI Integration",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_stone",
+            "text": "VH2.5 features $(#033dfc)JEI integration$()!$(br)You can view all loot-tables including $(#033dfc)Vault Altar$() requirements inside of JEI, alongside Consumables like $(#033dfc)Mystery Eggs$(), $(#033dfc)Mystery Boxes$() & $(#033dfc)Pandoras Boxes$()!"
+        }
+    ]
+}

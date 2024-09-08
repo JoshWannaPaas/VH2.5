@@ -1,0 +1,36 @@
+{
+    "name": "Vault Charm",
+    "icon": "the_vault:vault_charm",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "title": "Vault Charm",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_charm",
+            "text": "The $(#033dfc)Vault Charm$() is an utility item gated behind the $(#033dfc)Vault Looter$() research.$(br)Unlocking it allows you to craft the $(#033dfc)Vault Charm$() & the $(#033dfc)Vault Charm Inscription Table$(), which allow you to void any item inside a Vault without consuming magnet durability."
+        },
+        {
+            "title": "Usage",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_charm_controller",
+            "text": "To use the $(#033dfc)Vault Looter$() research, you need to have a $(#033dfc)Vault Charm$() in your Inventory or Curio slot, additionally, you need to filter Items inside the $(#033dfc)Vault Charm Inscription Table$() to void specific items.$(br2)Following that, items collected inside Vaults will be voided."
+        },
+        {
+            "title": "Upgrading",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:charm_upgrade_tier_4",
+            "text": "To upgrade the$(#033dfc)Vault Charm Inscription Table$() to increase the slot size, you require upgrades that you can craft. To install higher tier upgrades, the previous tier must be already applied to the $(#033dfc)Vault Charm Inscription Table$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:vault_charm_controller",
+            "text": "Crafting the $(#033dfc)Vault Charm Inscription Table$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:vault_charm",
+            "text": "Crafting the $(#033dfc)Vault Charm$()."
+        }
+        
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Consumables",
+    "icon": "the_vault:mystery_box",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "title": "Consumables",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:mystery_box",
+            "text": "$(#033dfc)Consumables$() are items that you can right-click to obtain a different item from a predetermined pool of items$(br2)They have varying amounts of rarities and can contain $(#033dfc)Vault Gear$(), $(#033dfc)Relic Pieces$(), $(#033dfc)Vanilla Resources$() and... Kelp?"
+        },
+        {
+            "title": "Consumable types",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:relic_booster_pack",
+            "text": "$(#033dfc)Relic Booster Packs$(), $(#033dfc)Mystery Boxes$(), $(#033dfc)Runes$(), $(#033dfc)Eggs$() & $(#033dfc)Books$(), $(#033dfc)Pandoras Boxes$(), are all considered $(#033dfc)Consumables$() and their Item pools can be viewed in $(#033dfc)JEI$()."
+        }
+    ]
+}

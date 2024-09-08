@@ -1,0 +1,18 @@
+{
+    "name": "Vault Recycler",
+    "icon": "the_vault_extras:vault_recycler",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "title": "Vault Recycler",
+            "type": "patchouli:spotlight",
+            "item": "the_vault_extras:vault_recycler",
+            "text": "VH2.5 features the $(#033dfc)Vault Recycler$()!$(br)Using this item ported from Vault Hunters 3rd Edition, you can recycle your gear efficiently and conveniently for more scrap rewards!$(br2)Additionally allows for you to recycle $(#033dfc)Etchings$() & $(#033dfc)Vault Magnets$()"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault_extras:vault_recycler",
+            "text": "Crafting the Vault Recycler."
+        }
+    ]
+}

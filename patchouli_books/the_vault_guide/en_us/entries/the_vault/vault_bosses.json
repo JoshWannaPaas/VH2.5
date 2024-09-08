@@ -1,0 +1,49 @@
+{
+    "sortnum": 3,
+    "name": "Vault Bosses",
+    "icon": "the_vault:unknown_egg",
+    "category": "patchouli:the_vault",
+    "pages": [
+        {
+            "title": "Vault Bosses",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:obelisk",
+            "text": "$(#033dfc)Vault Bosses$() are Monsters summoned by certain conditions, typically by activating the last Obelisk inside a Kill the Boss Vault. All Vault Bosses have the ability to teleport, and will heal after not being hit for a duration."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "the_vault:boogieman",
+            "x": 20,
+            "y": 30,
+            "text": "A Vault Robot who teleports, throws snowballs and is a mid-range boss, always having a chance to spawn from Obelisks."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "the_vault:robot",
+            "x": 20,
+            "y": 30,
+            "text": "A Vault Robot which is the strongest normal Vault Boss, which always has a chance to be summoned by an Obelisk."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "the_vault:blue_blaze",
+            "x": 20,
+            "y": 30,
+            "text": "A Blue Blaze which is a ranged Vault Boss, which can only appear between LVL0 - LVL49."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "the_vault:monster_eye",
+            "x": 20,
+            "y": 30,
+            "text": "A Monster eye, which is knockback-resistant, fast and deals strong critical damage, spawning past LVL50."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "the_vault:aggressive_cow_boss",
+            "x": 20,
+            "y": 30,
+            "text": "A... Cow??"
+        }
+    ]
+}
