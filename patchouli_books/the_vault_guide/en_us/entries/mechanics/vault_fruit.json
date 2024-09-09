@@ -1,18 +1,19 @@
 {
     "name": "Time-extending Fruit",
-    "icon": "the_vault_extras:bunny_charm",
+    "icon": "the_vault:sweet_kiwi",
     "category": "patchouli:mechanics",
     "pages": [
         {
-            "title": "Bunny Charm",
+            "title": "Time-extending Fruit",
             "type": "patchouli:spotlight",
-            "item": "the_vault_extras:bunny_charm",
-            "text": "VH2.5 features the $(#033dfc)Bunny Charm$()!$(br)With this trinket you can freely move in the air and gain a slight speed boost!$(br2)For you to use it, it needs to be inside one of your $(#033dfc)Curio$() slots."
+            "item": "the_vault:sweet_kiwi",
+            "text": "Time-extending Fruit allows you to $(#033dfc)increase the Vault Timer$() inside Vaults by an indefinite amount!$(br2)There are $(#033dfc)4 types$() of fruits, all obtained in various ways with different amounts of $(#033dfc)time added$() & $(#033dfc)additional effects$()"
         },
         {
-            "type": "patchouli:crafting",
-            "recipe": "the_vault_extras:bunny_charm",
-            "text": "Crafting the $(#033dfc)Bunny Charm$()."
+            "title": "Fruit types",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:bitter_lemon",
+            "text": "$(#033dfc)Sweet Kiwi$()$(li)Adds 5 seconds$()$(br)$(#033dfc)Bitter Lemon$()$(li)Adds 30s to the Timer$(li)$(#f00)Wipes away 3 hearts$()$(br)$(#033dfc)Sour Orange$()$(li)Adds 60s to the Timer$(li)$(#f00)Wipes away 5 hearts$()$(br)$(#033dfc)Mystic Pear$()$(li)Adds 300s to the Timer$(li)$(#f00)Wipes away 5 hearts$(li)$(#f00)Inflicts Wither or Poison"
         }
     ]
 }

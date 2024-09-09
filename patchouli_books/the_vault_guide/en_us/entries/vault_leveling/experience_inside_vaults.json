@@ -1,0 +1,14 @@
+{
+
+    "name": "Experience inside Vaults",
+    "icon": "thermal:xp_crystal",
+    "category": "patchouli:vault_leveling",
+    "pages": [
+        {
+            "title": "Gaining Vault XP",
+            "type": "patchouli:spotlight",
+            "item": "thermal:xp_crystal",
+            "text": "Inside Vaults, the $(#033dfc)gained xp$() is determined by two factors. The longer you $(#033dfc)spend time inside Vaults$(), the $(#033dfc)more XP$() you gain which caps at $(#033dfc)half the Vault duration$() and whether you $(#033dfc)complete$(), $(#033dfc)bail$() or $(#033dfc)fail$() the vault."
+        }
+    ]
+}

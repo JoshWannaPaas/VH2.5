@@ -1,0 +1,20 @@
+{
+
+    "name": "Beginner Modifiers",
+    "icon": "the_vault:vault_catalyst",
+    "category": "patchouli:vault_leveling",
+    "pages": [
+        {
+            "title": "Beginner Modifiers",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_catalyst",
+            "text": "Your first vaults will all have $(#033dfc)Peaceful$(), which makes mobs no longer spawn naturally, $(#033dfc)Beginner's Insurance$(), which marks all chests as safe and $(#033dfc)Beginner's Grace$(), which spawns you with all the items you died with, with Beginners Insurance leaving at $(#033dfc)LVL10+$(), then later both Beginner's Grace and Peaceful disappearing at $(#033dfc)LVL25+$()."
+        },
+        {
+            "title": "Easier Starting",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:hearty_apple",
+            "text": "All these modifiers are intended to $(#033dfc)assist$() you to ease into the $(#033dfc)difficulty of the Vaults$() and to gear up before the Vaults $(#033dfc)scale$() further in difficulty."
+        }
+    ]
+}
