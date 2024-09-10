@@ -758,14 +758,14 @@
       "name": "Casual",
       "icon": "the_vault:textures/gui/modifiers/beginners_grace.png",
       "color": "16746752",
-      "description": "All items you entered with will be restored on death"
+      "description": "All items you died with will be restored on death"
     },
     {
       "preventsArtifact": false,
       "name": "Beginner's Grace",
       "icon": "the_vault:textures/gui/modifiers/beginners_grace.png",
       "color": "16746752",
-      "description": "All items you entered with will be restored on death"
+      "description": "All items you died with will be restored on death"
     },
     {
       "preventsArtifact": true,
