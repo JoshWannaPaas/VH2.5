@@ -1123,8 +1123,8 @@
     "the_vault:monster_eye": [
       {
         "NAME": "minecraft:generic.knockback_resistance",
-        "MIN": 0.02,
-        "MAX": 0.02,
+        "MIN": 1.00,
+        "MAX": 1.00,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
         "SCALE_PER_LEVEL": 1.0
@@ -1132,15 +1132,15 @@
       {
         "NAME": "the_vault:generic.crit_chance",
         "MIN": 0.1,
-        "MAX": 0.3,
+        "MAX": 0.2,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
         "SCALE_PER_LEVEL": 0.0
       },
       {
         "NAME": "the_vault:generic.crit_multiplier",
-        "MIN": 1.5,
-        "MAX": 1.8,
+        "MIN": 3.0,
+        "MAX": 4.0,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
         "SCALE_PER_LEVEL": 0.0
@@ -1163,8 +1163,8 @@
       },
       {
         "NAME": "minecraft:generic.movement_speed",
-        "MIN": 1.0,
-        "MAX": 1.1,
+        "MIN": 2.0,
+        "MAX": 3.0,
         "OPERATOR": "multiply",
         "ROLL_CHANCE": 1.0,
         "SCALE_PER_LEVEL": 0.0
