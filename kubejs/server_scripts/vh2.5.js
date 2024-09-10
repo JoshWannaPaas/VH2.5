@@ -27,7 +27,7 @@ onEvent('block.right_click', event =>{
 
 onEvent('recipes', event => {
 
-    event.shaped(Item.of('the_vault:vault_paxel', '{Damage:0,ShouldEnhance:0b,Enhancement:{Id:"the_vault:advanced_fortunate"},display:{Name:\'["",{"text":"Advanced Fortunate Paxel","italic":false,"color":"#ffb31a","bold":true}]\'}}') , [
+    event.shaped(Item.of('the_vault:vault_paxel', '{Damage:0,ShouldEnhance:0b,Enhancement:{Id:"the_vault:advanced_fortune"},display:{Name:\'["",{"text":"Advanced Fortunate Paxel","italic":false,"color":"#ffb31a","bold":true}]\'}}') , [
         'PCP',
         'EVE',
         'PCP'
