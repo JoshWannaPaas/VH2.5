@@ -27,7 +27,7 @@ onEvent('block.right_click', event =>{
 
 onEvent('recipes', event => {
 
-    event.shaped(Item.of('the_vault:vault_paxel', '{Damage:0,ShouldEnhance:0b,Enhancement:{Id:"the_vault:fortunate"},display:{Name:\'["",{"text":"Fortunate Paxel","italic":false,"color":"#ffb31a","bold":true}]\'}}') , [
+    event.shaped(Item.of('the_vault:vault_paxel', '{Damage:0,ShouldEnhance:0b,Enhancement:{Id:"the_vault:advanced_fortune"},display:{Name:\'["",{"text":"Advanced Fortunate Paxel","italic":false,"color":"#ffb31a","bold":true}]\'}}') , [
         'PCP',
         'EVE',
         'PCP'
@@ -60,6 +60,8 @@ onEvent('recipes', event => {
         E: 'the_vault:extraordinary_echo_gem',
         F: 'the_vault:reset_flask'
     })
+
+    
 
     event.shaped('the_vault:charm_upgrade_tier_4', [
         ' U ',
@@ -137,6 +139,7 @@ onEvent('recipes', event => {
     event.shapeless('9x the_vault:vault_nugget', ['the_vault:vault_ingot']),
     event.shapeless('the_vault:vault_ingot', ['9x the_vault:vault_nugget']),
     event.shapeless('9x architects_palette:twisted_boards', ['9x architects_palette:twisted_planks'])
+    event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:the_vault_guide"}'), ['minecraft:book', 'minecraft:dirt'])
 
 
     gemTypes.forEach(gemTypes =>{

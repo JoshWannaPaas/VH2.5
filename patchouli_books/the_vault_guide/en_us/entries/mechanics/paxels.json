@@ -1,0 +1,24 @@
+{
+    "name": "Vault Paxels",
+    "icon": "the_vault:vault_paxel",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "title": "Vault Paxel",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_paxel",
+            "text": "The $(#033dfc)Vault Paxel$() is a all-in-one Tool that exceeds the normal durability of Netherite Tools and can be $(#033dfc)modified$() to have further enhancements with $(#033dfc)Paxel Charms$()"
+        },
+        {
+            "title": "Enhancing",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:paxel_charm",
+            "text": "$(#033dfc)Vault Paxels$() can be enhanced with $(#033dfc)Paxel Charms$() inside an Anvil, which will roll from a random pool as to what enhancement it will receive.$(br)The majority of enhancements are positive, however there are also negative ones."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:paxel_charm",
+            "text": "Creating a $(#033dfc)Paxel Charm$()."
+        }
+    ]
+}

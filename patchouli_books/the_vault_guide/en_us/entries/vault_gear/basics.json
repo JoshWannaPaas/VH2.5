@@ -1,0 +1,19 @@
+{
+    "sortnum": 1,
+    "name": "The Basics",
+    "icon": "the_vault:chestplate",
+    "category": "patchouli:vault_gear",
+    "pages": [
+        {
+            "title": "Basics of Vault Gear",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:chestplate",
+            "text": "$(#033dfc)Vault Gear$() will be your main source of protection throughout your Vault Hunters experience, as special modifiers that are obtainable on Vault Gear far exceed the capabilities of usual Armor, which are necessary to protect yourself inside $(#033dfc)the Vaults$()."
+        },
+        {
+            "title": "Obtaining",
+            "type": "patchouli:text",
+            "text": "Vault Gear can be obtained through various means such as looting inside the Vault, crafting Legendary Treasures, opening Completion Crates, or crafting it with Vault Materials."
+        }
+    ]
+}

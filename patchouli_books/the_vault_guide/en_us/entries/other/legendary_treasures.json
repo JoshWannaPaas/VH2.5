@@ -1,0 +1,29 @@
+{
+    "name": "Legendary Treasures",
+    "icon": "the_vault:legendary_treasure_normal",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "title": "Legendary Treasures",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:legendary_treasure_normal",
+            "text": "$(#033dfc)Legendary Treasures$() are consumables that drop an unidentified Vault Gear piece with a roll type depending on the $(#033dfc)Legendary Treasure$() type."
+        },
+        {
+            "title": "Obtaining",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:legendary_treasure_rare",
+            "text": "$(#033dfc)Legendary Treasure$() Common & Rare Variants are both craftable, while the Omega one being exclusively obtainable through $(#033dfc)Loot Goblins$() and $(#033dfc)LVL250 Treasure Chests$() ."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kubejs:kjs_awdmuzrhss767dldku2zvwopo",
+            "text": "Crafting $(#033dfc)Common Legendary Treasures$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kubejs:kjs_dkup35z8srlvl3ez8uzmkovx1",
+            "text": "Crafting $(#033dfc)Rare Legendary Treasures$()."
+        }
+    ]
+}

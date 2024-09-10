@@ -1,0 +1,31 @@
+{
+    "sortnum": 8,
+    "name": "Vault Magnets",
+    "icon": "the_vault:vault_magnet_omega",
+    "category": "patchouli:vault_gear",
+    "pages": [
+        {
+            "title": "Vault Magnets",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_magnet_weak",
+            "text": "$(#033dfc)Vault Magnets$() are a powerful utility item that can suck items on the floor towards you with great speeds, for Magnets to function, they need to be enabled, which can be done through a keybind or simply by right clicking it, additional it has Curio Support, making it work in a dedicated Magnet Slot."
+        },
+        {
+            "title": "Magnet Types",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_magnet_strong",
+            "text": "There are 3 Tiers of magnets, Weak Magnets, Strong Magnets & Omega Magnets.$(br)Both Strong and Omega magnets increase the pull range, however Omega magnets will directly teleport the items towards the player."
+        },
+        {
+            "title": "Magnet Durability",
+            "type": "patchouli:text",
+            "text": "Each Itemstack picked up by the magnet will decrease the durability by $(#033dfc)1$(). To mitigate that, Magnets can be enchanted with $(#033dfc)Unbreaking$() and work with the $(#033dfc)Unbreakable$() talent. Additionally Items picked up that are blacklisted in the Vault Controller will $(#ff0000)not$() decrease durability."
+        },
+        {
+            "title": "Repairing Magnets",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:magnetite",
+            "text": "To repair Magnets, apply Magnetite to a Magnet inside an Anvil and it will restore $(#033dfc)10%$() of its durability, implying that there are $(#033dfc)Repairs remaining$()."
+        }
+    ]
+}

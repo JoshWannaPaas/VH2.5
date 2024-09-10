@@ -1,0 +1,24 @@
+{
+    "name": "Mob Spawning",
+    "icon": "ispawner:spawner",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "title": "Mob Spawning",
+            "type": "patchouli:spotlight",
+            "item": "ispawner:spawner",
+            "text": "Inside Vaults, Mobs will $(#033dfc)randomly spawn$() if the Vault doesnt have a modifier (like Peaceful) that negates this.$(br)By default, each $(#033dfc)Vault$() has $(#033dfc)+2$() Mob Spawns, making Mobs $(#033dfc)constantly spawn$() around Players"
+        },
+        {
+            "title": "Vault Spawners",
+            "type": "patchouli:spotlight",
+            "item": "ispawner:spawner",
+            "text": "Mobs can also spawn in groups from $(#033dfc)Vault Spawners$(), which will constantly spawn mobs $(#033dfc)without limit$() until broken by a Player, having a chance to drop $(#033dfc)Cage dust$(), a crafting Ingredient for the $(#033dfc)Survival Spawner$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "ispawner:survival_spawner",
+            "text": "Crafting a $(#033dfc)Survival Spawner$()."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "sortnum": 13,
+    "name": "???",
+    "icon": "the_vault:unknown_egg",
+    "category": "patchouli:the_vault",
+    "pages": [
+        {
+            "title": "A Hidden Vault",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:armor_crate_hellcow",
+            "text": "$(o)A hidden Objective lingers within the Vaults, however I am missing crucial information to how I can enter these unique Vaults, I have gathered information in an ancient library where I could read about the mystical creatures held within the dangerous realm of the unique Vault..."
+        },
+        {
+            "title": "Research",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_platinum",
+            "text": "$(o)All I discovered in the library is that a certain condition needs to be met, perhaps specific enhancements to the Vault, additionaly, the ancient scriptures mention great dangers within these Vaults, however they also mention plentiful riches for Challengers brave enough to take the risk..."
+        }
+    ]
+}

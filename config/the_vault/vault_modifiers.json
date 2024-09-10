@@ -751,28 +751,28 @@
       "name": "Phoenix",
       "icon": "the_vault:textures/gui/modifiers/phoenix.png",
       "color": "16746752",
-      "description": "All items you entered with will be restored on death"
+      "description": "All items you died with will be restored on death"
     },
     {
       "preventsArtifact": false,
       "name": "Casual",
       "icon": "the_vault:textures/gui/modifiers/beginners_grace.png",
       "color": "16746752",
-      "description": "All items you entered with will be restored on death"
+      "description": "All items you died with will be restored on death"
     },
     {
       "preventsArtifact": false,
       "name": "Beginner's Grace",
       "icon": "the_vault:textures/gui/modifiers/beginners_grace.png",
       "color": "16746752",
-      "description": "All items you entered with will be restored on death"
+      "description": "All items you died with will be restored on death"
     },
     {
       "preventsArtifact": true,
       "name": "Afterlife",
       "icon": "the_vault:textures/gui/modifiers/afterlife.png",
       "color": "1025763",
-      "description": "All items you entered with will be restored on death; No artifact can be found"
+      "description": "All items you died with will be restored on death; No artifact can be found"
     }
   ],
   "CURSE_ON_HIT_MODIFIERS": [

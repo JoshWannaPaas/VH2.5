@@ -1,0 +1,19 @@
+{
+    "name": "Vault Powerups",
+    "icon": "the_vault:sweet_apple",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "title": "Vault Powerups",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:sweet_apple",
+            "text": "$(#033dfc)Vault Powerups$() are various items that add certain effects to your player!$(br2)These effects can include $(#033dfc)Haste$(), $(#033dfc)Speed$(), $(#033dfc)Strength$(), $(#033dfc)Parry$(), $(#033dfc)Resistance$() and even $(#033dfc)Luck$()!"
+        },
+        {
+            "title": "Consuming",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:power_apple",
+            "text": "Upon consuming, you will be grant the effect and the $(#033dfc)Vault Powerups$() status effect, which will prevent you from using any other Vault powerup for that duration of time.$(br2)$(#033dfc)Vault Powerups$() can be crafted or obtained inside the $(#033dfc)Vault$()."
+        }
+    ]
+}

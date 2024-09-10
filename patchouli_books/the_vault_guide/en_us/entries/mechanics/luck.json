@@ -1,0 +1,19 @@
+{
+    "name": "Luck & Chest Rarity",
+    "icon": "botania:cosmetic_four_leaf_clover",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "title": "Luck & Chest Rarity",
+            "type": "patchouli:spotlight",
+            "item": "botania:cosmetic_four_leaf_clover",
+            "text": "Vault Hunters makes use of the $(#033dfc)Luck Effect$() & a Chest Rarity Attribute to modify Loot Tables to further increase their qualities!$(br2)Both of these can be obtained in various ways, such as Powerups like Vault Apples, Vault Modifiers and Vault Gear!"
+        },
+        {
+            "title": "Mechanic",
+            "type": "patchouli:spotlight",
+            "item": "botania:cosmetic_four_leaf_clover",
+            "text": "$(#033dfc)Luck$() increases the potential (#033dfc)rolls$() of Chests inside the Vault, having a $(#033dfc)50%$() chance to adding another filled slot to the chest for each $(#033dfc)Effect Level$().$(br)$(#033dfc)Chest Rarity$() multiplies the amount of Chest Rarity by the chances of getting a chest that is NOT common, making $(#033dfc)Rare+ Chests$() more common in return."
+        }
+    ]
+}

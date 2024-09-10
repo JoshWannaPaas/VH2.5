@@ -1,0 +1,23 @@
+{
+    "name": "Transmogrification",
+    "icon": "the_vault:transmog_table",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "title": "Transmogrification",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:transmog_table",
+            "text": "Ever wanted to have $(#033dfc)different-looking$() Armor than what you rolled? This Blocks' for you!$(br)A $(#033dfc)Transmogrification Table$() is used to change a $(#033dfc)Vault Transmog$() to a different one of your choice!"
+        },
+        {
+            "title": "Usage",
+            "type": "patchouli:text",
+            "text": "To use the $(#033dfc)Transmog Table$() you need to put the desired transmogrified piece in the first slot, and the model that is supposed to be applied in the second slot with Coins in the top slot, which results in the Item being transmogged $(#033dfc)once taken out$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:transmog_table",
+            "text": "Crafting the $(#033dfc)Transmogrification Table$()."
+        }
+    ]
+}

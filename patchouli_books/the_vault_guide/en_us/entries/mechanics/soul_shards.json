@@ -1,0 +1,24 @@
+{
+    "name": "Soul Shards",
+    "icon": "the_vault:soul_shard",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "title": "Soul Shards",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:soul_shard",
+            "text": "$(#033dfc)Soul Shards$() are a mechanic which make $(#033dfc)Mobs$() inside the Vault drop $(#033dfc)Soul Shards$(), which can be exchanged for $(#033dfc)Items$() inside the $(#033dfc)F7-Menu$() at varying costs."
+        },
+        {
+            "title": "Shard Trading",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:shard_pouch",
+            "text": "The $(#033dfc)Shard Trading Menu$() (accessible by pressing F7 by default) allows you to use your accumulated $(#033dfc)Soul Shards$() which you can infinitely store inside a $(#033dfc)Shard Pouch$() to purchase goods from $(#033dfc)3 Offers$() displayed or a $(#033dfc)random Offer$().$(br)Purchasing one of the $(#033dfc)3 Options$() will reroll other offers (may have a desync, reopen menu to refresh)."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:shard_pouch",
+            "text": "Crafting a $(#033dfc)Shard Pouch$()."
+        }
+    ]
+}

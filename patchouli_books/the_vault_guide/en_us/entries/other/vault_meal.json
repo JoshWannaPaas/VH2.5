@@ -1,0 +1,19 @@
+{
+    "name": "Vault Meal",
+    "icon": "the_vault_extras:vault_meal",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "title": "Vault Meal",
+            "type": "patchouli:spotlight",
+            "item": "the_vault_extras:vault_meal",
+            "text": "The $(#033dfc)Vault Meal$() is a consumable food item that is very nourishable, in addition to that, it seems easily digestable, making for a rapid snack."
+        },
+        {
+            "title": "Obtaining",
+            "type": "patchouli:spotlight",
+            "item": "the_vault_extras:vault_meal",
+            "text": "$(#033dfc)Vault Meals$() can be obtained inside of Vaults in Vault Chests at any level."
+        }
+    ]
+}

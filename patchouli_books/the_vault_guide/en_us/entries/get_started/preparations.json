@@ -12,7 +12,7 @@
         {
 
             "type": "patchouli:text",
-            "text": "The Vault will have a $(#f00)$(l)25 minute Timer$() by default, so you cannot stay as long as you'd like. Once this timer hits 0, $(#f00)$(l)you will be unalived$()."
+            "text": "The Vault will have a $(#f00)$(l)25 minute Timer$() by default, so you cannot stay as long as you'd like. Once this timer hits 0, $(#f00)$(l)you will be unalived$().$(br2)In addition to that, it is recommended to bring plenty of food, blocks, and a way to mark the Vault Portal if you cannot complete the Vault, which you may use the Waypoints feature for that $(#033dfc)Xaeros World Map$() provides you with."
         }
     ]
 }

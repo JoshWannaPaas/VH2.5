@@ -1,0 +1,19 @@
+{
+    "name": "Vault Anvil",
+    "icon": "the_vault_extras:vault_anvil",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "title": "Vault Anvil",
+            "type": "patchouli:spotlight",
+            "item": "the_vault_extras:vault_anvil",
+            "text": "The $(#033dfc)Vault Anvil$() has the exact same functionality of a Vanilla Minecraft anvil, however it is entirely unbreakable, requiring you to never replace it."
+        },
+        {
+            "title": "Crafting",
+            "type": "patchouli:crafting",
+            "recipe": "the_vault_extras:vault_anvil",
+            "text": "Crafting a $(#033dfc)Vault Anvil$()."
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Vault Pearls",
+    "icon": "the_vault:vault_pearl",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "title": "Vault Pearls",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_pearl",
+            "text": "VH2.5 features various $(#033dfc)Vault Pearls$() that are Ender Pearl alternatives with specific attributes and durability. Every Vault Pearl is in a way better than a normal Ender Pearl, which all protect you from Fall Damage."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault_extras:advanced_vault_pearl_speed",
+            "text": "Crafting a $(#033dfc)Swift Vault Pearl$()$(br2)This Vault Pearl is $(#033dfc)rapidly thrown$() and can go much further distances and applies $(#033dfc)Speed 2+ on impact$() for 15s."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault_extras:advanced_vault_pearl_unbreakable",
+            "text": "Crafting an $(#033dfc)Indestructable Vault Pearl$().$(br2)This Vault Pearl is an $(#033dfc)infinite Vault Pearl$(), however it is slightly slower than normal pearls."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault_extras:advanced_vault_pearl_unstable",
+            "text": "Crafting a $(#033dfc)Unstable Vault Pearl$().$(br2)This Vault Pearl $(#033dfc)blows up on impact$(), not damaging the player or the environment, just dealing damage to other entities."
+        }
+    ]
+}

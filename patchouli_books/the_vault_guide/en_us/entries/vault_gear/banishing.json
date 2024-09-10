@@ -1,0 +1,20 @@
+{
+    "sortnum": 9,
+    "name": "Banished Souls",
+    "icon": "the_vault:banished_soul",
+    "category": "patchouli:vault_gear",
+    "pages": [
+        {
+            "title": "Banished Souls",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:banished_soul",
+            "text": "$(#033dfc)Banished Souls$() are used to further enhance idols by Hallowing the Idol, increasing the base durability by +3000 & Increasing the available Favour Chance by +5%"
+        },
+        {
+            "title": "Obtaining",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:xp_altar",
+            "text": "The only ways of obtaining $(#033dfc)Banished Souls$()is through Completing $(#033dfc)God Altars$() and opening $(#033dfc)Treasure Rooms$()."
+        }
+    ]
+}

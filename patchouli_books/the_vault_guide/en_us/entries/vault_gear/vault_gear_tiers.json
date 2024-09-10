@@ -1,0 +1,19 @@
+{
+    "sortnum": 2,
+    "name": "Vault Gear Tiers",
+    "icon": "the_vault:banished_soul",
+    "category": "patchouli:vault_gear",
+    "pages": [
+        {
+            "title": "Vault Gear Tiers",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:banished_soul",
+            "text": "Each $(#033dfc)Vault Gear Item$() has a certain $(#033dfc)tier$() associated with it that defines its $(#033dfc)attributes$(), there are in total $(#033dfc)3 different tiers$() that all vary with rolls, max repairs, levels and attributes."
+        },
+        {
+            "title": "Tiers",
+            "type": "patchouli:text",
+            "text": "$(#033dfc)Tier 1$() is the first tier that you can get up until Vault Level 100. At $(#033dfc)Level 100$() you have a chance to roll $(#033dfc)Tier 2 Vault Gear$(), with higher base rolls, more levels and $(#033dfc)new attributes$(), however you may still roll Tier 1 Vault Gear.$(br)At $(#033dfc)Level 250$(), $(#033dfc)Tier 3 Gear$() is introduced, being the $(#033dfc)strongest$() and the most $(#033dfc)significant$() out of all, further increasing attributes and adding new ones."
+        }
+    ]
+}

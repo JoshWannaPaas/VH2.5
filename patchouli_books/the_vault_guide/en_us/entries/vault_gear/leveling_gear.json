@@ -1,0 +1,19 @@
+{
+    "sortnum": 4,
+    "name": "Leveling Vault Gear",
+    "icon": "the_vault:wutax_shard",
+    "category": "patchouli:vault_gear",
+    "pages": [
+        {
+            "title": "Leveling Vault Gear",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:wutax_crystal",
+            "text": "To Level up $(#033dfc)Vault Gear$() and add new modifiers to the Gear piece, you can either Complete a Vault while you are wearing/holding the Gear piece, or instantly level it up by using $(#033dfc)Wutax Crystals$()"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "the_vault:wutax_shard",
+            "text": "$(#033dfc)Wutax Shards$() are required for crafting Wutax Crystals, however those may also be found inside the Vaults. Wutax Shards can be used to lower the $(#033dfc)Level Requirement$() of a Vault Gear piece. Wutax Shards can be found inside the Vaults, Completion Crates or purchased from Trading Vendors."
+        }
+    ]
+}

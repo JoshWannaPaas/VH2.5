@@ -1,0 +1,25 @@
+{
+    "sortnum": 7,
+    "name": "Removing Modifiers",
+    "icon": "the_vault:void_orb",
+    "category": "patchouli:vault_gear",
+    "pages": [
+        {
+            "title": "Modifying Vault Gear",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:void_orb",
+            "text": "$(#033dfc)Void orbs$() may be used to remove a random modifier from any Vault Gear piece, assuming it has any available repair slots.$(br2)By using a $(#033dfc)Void orb$(), there is a $(#ff0000)20%$() chance of it consuming a repair slot."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:void_orb",
+            "text": "Void Orbs can be crafted or found inside vaults, they require $(#033dfc)Void Liquid$(), which can be found in the depths of architect vaults or in a Vault Room reminiscent of a Factory."
+        },
+        {
+            "title": "Specifying Modifiers",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:void_orb",
+            "text": "$(#033dfc)Void orbs$() may also be focused towards removing a specific modifier by applying an $(#033dfc)Artisan Scroll$() to them inside an anvil."
+        }
+    ]
+}

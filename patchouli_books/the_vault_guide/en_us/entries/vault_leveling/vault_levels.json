@@ -1,0 +1,19 @@
+{
+    "name": "Vault Levels",
+    "icon": "the_vault:skill_orb",
+    "category": "patchouli:vault_leveling",
+    "pages": [
+        {
+            "title": "Gaining Vault XP",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:skill_orb",
+            "text": "Above your hunger you will see your $(#033dfc)Vault Level$(), which significantly impacts several aspects inside as well as outside $(#033dfc)the Vaults$(). Each Level up until Level 200 will grant $(#033dfc)Skill Points$(), which can be used to unlock skills."
+        },
+        {
+            "title": "Impacts",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:pandoras_box",
+            "text": "$(#033dfc)Vault Levels$() impact many things, such as the $(#033dfc)Vault Difficulty$(), $(#033dfc)Loot Tables$(), $(#033dfc)Gear Roll chances$(), $(#033dfc)Vault size$(), $(#033dfc)Objective$() & $(#033dfc)Altar Difficulty$() as well as other varying aspects of Vault Hunters.$(br2)Beyond $(#033dfc)Level 500$(), no game mechanics will scale besides the difficulty of $(#033dfc)God Altars$() & $(#033dfc)Objective difficulty$()."
+        }
+    ]
+}

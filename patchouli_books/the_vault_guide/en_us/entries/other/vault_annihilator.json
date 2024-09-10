@@ -1,0 +1,18 @@
+{
+    "name": "Vault Annihilator",
+    "icon": "the_vault_extras:vault_annihilator",
+    "category": "patchouli:other",
+    "pages": [
+        {
+            "title": "Vault Annihilator",
+            "type": "patchouli:spotlight",
+            "item": "the_vault_extras:vault_annihilator",
+            "text": "The $(#033dfc)Vault Annihilator$() is the strongest mining tool by far in the game, being the most expensive item in the game.$(br)It is capable of destroying anything it comes across, even instantly destroying Vault Chests."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault_extras:vault_annihilator",
+            "text": "Crafting the $(#033dfc)Vault Annihilator$()."
+        }
+    ]
+}

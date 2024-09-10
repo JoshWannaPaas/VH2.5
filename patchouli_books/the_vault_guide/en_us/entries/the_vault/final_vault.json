@@ -1,0 +1,32 @@
+{
+    "sortnum": 14,
+    "name": "The Final Vault",
+    "icon": "the_vault:vault_crystal{CrystalData:{Type: \"FINAL_LOBBY\"}}",
+    "category": "patchouli:the_vault",
+    "pages": [
+        {
+            "title": "The Final Vault",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_crystal{CrystalData:{Type: \"FINAL_LOBBY\"}}",
+            "text": "The $(#033dfc)Final Vault$() is the last task a Vault Hunter awaits.$(br)This Vault tests your skills that you've accumulated over your journey with $(#033dfc)4 Gateways$() that you have enter to receive $(#033dfc)God Essences$()from each $(#033dfc)Vault God$(), carefully observing you as you navigate their $(#033dfc)final challenge$()."
+        },
+        {
+            "title": "Entering",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:final_vault_frame",
+            "text": "To enter the $(#033dfc)Final Vault$(), you require a $(#033dfc)Final Vault Frame$(), obtained by completing the Artifact puzzle by $(#033dfc)ordering all the Artifacts in the right order$(), and $(#033dfc)blowing it up$().$(br)Following, you need to place the $(#033dfc)Vault Frame$() as one of your portal blocks, and use a $(#033dfc)Final Vault Crystal$()."
+        },
+        {
+            "title": "Final Vault Crystal",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_crystal{CrystalData:{Type: \"FINAL_LOBBY\"}}",
+            "text": "To create a $(#033dfc)Final Vault Crystal$(), right click a $(#033dfc)Vault Crystal$() with a $(#033dfc)Pog$() and fulfill its requirement."
+        },
+        {
+            "title": "The Final Challenge",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:unknown_item",
+            "text": "$(k)Oh you think youre so smart by looking into the JSON files? no, freak, $()$(#f00)FIGURE IT OUT$()$(k), wrinting this book WAS$()$(#f00) HELL, $()$(k)experience it for yourself, see how it feels, I've been putting this book off for $()$(#f00)WEEKS $()$(k)now, $()$(#f00)SUFFER$(). $(k)$(#033dfc)also, TRANS RIGHTS !!$()."
+        }
+    ]
+}

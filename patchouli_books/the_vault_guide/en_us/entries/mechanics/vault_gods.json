@@ -1,0 +1,37 @@
+{
+    "name": "The Vault Gods",
+    "icon": "the_vault:idol_benevolent{Vault: {Attributes: [{BaseValue:\"IDENTIFIED\", Id:\"the_vault:gear_state\"}, {BaseValue: 0, Id: \"the_vault:gear_model\"}]}}",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "title": "The Vault Gods",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:idol_malevolence{Vault: {Attributes: [{BaseValue:\"IDENTIFIED\", Id:\"the_vault:gear_state\"}, {BaseValue: 0, Id: \"the_vault:gear_model\"}]}}",
+            "text": "The $(#033dfc)Vault Gods$() are a group of powerful entities that can majorly $(#033dfc)affect$() your path of $(#033dfc)Vault Hunting$()."
+        },
+        {
+            "title": "God Altars",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:xp_altar",
+            "text": "$(#033dfc)God Altars$() are Altars that can be found inside Vaults on Vault Bedrock $(#033dfc)Monuments$(). Each God has an associated Altar indicated by the colored particles with varying tasks associated to them, which upon completing the Altar rewards the player with an $(#033dfc)Altar Chest$()."
+        },
+        {
+            "title": "Favours",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:god_essence_wendarr",
+            "text": "Each Vault God has a certain $(#033dfc)Favour Level$() associated with you up to $(#033dfc)-16$() or $(#033dfc)+16$() Levels.$(br)To obtain a favour with a certain Vault God, it is necessary to $(#033dfc)complete a God Altar$() of the Gods type, which has a base chance of increasing your $(#033dfc)Favour$() by $(#033dfc)5%$(), however increasing one Gods favour will decrease it for another."
+        },
+        {
+            "title": "Favour Effects",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:god_essence_tenos",
+            "text": "Upon reaching $(#033dfc)Level 50$() and having a favour crossing either $(#033dfc)+4$() or $(#033dfc)-4$(), there is a $(#033dfc)75%$() chance that a God will modify the Vault in either a $(#f00)negative$() or $(#04ff00)positive$() way, depending on the $(#033dfc)Favour Level$(). Impacts of the effects scale with the $(#033dfc)Favour amount$()."
+        },
+        {
+            "title": "Favour Chances",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:god_essence_velara",
+            "text": "You can increase the chance at receiving a $(#033dfc)Favour$() upon completing a God Altar by having an $(#033dfc)Idol$() of the respective Vault God equipped, granting $(#033dfc)+5%$() to receive a Favour. This can be further enhanced by $(#033dfc)Hallowing$() the Idol, adding another $(#033dfc)+5%$() for a total of $(#033dfc)15%$()."
+        }
+    ]
+}

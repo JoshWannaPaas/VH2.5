@@ -281,27 +281,6 @@
       "u": 80,
       "v": 144
     },
-    "Powerful Arrows": {
-      "x": 200,
-      "y": 400,
-      "frameType": "RECTANGULAR",
-      "u": 16,
-      "v": 112
-    },
-    "Vault Blacksmith": {
-      "x": 250,
-      "y": 400,
-      "frameType": "RECTANGULAR",
-      "u": 16,
-      "v": 128
-    },
-    "Vault Powerups": {
-      "x": 300,
-      "y": 400,
-      "frameType": "RECTANGULAR",
-      "u": 16,
-      "v": 144
-    },
     "Backpacks": {
       "x": 200,
       "y": 0,
@@ -336,6 +315,13 @@
       "frameType": "RECTANGULAR",
       "u": 16,
       "v": 175
+    },
+    "Vault Powerups": {
+      "x": 250,
+      "y": 80,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 144
     },
     "Jetpacks": {
       "x": 250,

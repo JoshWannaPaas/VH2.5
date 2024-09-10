@@ -1,0 +1,48 @@
+{
+    "name": "Eternals",
+    "icon": "the_vault:cryo_chamber",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "title": "Eternals",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:cryo_chamber",
+            "text": "$(#033dfc)Eternals$() are Companions inside Vaults that can assist you in fighting against mobs by fighting themselves or providing $(#033dfc)Auras$() giving Mobs negative effects and Players positive effects."
+        },
+        {
+            "title": "Creating Eternals",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:cryo_chamber",
+            "text": "$(#033dfc)Eternals$() are created through $(#033dfc)Cryo Chambers$(), which you have to fuel with $(#033dfc)Trader Cores$() by either right-clicking the $(#033dfc)Cryo Chamber$() or via hoppering/item piping. Each new Eternal will require more Trader Cores than the last one."
+        },
+        {
+            "title": "Summoning",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:cryo_chamber",
+            "text": "To summon $(#033dfc)Eternals$() you need any of the $(#033dfc)Eternal Abilities$() unlocked as well as an alive $(#033dfc)Eternal$().$(br2)Activating the ability inside a Vault will summon an eternal based on your Ability."
+        },
+        {
+            "title": "Reviving",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:life_scroll",
+            "text": "To revive an $(#033dfc)Eternal$(), right click a $(#033dfc)Life Scroll$() on the Eternal inside the GUI."
+        },
+        {
+            "title": "Rerolling Auras",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:aura_scroll",
+            "text": "To reroll the auras of an $(#033dfc)Eternal$(), right click an $(#033dfc)Aura Scroll$() on the Eternal inside the GUI."
+        },
+        {
+            "title": "Leveling Eternals",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:crystal_burger",
+            "text": "To Level up $(#033dfc)Eternals$() you require Eternal Exp Food, which can be either crafted or found inside the Vault$(br)Each Level allows you to upgrade the base Stats of your Eternal."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:cryo_chamber",
+            "text": "Creating a $(#033dfc)Cryo Chamber$()."
+        }
+    ]
+}

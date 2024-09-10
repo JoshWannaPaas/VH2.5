@@ -1,0 +1,25 @@
+{
+    "sortnum": 6,
+    "name": "Rerolling Vault Gear",
+    "icon": "the_vault:artisan_scroll",
+    "category": "patchouli:vault_gear",
+    "pages": [
+        {
+            "title": "Rerolling Vault Gear",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:artisan_scroll",
+            "text": "$(#033dfc)Artisan Scrolls$() may be used to reroll a Vault Gear Piece to its Unidentified state, giving you another chance at getting a desired outcome."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "the_vault:artisan_scroll",
+            "text": "$(#033dfc)Artisan Scrolls$() may be found inside $(#033dfc)the Vault$() or crafted through using $(#033dfc)Fabrication Jewels$(), which require the player to have the $(#033dfc)Artisan$() Talent.$(br)By using a Fabrication Jewel on a Gear Piece, it has a chance to inherit one of the modifiers, and the Gear Type, only being able to be used for that Gear Piece."
+        },
+        {
+            "title": "Using with Void Orbs",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:void_orb",
+            "text": "$(#033dfc)Artisan Scrolls$() can be used in conjunction with Void Orbs, making the Void Orb target a certain modifier on the gear piece."
+        }
+    ]
+}

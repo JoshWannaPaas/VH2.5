@@ -1,0 +1,24 @@
+{
+    "name": "Soul Flames",
+    "icon": "the_vault:soul_flame",
+    "category": "patchouli:modifying_vaults",
+    "pages": [
+        {
+            "title": "Soul Flames",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:soul_flame",
+            "text": "$(#033dfc)Soul Flames$() are items that are applicable to $(#033dfc)Vault Crystals$() via Anvils, applying the $(#033dfc)Afterlife$() modifier, which restores your $(#033dfc)Inventory upon death$() & removes the $(#033dfc)Chance for an Artifact$()."
+        },
+        {
+            "title": "Obtaining",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:soul_flame",
+            "text": "$(#033dfc)Soul Flames$() are obtained either through crafting, or finding them inside the Vault inside $(#033dfc)Vault Chests$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:soul_flame",
+            "text": "Crafting $(#033dfc)Soul Flames$()."
+        }
+    ]
+}

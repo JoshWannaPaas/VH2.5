@@ -1,0 +1,29 @@
+{
+    "sortnum": 10,
+    "name": "Further Enhancements",
+    "icon": "the_vault:gear_charm",
+    "category": "patchouli:vault_gear",
+    "pages": [
+        {
+            "title": "Further Enhancements",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:gear_charm",
+            "text": "Vault Gear can be further enhanced by certain items, namely $(#033dfc)Gear Charms$(), $(#033dfc)Flawed Rubies$() and $(#033dfc)Vault Plating$(), these can tier up your Vault Gear, add an additional Level to Vault Gear or increase its base durability."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "the_vault:gear_charm",
+            "text": "$(#033dfc)Gear Charms$(), may be used to increase the tier of the Vault Gear to the corresponding Gear Charm, these can be crafted or obtained in $(#033dfc)Treasure Chests$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "the_vault:flawed_ruby",
+            "text": "$(#033dfc)Flawed Rubies$() are used to give you a chance at increasing your Levels on Gear pieces by one, but they also have a chance to do nothing or $(#ff0000)completly destroy$() the Gear Piece. These can be obtained by $(#033dfc)Treasure Goblins$(), $(#033dfc)Treasure Chests$() & $(#033dfc)Gilded Chests$()"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_plating",
+            "text": "$(#033dfc)Vault Plating$(), can be used to increase durability by +50 for a max of 20 applied Vault Plating. Vault Plating is $(#033dfc)tiered$() and requires the corresponding Vault Gear Tier to be applied to the Vault Gear Piece."
+        }
+    ]
+}

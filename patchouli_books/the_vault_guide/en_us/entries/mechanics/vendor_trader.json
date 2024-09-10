@@ -1,0 +1,29 @@
+{
+    "name": "Trader Cores",
+    "icon": "the_vault:trader_core",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "title": "Trader Cores",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:trader_core",
+            "text": "$(#033dfc)Trader Cores$() are used inside $(#033dfc)Vending Machines$(), allowing you to purchase $(#033dfc)limited trades$(), offered by $(#033dfc)Trader Cores$() using $(#033dfc)Vault Currency$()."
+        },
+        {
+            "title": "Other Uses",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:trader_core",
+            "text": "$(#033dfc)Trader Cores$() are also used to create $(#033dfc)Eternals$() inside $(#033dfc)Cryo Chambers$().$(br2)If supplied a non-traded-with Core, the Cryo Chamber will return a $(#033dfc)Pandoras Box$()"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:vending_machine",
+            "text": "Crafting the $(#033dfc)Vending Machine$().$(br2)Stores unlimited Trader cores of the same username."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kubejs:kjs_4jnddeaixl1u48o2tpgyj700n",
+            "text": "Crafting the $(#033dfc)Advanced Vending Machine$().$(br2)Stores unlimited Trader cores any type."
+        }
+    ]
+}

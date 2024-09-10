@@ -18,7 +18,7 @@
             "title": "Square Layout",
             "type": "patchouli:spotlight",
             "item": "kubejs:shape_square",
-            "text": "Starting from $(#033dfc)Level 50$(), you will be greeted with the $(#033dfc)Square layout layout$(), which shapes Vaults in a Square form. It is one of the easiest to navigate through, but has the most rooms out of all the layouts!"
+            "text": "Starting from $(#033dfc)Level 50$(), you will be greeted with the $(#033dfc)Square layout$(), which shapes Vaults in a Square form. It is one of the easiest to navigate through, but has the most rooms out of all the layouts!"
         },
         {
             "title": "Circle Layout",

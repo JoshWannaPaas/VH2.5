@@ -1,0 +1,20 @@
+{
+    "sortnum": 12,
+    "name": "Vault Troves",
+    "icon": "the_vault:vault_crystal{CrystalData:{Type: \"TROVE\"}}",
+    "category": "patchouli:the_vault",
+    "pages": [
+        {
+            "title": "Vault Trove",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_crystal{CrystalData:{Type: \"TROVE\"}}",
+            "text": "$(#033dfc)Troves$() are special Vaults, which only have a singular room containing a plentiful amount of Gilded Chests.$(br2)In addition to that, Troves are limited to only 10 minutes of Vault Time and cannot be increased via Time Fruit."
+        },
+        {
+            "title": "Vault Stone",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:vault_stone",
+            "text": "$(#033dfc)Vault Troves$() are the only Vault Type where you can reliably obtain a grand amount of $(#033dfc)Vault Stone$(), which can be used for decoration or for crafting a $(#033dfc)Vault Charm Inscription Table$()."
+        }
+    ]
+}

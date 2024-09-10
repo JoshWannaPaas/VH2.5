@@ -1,0 +1,28 @@
+{
+    "name": "Artifacts!",
+    "icon": "the_vault:unidentified_artifact",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "title": "Artifacts",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:unidentified_artifact",
+            "text": "$(#033dfc)Artifacts$() are a crucial part of your Vault Hunting journey, being the key to accessing the $(#033dfc)Final Vault$().$(br2)Your Goal is to collect all $(#033dfc)25 unique Artifacts$() and to solve the Artifact Puzzle."
+        },
+        {
+            "title": "Obtaining",
+            "type": "patchouli:text",
+            "text": "$(#033dfc)Artifacts$() can be obtained through completing $(#033dfc)Vaults$() with a small chance in Crates, being the $(#033dfc)Winner of the Weekly Challenge$() or Crafting it with $(#033dfc)Artifact Fragments$() or via Sparks & Omega Pogs."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kubejs:kjs_dvrhzcztiuf3uw1spoj91qaly",
+            "text": "Crafting $(#033dfc)Artifacts$()."
+        },
+        {
+            "title": "The Puzzle",
+            "type": "patchouli:text",
+            "text": "To complete the Puzzle, you have to order all $(#033dfc)Artifacts$() so that they properly match with eachother.$(br)Once thats done, you need to blow up the $(#033dfc)Artifacts$() to receive a Final Vault Frame with any explosive."
+        }
+    ]
+}
