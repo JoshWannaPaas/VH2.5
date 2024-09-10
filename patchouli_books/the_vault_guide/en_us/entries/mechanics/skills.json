@@ -1,18 +1,23 @@
 {
-    "name": "skill orbs n skills",
-    "icon": "the_vault_extras:bunny_charm",
+    "name": "Talents & Abilities",
+    "icon": "the_vault:skill_orb",
     "category": "patchouli:mechanics",
     "pages": [
         {
-            "title": "Bunny Charm",
+            "title": "Skills & Abilities",
             "type": "patchouli:spotlight",
-            "item": "the_vault_extras:bunny_charm",
-            "text": "VH2.5 features the $(#033dfc)Bunny Charm$()!$(br)With this trinket you can freely move in the air and gain a slight speed boost!$(br2)For you to use it, it needs to be inside one of your $(#033dfc)Curio$() slots."
+            "item": "the_vault:skill_orb",
+            "text": "Accessible through the $(#033dfc)Vault Menu$(), you can unlock $(#033dfc)Skills$() that enhance your Vault running by adding $(#033dfc)unique capabilities$(), like $(#033dfc)Dashing$() in your facing direction, rapidly mining a $(#033dfc)massive amount of blocks$() or gaining $(#033dfc)Strength Effect Levels$()."
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "the_vault_extras:bunny_charm",
-            "text": "Crafting the $(#033dfc)Bunny Charm$()."
+            "recipe": "the_vault:skill_shard",
+            "text": "To Unlock $(#033dfc)Talents & Abilities$(), you require $(#033dfc)Skill Points$(), which can either be obtained by $(#033dfc)Leveling up$() until LVL 200, or crafting $(#033dfc)Skill Orbs$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "the_vault:skill_orb",
+            "text": "Crafting $(#033dfc)Skill Orbs$()$(br2)$(#033dfc)Skill Essence$() can be found inside $(#033dfc)Vaults$() or purchased from $(#033dfc)Vendor Traders$()."
         }
     ]
 }

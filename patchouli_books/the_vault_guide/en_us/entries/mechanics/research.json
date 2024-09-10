@@ -1,18 +1,18 @@
 {
-    "name": "research",
-    "icon": "the_vault_extras:bunny_charm",
+    "name": "Researches",
+    "icon": "the_vault:knowledge_star",
     "category": "patchouli:mechanics",
     "pages": [
         {
-            "title": "Bunny Charm",
+            "title": "Knowledge Stars",
             "type": "patchouli:spotlight",
-            "item": "the_vault_extras:bunny_charm",
-            "text": "VH2.5 features the $(#033dfc)Bunny Charm$()!$(br)With this trinket you can freely move in the air and gain a slight speed boost!$(br2)For you to use it, it needs to be inside one of your $(#033dfc)Curio$() slots."
+            "item": "the_vault:knowledge_star",
+            "text": "$(#033dfc)Knowledge Stars$() are used to unlock $(#033dfc)Researches$() that can help you further progress in the game!$(br2)Each $(#033dfc)Research$() costs a certain amount of $(#033dfc)Knowledge Stars$(), and upon unlocking that mod, all other mods will have their cost increased by an indicated amount."
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "the_vault_extras:bunny_charm",
-            "text": "Crafting the $(#033dfc)Bunny Charm$()."
+            "recipe": "the_vault:knowledge_star",
+            "text": "Crafting $(#033dfc)Knowledge Stars$()$(br2)$(#033dfc)Star Essence$() can be found inside $(#033dfc)Vaults$() or purchased from $(#033dfc)Vendor Traders$()."
         }
     ]
 }

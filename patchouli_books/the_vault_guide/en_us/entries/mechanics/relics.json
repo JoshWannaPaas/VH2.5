@@ -1,18 +1,19 @@
 {
-    "name": "relics",
-    "icon": "the_vault_extras:bunny_charm",
+    "name": "Vault Relics",
+    "icon": "the_vault:relic_statue",
     "category": "patchouli:mechanics",
     "pages": [
         {
-            "title": "Bunny Charm",
+            "title": "Vault Relics",
             "type": "patchouli:spotlight",
-            "item": "the_vault_extras:bunny_charm",
-            "text": "VH2.5 features the $(#033dfc)Bunny Charm$()!$(br)With this trinket you can freely move in the air and gain a slight speed boost!$(br2)For you to use it, it needs to be inside one of your $(#033dfc)Curio$() slots."
+            "item": "the_vault:relic_statue",
+            "text": "$(#033dfc)Vault Relics$() are a permanent buff to your $(#033dfc)Vaults$() that add $(#033dfc)+30s$() for each unique $(#033dfc)Relic Statue$()!$(br)There are in total $(#033dfc)9 different sets$() for a max of $(#033dfc)+4m30s$() permanently added to the $(#033dfc)Vault Timer$()."
         },
         {
-            "type": "patchouli:crafting",
-            "recipe": "the_vault_extras:bunny_charm",
-            "text": "Crafting the $(#033dfc)Bunny Charm$()."
+            "title": "Obtaining and Creating",
+            "type": "patchouli:spotlight",
+            "item": "the_vault:relic_booster_pack",
+            "text": "$(#033dfc)Vault Relics$() are created through $(#033dfc)5 matching Relic pieces$() combined inside a crafting grid, upon placing it for the first time, the buff will be $(#033dfc)applied$() to the $(#033dfc)Player$() who placed it.$(br2)Relic Pieces can be obtained through $(#033dfc)Unidentified Relics$() or $(#033dfc)Relic booster Packs$()."
         }
     ]
 }

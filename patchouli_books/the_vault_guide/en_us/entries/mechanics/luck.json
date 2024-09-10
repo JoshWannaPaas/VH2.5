@@ -1,18 +1,19 @@
 {
-    "name": "luck",
-    "icon": "the_vault_extras:bunny_charm",
+    "name": "Luck & Chest Rarity",
+    "icon": "botania:cosmetic_four_leaf_clover",
     "category": "patchouli:mechanics",
     "pages": [
         {
-            "title": "Bunny Charm",
+            "title": "Luck & Chest Rarity",
             "type": "patchouli:spotlight",
-            "item": "the_vault_extras:bunny_charm",
-            "text": "VH2.5 features the $(#033dfc)Bunny Charm$()!$(br)With this trinket you can freely move in the air and gain a slight speed boost!$(br2)For you to use it, it needs to be inside one of your $(#033dfc)Curio$() slots."
+            "item": "botania:cosmetic_four_leaf_clover",
+            "text": "Vault Hunters makes use of the $(#033dfc)Luck Effect$() & a Chest Rarity Attribute to modify Loot Tables to further increase their qualities!$(br2)Both of these can be obtained in various ways, such as Powerups like Vault Apples, Vault Modifiers and Vault Gear!"
         },
         {
-            "type": "patchouli:crafting",
-            "recipe": "the_vault_extras:bunny_charm",
-            "text": "Crafting the $(#033dfc)Bunny Charm$()."
+            "title": "Mechanic",
+            "type": "patchouli:spotlight",
+            "item": "botania:cosmetic_four_leaf_clover",
+            "text": "$(#033dfc)Luck$() increases the potential (#033dfc)rolls$() of Chests inside the Vault, having a $(#033dfc)50%$() chance to adding another filled slot to the chest for each $(#033dfc)Effect Level$().$(br)$(#033dfc)Chest Rarity$() multiplies the amount of Chest Rarity by the chances of getting a chest that is NOT common, making $(#033dfc)Rare+ Chests$() more common in return."
         }
     ]
 }

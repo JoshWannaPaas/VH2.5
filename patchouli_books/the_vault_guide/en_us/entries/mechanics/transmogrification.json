@@ -1,18 +1,23 @@
 {
-    "name": "trasmogrification",
-    "icon": "the_vault_extras:bunny_charm",
+    "name": "Transmogrification",
+    "icon": "the_vault:transmog_table",
     "category": "patchouli:mechanics",
     "pages": [
         {
-            "title": "Bunny Charm",
+            "title": "Transmogrification",
             "type": "patchouli:spotlight",
-            "item": "the_vault_extras:bunny_charm",
-            "text": "VH2.5 features the $(#033dfc)Bunny Charm$()!$(br)With this trinket you can freely move in the air and gain a slight speed boost!$(br2)For you to use it, it needs to be inside one of your $(#033dfc)Curio$() slots."
+            "item": "the_vault:transmog_table",
+            "text": "Ever wanted to have $(#033dfc)different-looking$() Armor than what you rolled? This Blocks' for you!$(br)A $(#033dfc)Transmogrification Table$() is used to change a $(#033dfc)Vault Transmog$() to a different one of your choice!"
+        },
+        {
+            "title": "Usage",
+            "type": "patchouli:text",
+            "text": "To use the $(#033dfc)Transmog Table$() you need to put the desired transmogrified piece in the first slot, and the model that is supposed to be applied in the second slot with Coins in the top slot, which results in the Item being transmogged $(#033dfc)once taken out$()."
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "the_vault_extras:bunny_charm",
-            "text": "Crafting the $(#033dfc)Bunny Charm$()."
+            "recipe": "the_vault:transmog_table",
+            "text": "Crafting the $(#033dfc)Transmogrification Table$()."
         }
     ]
 }
