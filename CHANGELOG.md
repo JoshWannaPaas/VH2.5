@@ -39,7 +39,8 @@
 - Add Artisan & Treasure Hunter Flask Recipes to respec between them
 - God Influences function now In COOPs
 - Vault Snapshots now get called prior to death, restoring all loot that you gained in a vault
-- Purchasing something in the Shard shop will reroll its trades globally
+- Removed XP usage inside of Anvils
+
 
 ### Gameplay changes
 - Vault portals can now be made out of Enviormental Materials' Basalt
@@ -148,6 +149,8 @@
 - Added a Keybind to toggle Magnets in Curio Slots
 - Cakes no longer roll Catalyst Modifiers (Experimental)
 - Cakes now always notify whenever one is clicked via a sound
+- Cakes now guarantee adding a Modifier
+- Cakes can now roll between 15 - 47 Cakes being required
 - Added the mod Second Chance
     - This mod has 2 notable features
     - If you are above a configurable amount of health points, a fatal blow that would normally unalive you, will keep you at half a heart, and plays a sound when it happens
@@ -268,8 +271,13 @@
 - God Influences function now In COOPs
 - Fixed the Mining Speed slowdown bug in midair
 - Vault Snapshots now get called prior to death, restoring all loot that you gained in a vault
-- Purchasing something in the Shard shop will reroll its trades globally
 - By default, all Challenge Crystals are now runnable in COOP
+- Purchasing something in the Shard shop will reroll its trades globally (has issues with desync, close and reopen to solve that issue)
+- Increased Soul Altar Range by 3x (16x16x16 -> 48x48x48)
+- Removed Repair Penalty for Vault Gear
+- Removed XP usage inside of Anvils
+- Removed Enchanted Books from Mystery Boxes
+- Added an Effect & Feedback sound upon opening Mob Traps
 
 ### Recipe Changes
 - Added a recipe to Craft Fortune Paxels
@@ -319,6 +327,9 @@
 - Changed stack sizes for Ender Pearls & Snowballs to 64
 - Added JEI Integration for
     - Etching Vendors
+    - Viewing Loot Tables
+    - Viewing Consumables
+    - Viewing Mystery Eggs
     - Applying Vault Seals to Crystals
     - Rerolling Vault Gear via Artisan Scrolls
     - Creating Artisan Scrolls
@@ -372,7 +383,8 @@
 - Added Feedback sound upon purchasing something in the Shard shop
 - Delete the Vault Dimension Region files upon Players exiting the vault and if noone is inside the Vault Dimension
 - Display Remaining Vault Time in the PlayerTabList
-
+- Fixed the Scrolling inside Vault Charm Controllers
+- Added Durability Tooltip to Vault Gear
 
 ### Mod Changes
 - \+ Architects Palette [BOTH]
