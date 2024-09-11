@@ -389,7 +389,6 @@
 - \+ Better Compability Check [BOTH]
 - \+ Claim Chunk [BOTH]
 - \+ Cloth Config API [BOTH] (?)
-- \+ Collective [BOTH]
 - \+ CommonCapabilities [BOTH]
 - \+ Configured [BOTH]
 - \+ Connectivity [BOTH]
