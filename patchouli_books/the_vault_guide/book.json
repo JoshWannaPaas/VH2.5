@@ -2,5 +2,6 @@
     "name": "Vault Encyclopedia",
     "landing_text": "The Vault Hunters Guide Book to teach new Hunters about the various aspects of $(#033dfc)The Vault$()",
     "version": 0,
+    "model": "patchouli:book_gray",
     "book_texture": "patchouli:textures/gui/book_blue.png"
 }

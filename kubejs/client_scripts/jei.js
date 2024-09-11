@@ -129,6 +129,8 @@ onEvent('jei.hide.items', event => {
 	event.hide('kubejs:shape_circle')
 	event.hide('kubejs:shape_triangle')
 	event.hide('kubejs:shape_spiral')
+	
+	event.hide('the_vault_extras:debug_item')
 
 	event.hide(Item.of('appliedenergistics2:facade').ignoreNBT())
 
