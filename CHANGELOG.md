@@ -35,7 +35,7 @@
 - Vault Magnets now work with Unbreaking & the Unbreakable Talent
 - Added the Sanctified Pedestal, able to enhance your Vault Idols
 - Added JEI Integration for various aspects of the Game
-- Added the Bunny Charm, enhancing player mobility
+- Added the Zephyr Charm, enhancing player mobility
 - Add Artisan & Treasure Hunter Flask Recipes to respec between them
 - God Influences function now In COOPs
 - Vault Snapshots now get called prior to death, restoring all loot that you gained in a vault
@@ -219,9 +219,7 @@
     - This block can enhance your Idols, by giving them +2 additional Modifier slots for a total max of 11 Modifier Slots
     - This block is unbreakable, cannot be crafted and is single-use
     - This block can be found in the God Room
-- Added the Bunny Charm
-    - This trinket allows you to move more freely in the air, which significantly helps your movement in Vaults
-    - Recipe TBD
+- Added the Zephyr Charm which allows you to move more freely in the air, significantly helping your movement inside Vaults
 - Added the Vault Meal
     - Can be eaten faster than most foods
     - Gives the highest saturation & hunger points out of all foods
