@@ -22,7 +22,7 @@ mouseSensitivity:0.35446009039878845
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:1.0
+gamma:5.050000190734863
 renderDistance:12
 entityDistanceScaling:1.0
 guiScale:0
@@ -31,9 +31,9 @@ maxFps:260
 difficulty:2
 graphicsMode:1
 ao:2
-biomeBlendRadius:7
+biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","openloader/resources/quark","quark:emote_resources","openloader/resources/Second Chance Sound","file/EclecticTrove-noconfig-1.16.5-1.2.0.zip","file/Default-Dark-Mode-1.16-2023.7.0.zip","file/Xaero\u0027s Minimap - Mod Icons.zip","file/MC Connected CTM v1.2.zip","file/Modded Connected CTM v1.5.zip","file/Glass Panes CTM Fix v1.0.zip"]
+resourcePacks:["vanilla","mod_resources","quark:emote_resources","file/Xaero\u0027s Minimap - Mod Icons.zip","file/MC Connected CTM v1.2.zip","file/Modded Connected CTM v1.5.zip","file/Glass Panes CTM Fix v1.0.zip","file/Vault Legendary Tooltips.zip","file/Dark UI.zip","file/VH2.5"]
 incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:localhost:58330
 lang:en_us
