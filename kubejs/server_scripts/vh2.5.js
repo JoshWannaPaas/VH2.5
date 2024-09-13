@@ -10,7 +10,7 @@ let vaultGear = ['the_vault:sword', 'the_vault:axe', 'the_vault:helmet', 'the_va
 onEvent('player.logged_in', event => {
     if (!event.player.stages.has('starting_items')) {
         event.player.stages.add('starting_items')
-        event.player.give('16x minecraft:cooked_beef')
+        event.player.give('16x the_vault_extras:vault_meal')
         event.player.give(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:the_vault_guide"}'))
     }
 })

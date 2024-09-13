@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "To enter the Vaults, you will require some sort of gateway.$(br2)A portal similar to the Nether Portal would do, but instead of using obsidian you should try a variant of Blackstone, perhaps $(l:other/vault_stone)Vault Stone$() could also work."
+            "text": "To enter the Vaults, you will require some sort of gateway.$(br2)A portal similar to the Nether Portal would do, but instead of using obsidian you should try a variant of Blackstone, perhaps $(l:other/vault_stone)Vault Stone$() could also work.$(br2)Maybe you could get close by combining a Lava Bucket with normal Stone..."
         },
         {
             "type": "patchouli:multiblock",
