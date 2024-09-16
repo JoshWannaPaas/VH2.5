@@ -39,7 +39,7 @@ onEvent('recipes', event => {
         P: '#forge:plastic',
         O: 'the_vault:omega_pog',
         E: 'the_vault:echo_pog',
-        N: 'quark:charred_nether_bricks',
+        N: 'the_vault:spark',
         L: 'minecraft:lectern',
         M: 'industrialforegoing:machine_frame_supreme'
     })
