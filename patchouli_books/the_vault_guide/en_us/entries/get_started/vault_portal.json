@@ -21,7 +21,7 @@
                     [ "BBBB"]
                 ],
                 "mapping": {
-                    "B": "#the_vault:validportalblocks"
+                    "B": "#the_vault:bookportalblocks"
                 },
                 "symmetrical": true
             }

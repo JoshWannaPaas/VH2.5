@@ -237,14 +237,41 @@ onEvent('item.tags', event => {
 })
 
 onEvent('block.tags', event => {
-    event.add('the_vault:validportalblocks', [
-        'minecraft:polished_blackstone',
-        'minecraft:polished_blackstone_bricks',
-        'minecraft:cracked_polished_blackstone_bricks',
-        'minecraft:chiseled_polished_blackstone',
-        'minecraft:gilded_blackstone',
+    event.add('the_vault:bookportalblocks', [
+        'enviromats:basalt',
         'minecraft:blackstone',
         'the_vault:vault_stone'
 
+    ])
+
+    event.add('the_vault:validportalblocks', [
+        "minecraft:blackstone",
+        "minecraft:polished_blackstone",
+        "minecraft:polished_blackstone_bricks",
+        "minecraft:cracked_polished_blackstone_bricks",
+        "minecraft:chiseled_polished_blackstone",
+        "minecraft:gilded_blackstone",
+    
+        "enviromats:basalt",
+    
+        "byg:overgrown_crimson_blackstone",
+        "byg:dusted_polished_blackstone_bricks",
+    
+        "quark:blackstone_bricks",
+        "quark:twisted_blackstone_bricks",
+        "quark:weeping_blackstone_bricks",
+    
+        "supplementaries:blackstone_lamp",
+        "supplementaries:blackstone_tile",
+    
+        "architects_palette:weeping_blackstone",
+        "architects_palette:twisting_blackstone",
+        "architects_palette:weeping_blackstone_bricks",
+        "architects_palette:twisting_blackstone_bricks",
+    
+        "the_vault:vault_stone",
+        "the_vault:vault_bedrock",
+        "the_vault:vault_glass",
+        "the_vault:final_vault_frame"
     ])
 })
