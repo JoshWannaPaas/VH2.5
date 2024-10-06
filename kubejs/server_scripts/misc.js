@@ -188,19 +188,234 @@ onEvent('recipes', event => {
         T: 'minecraft:terracotta',
         W: 'the_vault:infinite_water_bucket'
     })
-
-    event.shaped('1x ironfurnaces:crystal_furnace', [
-        'GWG',
-        'GDG',
-        'GEG'
+    
+    event.shaped('1x ironfurnaces:iron_furnace', [
+        'ICI',
+        'CFC',
+        'ICI'
     ], {
-        G: '#forge:glass',
-        W: 'the_vault:gem_wutodie',
-        D: 'ironfurnaces:diamond_furnace',
-        E: 'quark:ender_watcher'
+        I: 'minecraft:iron_ingot',
+        C: '#the_vault:commongems',
+        F: 'minecraft:furnace'
+
+    })
+    
+    event.shaped('1x ironfurnaces:iron_furnace', [
+        'III',
+        'CFC',
+        'III'
+    ], {
+        I: 'minecraft:iron_ingot',
+        C: '#the_vault:commongems',
+        F: 'ironfurnaces:copper_furnace'
+
+    })
+
+    event.shaped('1x ironfurnaces:upgrade_iron', [
+        'ICI',
+        'CFC',
+        'ICI'
+    ], {
+        I: 'minecraft:iron_ingot',
+        C: '#the_vault:commongems',
+        F: 'minecraft:cobblestone'
+
+    })
+    
+    event.shaped('1x ironfurnaces:upgrade_iron2', [
+        'III',
+        'CFC',
+        'III'
+    ], {
+        I: 'minecraft:iron_ingot',
+        C: '#the_vault:commongems',
+        F: '#forge:ingots/copper'
+
+    })
+    
+    event.shaped('1x ironfurnaces:silver_furnace', [
+        'SSS',
+        'GFG',
+        'SSS'
+    ], {
+        F: 'ironfurnaces:iron_furnace',
+        S: '#forge:ingots/silver',
+        G: '#the_vault:perfectcommongems'
+    })
+
+    event.shaped('1x ironfurnaces:upgrade_silver2', [
+        'SSS',
+        'GFG',
+        'SSS'
+    ], {
+        F: 'ironfurnaces:upgrade_iron2',
+        S: '#forge:ingots/silver',
+        G: '#the_vault:perfectcommongems'
+    })
+
+    event.shaped('1x ironfurnaces:upgrade_silver2', [
+        'SSS',
+        'GFG',
+        'SSS'
+    ], {
+        F: 'minecraft:iron_ingot',
+        S: '#forge:ingots/silver',
+        G: '#the_vault:perfectcommongems'
+    })
+    
+    event.shaped('1x ironfurnaces:gold_furnace', [
+        'GAG',
+        'AFA',
+        'GAG'
+    ], {
+        F: 'ironfurnaces:iron_furnace',
+        G: 'minecraft:gold_block',
+        A: 'the_vault:perfect_alexandrite'
+    })
+
+    event.shaped('1x ironfurnaces:gold_furnace', [
+        'GGG',
+        'AFA',
+        'GGG'
+    ], {
+        F: 'ironfurnaces:silver_furnace',
+        G: 'minecraft:gold_block',
+        A: 'the_vault:perfect_alexandrite'
+    })
+
+    event.shaped('1x ironfurnaces:upgrade_gold', [
+        'GAG',
+        'AFA',
+        'GAG'
+    ], {
+        F: 'minecraft:iron_ingot',
+        G: 'minecraft:gold_block',
+        A: 'the_vault:perfect_alexandrite'
+    })
+
+    event.shaped('1x ironfurnaces:upgrade_gold2', [
+        'GGG',
+        'AFA',
+        'GGG'
+    ], {
+        F: '#forge:ingots/silver',
+        G: 'minecraft:gold_block',
+        A: 'the_vault:perfect_alexandrite'
+    })
+    
+    event.shaped('1x ironfurnaces:diamond_furnace', [
+        'DWD',
+        'WFW',
+        'DWD'
+    ], {
+        F: 'ironfurnaces:gold_furnace',
+        D: 'minecraft:diamond_block',
+        W: 'the_vault:perfect_wutodie'
+
+    })
+
+    event.shaped('1x ironfurnaces:upgrade_diamond', [
+        'DWD',
+        'WFW',
+        'DWD'
+    ], {
+        F: 'minecraft:gold_block',
+        D: 'minecraft:diamond_block',
+        W: 'the_vault:perfect_wutodie'
+
+    })
+    
+    event.shaped('1x ironfurnaces:emerald_furnace', [
+        'EEE',
+        'PFP',
+        'EEE'
+    ], {
+        F: 'ironfurnaces:diamond_furnace',
+        E: 'minecraft:emerald_block',
+        P: 'the_vault:perfect_painite'
+
+    })
+
+    event.shaped('1x ironfurnaces:upgrade_emerald', [
+        'EEE',
+        'PFP',
+        'EEE'
+    ], {
+        F: 'minecraft:diamond_block',
+        E: 'minecraft:emerald_block',
+        P: 'the_vault:perfect_painite'
+
     })
 
     event.shaped('1x ironfurnaces:crystal_furnace', [
+        'GPG',
+        'GFG',
+        'GPG'
+    ], {
+        G: 'the_vault:vault_essence',
+        P: 'the_vault:perfect_painite',
+        F: 'ironfurnaces:diamond_furnace',
+    })
+
+    event.shaped('1x ironfurnaces:upgrade_crystal', [
+        'GPG',
+        'GFG',
+        'GPG'
+    ], {
+        G: 'the_vault:vault_essence',
+        P: 'the_vault:perfect_painite',
+        F: 'minecraft:diamond_block',
+    })
+    
+    event.shaped('1x ironfurnaces:obsidian_furnace', [
+        'OLO',
+        'BFB',
+        'OLO'
+    ], {
+        F: 'ironfurnaces:emerald_furnace',
+        O: 'compressium:obsidian_1',
+        L: 'quark:blaze_lantern',
+        B: 'the_vault:perfect_black_opal'
+
+    })
+
+    event.shaped('1x ironfurnaces:obsidian_furnace', [
+        'OLO',
+        'BFB',
+        'OLO'
+    ], {
+        F: 'ironfurnaces:crystal_furnace',
+        O: 'compressium:obsidian_1',
+        L: 'quark:blaze_lantern',
+        B: 'the_vault:perfect_black_opal'
+
+    })
+
+    event.shaped('1x ironfurnaces:upgrade_obsidian', [
+        'OLO',
+        'BFB',
+        'OLO'
+    ], {
+        F: 'minecraft:emerald_block',
+        O: 'compressium:obsidian_1',
+        L: 'quark:blaze_lantern',
+        B: 'the_vault:perfect_black_opal'
+
+    })
+
+    event.shaped('1x ironfurnaces:upgrade_obsidian2', [
+        'OLO',
+        'BFB',
+        'OLO'
+    ], {
+        F: 'the_vault:vault_essence',
+        O: 'compressium:obsidian_1',
+        L: 'quark:blaze_lantern',
+        B: 'the_vault:perfect_black_opal'
+
+    })
+
+    event.shaped('1x ironfurnaces:netherite_furnace', [
         'NPN',
         'MOM',
         'NSN'
@@ -209,7 +424,19 @@ onEvent('recipes', event => {
         P: 'the_vault:gem_pog',
         M: 'quark:magma_bricks',
         O: 'ironfurnaces:obsidian_furnace',
-        S: 'minecraft:soul_soil'
+        S: 'compressium:soulsand_2'
+    })
+
+    event.shaped('1x ironfurnaces:upgrade_netherite', [
+        'NPN',
+        'MOM',
+        'NSN'
+    ], {
+        N: 'minecraft:netherite_block',
+        P: 'the_vault:gem_pog',
+        M: 'quark:magma_bricks',
+        O: 'compressium:obsidian_1',
+        S: 'compressium:soulsand_2'
     })
 
     event.shaped('1x dimstorage:dimensional_chest', [
