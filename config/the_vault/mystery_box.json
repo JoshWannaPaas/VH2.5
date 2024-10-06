@@ -2,7 +2,23 @@
   "POOL": [
     {
       "value": {
-        "id": "minecraft:golden_carrot",
+        "id": "the_vault:vault_paxel",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "the_vault:paxel_charm",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "the_vault_extras:vault_meal",
         "amountMin": 6,
         "amountMax": 16
       },
@@ -198,43 +214,7 @@
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 2
-    },
-    {
-      "value": {
-        "id": "minecraft:diamond_sword",
-        "nbt": "{Enchantments:[{id:\"sharpness\",lvl:5s},{id:\"unbreaking\",lvl:3s}]}",
-        "amountMin": 1,
-        "amountMax": 1
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "id": "minecraft:diamond_pickaxe",
-        "nbt": "{Enchantments:[{id:\"efficiency\",lvl:5s},{id:\"unbreaking\",lvl:3s}]}",
-        "amountMin": 1,
-        "amountMax": 1
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "id": "minecraft:diamond_axe",
-        "nbt": "{Enchantments:[{id:\"efficiency\",lvl:5s},{id:\"unbreaking\",lvl:3s}]}",
-        "amountMin": 1,
-        "amountMax": 1
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "id": "minecraft:diamond_shovel",
-        "nbt": "{Enchantments:[{id:\"efficiency\",lvl:5s},{id:\"unbreaking\",lvl:3s}]}",
-        "amountMin": 1,
-        "amountMax": 1
-      },
-      "weight": 1
+      "weight": 4
     },
     {
       "value": {
