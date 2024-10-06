@@ -1,4 +1,14 @@
 onEvent('recipes', event => {
+    event.shaped('1x integrateddynamics:menril_sapling', [
+        'BLB',
+        'LSL',
+        'BLB'
+    ], {
+        B: 'the_vault:perfect_benitoite',
+        L: 'the_vault:perfect_larimar',
+        S: '#forge:sapling'
+    })
+
     event.shaped('1x integrateddynamics:wrench', [
         ' CP',
         ' CC',
