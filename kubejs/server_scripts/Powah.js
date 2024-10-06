@@ -37,7 +37,10 @@ onEvent('recipes', event => {
 		L: 'the_vault:gem_larimar'
 	})
 
-    event.shaped('powah:dielectric_rod_horizontal', [
+	event.shapeless('powah:dielectric_rod', 					 ['powah:dielectric_rod_horizontal'])
+	event.shapeless('powah:dielectric_rod_horizontal', ['powah:dielectric_rod'])
+
+    event.shaped('2x powah:dielectric_rod_horizontal', [
 		'PPP',
 		'BLB',
 		'PPP'
