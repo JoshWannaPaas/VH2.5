@@ -166,7 +166,7 @@ onEvent('recipes', event => {
     ], {
         L: 'botania:lens_magnet',
         M: 'botania:manasteel_ingot',
-        W: 'the_vault:vault_magnet_weak'
+        W: 'the_vault:magnet_core_weak'
     })
 
     event.shaped('1x botania:travel_belt', [
