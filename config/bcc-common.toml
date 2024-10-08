@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "Vault Hunters 2.5 - After Dark"
 	#The version of the modpack
-	modpackVersion = "15.1"
+	modpackVersion = "15.3"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
